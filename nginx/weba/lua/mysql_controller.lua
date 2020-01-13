@@ -21,7 +21,7 @@ if not ok then
     return
 end
 -- SQL操作
-res, err, errno, sqlState = db:query("select mid, mname, mage,mphone from m_user")
+res, err, errno, sqlState = db:query("select mid, mname, mage,mphone from m_user limit 2")
 if not res then
     ngx.say("bad request")
     return
@@ -32,7 +32,7 @@ local cjson = require "cjson"
 local template = require("resty.template")
 template.caching(false) 
 local view = template.new "product.html"
-view.message = cjson.encode(res)
+view.message = cjson.encode(res[2]) --在 Lua 中，数组下标从 1 开始计数
 view.sid = "mysql test"
 view:render()
---ngx.say(cjson.encode(res))
+--ngx.say(cjson.encode(res))
