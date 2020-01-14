@@ -1,1 +1,4 @@
 2020/01/13 22:06:07 [notice] 5956#932: signal process started
+2020/01/14 23:07:14 [error] 4352#1496: *1 CreateFile() "./html/435345345" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /435345345 HTTP/1.1", host: "localhost"
+2020/01/14 23:07:15 [error] 4352#1496: *1 CreateFile() "./html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/435345345"
+2020/01/14 23:11:19 [error] 4352#1496: *7 CreateFile() "./html/65756756732434.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /65756756732434.html HTTP/1.1", host: "localhost"
