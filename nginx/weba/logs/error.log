@@ -1,0 +1,18 @@
+2020/01/16 23:23:42 [warn] 7316#6832: the "ssl" directive is deprecated, use the "listen ... ssl" directive instead in D:/Dev/fxqy/nginx/weba/conf/domain/nginx_product.conf:12
+2020/01/16 23:23:42 [emerg] 7316#6832: BIO_new_file("D:/openresty/keys/fxqy.xyz.crt") failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('D:/openresty/keys/fxqy.xyz.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/01/16 23:23:42 [warn] 5832#7832: the "ssl" directive is deprecated, use the "listen ... ssl" directive instead in D:/Dev/fxqy/nginx/weba/conf/domain/nginx_product.conf:12
+2020/01/16 23:23:42 [emerg] 5832#7832: BIO_new_file("D:/openresty/keys/fxqy.xyz.crt") failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('D:/openresty/keys/fxqy.xyz.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/01/16 23:30:51 [error] 620#4348: *12 CreateFile() "./html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: www.fxqy.xyz, request: "GET /favicon.ico HTTP/1.1", host: "www.fxqy.xyz", referrer: "https://www.fxqy.xyz/435435345.html"
+2020/01/16 23:40:56 [error] 620#4348: *21 "./html/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: www.fxqy.xyz, request: "GET / HTTP/1.1", host: "www.fxqy.xyz"
+2020/01/16 23:42:15 [error] 620#4348: *21 "./html/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: www.fxqy.xyz, request: "GET / HTTP/1.1", host: "www.fxqy.xyz"
+2020/01/16 23:44:50 [notice] 5216#5472: signal process started
+2020/01/16 23:46:24 [notice] 3868#5324: signal process started
+2020/01/16 23:47:27 [error] 7500#6320: *25 "./html/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: www.fxqy.xyz, request: "GET / HTTP/1.1", host: "www.fxqy.xyz"
+2020/01/16 23:53:57 [error] 7500#6320: *40 CreateFile() "./html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: www.fxqy.xyz, request: "GET /favicon.ico HTTP/1.1", host: "www.fxqy.xyz", referrer: "https://www.fxqy.xyz/657567567.html"
+2020/01/16 23:53:57 [error] 7500#6320: *41 CreateFile() "./html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: www.fxqy.xyz, request: "GET /favicon.ico HTTP/1.1", host: "www.fxqy.xyz"
+2020/01/16 23:54:25 [error] 7500#6320: *44 "./html/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: www.fxqy.xyz, request: "GET / HTTP/1.1", host: "www.fxqy.xyz", referrer: "http://baidu.com/"
+2020/01/16 23:54:41 [error] 7500#6320: *47 "./html/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: www.fxqy.xyz, request: "GET / HTTP/1.1", host: "www.fxqy.xyz", referrer: "http://baidu.com/"
+2020/01/17 00:12:44 [error] 7500#6320: *65 CreateFile() "./html/dfgdfgfg.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: www.fxqy.xyz, request: "GET /dfgdfgfg.html HTTP/1.1", host: "www.fxqy.xyz"
+2020/01/17 00:12:56 [error] 7500#6320: *72 CreateFile() "./html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: www.fxqy.xyz, request: "GET /favicon.ico HTTP/1.1", host: "www.fxqy.xyz"
+2020/01/17 00:12:58 [error] 7500#6320: *72 CreateFile() "./html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: www.fxqy.xyz, request: "GET /favicon.ico HTTP/1.1", host: "www.fxqy.xyz", referrer: "https://www.fxqy.xyz/546456456.html"
+2020/01/17 00:15:59 [notice] 5484#5492: signal process started
