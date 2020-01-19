@@ -16,3 +16,15 @@
 2020/01/17 00:12:56 [error] 7500#6320: *72 CreateFile() "./html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: www.fxqy.xyz, request: "GET /favicon.ico HTTP/1.1", host: "www.fxqy.xyz"
 2020/01/17 00:12:58 [error] 7500#6320: *72 CreateFile() "./html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: www.fxqy.xyz, request: "GET /favicon.ico HTTP/1.1", host: "www.fxqy.xyz", referrer: "https://www.fxqy.xyz/546456456.html"
 2020/01/17 00:15:59 [notice] 5484#5492: signal process started
+2020/01/18 00:17:37 [error] 1132#5904: *1 lua tcp socket connect timed out, when connecting to 127.0.0.1:3306, client: 127.0.0.1, server: www.fxqy.xyz, request: "GET /mysql.html HTTP/1.1", host: "www.fxqy.xyz"
+2020/01/18 00:17:37 [error] 1132#5904: *1 CreateFile() "./html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: www.fxqy.xyz, request: "GET /favicon.ico HTTP/1.1", host: "www.fxqy.xyz", referrer: "https://www.fxqy.xyz/mysql.html"
+2020/01/18 00:22:33 [notice] 2896#2892: signal process started
+2020/01/18 00:38:54 [notice] 4000#5100: signal process started
+2020/01/18 11:43:35 [error] 6048#5356: *1 CreateFile() "./html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: www.fxqy.xyz, request: "GET /favicon.ico HTTP/1.1", host: "www.fxqy.xyz", referrer: "https://www.fxqy.xyz/546456456.html"
+2020/01/18 11:52:33 [error] 6048#5356: *12 "./html/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: www.fxqy.xyz, request: "GET / HTTP/1.1", host: "www.fxqy.xyz"
+2020/01/18 13:00:17 [notice] 1776#3336: signal process started
+2020/01/18 13:00:42 [error] 328#5760: *32 "./html/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: www.fxqy.xyz, request: "GET / HTTP/1.1", host: "fxqy.xyz"
+2020/01/18 13:00:43 [error] 328#5760: *32 CreateFile() "./html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: www.fxqy.xyz, request: "GET /favicon.ico HTTP/1.1", host: "fxqy.xyz", referrer: "https://fxqy.xyz/"
+2020/01/18 13:01:41 [error] 328#5760: *32 "./html/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: www.fxqy.xyz, request: "GET / HTTP/1.1", host: "fxqy.xyz"
+2020/01/18 13:09:36 [error] 328#5760: *46 CreateFile() "./html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: www.fxqy.xyz, request: "GET /favicon.ico HTTP/1.1", host: "fxqy.xyz", referrer: "https://fxqy.xyz/mysql.html"
+2020/01/18 13:13:29 [notice] 4756#5900: signal process started
