@@ -69,3 +69,6 @@
 2020/03/14 13:47:04 [error] 2804#4308: *4 "./html/index.html" is not found (3: The system cannot find the path specified), client: 222.35.240.51, server: localhost, request: "GET / HTTP/1.1", host: "222.35.240.51"
 2020/03/14 13:47:04 [error] 2804#4308: *4 CreateFile() "./html/favicon.ico" failed (3: The system cannot find the path specified), client: 222.35.240.51, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "222.35.240.51", referrer: "http://222.35.240.51/"
 2020/03/14 13:48:33 [notice] 3440#68: signal process started
+2020/03/19 11:06:07 [error] 4472#4680: *1 "./html/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2020/03/19 11:06:07 [error] 4472#4680: *1 CreateFile() "./html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2020/03/19 11:43:20 [notice] 4868#4752: signal process started
