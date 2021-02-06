@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: al3m6WUomwv+1mM7LNQN5g
-! Version: 202102051001
+! Checksum: /26RLtfZ+EOyl1X2cbKsZQ
+! Version: 202102060551
 ! Title: EasyPrivacy
-! Last modified: 05 Feb 2021 10:01 UTC
+! Last modified: 06 Feb 2021 05:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1081,6 +1081,7 @@
 /bidiq.
 /bin/reff.php
 /bin/stats?
+/bineos.min.js
 /bing-bat.js
 /bipixel/*
 /bitrix/spread.php?
@@ -13899,6 +13900,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cyberlink.com/analytics/
 ||d.ghostery.com^
 ||d.skk.moe^
+||d2p3zdq8vjvnxd.cloudfront.net^
 ||d3f5l8ze0o4j2m.cloudfront.net^$script,domain=trademe.co.nz
 ||da.virginmedia.com^
 ||dabs.com/AbacusTest/clientinfo_bk.gif
@@ -15940,6 +15942,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||xing.com/collect/
 ||xing.com/logjam/
 ||xozilla.com/js/analytics.js
+||xstats.evoload.io^
 ||xtrack.capetown.gov.za^
 ||yahoo.com/__perf_log_
 ||yahoo.com/_td_api/beacon/
@@ -16325,6 +16328,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sourcepoint-mms.aetv.com^
 ||sourcepoint-mms.history.com^
 ||sourcepoint-mms.mylifetime.com^
+||sourcepoint.theguardian.com^
 ||sourcepoint.vice.com^
 ||telegraph.co.uk/telegraph-advertising/tmg-cmp.min.js
 ||trustarc.mgr.consensu.org/get?
@@ -16518,7 +16522,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://media.*/micb.js|$script,~third-party,domain=bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|elnuevoherald.com|fresnobee.com|heraldonline.com|heraldsun.com|idahostatesman.com|islandpacket.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|macon.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|sacbee.com|sanluisobispo.com|star-telegram.com|sunherald.com|thenewstribune.com|theolympian.com|thestate.com|tri-cityherald.com
 ://media.*/misites/$script,~third-party,domain=bellinghamherald.com|bnd.com|bradenton.com|centredaily.com|charlotteobserver.com|elnuevoherald.com|fresnobee.com|heraldonline.com|heraldsun.com|idahostatesman.com|islandpacket.com|kansas.com|kansascity.com|kentucky.com|ledger-enquirer.com|macon.com|mcclatchydc.com|mercedsunstar.com|miamiherald.com|modbee.com|myrtlebeachonline.com|newsobserver.com|sacbee.com|sanluisobispo.com|star-telegram.com|sunherald.com|thenewstribune.com|theolympian.com|thestate.com|tri-cityherald.com
 ! Fingerprintjs
-/^https?:\/\/(.+?\.)?bhphotovideo\.com\/[a-z]{6,}\-.*/$script,xmlhttprequest,domain=bhphotovideo.com
 /^https?:\/\/.*\.corsair\.(fr|ci|ca|gp|mq|re)\/[a-z0-9]{19,}\?/$script,xmlhttprequest
 ||aerlingus.com/ahktqsewxjhguuxe.js
 ||aerlingus.com/ahktqsewxjhguuxexhr.js
@@ -16917,6 +16920,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||tdf.ringier.ch^
 ||te.mytoys.de^
 ||textundblog.de/powercounter.js
+||tm.dl.dewezet.de^
 ||topnews.de/aws.js
 ||topnews.de^*/aws.cgi?
 ||tp.deawm.com^
