@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: D/yrm9LdyrzKRdjjnALaiQ
-! Version: 202102070611
+! Checksum: HwlXsdcX/fFR/9T2rUwoWw
+! Version: 202102071321
 ! Title: EasyPrivacy
-! Last modified: 07 Feb 2021 06:11 UTC
+! Last modified: 07 Feb 2021 13:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4073,6 +4073,7 @@
 /statistics/logging/*
 /statistics/metrica.
 /statistics/ping.
+/statistics/seen
 /statistics/set?
 /statistics/statistics.php
 /statistics?counter=
@@ -4173,6 +4174,7 @@
 /statspider?
 /statspixel.
 /StatsRadioAnalyticsHub.htm
+/statstracker.
 /statstracker/*
 /statstracker?
 /statsupdater.
@@ -10859,6 +10861,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d1iazwv1n1tsyi.cloudfront.net^
 ||d1igp3oop3iho5.cloudfront.net^
 ||d1m6l9dfulcyw7.cloudfront.net^
+||d1n00d49gkbray.cloudfront.net^
 ||d1qpxk1wfeh8v1.cloudfront.net^
 ||d1r27qvpjiaqj3.cloudfront.net^
 ||d1r2sy6oc0ariq.cloudfront.net^
@@ -17649,6 +17652,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||pixels.boxberry.ru^
 ||radar.imgsmail.ru^
 ||rambler.ru/metrics/
+||rambler.ru/ts-metrics/
 ||rbc.ru/click?
 ||rbc.ru/count/
 ||rbc.ru/redir/stat/
@@ -17657,6 +17661,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||rutube.ru/counters.html?
 ||rutube.ru/dbg/player_stat?
 ||seedr.ru^*/stats/
+||sibnet.ru/counter.php?
 ||ssp.rambler.ru^
 ||stat.api.2gis.ru^
 ||stat.bankiros.ru^

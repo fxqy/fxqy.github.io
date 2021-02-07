@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FlUDcunL9AQMH527g1pW0g
-! Version: 202102070611
+! Checksum: oE6yYuYNa16hlw1jreNgfA
+! Version: 202102071321
 ! Title: EasyList China+EasyList
-! Last modified: 07 Feb 2021 06:11 UTC
+! Last modified: 07 Feb 2021 13:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -19,6 +19,9 @@
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
 -880-80-4.jpg
+/js/pwltjutj@67_b.js
+/js/uoeuoem&12_tt.js
+/stuiA004/statics/asd/*
 -90mh-gg.
 .bid/ads/
 .cam/ads/
@@ -1169,6 +1172,7 @@ _xiuno_com_ad/
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
+##.container > A[href^="http"] > .ads
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
@@ -9640,7 +9644,7 @@ brushes8.com###flxgg
 gamer.com.tw###flyRightBox
 gamer.com.tw###flySalve
 juxia.com###fmt
-bd-film.cc###fmtdiv
+bd2020.com###fmtdiv
 apk.tw###focus
 news.qq.com###focus-bar
 qq.com###focus_jordon
@@ -44379,6 +44383,7 @@ _popunder+$popup
 ##.gads_cb
 ##.gads_container
 ##.gadsense
+##.gadsense-ad
 ##.gadstxtmcont2
 ##.gall_ad
 ##.galleria-AdOverlay
@@ -51370,6 +51375,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||30b9e3a7d7e2b.com^
 ||30yo.xyz^
 ||3133a.xyz^
+||315ed77de7.com^
 ||327d49j2xt0nsr6o.pro^
 ||32979c00fcc59b5.com^
 ||32a79e2833309ebe.com^
@@ -51562,6 +51568,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||6zw2rcfd.com^
 ||7-7-7-partner.com^
 ||7017042b83a65ea.com^
+||7078784c567.com^
 ||7089e5b41f87.com^
 ||70ee6484605f.com^
 ||71a30cae934e.com^
@@ -53218,7 +53225,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||clnyonxgsvov.com^
 ||cloakroomobsceneredress.com^
 ||closiner.com^
-||cloudgallery.net^
 ||cloudimagesa.com^
 ||cluethydash.com^
 ||cluodlfare.com^
@@ -53245,6 +53251,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||coatobpljh.com^
 ||cobdieink.com^
 ||coccusadmanlob.com^
+||coccyxwickimp.com^
 ||cocoafortunately.com^
 ||coconutdepreciate.com^
 ||codedexchange.com^
@@ -53466,6 +53473,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||cxmakekcesubep.com^
 ||cxuehuxz.com^
 ||cxxhkmuxdjsmw.com^
+||cyberaircraftcast.com^
 ||cyclosen.club^
 ||cycxrevajbyyk.com^
 ||cydissalcucu.club^
@@ -53645,6 +53653,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||deprivationzomby.com^
 ||derbodilehe.top^
 ||derliesnot.club^
+||derowalius.com^
 ||dersmembrac.fun^
 ||derthundrew.club^
 ||desectariseriez.website^
@@ -53698,6 +53707,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||dicalnatur.club^
 ||dicularstors.top^
 ||didchinosdub.cam^
+||didpuprat.com^
 ||diekhxpwngawme.com^
 ||dieselisames.site^
 ||dieselisames.website^
@@ -53823,6 +53833,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||dolphincdn.xyz^
 ||dolsoste.com^
 ||dombnrs.com^
+||domicileperil.com^
 ||domisesvivin.info^
 ||domnlk.com^
 ||domparce.pro^
@@ -54735,6 +54746,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||flatlyforensics.com^
 ||fleckspoken.com^
 ||flexknfp.com^
+||fliedridgin.com^
 ||flippantreprehensiblecharming.com^
 ||flipy6sudy.com^
 ||flixcontentshop.com^
@@ -58073,6 +58085,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ofwuwfgq.com^
 ||ofzoxqcldl.com^
 ||ogdzyxly.com^
+||ogicatius.com^
 ||ogleslimeexecs.casa^
 ||ogluyourrvv.com^
 ||ogmtiwxrm.com^
@@ -58529,6 +58542,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||pgeejqisao.com^
 ||pgepkagfndl.com^
 ||pgmrko89prom.com^
+||pgntcjglm.com^
 ||pgonews.pro^
 ||pgpfdravejq.com^
 ||pgpszwldfpc.com^
@@ -58663,11 +58677,13 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||pnzamawzgw.com^
 ||poaxupoqbw.com^
 ||pobliba.info^
+||pockhopatone.com^
 ||pocrowpush.com^
 ||podbwdcrmjufmr.com^
 ||podhopfit.site^
 ||podimxqmqguj.com^
 ||podsolnu9hi10.com^
+||podwonclarity.com^
 ||poemsdeucewee.com^
 ||poemsproduced.com^
 ||poifinsegg.com^
@@ -58842,6 +58858,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||providesoftenlookout.com^
 ||provisituske.site^
 ||provokekitten.com^
+||prowlenchant.com^
 ||prownl.com^
 ||proxyreducing.com^
 ||prpopss.com^
@@ -60758,6 +60775,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||trlf8mmpbfz1.com^
 ||troeekrjquknz.com^
 ||trothko.com^
+||troublescompared.com^
 ||trouvredawes.site^
 ||trroawdnmt.com^
 ||trtjigpsscmv9epe10.com^
@@ -62386,6 +62404,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||zgmwrjlxpb.com^
 ||zgyxizppxf.com^
 ||zgzczklewpt.com^
+||zhhoeyksp.com^
 ||zhifinwgpwakue.com^
 ||zhkbjqtstd.com^
 ||zhkquyvfndeker.com^
@@ -73790,6 +73809,9 @@ $popup,third-party,domain=loader.to|play.hydracdn.network|streamtape.com|vidclou
 ||mrskin.com/scripts/loader2?
 ||myhentai.tv/popsstuff.
 ||mylegalporno.com/static/main-10641872.js
+||mysexgames.com/pix/*/400x800_*.mp4
+||mysexgames.com/pix/best-sex-games/*.gif
+||mysexgames.com/t78d42b806a3.js
 ||myslavegirl.org/Promo/
 ||niceyoungteens.com/ero-advertising
 ||nsfwalbum.com/efds435m432.js
@@ -76113,6 +76135,7 @@ collinsdictionary.com##.topslot_container
 pagesinventory.com##.tpromo
 smallseotools.com##.tuny_baaz_ni_ana_
 joebucsfan.com##.tweet_div1
+karnalguide.com##.two_third > .push20
 shaaditimes.com##.txt[style="border: solid 1px #A299A6; background-color: #FDFCFC;"]
 bizjournals.com##.u-bg-sponsored
 pixhost.to##.under-image
@@ -76674,7 +76697,6 @@ bing.com##li.b_adBottom
 swfchan.com###aaaa
 gaytube.com###ads
 flyingjizz.com###adv_inplayer
-m.drtuber.com###banner_overlay-postitial-video
 sexyandfunny.com###best-friends
 porntube.com###bottomBanner
 wankerhut.com###bottom_adv
@@ -77010,9 +77032,9 @@ pichunter.com##.galleryad
 tallermaintenancar.com##.girl
 tube8.com,tube8.es,tube8.fr##.gridBanner
 sexseeimage.com,yporn.tv##.happy-inside-player
-sexseeimage.com##.happy-player-beside
-sexseeimage.com##.happy-player-under
-sexseeimage.com##.happy-section
+momxxxfun.com,sexseeimage.com##.happy-player-beside
+momxxxfun.com,sexseeimage.com##.happy-player-under
+momxxxfun.com,sexseeimage.com##.happy-section
 atescorts.com##.header_info_section
 mansurfer.com##.headerbanner
 thenude.eu##.headercourtesy
@@ -77214,7 +77236,7 @@ indianpornvideos.com##.vdo-unit
 julesjordanvideo.com##.vertical_banner
 niceporn.xxx##.video-aside
 h2porn.com##.video-banner
-sexseeimage.com##.video-block-happy
+momxxxfun.com,sexseeimage.com##.video-block-happy
 boyfriendtv.com##.video-extra-wrapper
 pornhat.com##.video-link
 hardsextube.com,pornhd.com##.video-player-overlay
@@ -77335,6 +77357,7 @@ xxxstreams.eu##a[style]
 pornhub.com,pornhubthbh7ap3u.onion##ads
 pornhub.com,pornhubthbh7ap3u.onion##aside > [style="display: block;"] > table
 pornhub.com,pornhubthbh7ap3u.onion##aside > span:first-child
+mysexgames.com##body > div[style*="z-index:"]
 8boobs.com,alrincon.com,boobieblog.com,thenipslip.com,wetpussygames.com##canvas
 pornhub.com,pornhubthbh7ap3u.onion##div > aside > aside
 porngames.com##div > canvas
@@ -77377,7 +77400,10 @@ naughty.com##img[width="450"]
 adultwork.com,babepicture.co.uk,imagetwist.com,naughty.com,sexmummy.com,tophentai.biz,tvgirlsgallery.co.uk##img[width="468"]
 babeshows.co.uk,jessie-rogers.com##img[width="728"]
 pornhub.com,pornhubthbh7ap3u.onion##sads
+mysexgames.com##table[height="630"]
+mysexgames.com##table[height="640"]
 motherless.com##table[style*="max-width:"]
+mysexgames.com##table[style*="width:854px]
 humoron.com##table[width="527"]
 rude.com##td[height="25"]
 sharks-lagoon.fr##td[width="164"][valign="top"][bgcolor="#3366ff"][align="center"]
