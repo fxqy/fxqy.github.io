@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: Ly9QHAGDzZJNKYo1aslF2Q
-! Version: 202102090441
+! Checksum: YrVoh+NsNvl4NO8uxu5gYQ
+! Version: 202102091131
 ! Title: EasyPrivacy
-! Last modified: 09 Feb 2021 04:41 UTC
+! Last modified: 09 Feb 2021 11:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -10895,6 +10895,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d2nxi61n77zqpl.cloudfront.net^
 ||d2o67tzzxkqap2.cloudfront.net^
 ||d2oh4tlt9mrke9.cloudfront.net^
+||d2p3zdq8vjvnxd.cloudfront.net^
 ||d2r7bmv6l6bnd1.cloudfront.net^
 ||d2rnkf2kqy5m6h.cloudfront.net^
 ||d2ry9vue95px0b.cloudfront.net^
@@ -16309,6 +16310,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||commsvc.stern.de^
 ||consent.api.osano.com^
 ||consent.inm.ie^
+||d.sourcepoint.capitalfm.com^
 ||ep00.epimg.net^
 ||fuse.forbes.com^
 ||gamesradar-gb.gamesradar.com^

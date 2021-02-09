@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ZtsfsAg0StaU0lWLBPcNbw
-! Version: 202102090440
+! Checksum: 6cAQ9SigDlLiIy2EPt3ZHQ
+! Version: 202102091130
 ! Title: EasyList
-! Last modified: 09 Feb 2021 04:40 UTC
+! Last modified: 09 Feb 2021 11:30 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5911,10 +5911,8 @@
 /pagead/conversion/*
 /pagead/gen_
 /pagead/html/*
-/pagead/js/*
 /pagead/lvz?
 /pagead/osd.
-/pagead2.
 /pagead46.
 /pagead?
 /pageadimg/*
@@ -54300,6 +54298,8 @@ $popup,third-party,domain=loader.to|play.hydracdn.network|streamtape.com|vidclou
 ||22pixx.xyz^$script
 ||2adultflashgames.com/play_more_adult_games/
 ||3naked.com/nb/
+||4kporn.xxx/ONHmvQ1.js
+||4kporn.xxx/static/nb/
 ||4tube.com/assets/abpe-
 ||4tube.com/assets/adf-
 ||4tube.com/assets/adn-
@@ -54466,6 +54466,7 @@ $popup,third-party,domain=loader.to|play.hydracdn.network|streamtape.com|vidclou
 ||pornbay.re/k2sbanner
 ||pornissimo.org/banners/
 ||pornj.com/gabril/
+||pornjam.com/assets/js/renderer.
 ||pornmaturetube.com/content/
 ||porno666.com/code/script/
 ||pornorips.com/td7ab49db374.js
@@ -55916,6 +55917,7 @@ dailydot.com##.cta-article-wrapper
 funny.com##.ctnAdBanner
 seattlepi.com##.ctpl-fullbanner
 homefinder.com##.cubeContainer
+speedrun.com##.curse
 toolslib.net##.custom
 manilastandard.net##.custom-banner-customize
 101cargames.com##.custom-siteskin
@@ -57579,7 +57581,7 @@ penthouse.com##.banner_livechat
 yourlust.com##.banner_right
 freeporn.com##.bannercube
 xfanz.com##.bannerframe
-cumlouder.com,sexu.com##.banners
+cumlouder.com,pornburst.xxx,sexu.com##.banners
 porntubevidz.com##.banners-area
 vid2c.com##.banners-aside
 bubbaporn.com,kalporn.com,koloporno.com,pornodingue.com,pornodoido.com,pornozot.com,serviporno.com,voglioporno.com##.banners-footer
@@ -57665,6 +57667,7 @@ teensexyvirgins.com##.foot_squares
 scio.us##.footer
 hotmovs.com,porntube.com##.footer-banners
 youporn.com,youporngay.com##.footer-element-container
+4kporn.xxx##.footer-margin
 pornhd.com##.footer-zone
 homo.xxx##.footer.spot
 badjojo.com##.footera
@@ -57770,10 +57773,13 @@ uflash.tv##.pps-banner
 japan-whores.com##.premium-thumb
 txxx.com##.preroll
 adultdvdtalk.com##.productinfo
+pornburst.xxx##.productora
+pornburst.xxx##.productora-logo
 perfectgirls.net,pornfun.com,xnostars.com##.promo
 thefappening.wiki##.promo-1
 thefappening.wiki##.promo-2
 porntubevidz.com##.promo-block
+pornburst.xxx##.promo-gauleporno
 nakedtube.com,pornmaki.com##.promotionbox
 nuvid.com,nuvidselect.com##.puFloatLine
 dachix.com,deviantclip.com##.pub_right
@@ -57789,6 +57795,7 @@ txxx.com##.rek-iv
 xporno.me##.rekl
 txxx.com##.rekl-iv
 burningcamel.com##.reklaim
+pornjam.com##.related-sites
 sexhd.pics##.relativebottom
 cam4.com##.removeAds
 tubaholic.com##.result_under_video
@@ -57840,7 +57847,7 @@ pornstarchive.com##.squarebanner
 sexyandshocking.com##.sub-holder
 peepinghunter.com,simply-hentai.com##.superbanner
 dickbig.net##.t_14
-mrdeepfakes.com,rare-videos.net##.table
+4kporn.xxx,mrdeepfakes.com,rare-videos.net##.table
 intporn.com##.tagcloudlink.level4
 sxyprn.com##.tbd
 amateurvoyeurforum.com##.tborder[width="99%"][cellpadding="6"]
@@ -58013,6 +58020,7 @@ redtube.com##div > iframe
 motherless.com##div > table[style][border]
 publicflashing.me##div.hentry
 babesandbitches.net##div[class^="banner"]
+pornjam.com##div[class^="right-player-"]
 tubepornclassic.com##div[id^="ad-"]
 hentaistream.com##div[id^="adx_ad-"]
 hentaistream.com##div[id^="hs_ad"]
