@@ -133,11 +133,14 @@ hdslb.com/bfs/static/live
 xycdn.com/api/get_seeds
 bilibili.com##.z-aside-area,.haruna-sekai-de-ichiban-kawaii,.haruna-sekai-de-ichiban-kawaii,.z-room-background,#sections-vm,.z-sidebar,.comment-m
 !------------------------------video site------------------------------
-||zzyanhushi.com^
-||wyxcb6.top^
-||cloudpsvn.com^
-||07622.cc^
-||cj071.cc^
+||zzyanhushi.com
+||wyxcb6.top
+||cloudpsvn.com
+||07622.cc
+||cj071.cc
+||feigedaojia.com
+||aisouk.cn
+||jungbey.xyz
 40yb.com/js/bbs/pb.js
 40yb.com/js/seajump.js
 40yb.com,60ws.com,aiaike.com,tv6.cc,980kp.com,97kpb.com,980kp.com,9zdy.com##.animated,div[style*="infinite"],div[style*="right: 0px;"]
