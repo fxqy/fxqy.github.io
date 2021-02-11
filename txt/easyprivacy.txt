@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: YrVoh+NsNvl4NO8uxu5gYQ
-! Version: 202102091131
+! Checksum: du2zzOkfmYTCPHFtxBjHVQ
+! Version: 202102110641
 ! Title: EasyPrivacy
-! Last modified: 09 Feb 2021 11:31 UTC
+! Last modified: 11 Feb 2021 06:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1275,7 +1275,7 @@
 /cklog.js
 /cl.gif?pvID=
 /clacking.js
-/clarity-*.js$domain=~clarity-labs.kaminario.com
+/clarity-*.js$domain=~clarity-labs.kaminario.com|~make.services
 /clarity-api-
 /class.tracking.js
 /clear.gif?
@@ -5169,6 +5169,7 @@
 /wysistat.js
 /wz_logging.
 /x/x.gif?
+/x_track.php?
 /xboxcom_pv?c=$image
 /xgemius.
 /xgemius_lv.
@@ -5521,8 +5522,10 @@ _admiral.
 ! eventbrite tracking
 /search/log_requests/*
 ! Consent/GDPR tracking
+/ccpa.js
 /cmp-hello.
 /cmp/messaging.js
+/cmp2.js
 /cmp3.js
 /sourcepoint.js
 /SourcePoint_JS_Files/*
@@ -10006,9 +10009,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||2iui01.com^$third-party
 ||2parale.ro^$third-party
 ||2performant.com^$third-party
+||aghtag.tech^$third-party
 ||best-top.ro^$third-party
 ||gtop.ro^$third-party
 ||hit100.ro^$third-party
+||pahtag.tech^$third-party
 ||profitshare.ro^$third-party
 ||retargeting.biz^$third-party
 ||statistics.ro^$third-party
@@ -10890,6 +10895,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d2cpw6kwpff7n5.cloudfront.net^
 ||d2gbtcuv3w9qyv.cloudfront.net^
 ||d2ibu2ug0mt5qp.cloudfront.net^
+||d2j1fszo1axgmp.cloudfront.net^
 ||d2kdl5wcwrtj90.cloudfront.net^
 ||d2nq0f8d9ofdwv.cloudfront.net/track.js
 ||d2nxi61n77zqpl.cloudfront.net^
@@ -11153,6 +11159,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gcion.com/gcion.ashx?
 ||geckofoot.com/gfcounterimg.aspx?
 ||geckofoot.com/gfvisitormap.aspx?
+||gemius.mgr.consensu.org^
 ||geni.us/snippet.js
 ||geni.us/snippet.min.js
 ||geo.ertya.com^
@@ -11366,6 +11373,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||l.ooyala.com^
 ||l.player.ooyala.com^
 ||l.sharethis.com^
+||l.typesquare.com^
 ||l2.io/ip.js?var=$third-party
 ||laurel.macrovision.com^
 ||laurel.rovicorp.com^
@@ -13527,6 +13535,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.iraiser.eu^
 ||analytics.islamicfinder.org^
 ||analytics.kaggle.io^
+||analytics.kraken.com^
 ||analytics.linktr.ee^
 ||analytics.localytics.com^
 ||analytics.meaww.com^
@@ -14120,6 +14129,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fc2.com/counter.php?
 ||fc2.com/counter_img.php?
 ||fccbrea.org/javascript/stats.js
+||fdt.kraken.com^$image
 ||feedburner.com/~r/
 ||feeds.feedblitz.com/~/i/
 ||feeds.timesonline.co.uk^*/mf.gif
@@ -14534,9 +14544,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||linkbucks.com/clean.aspx?task=record$image
 ||linkbucks.com/track/
 ||linkedin.com/analytics/
+||linkedin.com/collect/
+||linkedin.com/csp/
+||linkedin.com/litms/utag/
 ||linkedin.com/platform-telemetry/
-||linkedin.com^*/collect
-||linkedin.com^*/tracking
+||linkedin.com/sensorCollect/
 ||linkpuls.idg.no^
 ||linuxtoday.com/hqxapi/
 ||lipsy.co.uk/_assets/images/skin/tracking/
@@ -16325,9 +16337,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||orionis.techradar.com^
 ||pcgamer-gb.pcgamer.com^
 ||quantcast.mgr.consensu.org/cmp.js
-||quantcast.mgr.consensu.org/cmp2.js
 ||quantcast.mgr.consensu.org^*/cmp.js
-||quantcast.mgr.consensu.org^*/cmp2.js
 ||services.hmhost.co.uk^
 ||sm.pcmag.com^$script
 ||sourcepoint-mms.aetv.com^
