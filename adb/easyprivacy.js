@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: du2zzOkfmYTCPHFtxBjHVQ
-! Version: 202102110641
+! Checksum: 0GAS7Mt6zVMTlHPBef/2Ng
+! Version: 202102120321
 ! Title: EasyPrivacy
-! Last modified: 11 Feb 2021 06:41 UTC
+! Last modified: 12 Feb 2021 03:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5756,6 +5756,11 @@ _mongo_stats/
 ||g5348277045.co^
 ||g5546361380.co^
 ||g5744445715.co^
+||g5942530050.co^
+||g6140614385.co^
+||g6338698720.co^
+||g6536783055.co^
+||g6734867390.co^
 ||mors22.com^
 ||nxakpj4ac8gkd53.info^
 ||propeller-tracking.com^
@@ -9883,7 +9888,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||iogous.com^$third-party
 ||kaizenplatform.net^$third-party
 ||keyword-match.com^$third-party
-||kir.jp^$third-party
 ||letro.jp^$third-party
 ||macromill.com^$third-party
 ||mobylog.jp^$third-party
@@ -17895,6 +17899,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||api.academia.edu^*/stats?callback$script,~third-party
 @@||api.getmakerlog.com/discussions/$~third-party,websocket,xmlhttprequest
 @@||api.github.com^*/log?ref=$xmlhttprequest
+@@||api.ipify.org^$xmlhttprequest,domain=account.pennytel.com.au
 @@||api.ipstack.com/check$domain=blockfi.com|withpersona.com
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||api.segment.io/v1/$xmlhttprequest,domain=instacart.com
