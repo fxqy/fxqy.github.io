@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 0GAS7Mt6zVMTlHPBef/2Ng
-! Version: 202102120321
+! Checksum: 8XJq4qXN3u/0ljV53vA9cQ
+! Version: 202102140321
 ! Title: EasyPrivacy
-! Last modified: 12 Feb 2021 03:21 UTC
+! Last modified: 14 Feb 2021 03:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2696,6 +2696,7 @@
 /load.gif?
 /load.js.gz?
 /load_analytics.
+/load_time_metrics?
 /LoadAudienceSegs-
 /loadcounter.
 /loader-counter.
@@ -2726,6 +2727,7 @@
 /log/collect/*
 /log/error?
 /log/event?
+/log/exposed?
 /log/impression/*
 /log/init?
 /log/jserr.php
@@ -3292,6 +3294,7 @@
 /pcookie_get_key
 /pcount.asp
 /Peermap/Log/*
+/pepperjam.js
 /perf-beacon-
 /perflog/*
 /perfmetrics.js
@@ -4877,6 +4880,7 @@
 /v1/custom-metrics
 /v1/impressions
 /v1/page-hit
+/v1/pixel.js
 /v1/pixel?
 /v1/r.gif?
 /v1/tracker.js
@@ -4965,6 +4969,7 @@
 /visitor/identity?
 /visitor/index.php?*referrer$image
 /visitor/segment?*=
+/visitor_id.jsp
 /VisitorAPI.js
 /visitorCookie.
 /visitorcountry.svc/*
@@ -7311,6 +7316,7 @@ _mongo_stats/
 ||myaudience.de^$third-party
 ||mybloglog.com^$third-party
 ||myfastcounter.com^$third-party
+||myfidevs.io^$third-party
 ||mynewcounter.com^$third-party
 ||mynsystems.com^$third-party
 ||myntelligence.com^$third-party
@@ -7497,7 +7503,6 @@ _mongo_stats/
 ||peep1alea.com^$third-party
 ||peerius.com^$third-party
 ||pendo.io^$third-party
-||pepperjam.com^$third-party
 ||percentmobile.com^$third-party
 ||perf-serving.com^$third-party
 ||perfdrive.com^$third-party
@@ -9305,6 +9310,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||businessclick.ch^$third-party
 ||checkeffect.at^$third-party
 ||clickmap.ch^$third-party
+||content-garden.com^$third-party
 ||count.im^$third-party
 ||count24.de^$third-party
 ||countar.de^$third-party
@@ -10788,6 +10794,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||consensu.org/geoip
 ||contactatonce.com/GetAgentStatusImage.aspx?
 ||contactatonce.com/VisitorContext.aspx?
+||container.pepperjam.com^$third-party
 ||content.cpcache.com^*/js/ga.js
 ||contentpass.net/stats?$third-party
 ||contents-tracking.beop.io^
@@ -11081,6 +11088,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events.ocdn.eu^
 ||events.realgravity.com^
 ||events.shareably.net^
+||events.splash-screen.net^
 ||events.tubecup.org^
 ||events.whisk.com^
 ||events.yourcx.io^
@@ -11426,7 +11434,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||livefyre.com/tracking/
 ||livefyre.com^*/tracker.js
 ||livefyre.com^*/tracking/
-||livehelpnow.net/lhn/jsutil/getinvitationmessage.aspx?
+||livehelpnow.net/lhn/handler/$image
 ||livelyvideo.tv/lb/logger
 ||liverail.com/?metric=
 ||liverail.com/track/?
@@ -11613,6 +11621,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ninja.onap.io^
 ||nitropay.com/nads/$third-party
 ||noflake-aggregator-http.narvar.com^
+||nojscontainer.pepperjam.com^$third-party
 ||nol.yahoo.com^
 ||nova.dice.net^
 ||ns-cdn.com^*/ns_vmtag.js
@@ -11839,6 +11848,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||refer.ccbill.com^
 ||referrer.disqus.com^
 ||reflow.tv/pixels/
+||rejoiner.com/tracker/
 ||relap.io^*/head.js?
 ||relaymedia.com/ping?$third-party
 ||replyat.com/gadgetpagecounter*.asp?
@@ -12222,6 +12232,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.*.miui.com^
 ||tracking.adalyser.com^
 ||tracking.aegpresents.com^
+||tracking.americaneagle.com^
 ||tracking.badgeville.com^$third-party
 ||tracking.brandmentions.com^
 ||tracking.customerly.io^
@@ -14732,6 +14743,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||msn.com/tracker/
 ||msn.com^*/report.js
 ||msn.com^*/track.js
+||mstream.tech/view/
 ||msxml.excite.com/*.gif?
 ||mto.mediatakeout.com/viewer?
 ||mts-ws.rueducommerce.fr^
@@ -16057,12 +16069,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||zytpirwai.net/track/
 ! Adobe
 ||lightning.ncaa.com/launch/$script
-! first-party tracking
-||eu1l.dotabuff.com^
-||eu1l.overbuff.com^
-||eu1l.speedrun.com^
-||eu1l.trackdota.com^
-||eu1l.valorbuff.com^
 ! Bing
 ||bing.com/fd/ls/l?IG=
 ||bing.com/fd/ls/lsp.aspx
@@ -18292,7 +18298,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||bugsnag.com^$~third-party,domain=app.bugsnag.com
 ! Consent Fixes
 @@||sourcepoint.telegraph.co.uk^$~third-party,xmlhttprequest
-@@||sourcepointcmp.bloomberg.com/mms/get_site_data$xmlhttprequest,domain=bloomberg.com
+@@||sourcepointcmp.bloomberg.com/ccpa.js$script,domain=bloomberg.com
 ! Stackoverflow-related. https://forums.lanik.us/viewtopic.php?f=64&t=44747
 @@||askubuntu.com/tags/$~third-party,xmlhttprequest
 @@||mathoverflow.net/tags/$~third-party,xmlhttprequest
