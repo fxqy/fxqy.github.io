@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 8XJq4qXN3u/0ljV53vA9cQ
-! Version: 202102140321
+! Checksum: fC67G/Z5Oo4tzOXk36Xk4w
+! Version: 202102141051
 ! Title: EasyPrivacy
-! Last modified: 14 Feb 2021 03:21 UTC
+! Last modified: 14 Feb 2021 10:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -865,7 +865,7 @@
 /api/lt/ref?
 /api/metrics$other
 /api/pageview?
-/api/ping/*
+/api/ping?
 /api/pixel?
 /api/stat?
 /api/statz
@@ -18186,6 +18186,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
 @@||puch-ersatzteile.at^*/google-analytics.min.js
 @@||px-cdn.net/api/v2/collector/ocaptcha$xmlhttprequest
+@@||q-examiner.online/api/Ping?
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
 @@||quantcast.mgr.consensu.org/cmp.js$script,domain=cyclingnews.com|independent.co.uk|ladbible.com
 @@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bikeperfect.com|cyclingnews.com|digitalcameraworld.com|einthusan.tv|f1aldia.com|gamesradar.com|guitarplayer.com|independent.co.uk|indy100.com|ladbible.com|laptopmag.com|livescience.com|livingetc.com|mirror.co.uk|musicradar.com|pcgamer.com|realhomes.com|researchgate.net|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|whathifi.com|whattowatch.com
