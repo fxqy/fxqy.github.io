@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: fC67G/Z5Oo4tzOXk36Xk4w
-! Version: 202102141051
+! Checksum: 7TiOv361o7SG+ggQR1fsLA
+! Version: 202102151001
 ! Title: EasyPrivacy
-! Last modified: 14 Feb 2021 10:51 UTC
+! Last modified: 15 Feb 2021 10:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -12170,7 +12170,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tr.marsflag.com^
 ||tr.webantenna.info^
 ||tr1.mailperformance.com^
-||tra.scds.pmdstatic.net/pmc-starter/$script
 ||tra.scds.pmdstatic.net/sourcepoint/
 ||traccoon.intellectsoft.net^
 ||trace.qq.com^$third-party
@@ -13604,6 +13603,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.tumblr.com/*/share/stats
 ||apkpure.com/analytics_
 ||apnews.com/logger
+||appanalysis.banggood.com^
 ||apphit.com/js/count.js
 ||apple.com^*/spacer2.gif?
 ||applifier.com/users/tracking?
@@ -14565,6 +14565,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||linkedin.com/platform-telemetry/
 ||linkedin.com/sensorCollect/
 ||linkpuls.idg.no^
+||linktr.ee/api/$ping
 ||linuxtoday.com/hqxapi/
 ||lipsy.co.uk/_assets/images/skin/tracking/
 ||list.ru/counter?
@@ -17016,6 +17017,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||arte.tv/includes/xiti/
 ||autoplus.fr/st?
 ||azurewebsites.net^*/mnr-mediametrie-tracking-
+||batiactu.com/cap_
 ||bigvoy.com/cft/view.php
 ||bloguez.com/manager/compteurs/
 ||buf.lemonde.fr^
