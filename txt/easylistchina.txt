@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: NxGK6bC8VFy3WFZUYs05JA
-! Version: 202102210922
+! Checksum: 36fRvUXr6k1A4b+2RJ8rwA
+! Version: 202102230242
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last Modified: 21 Feb 2021 09:22 UTC
+! Last Modified: 23 Feb 2021 02:42 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -1176,6 +1176,7 @@ _xiuno_com_ad/
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||gars57.cn^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -2658,6 +2659,7 @@ ubmcmm.baidustatic.com
 ||juhepen.com^$third-party
 ||jujumuqu123.com^
 ||junfull.com^
+||jungbey.xyz^
 ||junkucm.com^
 ||junnew.com^$third-party
 ||jusha.com^$third-party
@@ -3837,6 +3839,7 @@ ubmcmm.baidustatic.com
 ||ysjwj.com^
 ||ysm.ezprice.net^$third-party
 ||ysnj74ed.com^
+||ytop8.com^
 ||yuanhsu.com^$third-party
 ||yuanmengbi.com^
 ||yuanyanglw.com^
@@ -6953,6 +6956,7 @@ _yad_jsonp_
 ||jxcn.cn/js/hotpic_
 ||jxdown.com/statics/js/all.js
 ||jxnews.com.cn/assets/js/dspshow.js
+||jxnews.com.cn/first/js/home/index_ad
 ||jxnews.com.cn^*_ad_
 ||jyacht.com/flash/marina.swf
 ||jyfw.cn/gonggong/jiayu/cf_
@@ -7320,6 +7324,7 @@ _yad_jsonp_
 ||mikanani.me/images/Masha/
 ||mikecrm.com^$domain=bjkd365.com
 ||mikuclub.cn/down/pub/
+||mikuclub.it/pub/
 ||mil.news.sina.com.cn/iframe/109/2012/1024/photo.html
 ||mil.news.sina.com.cn/iframe/109/2013/1015/hotpic.html
 ||milimili.tv/js/loadjs/jquery
@@ -9094,10 +9099,9 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||mikuclub.it/pub/
+||apk.tw/static/js/showpic.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-159i.com##.adi
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -10896,6 +10900,7 @@ duba.com,uu114.cn##.adfixed
 xineurope.com##.adft
 11px.cn##.adg
 92wy.com##.adhengfu
+159i.com##.adi
 jxdbg.com##.adindex
 huanqiu.com##.adindexList
 13tv.top,sina.com##.aditem
@@ -12952,6 +12957,7 @@ cnbeta.com##.sub-title
 07073.com##.subarea_ad
 cam4.tw##.subfoot-section
 etest8.com##.subtop2right
+ltn.com.tw##.suggest_full .C5
 17house.com##.suiping
 qingdaonews.com##.surround
 vdianying.cc##.swiper-container
@@ -13096,7 +13102,7 @@ midifan.com##.top-aaa
 baidu.com##.top-ad-cont
 ziyuanba.com##.top-ad-img
 vansky.com##.top-ad-link
-nanfengyl.com##.top-ad-txt
+nanfengyl.com,ziyuanba.com##.top-ad-txt
 leiphone.com,sina.com.cn##.top-banner
 baidu.com##.top-banner-ad-wrap
 10jqka.com.cn##.top-bar-fl > .top-hot
@@ -13611,6 +13617,7 @@ bigear.cn##a[href^="/?module=dantian&"]
 77222.cn##a[href^="/aa/"]
 sdgundam.cn##a[href^="/aclk/"]
 x6d.com##a[href^="/ad.php?"]
+ziyuanba.com##a[href^="/ago."]
 liuli.pw##a[href^="/gg2/"]
 96weixin.com##a[href^="/show/ads/"]
 5dm.tv##a[href^="/sina/"]
@@ -14559,11 +14566,10 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
-@@||aternos.org^$generichide
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
-@@.png#$domain=9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com|digit77.com|e9china.net|upxin.net
+@@.png#$domain=3dpchip.com|9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com|digit77.com|e9china.net|upxin.net
 @@/ad-close.png$domain=ch.com
 @@/ad/images/*$domain=37-express.com
 @@/ad_banner/*$domain=donnaart.com.tw
@@ -14669,6 +14675,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||360buyimg.com/ads/$domain=jd.com
 @@||360buyimg.com^*??
 @@||3d66.com/??*ad-
+@@||3dpchip.com^$generichide
 @@||3gmfw.cn/js/wap/8.js
 @@||4gtv.tv/4gtv/Data/GetAD.ashx
 @@||4horlover.com^$generichide
@@ -14761,13 +14768,14 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||annhe.net^$generichide
 @@||aobi.100bt.com/play/ad/ad*.swf
 @@||api.ads.tvb.com^
-@@||apk.tw^$script,~third-party
+@@||apk.tw^*/ads.js$script,~third-party
 @@||app-advertise.zhihuishu.com^
 @@||appledaily.com.hk/admedia/
 @@||appledaily.com.tw^*_ad_logo.
 @@||aqy103.com/js/aqy/main.js
 @@||astyle.alicdn.com/??
 @@||atanx.alicdn.com/t/tanxssp.js$domain=taojinbi.taobao.com
+@@||aternos.org^$generichide
 @@||atm.youku.com/cast/getFlvUrl.
 @@||av30.xyz/cs/2.js
 @@||baidu-taobao-av.com/js/home.js
@@ -14873,6 +14881,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||edgesuite.net^*/ad.css?
 @@||edmondpoon.com^$generichide
 @@||edu.cn/epstar/*/gg/
+@@||edu.cn^*/ad.css?$stylesheet
 @@||eiv.baidu.com/hmt/icon/21.gif
 @@||elife-cloud.blogspot.com^$generichide
 @@||em.hk/wp-content/uploads/*_300_250.
@@ -15656,6 +15665,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||aaa.tumanyi.com^
 ||ab.cnbanbao.com^
 ||abc.douguo.com^
+||abc.rwpt.top^
 ||abcdcfasda.gushiwen.cn^
 ||abcj.dooccn.com^
 ||abds.pingpingw.com^
@@ -17113,6 +17123,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||cityd.xyz^
 ||cityf.xyz^
 ||cjh9.cn^
+||cjyjqw.cn^
 ||ckaiv.com^
 ||ckikq.com^
 ||ckjyck.qxs.la^
@@ -17185,6 +17196,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||dacedsfa.cn^
 ||dachadu.cn^
 ||dadawm.cc^
+||dadedaxue.com^
 ||dailiq.cn^
 ||daima.dsxdn.com^
 ||daizhankj.cn^
@@ -17918,6 +17930,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||luxoshopde.com^
 ||luyouxi.cn^
 ||lvkuaizi.com^
+||lvsechufang.com^
 ||lwlscy.com^
 ||lxind.cn^
 ||ly5200.cn^
@@ -18331,6 +18344,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||sgyebd.com^
 ||shangyingwm.com^
 ||shanprint.com^
+||shantelope.com^
 ||shanyuebrowser.com^
 ||shaque.vip^
 ||shaquevip.oss-cn-zhangjiakou.aliyuncs.com^
@@ -18978,6 +18992,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||zhongfujiaoyu.cn^
 ||zhongwangmy.cn^
 ||zhouqin520.top^
+||zhuanquxian.com^
 ||zhuanrangyun.cn^
 ||zhuanyule.cn^
 ||zhuifood.top^
@@ -18996,6 +19011,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||zizidi.com^
 ||zjhrondo.cn^
 ||zjksgl.com^
+||zjlfqf.com^
 ||zjuwjdc.com^
 ||zjxrg.top^
 ||zkba9.cn^
