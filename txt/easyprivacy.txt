@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: hIrofq+HdKHdK5olRV2w4A
-! Version: 202102250331
+! Checksum: 05zvIScTJ6sY/GkuWLeENA
+! Version: 202102260841
 ! Title: EasyPrivacy
-! Last modified: 25 Feb 2021 03:31 UTC
+! Last modified: 26 Feb 2021 08:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3658,6 +3658,7 @@
 /resxclsa.
 /resxclsa_
 /ret_pixels/*
+/retarget_pixel.
 /retargeting-pixels.
 /retargetingScript/*
 /revenue-science.
@@ -5941,6 +5942,7 @@ _mongo_stats/
 ||rote8mino.com^
 ||ruth8badb.com^
 ||ryke4peep.com^
+||saas-euw-1.com^
 ||saon6harz.com^
 ||scan6show.com^
 ||shoo5woop.com^
@@ -7139,6 +7141,7 @@ _mongo_stats/
 ||imhd.io^$third-party
 ||immanalytics.com^$third-party
 ||impactradius-event.com^$third-party
+||impression.link^$third-party
 ||imrtrack.com^$third-party
 ||imrworldwide.com^$third-party
 ||imtwjwoasak.com^$third-party
@@ -9213,6 +9216,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||allowmailbox.com^$third-party
 ||amazingairplane.com^$third-party
 ||amlg.io^$third-party
+||annoyedairport.com^$third-party
 ||anxiousapples.com^$third-party
 ||attractivecap.com^$third-party
 ||audioarctic.com^$third-party
@@ -11679,6 +11683,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||log.outbrainimg.com^
 ||log.pinterest.com^
 ||log.plinga.de^
+||log.reformal.ru^
 ||log.seekda.com^
 ||logger.snackly.co^
 ||logging.carambo.la^
@@ -12292,6 +12297,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||surveywall-api.survata.com^$third-party
 ||svc.dynamics.com/f/m/$third-party
 ||svc.dynamics.com/t/w$third-party
+||svnlnk.com/aff/trk.html
 ||swiftypecdn.com/cc.js$third-party
 ||swiftypecdn.com/te.js$third-party
 ||synapsys.us^*.gif?
@@ -12581,6 +12587,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||unid.go.com^*/hit?
 ||units.knotch.it^
 ||unity3d.com/v1/events
+||unpkg.com/web-vitals?
 ||uplynk.com/session/ping/
 ||upt.graphiq.com^
 ||uptime.com/static/rum/$third-party
@@ -12845,6 +12852,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trusted-web-seal.cybertrust.ne.jp^
 ||trustev.com/trustev.min.js$third-party
 ||verify.authorize.net^$third-party
+||verify.safesigned.com^$third-party
 ||websecurity.norton.com^$third-party
 ||webutation.net/js/load_badge.js
 ||widget.trustpilot.com^$third-party
@@ -16359,6 +16367,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||127.0.0.1^$third-party,domain=ameriprise.com|beachbody.com|chick-fil-a.com|citi.com|ebay-kleinanzeigen.de|ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|equifax.ca|equifax.com|globo.com|gumtree.com|lendup.com|mbna.ca|rusneb.ru|sciencedirect.com|sky.com|spectrum.net|td.com|tiaa.org|vedacheck.com|wepay.com|whatleaks.com
 ||academy.com/webcontent/
 ||all3dp.com/kbcbqexpqvz8wrk88augy7b.js
+||att.com/public/
 ||backcountry.com/clientlibs/
 ||bestbuy.com/resource/
 ||buybuybaby.com/content/
@@ -16370,6 +16379,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ebaystatic.com^*/g52yxhxv2mzcbealmlkri4kn5av.js$script,domain=ebay.com
 ||eddiebauer.com/resource/
 ||finishline.com/fufhpqdn/
+||groupon.com/resource/
 ||kohls.com/libraries/
 ||localhost^$third-party,domain=globo.com
 ||macys.com/clientlibs/
@@ -18188,6 +18198,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||att.com/scripts/adobe/prod/$script
 @@||att.com/scripts/adobe/virtual/detm-container-hdr.js
 @@||att.com/ui/*/jsnlog.js
+@@||att.tv^*/VisitorAPI.js$script,~third-party
 @@||audioeye.com/ae.js$domain=woodlanddirect.com
 @@||azureedge.net/prod/smi/loader-config.json$domain=pressdemocrat.com
 @@||azureedge.net^*/eventtracking.js$domain=crimemapping.com
