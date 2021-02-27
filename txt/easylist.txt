@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0xGgxEr6Krj1UETI+I0dtw
-! Version: 202102260840
+! Checksum: VkC1w6dc5I06hq2jETFs5A
+! Version: 202102271100
 ! Title: EasyList
-! Last modified: 26 Feb 2021 08:40 UTC
+! Last modified: 27 Feb 2021 11:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6044,6 +6044,7 @@
 /plugins/wp_actionpop/*
 /plugins_ads_
 /plus/ad_
+/pm_ads/*
 /poker-ad.
 /poki-ads.
 /poll-ad-
@@ -7369,6 +7370,7 @@
 =oas_tag.
 =PAGE_AD_
 =partnerad&
+=pm_ads&
 =pmd-advertising-
 =rightAds_
 =searchadslider|
@@ -14489,6 +14491,7 @@ _popunder+$popup
 ###firstad
 ###fixed-mob-ad
 ###fixedAd
+###fl-ads
 ###flAdData6
 ###fl_hdrAd
 ###flash_ads_1
@@ -20740,6 +20743,7 @@ _popunder+$popup
 ##.adcolumn_wrapper
 ##.adcomment
 ##.adcont
+##.adcontainer2
 ##.adcontainer300x250l
 ##.adcontainer300x250r
 ##.adcontent_box
@@ -23180,6 +23184,7 @@ _popunder+$popup
 ##.banner-ad-wrapper
 ##.banner-ads
 ##.banner-ads-300x250
+##.banner-ads-right
 ##.banner-ads-sidebar
 ##.banner-adsense
 ##.banner-adv
@@ -28328,6 +28333,7 @@ _popunder+$popup
 ##.single-ad-anchor
 ##.single-ad-wrap
 ##.single-ads
+##.single-ads-section
 ##.single-google-ad
 ##.single-item-page-ads
 ##.single-mpu
@@ -30437,6 +30443,7 @@ _popunder+$popup
 ##a[href^="http://zevera.com/afi.html"]
 ##a[href^="https://8a1ccf65f2b1302.com/"]
 ##a[href^="https://a.adtng.com/"]
+##a[href^="https://a.bestcontentfood.top/"]
 ##a[href^="https://aaucwbe.com/"]
 ##a[href^="https://ad.atdmt.com/"]
 ##a[href^="https://ad.doubleclick.net/"]
@@ -31826,7 +31833,7 @@ mrskin.com#@#a[href^="http://www.mrskin.com/tour"]
 socialsex.com#@#a[href^="http://www.socialsex.com/"]
 buzzfeed.com,guide-epargne.be,spaargids.be,yahoo.com#@#a[href^="https://ad.doubleclick.net/"]
 badoinkvr.com#@#a[href^="https://badoinkvr.com/"]
-book.isleofskye.com#@#a[href^="https://prf.hn/click/"][href*="/camref:"]
+book.isleofskye.com,realsimple.com#@#a[href^="https://prf.hn/click/"][href*="/camref:"]
 healthmeans.com#@#a[href^="https://servedbyadbutler.com/"]
 trust.zone#@#a[href^="https://trust.zone/"]
 financeads.de#@#a[href^="https://www.financeads.net/tc.php?"]
@@ -31972,7 +31979,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||1ced38bdc42b883.com^
 ||1e310acae6aee.com^
 ||1ex4oemg99mv.com^
-||1f2f1472af32.com^
 ||1f58098dd54.com^
 ||1f7de8569ea97f0614.com^
 ||1f7wwaex9rbh.com^
@@ -32006,7 +32012,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||25348f89a3.com^
 ||2559a303164ddde96.com^
 ||273920d845b.com^
-||27fa0ce65e.com^
 ||27vckaccbto7p761.pro^
 ||2894c9d5b32.com^
 ||29ae58661b9c7178.com^
@@ -32059,6 +32064,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||39d1d397c97730.com^
 ||3a8c9b0ca405b5.com^
 ||3ab171502b3.com^
+||3abd17850c2.com^
 ||3ac901bf5793b0fccff.com^
 ||3c0012ab95c132f.com^
 ||3c513c1d3255c.com^
@@ -33512,6 +33518,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||cbmawvknxwgxqd.com^
 ||cbpsdvozwsbf.com^
 ||cbyzgxhbovgwju.com^
+||cc2e81e8f9.com^
 ||cc380535d9ca0.com^
 ||ccc1063d848b.com^
 ||ccd8450321.com^
@@ -34014,6 +34021,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||dc63bfb069ea522f.com^
 ||dccqzsmabz.com^
 ||dcdilhaybpzkvj.com^
+||dcfkalvbcs.com^
 ||dcontonalscho.info^
 ||dcop4khjxsmg.com^
 ||dcqthcwm.com^
@@ -34189,6 +34197,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||disticked.club^
 ||distinctionlatent.com^
 ||distinesseqe.site^
+||distractchafe.com^
 ||distraughtbudge.com^
 ||districtbaloneywhiskers.com^
 ||distrikerkvazar.site^
@@ -35342,6 +35351,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||gloatdiagnosis.com^
 ||global-surveys.co^
 ||globwo.online^
+||glogoowo.net^
 ||glomseci.com^
 ||glooliso.net^
 ||gloomilypainkiller.com^
@@ -36223,6 +36233,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||kbirdsind.top^
 ||kbqebfcubeiaa.com^
 ||kbugxeslbjc8.com^
+||kbxowbavadw.com^
 ||kbyelxqr.com^
 ||kbzdxt.com^
 ||kcampairsang.info^
@@ -36357,6 +36368,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||kueimatyr.com^
 ||kuldifatlje.com^
 ||kumanaun.net^
+||kumteerg.com^
 ||kuntzenyt.club^
 ||kursatarak.com^
 ||kustaucu.com^
@@ -37319,6 +37331,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||nklrfqgz.com^
 ||nklwltrpzhy.com^
 ||nknxugrndmf.com^
+||nktorpmpbhvb.com^
 ||nlbnegea.com^
 ||nlkspjjcxyvr.com^
 ||nlz0ini5uz9t.com^
@@ -38777,6 +38790,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||rogew.com^
 ||roikingdom.com^
 ||rollersadnessstranded.com^
+||rolmscvzkp.com^
 ||romashk9arfk10.com^
 ||rompuwit.net^
 ||ronbriticated.site^
@@ -39054,6 +39068,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||seriencern.club^
 ||seriendly.club^
 ||seriodilov.club^
+||seriouslylargestnewsletter.com^
 ||seriy2sviter11o9.com^
 ||sersproposal.club^
 ||servantpantomimematch.com^
@@ -40416,6 +40431,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||vvczvfrbtwrvs.com^
 ||vvjlrhuzmhzlws.com^
 ||vvnmwfnpkat.com^
+||vvyhhrjigq.com^
 ||vwuyuahqf.com^
 ||vwvnounnfteusv.com^
 ||vwvvaeor.com^
@@ -40620,6 +40636,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||winfreeprize.online^
 ||wingsenormous.com^
 ||winsistakesme.site^
+||wipedstuffed.com^
 ||wipeneighbour.com^
 ||wipowaxe.com^
 ||wirelessbabysitterphonebooth.com^
@@ -41288,6 +41305,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||zcwjasfrog.com^
 ||zcyclbncgubccl.com^
 ||zdajdudqfq.com^
+||zdcuivnen.com^
 ||zdgmhsahttsj.com^
 ||zdhnepeadrwetg.com^
 ||zdjkzqwpqvwcmc.com^
@@ -41470,6 +41488,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||zwigjtgnzfn.com^
 ||zwmauyerfotyh.com^
 ||zwmunz.com^
+||zwnxzckwihg.com^
 ||zwprxzbnzxc.com^
 ||zwwbvpwd.com^
 ||zwzfujusmwsbun.com^
@@ -45164,7 +45183,6 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||publicityclerks.com^$third-party
 ||publift.com^$third-party
 ||publir.com^$third-party
-||publish0x.com^$third-party
 ||publisheradnetwork.com^$third-party
 ||publited.com^$third-party
 ||pubmatic.com^$third-party
@@ -47559,6 +47577,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||latest-news.life^$popup
 ||latheendsmoo.com^$popup
 ||lcentntel.com^$popup
+||lerroyje.xyz^$popup
 ||letshareus.com^$popup
 ||letzonke.com^$popup
 ||lie2anyone.com^$popup
@@ -50373,6 +50392,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||pubexchange.com/module/*-prod$third-party
 ||pubexchange.com/modules/display/$script,third-party
 ||public.porn.fr^$third-party
+||publish0x.com^$image,script,third-party
 ||pubs.hiddennetwork.com^
 ||puntersparadise.com.au/banners/
 ||purevpn.com/affiliates/$third-party
@@ -52698,12 +52718,14 @@ $popup,third-party,domain=loader.to|play.hydracdn.network|streamtape.com|vidclou
 ||galleries-pornstar.com/thumb_top/
 ||gamesofdesire.com/t68b14a81e53.js
 ||gapeandfist.com/uploads/thumbs/
+||gayforfans.com/dry-smoke-b536/
+||gayforfans.com/wandering-bread-3e74/
 ||gaytube.com/chacha/
 ||gifsauce.com/Themes/1/img/tpd.png
 ||girlfriendvideos.com/ad
 ||girlsintube.com/images/get-free-server.jpg
 ||girlsnaked.net/gallery/banners/
-||girlsofdesire.org/pear/
+||girlsofdesire.org/cherry/
 ||glam0ur.com/ssbgtdopwe.php
 ||glamour.cz/banners/
 ||gloryholegirlz.com/images/banners/
@@ -53104,6 +53126,7 @@ phpbb.com###footer_banner_leaderboard
 hwhills.com###footerbanner
 feedicons.com###footerboard
 imgbox.com###full-page-redirect
+reviewgeek.com###future_Y_R_0_1
 colourlovers.com###ga-above-footer
 colourlovers.com###ga-below-header
 9bis.net###gad
@@ -54931,6 +54954,8 @@ resetera.com##.samCodeUnit
 beermoneyforum.com##.samTextUnit
 teamfortress.tv##.sau
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##.sbv-video-single-product
+independent.co.uk##.sc-pscky.kBPJSk.sc-qQYBZ
+independent.co.uk##.sc-qZtCU.wIkUb.sc-qQYBZ
 newindianexpress.com##.scc
 minecraftservers.org##.second-banner
 wbur.org##.section--breakout
@@ -55232,6 +55257,7 @@ thehackernews.com##[href^="https://go.thn.li/"]
 headfonics.com##[href^="https://headfonics.com/linkout/"]
 imagetwist.com##[href^="https://imagetwist.com/pxt/"]
 noypigeeks.com##[href^="https://nypgks.com/"]
+readlightnovel.org##[href^="https://readlightnovelnew.onelink.me/"]
 darknetdaily.com##[href^="https://shop.ledger.com/"]
 winaero.com##[href^="https://winaero.com/idx.php"]
 cnx-software.com##[href^="https://www.amazon.com/"]
@@ -55459,6 +55485,7 @@ autoaction.com.au,elitepvpers.com,irishcatholic.com##img[width="728"]
 elitepvpers.com##img[width="968"]
 broadbandforum.co##ins[data-ad-client]
 monova.org##script + [class] > [class]:first-child
+bbc.com##section[data-e2e="advertisement"]
 tempostorm.com##side-banners
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##span[cel_widget_id="MAIN-CARDS-0"]
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##span[class*="widgetId=loom-desktop-brand-footer-slot_hsa-id"]
@@ -56370,6 +56397,7 @@ eskimotube.com##a[href^="http://www.tjoobvip.com/"]
 xxxprivates.com##a[href^="http://www.xxxprivates.com/out-sponsor-"]
 sxyprn.com##a[href^="https://ab.advertiserurl.com/"]
 pornhub.com,pornhubpremium.com,redtube.com##a[href^="https://ads.trafficjunky.net/"]
+redgifs.com##a[href^="https://camsfinders.com/"]
 smutr.com##a[href^="https://smutr.com/?action=trace"]
 yaoimangaonline.com##a[href^="https://www.gaming-adult.com/"]
 gotporn.com##a[href^="https://www.gotporn.com/click.php?id="]
@@ -56653,7 +56681,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||ikea.com^*/img/ads/
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~spotify.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=abc.com|api.screen9.com|audiomack.com|blastingnews.com|bloomberg.com|cbc.ca|cbsnews.com|cbssports.com|cdnmedia.tv|chicagotribune.com|clipsliver.com|cnet.com|comicbook.com|complex.com|cwtv.com|dailybreeze.com|distro.tv|forbes.com|fox35orlando.com|freep.com|gamejolt.com|goodhousekeeping.com|goodmorningamerica.com|healthmeans.com|iheart.com|independent.co.uk|indystar.com|insideedition.com|kizi.com|metacritic.com|metrolyrics.com|mobg.io|navbharattimes.indiatimes.com|news.sky.com|nflgamepass.com|nytimes.com|nytimes3xbfgragh.onion|play.ludigames.com|player.abacast.net|player.earthtv.com|player.performgroup.com|powr.com|rumble.com|snopes.com|thestreet.com|theverge.com|truvid.com|tvguide.com|ultimedia.com|usatoday.com|video.foxbusiness.com|video.foxnews.com|vidyomani.com|womenshealthmag.com|wsj.com|yiv.com|zeebiz.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=bloomberg.co.jp|bloomberg.com|sbs.com.au
+@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=bloomberg.co.jp|bloomberg.com|cbc.ca|sbs.com.au
 @@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=abcnews.go.com|brightcove.net
 @@||imdb-video.media-imdb.com^$domain=imdb.com
 @@||img-cdn.mediaplex.com^$image,domain=betfair.com
