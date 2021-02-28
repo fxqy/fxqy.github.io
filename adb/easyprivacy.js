@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: C1Vgsi/9MrN7/QHkRixMwQ
-! Version: 202102280321
+! Checksum: 9iiMbMuLgZQy1AY5ppwfvQ
+! Version: 202102281211
 ! Title: EasyPrivacy
-! Last modified: 28 Feb 2021 03:21 UTC
+! Last modified: 28 Feb 2021 12:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2322,6 +2322,7 @@
 /hm.pl?p=
 /hmapxy.js
 /hnpprivacy-min.
+/hockeystack.min.js
 /home/Analytic?
 /homeCounter.
 /homepage/analytics.
@@ -5805,6 +5806,7 @@ _mongo_stats/
 ||g6536783055.co^
 ||g6734867390.co^
 ||g6932951725.co^
+||g7131036060.co^
 ||mors22.com^
 ||nxakpj4ac8gkd53.info^
 ||propeller-tracking.com^
@@ -7071,6 +7073,7 @@ _mongo_stats/
 ||hivps.xyz^$third-party
 ||hlserve.com^$third-party
 ||hmstats.com^$third-party
+||hockeystack.com^$third-party
 ||hoood.info^$third-party
 ||horzrb.com^$third-party
 ||hospitality-optimizer.com^$third-party
@@ -10079,6 +10082,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trackfeed.com^$third-party
 ||triver.jp^$third-party
 ||ukw.jp^$third-party
+||uncn.jp^$third-party
 ||wonder-ma.com^$third-party
 ||ziyu.net^$third-party
 ! Korean
@@ -13992,6 +13996,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||clicks.hurriyet.com.tr^
 ||clicks.traffictrader.net^
 ||client-event-reporter.twitch.tv^
+||client-log.box.com^
 ||climatedesk.org*/pixel.gif
 ||clk.about.com^
 ||clkstat.china.cn^
@@ -16498,7 +16503,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||a02342.yourlocalguardian.co.uk^
 ||cb-mms.carbuyer.co.uk^
 ||cdn-alliancegravity.s3.amazonaws.com^
-||cmp.osano.com^
 ||commsvc.stern.de^
 ||consent.api.osano.com^
 ||consent.inm.ie^
@@ -17206,6 +17210,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||fsm.lapresse.ca^
 ||g.itespresso.fr^
 ||galerieslafayette.com/c/
+||gamergen.com/ajax/actualites/addVue
 ||ianimes.org/img/tracker.gif
 ||iphdata.lequipe.fr^*/getInfapp.php?
 ||iphonesoft.fr/js/analytics-
