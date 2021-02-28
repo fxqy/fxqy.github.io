@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: cDQdGsl+oDeJAOLQexI9yw
-! Version: 202102271101
+! Checksum: C1Vgsi/9MrN7/QHkRixMwQ
+! Version: 202102280321
 ! Title: EasyPrivacy
-! Last modified: 27 Feb 2021 11:01 UTC
+! Last modified: 28 Feb 2021 03:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2713,6 +2713,7 @@
 /log/pageview
 /log/report/*
 /log/sentry/*
+/log/server?
 /log/ux_analytics^
 /log/web?
 /log2.php?
@@ -5294,6 +5295,7 @@
 ?event=*&ts=
 ?event=advert_
 ?event=General.track
+?event=impressions&
 ?event=log&
 ?event=pageview&
 ?event=performancelogger:
@@ -14381,6 +14383,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||g.ign.com^
 ||g.mashable.com^
 ||g.msn.com^
+||g.pcmag.com^
 ||g.vev.io^
 ||g2a-com.newsletter.com.pl^$image,third-party
 ||ga.canoe.ca^
@@ -14487,6 +14490,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||groupondata.com/tracky
 ||guardianapps.co.uk/geolocation
 ||gumtree.com.au/?pc=
+||gurgle.pcmag.com^
 ||h.cliphunter.com^
 ||hanksgalleries.com/stxt/counter.php?
 ||harryrosen.com/analytics/
@@ -16494,28 +16498,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||a02342.yourlocalguardian.co.uk^
 ||cb-mms.carbuyer.co.uk^
 ||cdn-alliancegravity.s3.amazonaws.com^
-||cmp.arnnet.com.au^
-||cmp.cio.com.au^
-||cmp.cio.com^
-||cmp.cmo.com.au^
-||cmp.computerworld.com.au^
-||cmp.cso.com.au^
-||cmp.csoonline.com^
-||cmp.digitalartsonline.co.uk^
-||cmp.greenbot.com^
-||cmp.idginsiderpro.com^
-||cmp.infoworld.com^
-||cmp.javaworld.com^
-||cmp.macworld.co.uk^
-||cmp.macworld.com^
 ||cmp.osano.com^
-||cmp.pcworld.co.nz^
-||cmp.pcworld.com^
-||cmp.pcworld.idg.com.au^
-||cmp.tech426.com^
-||cmp.techadvisor.co.uk^
-||cmp.techconnect.com^
-||cmp.techhive.com^
 ||commsvc.stern.de^
 ||consent.api.osano.com^
 ||consent.inm.ie^
@@ -16524,18 +16507,15 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gamesradar-gb.gamesradar.com^
 ||h-bid.com^$third-party
 ||isgprivacy.cbsi.com^
-||mmm.carbuyer.co.uk^
+||itpuk-mms.itpro.co.uk^
 ||mms.blick.ch^
 ||mms.gocomics.com^
-||mms.itpro.co.uk^
 ||mms.wwe.com^
-||neowin.net/js/mdn.neowin.js
 ||orionis.techradar.com^
 ||pcgamer-gb.pcgamer.com^
 ||quantcast.mgr.consensu.org/cmp.js
 ||quantcast.mgr.consensu.org^*/cmp.js
 ||services.hmhost.co.uk^
-||sm.pcmag.com^$script
 ||sourcepoint-mms.aetv.com^
 ||sourcepoint-mms.history.com^
 ||sourcepoint-mms.mylifetime.com^
@@ -16561,7 +16541,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ttauri.whathifi.com^
 ||twch.20min.ch^
 ||vg247.com/wp-content/themes/vg247/scripts/mvg247-fsm.js
-||weather.com/weather/*.sourcepoint
 ! CNAME
 ||klaviyo.map.fastly.net^
 ! Eulerian
@@ -17389,6 +17368,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||firefoxchina.cn/*/trac.js
 ||ftchinese.com/js/log.js
 ||funshion.com/interface/
+||gia.jd.com^
 ||hdslb.com/images/isptrack.js
 ||his.tv.sohu.com/his/ping.do?
 ||hisense.com/ta.js
@@ -17431,7 +17411,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||on.cc^*/checkrev.gif?
 ||p-log.ykimg.com^
 ||pan.baidu.com/api/analytics?
-||pass.1688.com^
 ||pb.i.sogou.com^
 ||people.cn/js/pa.js
 ||pingback.sogou.com^
@@ -17494,7 +17473,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||statistic.takungpao.com^
 ||stats.autohome.com.cn^
 ||stats.yinyuetai.com^
-||tbskip.taobao.com^
+||tbskip.taobao.com^$script
 ||tf.360.cn^
 ||tianxun.com/ajax_website_statistics.
 ||titan24.com/scripts/stats.js
@@ -18282,7 +18261,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||jabra.com/api/Analytics/$xmlhttprequest,domain=jabra.com
 @@||jbj.co.uk^*/analytics.js$script,~third-party
 @@||js-agent.newrelic.com/nr-spa-$script,domain=kapwing.com
-@@||jsrdn.com/s/cs.js$domain=distro.tv
+@@||jsrdn.com/s/$script,domain=distro.tv
 @@||jwpcdn.com/player/plugins/googima/*/googima.js$script,domain=ladbible.com
 @@||kaxsdc.com/collect/sdk$xmlhttprequest,domain=vanillaereward.com
 @@||kbb.com/static/js/global/app-measurement$script
@@ -18677,6 +18656,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 !
 !---------- Chinese ----------
 !
+@@||360buyimg.com/item/unite/$script,domain=item.jd.com
 @@||360buyimg.com^*/components/default/$script,domain=jd.com
 @@||adobedtm.com^*/mbox-contents-$script,domain=ceair.com|fcbarcelona.cn
 @@||adobedtm.com^*/satelliteLib-$script,domain=ceair.com|fcbarcelona.cn
@@ -18684,6 +18664,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||dynamicyield.com/api/$script,domain=zalora.com.hk|zalora.com.tw
 @@||google-analytics.com/analytics.js$domain=news.gamme.com.tw
 @@||tianxun.com^*/js/tracker.js
+@@||tianyancha.com^*/sensorsdata.$script,~third-party
 @@||uwants.com/include/*/swfaddress.js
 @@||vanclimg.com/js.ashx?*/google-analytics.js$domain=vancl.com
 @@||wenxuecity.com/data/newscount/$image,domain=wenxuecity.com
@@ -18867,6 +18848,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||marketingsolutions.com.pl^*/googleanalytics-$image,domain=marketingsolutions.com.pl
 @@||ninja.onap.io/ninja-cee.js$domain=olx.pl
 @@||olx.pl^*/js/tracking/ninja.js$domain=olx.pl
+@@||pataks.pl/core,_assets$script,~third-party
 @@||polfan.pl/*/fingerprint2.min.js$script,~third-party
 @@||sgqcvfjvr.onet.pl^$script,domain=kobieta.onet.pl
 @@||stat24.com/crossdomain.xml$domain=ipla.tv

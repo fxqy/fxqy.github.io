@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VkC1w6dc5I06hq2jETFs5A
-! Version: 202102271100
+! Checksum: 2FiJqTcrpyMBsnUUof06WA
+! Version: 202102280320
 ! Title: EasyList
-! Last modified: 27 Feb 2021 11:00 UTC
+! Last modified: 28 Feb 2021 03:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -21700,6 +21700,7 @@ _popunder+$popup
 ##.adsense-left
 ##.adsense-links
 ##.adsense-links2
+##.adsense-loading
 ##.adsense-midtext
 ##.adsense-mod-border
 ##.adsense-module
@@ -23351,6 +23352,7 @@ _popunder+$popup
 ##.bgnavad
 ##.bgr_adv_div
 ##.bh_ad_container
+##.bidbarrel-ad
 ##.big-ad
 ##.big-ads
 ##.big-advertisement
@@ -33838,6 +33840,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||cotournas.xyz^
 ||councedvdvg.club^
 ||councingcan.space^
+||counsellorcolours.com^
 ||counterry.club^
 ||countertrck.com^
 ||countilde.online^
@@ -33936,6 +33939,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||cwplubzglmfah.com^
 ||cwsgwqbcdhtk.com^
 ||cxuehuxz.com^
+||cyan92010.com^
 ||cyberaircraftcast.com^
 ||cyclosen.club^
 ||cycxrevajbyyk.com^
@@ -34556,6 +34560,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||elsupposit.club^
 ||elyconsisterj.club^
 ||emagazing.fun^
+||emanpro.fun^
 ||emarhowedp.club^
 ||ematumes.club^
 ||embargainew.site^
@@ -34999,6 +35004,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||filthslowlycoolly.com^
 ||fimpromote.club^
 ||findicaterperty.site^
+||findnewline.com^
 ||fingahvf.top^
 ||fingerous.club^
 ||fingsmelis.pro^
@@ -35301,6 +35307,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ggregardtrad.club^
 ||ggzikbwrri.com^
 ||ghrbmfggqylld.com^
+||ghsmfmjcicgup.com^
 ||ghtpoitovskyr.club^
 ||ghudns8sbb.buzz^
 ||ghvmjvkpapct.com^
@@ -36299,6 +36306,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||kitferdog.site^
 ||kitrigthy.com^
 ||kiuprocessary.club^
+||kiynew.com^
 ||kj2hy.com^
 ||kjegyqtqazui.com^
 ||kjfxjsqmn.com^
@@ -36659,6 +36667,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||lovedearringschoolmaster.com^
 ||lowancein.club^
 ||loweredabhorrenceproposed.com^
+||lowestpendulousdistract.com^
 ||lowtyroguer.com^
 ||loxbeelid.com^
 ||lplesacciner.top^
@@ -36803,6 +36812,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||matricavfr.club^
 ||mattemptad.club^
 ||mattempts.info^
+||maturescream.com^
 ||matzosetagood.com^
 ||maudawhy.com^
 ||mauringer.club^
@@ -37132,6 +37142,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||mwvznnssqv.com^
 ||mxjptfrxqaavdc.com^
 ||mxsuikhqaggf.com^
+||mxuiso.com^
 ||mxvncslrduda.com^
 ||mxysalqnbj.com^
 ||my-hanson.com^
@@ -37964,6 +37975,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||pharougn.com^
 ||phastoag.com^
 ||phauwooz.net^
+||pheeghie.net^
 ||pheekrie.com^
 ||pheevoug.com^
 ||pheizpjpowvw.com^
@@ -38099,6 +38111,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||possessedbrute.com^
 ||possipationd.info^
 ||postback.info^
+||postbacks.net^
 ||postlnk.com^
 ||potatoescollections.com^
 ||potentingaknt.club^
@@ -38809,6 +38822,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||roughthos.top^
 ||roujaufu.net^
 ||roujonoa.net^
+||rousedmilk.com^
 ||roustast.net^
 ||routeit.one^
 ||routeme.one^
@@ -40249,6 +40263,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||vendigamus.com^
 ||vendnibtemp.com^
 ||venetrigni.com^
+||ventrequmus.com^
 ||venuegirtjive.com^
 ||veodxsimctsgs.com^
 ||veopvpgxcrt.com^
@@ -40320,6 +40335,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||visitimportantly.com^
 ||visitsfunk.com^
 ||visitstrack.com^
+||vitaminhen.com^
 ||vitoryjober.club^
 ||viunypnvhcw.com^
 ||viurihkwo.com^
@@ -47336,6 +47352,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||crazyad.net^$popup,third-party
 ||curmaphow.club^$popup
 ||cutw.pro^$popup,third-party
+||cyan92010.com^$popup
 ||cyberlink.pro^$popup,third-party
 ||d0p21g2fep.com^$popup
 ||dagnar.com^$popup
@@ -47446,6 +47463,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||gdmconvtrck.com^$popup
 ||geras-con.com^$popup
 ||getalinkandshare.com^$popup
+||getalltraffic.com^$popup
 ||getmyads.com^$popup,third-party
 ||gfdfhdh5t5453.com^$popup
 ||giveaways.club^$popup
@@ -47790,6 +47808,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||promo-bc.com^$popup
 ||promo-market.net^$popup
 ||promotions.sportsbet.com.au^$popup
+||propbn.com^$popup
 ||propellerclick.com^$popup
 ||propellerpops.com^$popup
 ||protect-your-privacy.net^$popup
@@ -52625,7 +52644,7 @@ $popup,third-party,domain=loader.to|play.hydracdn.network|streamtape.com|vidclou
 ! regex to pickup ip-address popups
 /^https?:\/\/([0-9]{1,3}\.){3}[0-9]{1,3}/$popup,domain=0dt.net|123movies.net|adyou.me|bonstreams.net|briansarmiento.website|bro.adca.st|buzzfil.net|clik.pw|ddlvalley.me|firstrowsports.eu|flashsx.tv|flashx.co|flashx.me|flashx.sx|flashx.to|flashx.tv|gounlimited.to|itdmusic.com|janjua.pw|janjua.tv|kinox.to|opensubtitles.org|pirateproxy.live|rarbg.to|rarbgaccess.org|rarbgmirror.com|rarbgmirror.org|rarbgmirrored.org|rarbgproxy.org|rarbgprx.org|rarbgway.org|sawlive.tv|stream2watch.cc|sunmusiq.com|thehiddenbay.com|thepiratebay.vip|thepixstate.com|toros.co|unblocked.mx|unblocked.sh|unblocker.cc|uploadproper.com|uptobox.com|vidlox.me|vidtodo.me|vidup.me|vidup.tv|webfirstrow.eu|yts.gs|zooqle.com
 ! *** easylist:easylist_adult/adult_specific_block.txt ***
-/^https?:\/\/.*\/[a-z0-9A-Z]{2,15}\.(php|jx|jsx|1ph|jsf)/$image,script,subdocument,domain=4tube.com|alrincon.com|anysex.com|bdsmstreak.com|fantasti.cc|gfsvideos.com|openloadporn.co|orsm.net|porn-plus.com|shameless.com|spankbang.name|tnaflix.com|yourlust.com|zbporn.tv
+/^https?:\/\/.*\/[a-z0-9A-Z]{2,15}\.(php|jx|jsx|1ph|jsf)/$image,script,subdocument,domain=4tube.com|alrincon.com|anysex.com|bdsmstreak.com|bravotube.net|fantasti.cc|gfsvideos.com|openloadporn.co|orsm.net|porn-plus.com|shameless.com|spankbang.name|tnaflix.com|yourlust.com|zbporn.tv
 |http://$image,media,script,third-party,domain=~feedback.pornhub.com|~feedback.pornhubthbh7ap3u.onion|pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com
 |http://$image,script,third-party,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com
 |http://$image,xmlhttprequest,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com
@@ -52672,6 +52691,7 @@ $popup,third-party,domain=loader.to|play.hydracdn.network|streamtape.com|vidclou
 ||bigcock.one/worker.js
 ||bigtitsgallery.net/qbztdpxulhkoicd.php
 ||boysfood.com/d5.html
+||bravoteens.com/ta/
 ||bravotube.net/cc/
 ||bravotube.net^*/abbs.
 ||bravotube.net^*/clickback.
@@ -53040,6 +53060,8 @@ bentoneveningnews.com,dailyregister.com,dailyrepublicannews.com,duquoin.com,rand
 cricketnetwork.co.uk,f1network.net,howtogermany.com,rugbynetwork.net,thefootballnetwork.net,timesandstar.co.uk###billboard
 inquirer.net###billboard_article
 yp.com.kh###billboards
+seganerds.com###block-3
+seganerds.com###block-4
 webosnation.com###block-block-21
 slideme.org###block-block-31
 infoplease.com###block-ipabovethefold
@@ -55262,6 +55284,9 @@ darknetdaily.com##[href^="https://shop.ledger.com/"]
 winaero.com##[href^="https://winaero.com/idx.php"]
 cnx-software.com##[href^="https://www.amazon.com/"]
 mmorpg.com##[href^="https://www.blackdesertonline.com/"]
+seganerds.com##[href^="https://www.canadacasino.ca/"]
+seganerds.com##[href^="https://www.casinonic.com/"]
+seganerds.com##[href^="https://www.ewinracing.com/"]
 unknowncheats.me##[href^="https://www.iwantcheats.net/"]
 gamecopyworld.com,gamecopyworld.eu##[href^="https://www.kinguin.net/"]
 nwanime.tv##[href^="https://www.nutaku.net/signup/landing/"]
@@ -55909,6 +55934,7 @@ extremetube.com##._mapm_link_phone_sex
 extremetube.com##._mapm_link_premium
 sunporno.com##.a-block
 seductivetease.com##.a-center
+bravoteens.com##.a352
 de-sexy-tube.ru##.aBlock
 pornvideofile.com##.aWrapper
 namethatporn.com##.a_br
@@ -56005,6 +56031,7 @@ youtubelike.com##.bottom-thumbs
 youtubelike.com##.bottom-top
 tabletporn.com##.bottom_pos
 dixyporn.com##.bottom_spot
+bravotube.net##.box-left
 tube8.com##.box-thumbnail-friends
 worldsex.com##.brandreach
 bravotube.net##.brazzers
@@ -56072,6 +56099,7 @@ youx.xxx##.gallery-link
 youtubelike.com##.gallery-thumbs
 pichunter.com##.galleryad
 tallermaintenancar.com##.girl
+bravoteens.com,bravotube.net##.good_list_wrap
 tube8.com,tube8.es,tube8.fr##.gridBanner
 sexseeimage.com,yporn.tv##.happy-inside-player
 momxxxfun.com,sexseeimage.com##.happy-player-beside
@@ -56098,7 +56126,7 @@ pornicom.com##.info_row2
 cocoimage.com##.inner_right
 vivud.com,zmovs.com##.inplayer_banners
 anyporn.com##.inplb
-bravotube.net##.inplb3x2
+bravoteens.com,bravotube.net##.inplb3x2
 playvids.com,pornflip.com##.invideoBlock
 e-hentai.org##.itd[colspan="4"]
 babesandstars.com,definebabe.com,pornhubpremium.com##.join
@@ -56125,6 +56153,7 @@ dachix.com,dagay.com##.media-links
 peekvids.com##.mediaPlayerSponsored
 femefun.com##.media_spot_box
 tnaflix.com##.mewBlock
+sopornmovies.com##.mexu-bns-bl
 avn.com##.mfc
 online-xxxmovies.com##.middle-spots
 lic.me##.miniplayer
@@ -56236,6 +56265,7 @@ homo.xxx##.spot.column
 drtuber.com##.spot_button_m
 drtuber.com##.spots
 analsexstars.com##.sppc
+teenasspussy.com##.sqs
 pornstarchive.com##.squarebanner
 sexyandshocking.com##.sub-holder
 peepinghunter.com,simply-hentai.com##.superbanner
