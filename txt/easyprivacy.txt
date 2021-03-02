@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 9iiMbMuLgZQy1AY5ppwfvQ
-! Version: 202102281211
+! Checksum: 2KDsn/bcnmonaXOmNQ2x6A
+! Version: 202103020931
 ! Title: EasyPrivacy
-! Last modified: 28 Feb 2021 12:11 UTC
+! Last modified: 02 Mar 2021 09:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1918,6 +1918,7 @@
 /fdlogger.
 /fdlogger/*
 /fe/track/*
+/fe_logger?
 /federated-analytics.
 /figanalytics.
 /figanalytics/*
@@ -3126,6 +3127,7 @@
 /omnidiggthis|
 /omnipagetrack.
 /omniture-app-measurement.
+/omniture-scode-prod.
 /omniture-visitorapi.
 /omniture.*&ref=
 /omniture.do;$image
@@ -11163,6 +11165,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dreamhost.com/*.cgi?$image,third-party
 ||drift.com/impressions/
 ||drift.com/track
+||drlimmode9ddd.cloudfront.net^
 ||dt1pxsve3tgas.cloudfront.net^
 ||dtym7iokkjlif.cloudfront.net/dough/
 ||du4rq1xqh3i1k.cloudfront.net^
@@ -14641,6 +14644,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||intercom.io/messenger/web/metrics
 ||internetslang.com/jass/$script
 ||intg.snapchat.com^
+||intuitcdn.net/analytics/
+||intuitvisitorid.api.intuit.com^
 ||investegate.co.uk/Weblogs/IGLog.aspx?
 ||iono.fm/tracking?
 ||ip-adress.com/gl?r=
@@ -18239,6 +18244,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||hitfile.net/platform/js/fdlogger/fdlogger.js$script,~third-party
 @@||hmhco.com/one/js/conf/trackjs.config.$script,~third-party,xmlhttprequest
 @@||hobbyking.com^*/gtm.js$script,~third-party
+@@||homedepotrebates11percent.com/js/third-party/angulartics-google-analytics/dist/angulartics-ga.min.js$script,~third-party
 @@||hopx.cedexis.com^$xmlhttprequest,domain=play.aetv.com|play.history.com|play.mylifetime.com
 @@||hscta.net/cta/current.js$script,domain=aucfan.com
 @@||i-scmp.com/production/mixpanel.$domain=scmp.com
@@ -18314,6 +18320,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||nike.com^*/optimizely.browser.umd.min.js$script,~third-party
 @@||nintendo.com/apps/noa/scripts/analytics.js
 @@||noaa.gov/maps/resources/scripts/ga.js$script,~third-party
+@@||noodid.ee/chordQuiz/$~third-party
 @@||nyt.com/analytics/json-$script,domain=nytimes.com
 @@||nyt.com/bi/js/tagx/tagx.js$domain=nytimes.com
 @@||nytimes.com^*/EventTracker.js
@@ -18730,6 +18737,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 !
 @@||argep.hu/googleanalytics.js
 @@||clicktale.net/WRc5.js$domain=telefonkonyv.hu
+@@||ingest.sentry.io/api/$xmlhttprequest,domain=tesco.hu
 @@||rtl.hu/javascripts/UserTracking.js
 @@||rtl.hu^*/gemius_id.js?
 !
