@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 2KDsn/bcnmonaXOmNQ2x6A
-! Version: 202103020931
+! Checksum: NFxgDjerV/QXiWem8ZILFQ
+! Version: 202103030851
 ! Title: EasyPrivacy
-! Last modified: 02 Mar 2021 09:31 UTC
+! Last modified: 03 Mar 2021 08:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -16095,6 +16095,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wellsfargo.com/tracking/
 ||wellsphere.com/?hit=
 ||whatcar.com/Client/Stats/
+||whatleaks.com/check_ports/?
 ||whistleout.com.au/track
 ||whstatic.com^*/ga.js?
 ||wikihow.com/ev/*?events=
@@ -16304,6 +16305,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ebaystatic.com^*/g52yxhxv2mzcbealmlkri4kn5av.js$script,domain=ebay.com
 ||eddiebauer.com/resource/
 ||finishline.com/fufhpqdn/
+||fredmeyer.com/kkhepdqgay/
 ||groupon.com/resource/
 ||kohls.com/libraries/
 ||localhost^$third-party,domain=globo.com
@@ -16551,7 +16553,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||twch.20min.ch^
 ||vg247.com/wp-content/themes/vg247/scripts/mvg247-fsm.js
 ! CNAME
-||klaviyo.map.fastly.net^
 ! Eulerian
 ||0sbm.consobaby.co.uk^
 ||319dn.dieti-natura.com^

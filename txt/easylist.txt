@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BB9YUNXfNx1x3cmsPkfa5g
-! Version: 202103020930
+! Checksum: t48SFRZx53qQlzQ2yr7MBA
+! Version: 202103030850
 ! Title: EasyList
-! Last modified: 02 Mar 2021 09:30 UTC
+! Last modified: 03 Mar 2021 08:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3164,7 +3164,7 @@
 /adsreporting/*
 /adsresources/*
 /adsrich.
-/adsright.
+/adsright.$domain=~adsright.pl
 /adsrot.
 /adsrot2.
 /adsrotate.
@@ -24559,7 +24559,10 @@ _popunder+$popup
 ##.dm-ads-350
 ##.dmRosAdBody
 ##.dmRosMBAdBox
+##.dm_ad
 ##.dm_ad-container
+##.dm_ad-halfpage
+##.dm_ad300x620
 ##.dmco_advert_iabrighttitle
 ##.dmpu-ad
 ##.dn-ad-small
@@ -26979,6 +26982,11 @@ _popunder+$popup
 ##.newsvinemsn_adtype
 ##.nexusad
 ##.nf-adbox
+##.nfy-ad
+##.nfy-ad-teaser
+##.nfy-ad-tile
+##.nfy-ad-wrapper
+##.nfy-col-ad
 ##.ng-ad-banner
 ##.ng-ad-container-300-250
 ##.ngs-adv-async
@@ -27134,6 +27142,7 @@ _popunder+$popup
 ##.ozadtop
 ##.ozadtop3
 ##.p-ad
+##.p-ad-block
 ##.p-ad-outbreak
 ##.p-ad-rectangle
 ##.p-post-ad
@@ -27392,6 +27401,7 @@ _popunder+$popup
 ##.portalcontentad
 ##.pos_advert
 ##.position-ads
+##.post--native-ad
 ##.post-ad
 ##.post-ads
 ##.post-adsense-bottom
@@ -31894,9 +31904,6 @@ africasports.net,bakersfield.com,cheatpain.com,diplomat.so,directwonen.nl,dramac
 anisearch.com#@#.chitikaAdBlock
 theladbible.com#@#.content_tagsAdTech
 topzone.lt#@#.forumAd
-localeyes.dk#@#.pub_300x250
-localeyes.dk#@#.pub_300x250m
-localeyes.dk#@#.pub_728x90
 soschildrensvillages.ca#@#.section-sponsor
 localeyes.dk#@#.text-ad
 localeyes.dk#@#.text-ad-links
@@ -36632,6 +36639,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||llajhfzpoxhr.com^
 ||lledcorfinni.club^
 ||llerscover.top^
+||llhrardbu.com^
 ||llhshirhrbkn.com^
 ||llisthonolialate.club^
 ||lllgavbgnmcbf.com^
@@ -37332,6 +37340,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ni6cdwf6w5xr.com^
 ||niaagentl.top^
 ||niazlhvok.com^
+||nibagsukpgndj.com^
 ||nibzitgas.com^
 ||nicevideos.xyz^
 ||nichools.com^
@@ -38460,6 +38469,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||qrcvlmxqu.com^
 ||qreoifgajnoor.com^
 ||qreparaguaq.club^
+||qrezvwhtppiv.com^
 ||qrindfqrd.com^
 ||qrirufliyj.com^
 ||qrksjrjppkam.com^
@@ -39762,6 +39772,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||tificanaccou.top^
 ||tifybecausingp.info^
 ||tightsaturdayi.com^
+||tiglesoshi.pro^
 ||tilltucked.com^
 ||timbercooling.com^
 ||time4news.net^
@@ -41489,6 +41500,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||zpwqnicvzi.com^
 ||zpxgdlqoofx.com^
 ||zqeqclcfdc.com^
+||zqibmiotpxfk.com^
 ||zqiknimzmcoedq.com^
 ||zqmnjxpavnpe.com^
 ||zqmxzjrhchg.com^
@@ -42207,6 +42219,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||adtgs.com^$third-party
 ||adthebest.online^$third-party
 ||adthrive.com^$third-party
+||adthurst.com^$third-party
 ||adtival.com^$third-party
 ||adtival.network^$third-party
 ||adtoadd.com^$third-party
@@ -51577,6 +51590,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ad.search.ch^
 ||ad.spreaker.com^
 ||adaderana.lk/banners/
+||adblock-tester.com/banners/
 ||addirector.vindicosuite.com^
 ||adf.ly/*.php?u=$script
 ||adf.ly/external/*/int.php
@@ -55520,6 +55534,7 @@ whatmobile.com.pk##div[style^="height:610px"]
 napuzba.com##div[style^="width:336px"]
 gta3.com,gtagarage.com,gtasanandreas.net,myanimelist.net,pastebin.com##div[style^="width:728px;"]
 ebay.com##div[title="ADVERTISEMENT"]
+adblock-tester.com##embed[width="240"]
 xtremesystems.org##embed[width="728"]
 imgburn.com##font[face="Arial"][size="1"]
 realitytvworld.com##font[size="1"][color="gray"]
@@ -55559,6 +55574,7 @@ thedailysheeple.com##img[width="560"]
 autoaction.com.au,elitepvpers.com,irishcatholic.com##img[width="728"]
 elitepvpers.com##img[width="968"]
 broadbandforum.co##ins[data-ad-client]
+adblock-tester.com##object[width="240"]
 monova.org##script + [class] > [class]:first-child
 bbc.com##section[data-e2e="advertisement"]
 tempostorm.com##side-banners
@@ -55751,7 +55767,15 @@ multiup.eu,multiup.org#?#.col-md-4:-abp-contains(Usenet.nl)
 multiup.eu,multiup.org#?#.trtbl:-abp-has(.warnIp)
 nex-software.com#?#.toolinfo:-abp-has(a[href$="/reimage"])
 nex-software.com#?#h4:-abp-has(a[href$="/reimage"])
-pinterest.com#?#.PinRep :-abp-has(div[data-test-id="oneTapPromotedPin"])
+pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Anzeige von"])
+pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Promocionado por"])
+pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Promoted by"])
+pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Promowane przez"])
+pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Publicidade de"])
+pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Sponsor:"])
+pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Sponsorisée par"])
+pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Sponsorizzato da"])
+pinterest.at,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]:-abp-has(div[title="Рекламодатель:"])
 quora.com#?#.question_page_content:-abp-has(div:-abp-contains(ad))
 quora.com#?#.question_page_content:-abp-has(div:-abp-contains(promoted))
 qwant.com#?#.result:-abp-has(.url:-abp-has(.info))
@@ -57461,7 +57485,7 @@ www.google.com#@##videoads
 @@/redirect.aspx?pid=$popup,domain=askgamblers.com|betbeaver.com|casinobonus24.se|casinosonline.co.uk|gamble.co.uk|gokkeninonlinecasino.nl|internetcasinot.com|onlinecasinos.co.uk|sportsfavoritesodds.com|sportsgo365.com
 @@/tracking.php?*&pid=$popup,domain=casinobonus24.se
 @@^utm_source=aff^$popup,domain=gamble.co.uk|gokkeninonlinecasino.nl|top5casinosites.co.uk
-@@|data:text^$popup,domain=box.com|labcorp.com|zipit.io
+@@|data:text^$popup,domain=atspace.cc|box.com|clker.com|labcorp.com|zipit.io
 @@||888casino.com^$popup,domain=casinobonus24.se|casinosonline.co.uk|onlinecasinos.co.uk
 @@||ad.doubleclick.net/ddm/$popup,domain=billiger.de|guide-epargne.be|mail.yahoo.com|nytimes.com|spaargids.be
 @@||ad.doubleclick.net/ddm/clk/*http$popup
