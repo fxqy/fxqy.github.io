@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: NFxgDjerV/QXiWem8ZILFQ
-! Version: 202103030851
+! Checksum: TP1gSdullkIXbXtdsCkmRQ
+! Version: 202103040751
 ! Title: EasyPrivacy
-! Last modified: 03 Mar 2021 08:51 UTC
+! Last modified: 04 Mar 2021 07:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1311,6 +1311,7 @@
 /clicktale.
 /clicktale/*
 /clicktale_
+/clicktalecdn.
 /ClickTaleFilter.
 /clicktrack-*.gif?
 /ClickTrack.
@@ -1761,6 +1762,7 @@
 /elqnow/*
 /elqscr.js
 /elqtracking.
+/elqtrk.
 /elt.gif?
 /eluminate?
 /email/track/*$image
@@ -6956,6 +6958,7 @@ _mongo_stats/
 ||getrockerbox.com^$third-party
 ||getsmartcontent.com^$third-party
 ||getsmartlook.com^$third-party
+||getstat.net^$third-party
 ||getstatistics.se^$third-party
 ||getviously.com^$third-party
 ||gez.io^$third-party
@@ -8763,6 +8766,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||foxpush.com^$third-party
 ||foxpush.net^$third-party
 ||getback.ch^$third-party
+||getpush.net^$third-party
 ||getpushmonkey.com^$third-party
 ||getsupernova.com^$third-party
 ||gravitec.net^$third-party
@@ -16095,7 +16099,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wellsfargo.com/tracking/
 ||wellsphere.com/?hit=
 ||whatcar.com/Client/Stats/
-||whatleaks.com/check_ports/?
 ||whistleout.com.au/track
 ||whstatic.com^*/ga.js?
 ||wikihow.com/ev/*?events=
@@ -16242,6 +16245,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||zylom.com^*/global_tracking.jsp?
 ||zylom.com^*/tracking_spotlight.js
 ||zytpirwai.net/track/
+! whatleaks.com
+||dns.whatleaks.com^
+||p0f.whatleaks.com
+||whatleaks.com/check_ports/?
 ! TraceDock
 ||apollo.plein.be^
 ||app1.maatwerkonline.nl^
@@ -16289,36 +16296,13 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /^https?:\/\/www\.kroger\.com\/content\/{20,}/$script,xmlhttprequest,domain=kroger.com
 /^https?:\/\/www\.myservices\.equifax\.ca\/TSPD\/[0-9a-f]{30,}/$script,domain=equifax.ca
 ||127.0.0.1^$third-party,domain=ameriprise.com|beachbody.com|chick-fil-a.com|citi.com|ebay-kleinanzeigen.de|ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|equifax.ca|equifax.com|globo.com|gumtree.com|lendup.com|mbna.ca|rusneb.ru|sciencedirect.com|sky.com|spectrum.net|td.com|tiaa.org|vedacheck.com|wepay.com|whatleaks.com
-||academy.com/webcontent/
 ||all3dp.com/kbcbqexpqvz8wrk88augy7b.js
-||att.com/public/
-||backcountry.com/clientlibs/
-||bestbuy.com/resource/
-||bmoharris.com/staticweb/
-||buybuybaby.com/content/
-||cibc.com/clientlibs/
-||discover.com/staticweb/
-||discovercard.com/clientlibs/
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
 ||ebaystatic.com/rs/v/c1dlnarusayhflyyibse05hqqm2.js
 ||ebaystatic.com^*/10341xh50yz21mhhydueu4m5wad.js$script,domain=ebay.com
 ||ebaystatic.com^*/g52yxhxv2mzcbealmlkri4kn5av.js$script,domain=ebay.com
-||eddiebauer.com/resource/
-||finishline.com/fufhpqdn/
-||fredmeyer.com/kkhepdqgay/
-||groupon.com/resource/
-||kohls.com/libraries/
-||localhost^$third-party,domain=globo.com
-||macys.com/clientlibs/
-||marshalls.com/staticweb/
-||mouser.com/staticweb/
 ||pages.ebay.com/identity/device/$subdocument
-||pnc.com/contents/
-||publix.com/webcontent/
-||sierra.com/resource/
 ||src.ebay-us.com/*=usllpic$script,domain=ebay.com
-||staples.com/yuolsoiifpm/
-||usbank.com/publicwww/
 ! genieesspv https://github.com/easylist/easylist/issues/6471
 /^https?:\/\/js.*\/t\/[0-9]{3}\/[0-9]{3}\/[a-z0-9]{7,8}\.js/$script,third-party
 ! Fingerprint
@@ -18131,7 +18115,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||cdn-ds.com/analytics/sockjs.js$script,domain=tuttleclickgenesis.com
 @@||cdn-net.com/cc.js$script,domain=uber.com|ubereats.com
 @@||cdn.optimizely.com/js/*.js$domain=compassion.com|creditsesame.com|freeshipping.com|heroku.com|historyvault.com|imageshack.com
-@@||certona.net^*/scripts/resonance.js$script,domain=canadiantire.ca
+@@||certona.net^*/scripts/resonance.js$script,domain=canadiantire.ca|finishline.com
 @@||changenow.io/js/tracking.js$script
 @@||chasecdn.com^*/@ccb-blueanalytics/$script,domain=chase.com
 @@||check.ddos-guard.net/check.js$script
