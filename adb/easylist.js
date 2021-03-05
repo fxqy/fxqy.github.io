@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ruwio7QXpvL5HX0kMyMgxg
-! Version: 202103040750
+! Checksum: itUMFFc0xTRP35Zq5/Oqew
+! Version: 202103051020
 ! Title: EasyList
-! Last modified: 04 Mar 2021 07:50 UTC
+! Last modified: 05 Mar 2021 10:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -23878,6 +23878,7 @@ _popunder+$popup
 ##.c-ad--unlabeled
 ##.c-ad-size2
 ##.c-ad-size3
+##.c-adSense
 ##.c-adcontainer
 ##.c-adunit
 ##.c-adunit--billboard
@@ -30704,6 +30705,7 @@ _popunder+$popup
 ##aside[itemtype="https://schema.org/WPAdBlock"]
 ##bottomadblock
 ##div[aria-label="Ads"]
+##div[cel_widget_id="dpx-sponsored-products-detail_csm_instrumentation_wrapper"]
 ##div[class*="-storyBodyAd-"]
 ##div[class*="_AdInArticle_"]
 ##div[class*="_browserAdOuterContainer_"]
@@ -34032,6 +34034,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||data-data-vac.com^
 ||datedissyuk.icu^
 ||dateregionsmadman.com^
+||dateszone.net^
 ||dating2cloud.org^
 ||daugloon.net^
 ||dauntlessomelette.com^
@@ -49415,6 +49418,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||beachcamera.com/assets/banners/
 ||beauties-of-ukraine.com/export.js
 ||bee4.biz/banners/
+||beget.tech/cpatracker/
 ||bemyapp.com/trk/$third-party
 ||bergen.com^*/sponsoredby-
 ||besthosting.ua/banner/
@@ -56657,6 +56661,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||bannersnack.net^$domain=bannersnack.com
 @@||basinnow.com^*/advertise-$image,domain=basinnow.com
 @@||bbc.co.uk^*/adverts.js
+@@||bbc.gscontxt.net^$script,domain=bbc.com
 @@||bigfishaudio.com/banners/$image
 @@||bitcoinbazis.hu/advertise-with-us/$~third-party
 @@||blizzardwatch.com^*/bw-ads.js
