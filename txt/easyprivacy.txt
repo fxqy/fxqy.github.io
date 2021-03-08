@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 6oFADgA8ZtOdJDB03N9UOw
-! Version: 202103070941
+! Checksum: bzIxS50NiH/Oak4vJIBZGA
+! Version: 202103081031
 ! Title: EasyPrivacy
-! Last modified: 07 Mar 2021 09:41 UTC
+! Last modified: 08 Mar 2021 10:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4412,6 +4412,7 @@
 /track?page_view
 /track?pid=
 /track?referer=
+/track?referrer=
 /track?scroll_view
 /Track?trackAction=
 /track?ts=*&domain=
@@ -6386,6 +6387,7 @@ _mongo_stats/
 ||coremotives.com^$third-party
 ||cost1action.com^$third-party
 ||countby.com^$third-party
+||counter.dev^$third-party
 ||counter.gd^$third-party
 ||counter.top.kg^$third-party
 ||counter160.com^$third-party
@@ -8987,6 +8989,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||afraidlanguage.com^$third-party
 ||agreeabletouch.com^$third-party
 ||aheadday.com^$third-party
+||aheadmachine.com^$third-party
 ||alikeaddition.com^$third-party
 ||aliveachiever.com^$third-party
 ||allowmailbox.com^$third-party
@@ -13109,6 +13112,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ad.daum.net^
 ||affiliate.rakuten.co.jp^$script
 ||analysis.shinobi.jp^
+||analytics.contents.by-fw.jp^
 ||analytics.liveact.cri-mw.jp^
 ||analyzer51.fc2.com^
 ||asumi.shinobi.jp^
@@ -14592,6 +14596,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||log.optimizely.com^
 ||log.player.cntv.cn/stat.html?
 ||log.prezi.com^
+||log.quora.com^
 ||log.snapdeal.com^
 ||log.webnovel.com^
 ||logg.kiwi.com^
