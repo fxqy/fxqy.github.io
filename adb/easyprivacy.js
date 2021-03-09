@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: bzIxS50NiH/Oak4vJIBZGA
-! Version: 202103081031
+! Checksum: /pYdBCwG0ahHEhfQbUM9bA
+! Version: 202103091041
 ! Title: EasyPrivacy
-! Last modified: 08 Mar 2021 10:31 UTC
+! Last modified: 09 Mar 2021 10:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -8327,7 +8327,6 @@ _mongo_stats/
 ||vbanalytics.com^$third-party
 ||vdna-assets.com^$third-party
 ||veduy.com^$third-party
-||vee24.com^$third-party
 ||veille-referencement.com^$third-party
 ||veinteractive.com^$third-party
 ||velaro.com^$third-party
@@ -9914,6 +9913,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||seesaa.jp^$third-party
 ||segs.jp^$third-party
 ||sibulla.com^$third-party
+||smart-bdash.com^$third-party
 ||smart-counter.net^$third-party
 ||smartnews-ads.com^$third-party
 ||socdm.com^$third-party
@@ -10338,7 +10338,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||amazonaws.com/prod/main?ref=$image,third-party
 ||amazonaws.com/prod/report-only
 ||amazonaws.com/production_beacon
-||amazonaws.com/production|$third-party,xmlhttprequest,domain=~amazon.com
 ||amazonaws.com/searchdiscovery-satellite-production/
 ||amazonaws.com/statics.reedge.com/
 ||amazonaws.com/wgntrk/
@@ -12232,6 +12231,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.fits.me^$third-party
 ||tracking.g2crowd.com^
 ||tracking.godatafeed.com^
+||tracking.hivecloud.net^
 ||tracking.html5games.com^
 ||tracking.interweave.com^$third-party
 ||tracking.jotform.com^
@@ -12362,6 +12362,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vast.com/vimpressions.js$third-party
 ||vcita.com/tr_
 ||vdo.ai/core/logger.php?
+||vee24.com/c/PageBehaviour?
 ||veeseo.com/tracking/
 ||ventunotech.com/beacon/
 ||venturify.at/pixel/
@@ -15276,6 +15277,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sourceforge.net/log/
 ||sourcepoint.dexerto.com^
 ||sourcepoint.vice.com^$image
+||sourcesync.io/analytics|
 ||sovereignbank.com/utils/track.asp
 ||sp-mms.weather.com^
 ||sp.app.com^
@@ -21261,6 +21263,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||segment.io/analytics.js/*/analytics.min.js$script
 @@||segment.io/v1/$xmlhttprequest,domain=greentoe.com
 @@||serve-ts.amagi.tv^*/beacon?$xmlhttprequest,domain=watch.truecrimenetworktv.com
+@@||shopify.com/*assets/pixel.gif$image,domain=metrovac.com
 @@||siteapps.caa.co.uk/scripts/plugins/analytics/ga.min.js$script,~third-party
 @@||smartclient.com/smartclient/isomorphic/system/modules/isc_analytics.js$xmlhttprequest
 @@||solr.sas.com/query/$xmlhttprequest,domain=jmp.com
