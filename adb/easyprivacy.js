@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 7BI42gME+EyJfacqoJBBzg
-! Version: 202103101011
+! Checksum: hWZdqZLJ1TRP20UcE/g6Ig
+! Version: 202103111051
 ! Title: EasyPrivacy
-! Last modified: 10 Mar 2021 10:11 UTC
+! Last modified: 11 Mar 2021 10:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5504,6 +5504,7 @@ cgi-bin/counter
 .list-manage.com/track/
 .members.babbel.com/mo/
 .ne16.com/do/
+.pstmrk.it/open/
 .publish0x.com/t/
 .sendcloud.net/track/
 .sendibm1.com/mk/
@@ -5814,6 +5815,7 @@ _mongo_stats/
 ||g6734867390.co^
 ||g6932951725.co^
 ||g7131036060.co^
+||g7329120395.co^
 ||mors22.com^
 ||nxakpj4ac8gkd53.info^
 ||propeller-tracking.com^
@@ -7547,7 +7549,6 @@ _mongo_stats/
 ||perfectaudience.com^$third-party
 ||perfiliate.com^$third-party
 ||perfops.io^$third-party
-||perfops.net^$third-party
 ||performanceanalyser.net^$third-party
 ||performancerevenues.com^$third-party
 ||performtracking.com^$third-party
@@ -7739,7 +7740,6 @@ _mongo_stats/
 ||reliablecounter.com^$third-party
 ||relmaxtop.com^$third-party
 ||remailtarget.com^$third-party
-||remarketingpixel.com^$third-party
 ||remarketstats.com^$third-party
 ||remind.me^$third-party
 ||rep0pkgr.com^$third-party
@@ -10487,7 +10487,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||arclk.net/trax?
 ||areyouahuman.com/kitten?
 ||argos.citruserve.com^
-||ariane.abtasty.com^$third-party
+||ariane.abtasty.com^
 ||asayer.io/tracker.js
 ||aserve.directorym.com^
 ||ask.com^*/i.gif?
@@ -10954,7 +10954,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||data.studybreakmedia.com^
 ||data.woosmap.com^
 ||data2.gosquared.com^$third-party
-||datacollect*.abtasty.com^$third-party
 ||datadog-service.mvfglobal.com^
 ||daumcdn.net/tiara/
 ||daxab.com/logger/
@@ -11870,7 +11869,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rum.conde.io^
 ||rum.minutemediaservices.com^
 ||rum.nccgroup-webperf.com^
+||rum.perfops.net^
 ||rum.uptime.com^$third-party
+||rum.vhwrz.net^
 ||rva.outbrain.com^
 ||s-microsoft.com/mscc/$~stylesheet
 ||s-vop.sundaysky.com^$third-party
@@ -11933,6 +11934,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sitefinity.com/collect/
 ||skimresources.com/api/ref-banners.js
 ||skysa.com/tracker/
+||slgnt.us/track
 ||sli-spark.com/b.png$third-party
 ||slidedeck.com^$image,third-party
 ||smartertravel.com/ext/pixel/
@@ -12314,7 +12316,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trustedform.com/trustedform.js?provide_referrer
 ||trustpilot.com/stats/
 ||trustsquare.net/trafficmonitor/
-||try.abtasty.com^$third-party
+||try.abtasty.com^
 ||ts.tradetracker.net^
 ||tsk5.com/17*?*=ex-
 ||ttdetect.staticimgfarm.com^
@@ -21043,6 +21045,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||dplay.com^*/comscore.streaming.min.js
 @@||dplay.com^*/google_analytics.js
 @@||dpm.demdex.net/id?$xmlhttprequest,domain=foxnews.com
+@@||dropboxstatic.com/static/js/modules/clean/ux_analytics/$script,domain=dropbox.com
 @@||dw.cbsi.com/anonc.js$domain=gamespot.com|giantbomb.com
 @@||dw.com.com/js/dw.js$domain=cbsnews.com|gamespot.com|tv.com
 @@||dynamicyield.com/api/$script,domain=croma.com|fendi.com|flytap.com|thewarehouse.co.nz|zalora.com.my|zalora.com.ph|zalora.sg
@@ -21495,7 +21498,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 !
 !---------- French ----------
 !
-@@||abtasty.com/datacollectHeatmap.php$xmlhttprequest,domain=cdiscount.com
 @@||actiris.be/urchin.js
 @@||adobedtm.com^*/mbox-contents-$script,domain=fcbarcelona.fr
 @@||adobedtm.com^*/satelliteLib-$script,domain=fcbarcelona.fr|icimusique.ca|laredoute.be|laredoute.ch|laredoute.fr|lci.fr|nrj.fr|tou.tv
