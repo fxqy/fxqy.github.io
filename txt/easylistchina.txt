@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: I+RrqMNlLF55q1f+X8iqjQ
-! Version: 202103111042
+! Checksum: MmX80h+RJ6xUT4CgCt5Z2w
+! Version: 202103120912
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last Modified: 11 Mar 2021 10:42 UTC
+! Last Modified: 12 Mar 2021 09:12 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
@@ -15,6 +15,11 @@
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
 -880-80-4.jpg
+.com/dm/ahead.js
+.com/dm/banner.js
+.com/dm/bofangshang.js
+.com/dm/bofangxia.js
+.com/dm/dibu.js
 -90mh-gg.
 .bid/ads/
 .cam/ads/
@@ -1182,6 +1187,7 @@ _xiuno_com_ad/
 .8ox.cn
 ||3336673.com^
 ||3338877.com^
+||simaoer.com^
 ||2lian.com^$third-party
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
@@ -3633,6 +3639,7 @@ $popup,third-party,domain=76fengyun.com|88files.net|99files.net|avsdown.com|down
 .189.gd^*.html?p=$popup,third-party
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
+||mm786.com^$popup,third-party
 /BadwebRemindPage.aspx?param=$popup,third-party
 /hndxweb/push$popup,third-party
 /htmm/20*.php$popup
@@ -7992,7 +7999,6 @@ _yad_jsonp_
 ||upantool.com/a/
 ||upload.cc^$domain=141jj.com|mizhiav.com
 ||uploadhouse.com^*.gif$domain=wishct.com
-||uploads.duapp.com^$domain=52vip.net
 ||usnewsexpress.com/wp-content/uploads/*ad-
 ||usxpic.com/bit2019/upload/image/20191125/11251039541.gif
 ||usxpic.com/bit2019/upload/image/20191125/11251039542.gif
@@ -8011,7 +8017,6 @@ _yad_jsonp_
 ||uzzf.com/skin/know/
 ||v.beta.yinyuetai.com/swf/plugins_new.xml?
 ||v2rayssr.com/wp-content/plugins/eazy-
-||v4.cc/m/common.js
 ||v4dwkcv.com/html/click/
 ||v5pc.com/static/images/dn
 ||vansky.com/agdg/homegg/
@@ -8037,7 +8042,6 @@ _yad_jsonp_
 ||videowood.me/assets/js/popup.js
 ||videowood.tv/popjavascript
 ||vip.luanren.com/data/*.gif
-||vipbuluo.com/2/123.png
 ||vipcn.com/hezuo/
 ||vipcn.com/hz/down_r.js
 ||vipcn.com/js/indexfoot.js
@@ -8665,6 +8669,9 @@ _yad_jsonp_
 ||picsuperfast.xyz/imageUpload/images/*AD_
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+159i.com###sop > DIV:first-child
+vpsmm.com##.sidebarx
+vpsmm.com##DIV[id^="topads"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -9000,7 +9007,7 @@ hao.360.com###bottom_hotsite
 badmintoncn.com###bottomad_big
 kdhome.net###bottomadv
 coolhii.com###bottommob
-jijidy.com,vzhuan.cn###box
+jijidy.com###box
 50sen.com###box-ads
 mcdulll.com,mcdulll.pixnet.net###box1290930
 mcdulll.com,mcdulll.pixnet.net###box1989082
@@ -14115,6 +14122,7 @@ fjsen.com,nuomi.com#@#.right-ad
 perfectmatch.tw#@#.right_ad
 360zbz.com#@#.rightad
 zdface.com#@#.top-ad
+qqaiqin.com#@#.ad_468
 andylain.com,bee.coupons,blogspot.com,blogspot.hk,blogspot.jp,blogspot.tw,comic.tw,jasonblog.tw#@#.vertical-ads
 i-cable.com#@#.video_ad
 bitauto.com,yinyuetai.com#@#a[href^="http://ad.doubleclick.net/"]
@@ -16069,6 +16077,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||libs.baidu.com^$domain=138txt.com|18xs.org|1biqu.com|1kanshu.cc|230book.com|23hh.com|23txt.com|23wxx.com|258zw.com|266ks.com|27xsw.com|2baob.com|30sy.com|33yq.com|37zw.la|39shubao.com|3yt.com|477zw.com|52biquge.com|5ccc.tw|81zw.me|877zw.com|99mk.com|99shumeng.net|aikantxt.la|aixswx.com|aomolit.com|aoyuge.com|balingtxt.com|baoshuu.com|biqiuge8.com|biqubao.com|biqudu.tv|biquduo.com|biquga.com|biquge.com.cn|biquge.lu|biquge.tv|biquge11.com|biquge98.net|biqugecd.com|biqugego.com|biqugemm.com|biqugesc.com|biqusan.com|biquyi.com|bixia.org|bodekang.net|boluoxs.com|bookbao.org|botaodz.com|bqkan.com|bshuku.com|bswtan.com|bxwx.org|bxwx.tw|bxwx8.la|bxwxorg.com|clewx.com|damengzhu1.com|dashenxiaoshuo.com|day66.com|ddxs0.com|ddxsku.com|dushuge.net|farpop.com|fbxsw.com|gdbzkz.com|guaili.org|hatxt.com|hbfie.org|hehuamei.com|heikexs.com|heiyanwang.com|hongyeshuzhai.com|hybiquge.com|iddwx.com|imiaobige.com|ishisetianxia.com|ixiatxt.com|ixs.la|jianlaixiaoshuo.com|jinshulo.com|jx.la|kkbiqu2.com|liewen.la|lindiankanshu.cc|liudatxt.com|loubiqu.com|lwtxt.net|lwxstxt.com|mhtwx.la|mubige.com|paoshu8.com|paoshuzw.com|pfwx.com|piaotianxs.com|ppskw.com|qbxs8.net|qianrenge.cc|qishusk.com|quge6.com|quledu.net|qushuba.com|rmxsba.com|shu008.com|shuhaiwu.com|shumil.co|siluke.tv|siluwx.org|sizhicn.com|skyzww.com|soxscc.com|tangsanshu.com|thxsw.com|ttzw.tv|tutengzw.com|txshuku.la|u33.me|uidzhx.com|v63xs.com|vipsk.org|wanwenhui.com|wenxuem.com|wrlwx.com|x23us.me|x81zw.com|xbiqugecc.com|xbiqugew.net|xbiquke.com|xbqge.net|xcmxsw.com|xdingdiann.com|xieyixs.com|xinshuhaige.com|xinxs.la|xs5200.com|xs98.com|xsbiqu.com|xsbiqugew.com|xsbooktxt.com|xsqishu.com|xsw55.net|xszww.com|xuanshu.com|xuehongxs.com|xyusk.com|yawenb.com|yikanxiaoshuoa.com|yq-888.com|yruan.com|yssm.info|yunxs.com|zbzw.la|zhnxcw.com|zhuaji.org|zmccx.com|zwdu.com|zzs5.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||2gz9nc.cn^
+||youpukeji.cn^
 bxwx3.org###addiv3
 bxwx3.org###bdstatic
 55shuba.com###botDiv
