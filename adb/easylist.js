@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ffGJch3SphTzZaRPQ0dU0w
-! Version: 202103120920
+! Checksum: F0XwUnKDRKA1cgoPXRRjyA
+! Version: 202103130921
 ! Title: EasyList
-! Last modified: 12 Mar 2021 09:20 UTC
+! Last modified: 13 Mar 2021 09:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -12460,6 +12460,7 @@ _popunder+$popup
 ###adv-Middle2
 ###adv-Scrollable
 ###adv-Top
+###adv-TopLeft
 ###adv-banner
 ###adv-box
 ###adv-comments-placeholder
@@ -19595,6 +19596,7 @@ _popunder+$popup
 ##.adAuto
 ##.adBGcolor
 ##.adBan
+##.adBanner--outer
 ##.adBanner300x250
 ##.adBanner728x90
 ##.adBannerTyp1
@@ -30611,6 +30613,7 @@ _popunder+$popup
 ##a[href^="https://my-movie.club/"]
 ##a[href^="https://myusenet.xyz/"]
 ##a[href^="https://offerforge.net/"]
+##a[href^="https://offers.refchamp.com/"]
 ##a[href^="https://playuhd.host/"]
 ##a[href^="https://porndeals.com/?track="]
 ##a[href^="https://porngames.adult/?SID="]
@@ -34703,6 +34706,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||enerableoffi.club^
 ||enfvikirzwt.com^
 ||engaedo8.com^
+||enginedriverflexible.com^
 ||engingalon.top^
 ||englingedrxa.club^
 ||engppdoqrtivjd.com^
@@ -36069,6 +36073,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||insomn.pro^
 ||instahookupclub2.com^
 ||instahookupclub3.com^
+||installationtray.com^
 ||installsbarefootedringer.com^
 ||installssmashedbab.com^
 ||instantresp.com^
@@ -36906,6 +36911,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||maintawrte.club^
 ||maipoted.com^
 ||makeupworddisparage.com^
+||makzidhq.com^
 ||malharpossible.pro^
 ||malharvoice.pro^
 ||mallowsmother.com^
@@ -36990,6 +36996,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||mduinqxgi.com^
 ||mdwvwbyvqh.com^
 ||meajnbdavp.com^
+||mealparameter.com^
 ||meantlick.com^
 ||meawuerhvjmty.com^
 ||mechanicsearnestobjections.com^
@@ -37208,6 +37215,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||mortionalgo.site^
 ||mosdqxsgjhes.com^
 ||mosslagoonbookcase.com^
+||mossyitalian.com^
 ||motheregarded.info^
 ||motherehoom.pro^
 ||motherhoodenhanced.com^
@@ -49590,6 +49598,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||bidder.criteo.com^$third-party
 ||bidorbuy.co.za/jsp/system/referral.jsp?
 ||bidorbuy.co.za/jsp/tradesearch/TradeFeedPreview.jsp?$third-party
+||bids.concert.io^
 ||bigcommerce.com^*/product_images/$domain=politicalears.com
 ||bigrock.in/affiliate/
 ||bijk.com^*/banners/
@@ -51860,6 +51869,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||dshield.org/images/cdibanner.jpg
 ||dyncdn.me/static/20/js/expla*.js$domain=rarbg.to|rarbg2019.org|rarbg2020.org|rarbg2021.org|rarbgaccess.org|rarbgaccessed.org|rarbgmirror.com|rarbgmirror.org|rarbgmirrored.org|rarbgp2p.org|rarbgproxied.org|rarbgproxy.org|rarbgprx.org|rarbgto.org|rarbgunblock.com|rarbgunblocked.org|rarbgway.org
 ||eawaz.com/wp-content/plugins/ml-slider/
+||ebay.com/scl/js/ScandalLoader.js
 ||ebayrtm.com/rtm?RtmCmd*&enc=
 ||ebayrtm.com/rtm?RtmIt
 ||ebaystatic.com^*/ScandalJS-
@@ -52094,6 +52104,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||sportpesanews.com/images/promo/
 ||stagevu.com/AR2F6eftuQmA.js
 ||static.tellerium.com^$subdocument
+||staticflickr.com/ap/build/javascripts/prbd-$script,domain=flickr.com
 ||steamanalyst.com/www
 ||stockhouse.com^*-300x75.gif
 ||streamabc.xyz/asset/bann.js
@@ -52190,7 +52201,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 !
 /^https?:\/\/.*.(club|bid|xyz|site|pro|info|online|icu|monster|buzz|fun|website|re|me|casa|top|space|network|live|work|systems|me|ml|world|life)\/.*/$third-party,domain=9xupload.xyz|bdupload.asia|desiupload.co|flashx.tv|powvideo.net|powvldeo.me|videobin.co
 !
-/^https?:\/\/[0-9a-z]{11,20}.*.com\/.*/$third-party,domain=9xmovies.app|9xupload.xyz|mixdrop.co|mixdrop.to|ovagames.com
+/^https?:\/\/[0-9a-z]{11,20}.*.com\/.*/$third-party,domain=9xmovies.app|9xupload.xyz|mixdrop.co|mixdrop.to|ovagames.com|uproxy.to
 !
 ! Buff sites
 /^https?:\/\/[a-z0-9]{4,}\.(dotabuff|trackdota|speedrun|overbuff|dotabuff)\.com\/[a-z0-9]{1,6}.*/$script,~third-party,xmlhttprequest
@@ -53155,8 +53166,11 @@ $websocket,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|
 ! thegay.com
 @@||thegay.com/assets/jwplayer-*/jwplayer.core.controls.html5.js|
 @@||thegay.com/assets/jwplayer-*/jwplayer.js|
-@@||thegay.com/upd/*/assets/preview*.js|
-@@||thegay.com/upd/*/static/desktop/js/*.js|
+@@||thegay.com/upd/20210122.*/assets/previewl1b.20190620.1.js|
+@@||thegay.com/upd/20210122.*/static/desktop/js/chunk-common.js|
+@@||thegay.com/upd/20210122.*/static/desktop/js/chunk-vendors.js|
+@@||thegay.com/upd/20210122.*/static/desktop/js/index.js|
+@@||thegay.com/upd/20210122.*/static/desktop/js/video.js|
 ||thegay.com^$script
 ! *** easylist:easylist_adult/adult_specific_block_popup.txt ***
 .com./$popup,domain=pornhub.com|pornhubthbh7ap3u.onion
@@ -54439,6 +54453,7 @@ whosampled.com##.btnRingtoneTrack
 boredomtherapy.com##.btparel1
 politico.com##.bump-in.story-enhancement
 switchboard.com##.business_premium_results
+filecrypt.cc##.butt0ns
 go.extra-drive.com,linkhub.icu##.button
 imac-torrents.com##.button-green
 miloyski.com##.button[target="_blank"]
@@ -54479,6 +54494,7 @@ bigfooty.com##.chaching
 lovehug.net,weloma.net##.chapter-content > center > h5
 kaotic.com##.chaturbate
 whatleaks.com##.clr > .banner2
+computerweekly.com,techtarget.com##.cls-hlb-wrapper-desktop
 coinmarketcap.com##.cmc-native-ad-row
 bustedcoverage.com,coed.com,collegecandy.com##.cmg-ads-wrapper
 iotwreport.com,wuxiaworld.com##.code-block
@@ -54634,6 +54650,7 @@ fandom.com##.featured-video__wrapper
 slickdeals.net##.featuredCouponsDiscounts
 whitepages.ae##.featured_companies_bg_main
 tv.com##.featured_providers
+filecrypt.cc##.fiIltheadblockqueue2
 nagpurtoday.in##.film-right-s
 thestranger.com##.fish-butter
 mentalfloss.com##.fixed-footer-section

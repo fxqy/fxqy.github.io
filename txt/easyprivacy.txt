@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: U3hcMQHwQqaRtGFL5q7hqg
-! Version: 202103120921
+! Checksum: 6nw5jiPuz8hNpzxRLHvcHg
+! Version: 202103130921
 ! Title: EasyPrivacy
-! Last modified: 12 Mar 2021 09:21 UTC
+! Last modified: 13 Mar 2021 09:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5475,9 +5475,9 @@ cgi-bin/counter
 .app.returnpath.net/
 .bhphotovideo.com/mo/
 .bluekai.com/*?e_id_
-.cmail19.com/t/
-.cmail19.com/ti/
-.cmail20.com/t/
+.cmail19.com/t/$image
+.cmail19.com/ti/$image
+.cmail20.com/t/$image
 .ct.sendgrid.net/
 .delivery-status.com/open?
 .demdex.net/event?
@@ -10621,6 +10621,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cbsistatic.com^*/siteTracking.js
 ||cc.swiftype.com^
 ||ccexperimentsstatic.oracleoutsourcing.com^
+||cdn-channels-pixel.ex.co^
 ||cdn.trafficexchangelist.com^$third-party
 ||cdn.usefathom.com^
 ||cdn3.net/pixe/
@@ -11161,7 +11162,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||go.com/capmon/GetDE/?
 ||go.optifuze.com^
 ||go.pardot.com^
-||go.techtarget.com^$image,script
+||go.techtarget.com^
 ||go.toutapp.com^$third-party
 ||goadv.com^*/track.js
 ||goaww.com/stats.php
@@ -13141,6 +13142,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||top.dkd.lt^$third-party
 ! Norwegian
 ||engage-cdn.schibsted.media^
+||log.medietall.no^
 ||webhit.snd.no^
 ! Persian
 ||analytics.aasaam.com^
@@ -15341,6 +15343,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stat.xhamsterpremium.com^
 ||statesmanjournal.com^*/articlepageview.php?
 ||static.ow.ly^*/click.gz.js
+||staticflickr.com/ap/build/javascripts/snow-$script,domain=flickr.com
 ||staticice.com.au/cgi-bin/stats.cgi?
 ||staticlp.com/analytics/
 ||staticwhich.co.uk/assets/*/track.js
@@ -21645,10 +21648,10 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||amplitude.com/libs/amplitude-$script,domain=loom.com
 @@||ampproject.org/v0/amp-geo-$script,domain=pantagraph.com|tasty.co
 @@||analytics.amplitude.com^$~third-party
-@@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=abcnews.go.com|foxbusiness.com|foxnews.com
+@@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=foxbusiness.com|foxnews.com
 @@||analytics.edgekey.net/ma_library/html5/html5_malibrary.js$script,domain=mxplayer.in
 @@||analytics.edgesuite.net/config/beacon-*.xml$domain=foxnews.com
-@@||analytics.edgesuite.net/html5/akamaihtml5-min.js$domain=abcnews.go.com|foxbusiness.com|foxnews.com|threenow.co.nz
+@@||analytics.edgesuite.net/html5/akamaihtml5-min.js$domain=foxbusiness.com|foxnews.com|threenow.co.nz
 @@||analytics.itunes.apple.com^$~third-party
 @@||analytics.logsss.com/logsss*.min.js$script,domain=rosegal.com
 @@||analytics.snidigital.com^$script,domain=hgtv.com
@@ -21905,7 +21908,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||office365.com^*/owa.Analytics.js$script
 @@||omtrdc.net/cdn/target.js$script,domain=swisscom.ch
 @@||omtrdc.net/crossdomain.xml$domain=crackle.com
-@@||omtrdc.net/settings/$domain=abc.com|abcnews.go.com
 @@||omtrdc.net^*/mbox/ajax?$script,domain=barclays.co.uk|swisscom.ch
 @@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=absa.co.za|ally.com|argos.co.uk|att.com|barclays.co.uk|homedepot.com|swisscom.ch|t-mobile.com
 @@||omtrdc.net^*/mbox/standard?$script,domain=ancestry.co.uk|ancestry.com|ancestry.com.au|ancestry.it|barclays.co.uk|blogtalkradio.com|swisscom.ch
