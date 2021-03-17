@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0sya0KY6E98rz4kytmakvA
-! Version: 202103161050
+! Checksum: Aa3AMzwBjA3ooMz+aK3kEA
+! Version: 202103170950
 ! Title: EasyList
-! Last modified: 16 Mar 2021 10:50 UTC
+! Last modified: 17 Mar 2021 09:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -8187,6 +8187,7 @@ _prx/ba_$script
 .prebid&
 .prebid-bundle.
 .prebid.$domain=~prebid.org
+/ad/postbid_
 /adn-hb/*
 /adn.ano.
 /ads/prebid_
@@ -10351,8 +10352,6 @@ _popunder+$popup
 ###ad-west
 ###ad-wide-leaderboard
 ###ad-wrap
-###ad-wrap-2
-###ad-wrap-right
 ###ad-wrapper
 ###ad-wrapper-728x90
 ###ad-wrapper-left
@@ -12480,6 +12479,7 @@ _popunder+$popup
 ###adv-middle1
 ###adv-midroll
 ###adv-mpux
+###adv-native
 ###adv-preroll
 ###adv-right
 ###adv-right1
@@ -19374,6 +19374,7 @@ _popunder+$popup
 ##.ad.element
 ##.ad.inner
 ##.ad.item
+##.ad.maxiboard
 ##.ad.module
 ##.ad.monsterboard
 ##.ad.rectangle_2
@@ -25233,6 +25234,7 @@ _popunder+$popup
 ##.google-ads2
 ##.google-adsbygoogle
 ##.google-adsense
+##.google-advert-sidebar
 ##.google-advertisement
 ##.google-advertisement_txt
 ##.google-afc-wrapper
@@ -30094,6 +30096,7 @@ _popunder+$popup
 ##[href^="https://go.affiliatexe.com/"]
 ##[href^="https://refpahrwzjlv.top/"]
 ##[href^="https://secure.bmtmicro.com/servlets/"]
+##[id^="ad-wrap-"]
 ##[id^="adframe_wrap_"]
 ##[id^="bunyad_ads_"]
 ##[lazy-ad="leftbottom_banner"]
@@ -33578,6 +33581,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||capacygre.top
 ||cappens-dreperor.com^
 ||capsfogpeck.com^
+||capsheirspages.com^
 ||caradstag.casa^
 ||carbourse.club^
 ||cardinalimprovementscartrige.com^
@@ -34063,6 +34067,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||d0efb7d9aeb478d.com^
 ||d194f913ee63.com^
 ||d1c4d437f10.com^
+||d24ak3f2b.top^
 ||d2850fafeb7.com^
 ||d2ab631af57.com^
 ||d2vybwwevieya6j.monster^
@@ -38084,6 +38089,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||pawnorderpampas.work^
 ||pay2clik.cf^
 ||paybackvocal.com^
+||payingnoodlescam.com^
 ||paymentdeceasedcommence.com^
 ||pb5oqguywycj.com^
 ||pbkhlczs.com^
@@ -38525,6 +38531,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||pushwelcome.com^
 ||pushworldtool.com^
 ||putfeepea.site^
+||putstairboor.com^
 ||puttrotgob.com^
 ||puwvuscm.com^
 ||puzzledchampagneaboninableaboninable.com^
@@ -38582,6 +38589,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||qiaepasvtp.com^
 ||qibbblerzykelr.com^
 ||qinxpsktrelpl.com^
+||qivaiw.com^
 ||qixour.com^
 ||qizltkyxlgua.com^
 ||qjjto.com^
@@ -39234,6 +39242,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||seaboblit.com^
 ||searchmulty.com^
 ||searchsecurer.com^
+||searsbushelbus.com^
 ||seasonssna.fun^
 ||seativeflypa.top^
 ||seatsactadvantages.com^
@@ -52042,6 +52051,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||lespagesjaunesafrique.com/bandeaux/
 ||linkedin.com/tscp-serving/
 ||linkhub.icu/vendors/
+||linkshare.pro/img/btc.gif
 ||linuxtracker.org/images/dw.png
 ||loadingz.com/jflex.js
 ||local.tampabay.com^$subdocument
@@ -53497,6 +53507,7 @@ seroundtable.com###header_box
 forums.anandtech.com,redflagdeals.com###header_leaderboard
 digitalpoint.com###header_middle
 writerscafe.org###header_pay
+deckstats.net###header_right_big
 hwhills.com,nikktech.com,revizoronline.com,smallscreenscoop.com###headerbanner
 sat24.com###headercontent-onder
 codinghorror.com###hireme
@@ -54121,6 +54132,7 @@ luxury-insider.com###zone_728x90
 ecoustics.com###zox-lead-bot
 talkingpointsmemo.com##.--span\:12.AdSlot
 voiceofsandiego.org##.-sponsored
+yelp.at,yelp.be,yelp.ca,yelp.ch,yelp.cl,yelp.co.jp,yelp.co.nz,yelp.co.uk,yelp.com,yelp.com.ar,yelp.com.au,yelp.com.br,yelp.com.hk,yelp.com.mx,yelp.com.ph,yelp.com.sg,yelp.com.tr,yelp.cz,yelp.de,yelp.dk,yelp.es,yelp.fi,yelp.fr,yelp.ie,yelp.it,yelp.my,yelp.nl,yelp.no,yelp.pl,yelp.pt,yelp.se##.ABP
 bendsource.com,federalnewsnetwork.com,lonelyplanet.com,sevendaysvt.com,styleweekly.com,tucsonweekly.com##.Ad
 footballitaliano.co.uk##.Ad1
 stadiumastro.com##.Ads
@@ -56079,8 +56091,7 @@ twitter.com#?#div[data-testid="trend"]:-abp-contains(/Promoted|Gesponsert|Promoc
 twitter.com#?#h2[role="heading"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션 중|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/)
 windowsbulletin.com#?#.code-block:-abp-has(a[href^="http://www.reimageplus.com/"])
 windowsbulletin.com#?#strong:-abp-has(a[href^="http://www.reimageplus.com/"])
-yelp.com#?#li[class^="lemon--li"]:-abp-contains(Sponsored Results)
-yelp.com#?#li[class^="lemon--li"]:-abp-has(a[href^="/adredir?"])
+yelp.at,yelp.be,yelp.ca,yelp.ch,yelp.cl,yelp.co.jp,yelp.co.nz,yelp.co.uk,yelp.com,yelp.com.ar,yelp.com.au,yelp.com.br,yelp.com.hk,yelp.com.mx,yelp.com.ph,yelp.com.sg,yelp.com.tr,yelp.cz,yelp.de,yelp.dk,yelp.es,yelp.fi,yelp.fr,yelp.ie,yelp.it,yelp.my,yelp.nl,yelp.no,yelp.pl,yelp.pt,yelp.se#?#div[class^=" container_"]:-abp-has(a[href^="/adredir?"])
 ! msn.com
 msn.com###promotedlinksplaceholder
 msn.com##.ad-content
@@ -56907,7 +56918,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||airplaydirect.com/openx/www/images/$image
 @@||akamaized.net^*.stream/$domain=naver.com
 @@||akamaized.net^*/playlist.m3u8?$domain=naver.com
-@@||amazon-adsystem.com/aax2/apstag.js$domain=accuweather.com|blastingnews.com|exomashomepage.com|familyhandyman.com|foxbusiness.com|foxnews.com|go.cnn.com|history.com|keloland.com|radio.com|rd.com|thehealthy.com|wboy.com|webmd.com|wkrn.com|wlns.com|wvnstv.com
+@@||amazon-adsystem.com/aax2/apstag.js$domain=accuweather.com|blastingnews.com|exomashomepage.com|familyhandyman.com|foxbusiness.com|go.cnn.com|history.com|keloland.com|radio.com|rd.com|thehealthy.com|wboy.com|webmd.com|wkrn.com|wlns.com|wvnstv.com
 @@||amazon-adsystem.com/widgets/q?$image,third-party
 @@||amazonaws.com/bt-dashboard-logos/$domain=signal.co
 @@||amazonaws.com^*/sponsorbanners/$image,domain=members.portalbuzz.com
@@ -57003,6 +57014,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||connatix.com^*/connatix.player.js$script,domain=ebaumsworld.com|washingtonexaminer.com
 @@||contextual.media.net/dmedianet.js$script,domain=msn.com
 @@||copesdistributing.com/images/adds/banner_$~third-party
+@@||crackle.com/vendor/AdManager.js$script,~third-party
 @@||css.wpdigital.net/wpost/css/combo?*/ads.css
 @@||cubeecraft.com/openx/$~third-party
 @@||cvs.com/webcontent/images/weeklyad/adcontent/$~third-party
@@ -57046,9 +57058,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||fdyn.pubwise.io^$script,domain=urbanglasgow.co.uk
 @@||flowplayer.com^*/ads.min.js$script,third-party
 @@||flying-lines.com/banners/$image,~third-party
-@@||fncstatic.com/static/isa/app/lib/prebid.js$script,domain=foxbusiness.com|foxnews.com
 @@||forums.opera.com/api/topic/$~third-party,xmlhttprequest
-@@||foxnewsplayer-a.akamaihd.net^*/amp/prebid/$script,domain=foxbusiness.com|foxnews.com
 @@||freelitecoin.vip/assets/img/ad_$~third-party
 @@||fuseplatform.net^*/fuse.js$script,domain=broadsheet.com.au
 @@||fwmrm.net^*/AdManager.js$script
@@ -57086,7 +57096,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||ikea.com^*/img/ad_
 @@||ikea.com^*/img/ads/
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~spotify.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=api.screen9.com|audiomack.com|blastingnews.com|bloomberg.com|cbc.ca|cbsnews.com|cbssports.com|cdnmedia.tv|chicagotribune.com|clipsliver.com|cnet.com|comicbook.com|complex.com|cwtv.com|dailybreeze.com|distro.tv|forbes.com|fox35orlando.com|freep.com|gamejolt.com|goodhousekeeping.com|goodmorningamerica.com|healthmeans.com|iheart.com|independent.co.uk|indystar.com|insideedition.com|kizi.com|metacritic.com|metrolyrics.com|mobg.io|navbharattimes.indiatimes.com|news.sky.com|nflgamepass.com|nytimes.com|nytimes3xbfgragh.onion|play.ludigames.com|player.abacast.net|player.earthtv.com|player.performgroup.com|powr.com|rumble.com|snopes.com|thestreet.com|theverge.com|truvid.com|tvguide.com|ultimedia.com|usatoday.com|video.foxbusiness.com|video.foxnews.com|vidyomani.com|womenshealthmag.com|wsj.com|yiv.com|zeebiz.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=api.screen9.com|audiomack.com|blastingnews.com|bloomberg.com|cbc.ca|cbsnews.com|cbssports.com|cdnmedia.tv|chicagotribune.com|clipsliver.com|cnet.com|comicbook.com|complex.com|cwtv.com|dailybreeze.com|distro.tv|forbes.com|fox35orlando.com|freep.com|gamejolt.com|goodhousekeeping.com|goodmorningamerica.com|healthmeans.com|iheart.com|independent.co.uk|indystar.com|insideedition.com|kizi.com|metacritic.com|metrolyrics.com|mobg.io|navbharattimes.indiatimes.com|news.sky.com|nflgamepass.com|nytimes.com|nytimes3xbfgragh.onion|play.ludigames.com|player.abacast.net|player.earthtv.com|player.performgroup.com|powr.com|rumble.com|snopes.com|thestreet.com|theverge.com|truvid.com|tvguide.com|ultimedia.com|usatoday.com|vidyomani.com|womenshealthmag.com|wsj.com|yiv.com|zeebiz.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=bloomberg.co.jp|bloomberg.com|cbc.ca|sbs.com.au
 @@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=abcnews.go.com|brightcove.net
 @@||imdb-video.media-imdb.com^$domain=imdb.com
@@ -57216,7 +57226,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||usgamer.net/static/scripts/AdsLoad.js$script,~third-party
 @@||usgamer.net/static/scripts/SidebarAds.js$script,~third-party
 @@||utdallas.edu/locator/maps/$image
-@@||v.fwmrm.net/ad/p/1?$domain=cc.com|channel5.com|cmt.com|eonline.com|foodnetwork.com|nbcnews.com|ncaa.com|player.theplatform.com|simpsonsworld.com|sonycrackle.com|today.com|uktv.co.uk
+@@||v.fwmrm.net/ad/p/1?$domain=cc.com|channel5.com|cmt.com|eonline.com|foodnetwork.com|nbcnews.com|ncaa.com|player.theplatform.com|simpsonsworld.com|today.com|uktv.co.uk
 @@||vidible.tv/prod/$media,object,other
 @@||vidible.tv/stage/$media,object,other
 @@||volterra.io^*/advertise_policy$~third-party
@@ -57396,7 +57406,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||huffingtonpost.co.uk^$generichide
 @@||iamcdn.net^*/ads.$script,domain=hydrax.net|playhydrax.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=abcnews.go.com|slacker.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=foxnews.com
 @@||informer.com^$generichide
 @@||jokerly.com/Okidak/adSelectorDirect.htm?id=$document,subdocument
 @@||jokerly.com/Okidak/vastChecker.htm$document,subdocument
