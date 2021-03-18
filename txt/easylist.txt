@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Aa3AMzwBjA3ooMz+aK3kEA
-! Version: 202103170950
+! Checksum: cG82Gop3/6MHCoKVRxQyZg
+! Version: 202103181000
 ! Title: EasyList
-! Last modified: 17 Mar 2021 09:50 UTC
+! Last modified: 18 Mar 2021 10:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -19028,6 +19028,8 @@ _popunder+$popup
 ##.ad-placeholder
 ##.ad-placeholder-leaderboard
 ##.ad-placement
+##.ad-placement-left
+##.ad-placement-right
 ##.ad-plea
 ##.ad-point
 ##.ad-popup
@@ -31730,6 +31732,7 @@ davidsilverspares.co.uk#@#.greyAd
 komando.com#@#.grid-item-ad
 forums.digitalspy.com,marketwatch.com,waer.org#@#.has-ad
 minecraftforge.net#@#.hasads
+naver.com#@#.head_ad
 adexchanger.com,assetbar.com,burningangel.com,donthatethegeek.com,drunkenstepfather.com,intomobile.com,minkch.com,poderpda.com,politicususa.com,seattlepi.com,sfgate.com,startingstrongman.com,thenationonlineng.net,thinkcomputers.org,wccftech.com,wholelifestylenutrition.com#@#.header-ad
 greenbayphoenix.com,photobucket.com#@#.headerAd
 dailytimes.com.pk,mobiili.fi,swns.com#@#.header_ad
@@ -34208,6 +34211,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||deparabides.club^
 ||depictlicencegrandmother.com^
 ||depicturalki.club^
+||deplaisamment.xyz^
 ||depleastpo.club^
 ||depotshine.com^
 ||deprivationcorrectioncoats.com^
@@ -40853,6 +40857,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||whaudsur.net^
 ||whaustou.net^
 ||whdzxabhqsdnlc.com^
+||wheeptit.net^
 ||wheessoo.com^
 ||whendiscovery.com^
 ||whenedkom.club^
@@ -40990,6 +40995,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||wqypgiakfbxb.com^
 ||wrdbknbczcf.com^
 ||wredmtmvkjbg.com^
+||wretchedchapterdozen.com^
 ||wrfrxgft.com^
 ||wrierville.com^
 ||writerredolasy.club^
@@ -49426,6 +49432,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||6theory.com/pub/
 ||770.com/banniere.php?
 ||a.livesportmedia.eu^
+||a.speedostream.com^
 ||a.ucoz.net^
 ||a.vdo.ai^
 ||a04296f070c0146f314d-0dcad72565cb350972beb3666a86f246.r50.cf5.rackcdn.com^
