@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 7xritt57e+7Oy5e/6Ez85g
-! Version: 202103181001
+! Checksum: 30hd7COJKEK9Ih5ordayyQ
+! Version: 202103201231
 ! Title: EasyPrivacy
-! Last modified: 18 Mar 2021 10:01 UTC
+! Last modified: 20 Mar 2021 12:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1385,6 +1385,7 @@
 /collect/view?
 /collect?*&cid=
 /collect?*&tid=
+/collect?appName
 /collect?callback=
 /collect?d=
 /collect?data=
@@ -3275,6 +3276,7 @@
 /performance.fcgi?
 /performance_timing/*
 /performance_tracker-
+/performanceMetrics?
 /performancetimer.js
 /perimeterx/*
 /permalink-tracker.html?
@@ -5478,7 +5480,7 @@ cgi-bin/counter
 .cmail19.com/t/$image
 .cmail19.com/ti/$image
 .cmail20.com/t/$image
-.ct.sendgrid.net/
+.ct.sendgrid.net/$image
 .delivery-status.com/open?
 .demdex.net/event?
 .duolingo.com/open/
@@ -5496,6 +5498,7 @@ cgi-bin/counter
 .list-manage.com/track/
 .maillist-manage.com/clicks/$image
 .members.babbel.com/mo/
+.mjt.lu/oo/$image
 .ne16.com/do/
 .oculus.com/collect/
 .pstmrk.it/open/
@@ -5532,7 +5535,7 @@ cgi-bin/counter
 /lzdmailer.letter.open?
 /mail-tracking/*$image
 /mail.sparksport.co.nz/forms/read/*
-/media.sailthru.com/*.gif
+/media.sailthru.com/5ik/1k4/9/*.gif
 /open.aspx?
 /page.bsigroup.com/*
 /pixel-prod.
@@ -6548,7 +6551,7 @@ _mongo_stats/
 ||dwin2.com^$third-party
 ||dynameex.com^$third-party
 ||dynamicyield.com^$third-party
-||dynatrace.com^$third-party
+||dynatrace.com^$third-party,domain=~dynatracelabs.com
 ||dynatracesaas.com^$third-party
 ||dyntrk.com^$third-party
 ||e-contenta.com^$third-party
@@ -6792,6 +6795,7 @@ _mongo_stats/
 ||getconversion.net^$third-party
 ||getdrip.com^$third-party
 ||getfreebl.com^$third-party
+||getpublica.com^$third-party
 ||getrockerbox.com^$third-party
 ||getsmartcontent.com^$third-party
 ||getsmartlook.com^$third-party
@@ -7369,7 +7373,7 @@ _mongo_stats/
 ||mytictac.com^$third-party
 ||mytrack.pro^$third-party
 ||myusersonline.com^$third-party
-||myvisualiq.net^$third-party
+||myvisualiq.net^$image,script,third-party
 ||mywebstats.com.au^$third-party
 ||mywebstats.org^$third-party
 ||n74s9.com^$third-party
@@ -8343,6 +8347,7 @@ _mongo_stats/
 ||vinlens.com^$third-party
 ||vinub.com^$third-party
 ||viralninjas.com^$third-party
+||viraltrackings.com^$third-party
 ||virgul.com^$third-party
 ||virool.com^$third-party
 ||virtualnet.co.uk^$third-party
@@ -10294,6 +10299,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||agendize.com^*/counts.jsp?
 ||aiya.com.cn/stat.js
 ||akamaihd.net/p1lakjen.gif
+||akamaized.net/cookie_check/
 ||akanoo.com/tracker/
 ||akatracking.esearchvision.com^
 ||aklamio.com/ovlbtntrk?
@@ -10354,6 +10360,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics-static.ugc.bazaarvoice.com^
 ||analytics.30m.com^
 ||analytics.agoda.com^
+||analytics.aimtell.com^
 ||analytics.amakings.com^
 ||analytics.anvato.net^
 ||analytics.apnewsregistry.com^
@@ -16078,6 +16085,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||creativemarket.com/OfRh1WNK/
 ||crunchbase.com/rw7M6iAV/
 ||drupal.org/VnPBBfwe/
+||flooranddecor.com/v1HqbVho/init.js
 ||foodora.ca/lJuB4eTB/
 ||foodora.fi/lJuB4eTB/
 ||foodora.se/lJuB4eTB/
@@ -21781,7 +21789,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||google-analytics.com/plugins/ga/inpage_linkid.js$domain=westernunion.com
 @@||google.com/js/gweb/analytics/autotrack.js$domain=gradleplease.appspot.com|www.google.com
 @@||googletagmanager.com/gtag/js$script,domain=honeystinger.com|m.putlocker.how
-@@||googletagmanager.com/gtm.js$domain=ads.spotify.com|aim.steelseries.com|atptour.com|bsa-whitelabel.com|chipotle.com|easternbank.com|hbomax.com|medibank.com.au|newsletter.co.uk|nflgamepass.com|pioneer.eu|porsche.com|readyrefresh.com|redbull.com|royalbank.com|scotsman.com|trademe.co.nz
+@@||googletagmanager.com/gtm.js$domain=ads.spotify.com|aim.steelseries.com|atptour.com|bsa-whitelabel.com|chipotle.com|cyclingnews.com|easternbank.com|hbomax.com|medibank.com.au|newsletter.co.uk|nflgamepass.com|pioneer.eu|porsche.com|readyrefresh.com|redbull.com|royalbank.com|scotsman.com|trademe.co.nz
 @@||gov.au/Scripts/ga.js$script,~third-party
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com
 @@||hearstapps.com/static/comscore.$script,domain=womenshealthmag.com
