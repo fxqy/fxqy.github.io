@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 92qc90YoCVzFQjImBudDSg
-! Version: 202103231101
+! Checksum: ECVTFN+CdEq/hQvcJVCfDg
+! Version: 202103240941
 ! Title: EasyPrivacy
-! Last modified: 23 Mar 2021 11:01 UTC
+! Last modified: 24 Mar 2021 09:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6227,6 +6227,7 @@ _mongo_stats/
 ||bugsnag.com^$third-party
 ||buildkiteanalytics.com^$third-party
 ||bunchbox.co^$third-party
+||burpee.xyz^$third-party
 ||burstbeacon.com^$third-party
 ||burt.io^$third-party
 ||buzzdeck.com^$third-party
@@ -10515,6 +10516,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||audit.median.hu^
 ||autoline-top.com/counter.php?
 ||automate-prod.s3.amazonaws.com^$~script
+||avo.app^*/track
 ||awaps.yandex.net^
 ||awe.sm/conversions/
 ||aweber.com/form/displays.htm?$image
@@ -12637,6 +12639,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||export.newscube.de^$~subdocument
 ||fc.webmasterpro.de^$third-party
 ||filmaster.tv^*/flm.tracker.min.js
+||freshclip.tv/tracking/
 ||frontlineshop.com/ev/co/frontline?*&uid=
 ||gameforge.de/init.gif?
 ||geo.mtvnn.com^
@@ -20602,7 +20605,6 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||dastelefonbuch.de^*/wws.js
 ||dat.de/inc/count.js
 ||dejure.org/cgi-bin/zux2?
-||derstandard.at/s/
 ||derwesten.de/stats/
 ||derwesten.de^*/click.js
 ||derwesten.de^*/omsv.js
@@ -20725,6 +20727,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 ||preisvergleich.de/setcookie/
 ||proactive.base.de^
 ||putpat.tv/tracking?
+||px.derstandard.at^
 ||pxc.otto.de^
 ||quoka.de^*/wtlog_02.js
 ||rem-track.bild.de^
@@ -21711,6 +21714,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||att.com/scripts/adobe/prod/$script,~third-party
 @@||att.com/scripts/adobe/virtual/detm-container-hdr.js$~third-party
 @@||att.tv^*/VisitorAPI.js$script,~third-party
+@@||autoaudience.com/tag/$script,domain=mazda.ca
 @@||azureedge.net/prod/smi/loader-config.json$domain=pressdemocrat.com
 @@||bam.nr-data.net^$script,domain=kapwing.com
 @@||banned.video/videojs-event-tracking/dist/videojs-event-tracking.js$script,domain=banned.video|infowars.com
@@ -21780,6 +21784,7 @@ $csp=worker-src 'none',domain=alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.
 @@||ensighten.com^*/serverComponent.php?$script
 @@||epicgames.com/id/api/analytics$~third-party,xmlhttprequest
 @@||events-collector.spot.im/api/$xmlhttprequest
+@@||evestment.com/api/analytics/$domain=evestment.com
 @@||evil-inc.com/comic/advertising-age/$~third-party,xmlhttprequest
 @@||fast.appcues.com^$script,domain=static.abcmouse.com
 @@||files.mycloud.com/js/analytics/google_analytics.js
