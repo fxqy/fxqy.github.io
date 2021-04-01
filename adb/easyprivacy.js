@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: UJ2FNqn2IwGxDq2lUml6SA
-! Version: 202103310341
+! Checksum: NtBCSQ4MQ/+oJeXMknrMjA
+! Version: 202104011251
 ! Title: EasyPrivacy
-! Last modified: 31 Mar 2021 03:41 UTC
+! Last modified: 01 Apr 2021 12:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5276,6 +5276,7 @@
 ;sz=1x1;ord=
 =&cs_Referer=
 =ATAtracker&
+=comscoreAdobeDpvCall&
 =event&*_ads%
 =get_preroll_cookie&
 =getSideStats&
@@ -5918,7 +5919,6 @@ _mongo_stats/
 ||acint.net^$third-party
 ||acq.io^$third-party
 ||acsbap.com^$third-party
-||acsbapp.com^$third-party
 ||active-trk7.com^$third-party
 ||activeconversion.com^$third-party
 ||activemeter.com^$third-party
@@ -11861,7 +11861,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||response.pure360.com^
 ||reverbnation.com/widgets/trk/
 ||rhapsody.com^*/pixel?
-||ria.ru/js/counter.js
 ||rich-agent.s3.amazonaws.com^
 ||richrelevance.com/rrserver/tracking?
 ||rlinks.one.in^
@@ -13958,7 +13957,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dd.nytimes.com^
 ||dealnews.com/lw/ul.php?
 ||debtconsolidationcare.com/affiliate/tracker/
-||debug-vp.webmd.com^
 ||deliver.oztam.com.au^
 ||deliver.ptgncdn.com^
 ||dellcdn.com/csb/scripts/csb-boomr.$domain=dell.com
@@ -13981,7 +13979,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dilbert.com^*&tracker$script
 ||dippic.com/cgi-bin/index_dl.cgi?
 ||direct-events-collector.spot.im^
-||discord.com^*/science
 ||discordapp.com^*/track
 ||discordbots.org/api/auctions/impression
 ||discover-metrics.cloud.seek.com.au^
@@ -14519,6 +14516,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||joins.com^*/JTracker.js?
 ||jokeroo.com/i/.gif
 ||jpmorgan.co.uk/tagging/
+||jumbo.zomato.com^
 ||juno.com/start/javascript.do?message=$image
 ||justanswer.com/browsercheck/
 ||justanswer.com/ja_services/processes/log.asmx/
@@ -15894,9 +15892,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||webjam.com/Actions/Hit.jam?
 ||weblog.flyasiana.com^
 ||weblog.strawberrynet.com^
-||webmd.com/dtmcms/live/webmd/PageBuilder_Assets/JS/oas35.js
+||webmd.com/api/xml/pv.xml
 ||webmd.com/pixel/
-||webmd.com^*/tools/dsppixels.js
+||webmd.com/static/v/c?
 ||webmonkey.com/js/stats/
 ||webring.com/cgi-bin/logit?
 ||webstats.thesoul-publishing.com^
@@ -21802,7 +21800,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||dropboxstatic.com/static/js/modules/clean/ux_analytics/$script,domain=dropbox.com
 @@||dw.cbsi.com/anonc.js$domain=giantbomb.com
 @@||dw.com.com/js/dw.js$domain=cbsnews.com|tv.com
-@@||dynamicyield.com/api/$script,domain=croma.com|fendi.com|flytap.com|thewarehouse.co.nz|zalora.com.my|zalora.com.ph|zalora.sg
+@@||dynamicyield.com/api/$script,domain=adlibris.com|croma.com|fendi.com|flytap.com|thewarehouse.co.nz|zalora.com.my|zalora.com.ph|zalora.sg
 @@||dynamicyield.com/st?$script,domain=computeruniverse.net|croma.com|fendi.com|zalora.com.my|zalora.com.ph|zalora.sg
 @@||easternbank.com/sites/easternbank/files/google_tag/eastern_bank/google_tag.script.js$script,~third-party
 @@||easyship.com/api/v1/track/$xmlhttprequest,domain=trackmyshipment.co
@@ -22299,7 +22297,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
 @@||suumo.jp/sp/js/beacon.js$script,~third-party
-@@||uliza.jp/IF/RequestVideoTag.aspx$script,domain=kobe-np.co.jp|toonippo.co.jp
+@@||uliza.jp/IF/RequestVideoTag.aspx$script,domain=jsports.co.jp|kobe-np.co.jp|toonippo.co.jp
 @@||useinsider.com/ins.js$domain=pizzahut.jp
 @@||webcdn.stream.ne.jp^*/referrer.js$domain=stream.ne.jp
 @@||yu.xyz.mn/images/event.gif?$image,~third-party
