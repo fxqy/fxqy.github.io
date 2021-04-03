@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: NtBCSQ4MQ/+oJeXMknrMjA
-! Version: 202104011251
+! Checksum: M+s+n/OTTVXZwJ0GE79Cog
+! Version: 202104030631
 ! Title: EasyPrivacy
-! Last modified: 01 Apr 2021 12:51 UTC
+! Last modified: 03 Apr 2021 06:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -8487,6 +8487,8 @@ _mongo_stats/
 ||wrating.com^$third-party
 ||wt-eu02.net^$third-party
 ||wt-safetag.com^$third-party
+||wtastats.com^$third-party
+||wtastats.ro^$third-party
 ||wtp101.com^$third-party
 ||wts.one^$third-party
 ||wtstats.com^$third-party
@@ -10767,6 +10769,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cnevids.com/metrics/
 ||cnnx.io^*/tracker.js
 ||cnnx.io^*/tracking.js
+||cnnx.link/roi/
 ||cnpapers.com/scripts/library/
 ||cnt.3dmy.net^
 ||cnt.mastorage.net^
@@ -11583,6 +11586,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mx.technolutions.net^
 ||mxmfb.com/rsps/img/
 ||myblueday.com^*/count.asp?
+||myfinance.com/widget/
 ||myfreecams.com/mfc2/lib/o-mfccore.js
 ||mymarketing.co.il/Include/tracker.js
 ||myscoop-tracking.googlecode.com^$third-party
@@ -12359,7 +12363,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||users.techtarget.com^*/GetCookiesWithCallback?
 ||usersegment.wpdigital.net^
 ||uservoice.com^*/track.js
-||userway.org/api/stats/
+||userway.org/api/seo-widget/
+||userway.org/api/v1/stats
 ||utils.global-e.com/set?
 ||utle.tech426.com^
 ||v.giantrealm.com/players/stats.swf?
@@ -13633,6 +13638,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||atrack.allposters.com^
 ||atrack.art.com^
 ||ats.alot.com^
+||att.com/libraries/
 ||att.com/scripts/satellite/prod/
 ||attachmate.com*/pv.aspx?
 ||audible.com^*/uedata/
@@ -14336,6 +14342,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gumtree.com.au/?pc=
 ||gurgle.pcmag.com^
 ||h.cliphunter.com^
+||hankookilbo.com/service/kt/trk.js$script,domain=koreatimes.co.kr
 ||hanksgalleries.com/stxt/counter.php?
 ||harryrosen.com/analytics/
 ||harvester.eu.square-enix.com^
@@ -15477,6 +15484,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||streetfire.net/handlers/logstreamfileimpression.ashx?
 ||streetinsider.com/*.php?
 ||stribe.com/00/logs?
+||strtape.cloud/stat/
 ||stubhub.com/bfx/api/logging
 ||studyisland.com^*/ga.js
 ||stuff.afterdawn.com/views.cfm
@@ -20630,6 +20638,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||dasoertliche.de/wws/
 ||dastelefonbuch.de^*/wws.js
 ||dat.de/inc/count.js
+||dejure.org/cgi-bin/sitzung.fcgi?
 ||dejure.org/cgi-bin/zux2?
 ||derwesten.de/stats/
 ||derwesten.de^*/click.js
@@ -21337,7 +21346,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||bookoffonline.co.jp/files/tracking/
 ||bwbx.io^*/javelin/js/abba/abba-$script,domain=bloomberg.co.jp
 ||carview.co.jp/include_api/log/
-||cgi.tbs.co.jp^
 ||count.upc.rakuten.co.jp^
 ||dmm.com/analytics/
 ||dmm.com/imp?
@@ -21345,6 +21353,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||gizmodo.jp/api/SurveyCountCollection?
 ||goo.ne.jp^*/vltracedmd.js
 ||i2i.jp/bin/
+||j1.ax.xrea.com^
 ||jen.jiji.com^
 ||ln.ameba.jp^
 ||log.suumo.jp^
@@ -21753,6 +21762,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||cleverpush.com/channel/$script,domain=bsdex.de
 @@||community.brave.com/t/$xmlhttprequest
 @@||googleoptimize.com/optimize.js$script,domain=tentree.ca
+@@||lenovo.com/fea/js/adobeAnalytics/adobeAnalytics-searchComponent.js$xmlhttprequest,domain=lenovo.com
 ! @@||browser.sentry-cdn.com^$domain=cardiffmedia.co.uk|connect.shore.com|crrowd.com|gina-phillips.com|gracevanberkum.com|imperial.ac.uk|loveotv.com|onginnovations.com|simonparkes.org|stockforecasttoday.com|tekku.co.za|theangryviking1776.com|thegivingblock.com|thepittsburghoratory.org|truenews4u.com|washingtonpost.com|wix.com
 @@||browser.sentry-cdn.com^$domain=eco-clobber.co.uk
 @@||brsrvr.com/api/$xmlhttprequest,domain=dollargeneral.com
