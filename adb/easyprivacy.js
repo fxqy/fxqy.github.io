@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 2+luSG1HSmAkP4VPxlb4dQ
-! Version: 202104070941
+! Checksum: 4W9Ttt5L2g2npMj5BfFvSA
+! Version: 202104081021
 ! Title: EasyPrivacy
-! Last modified: 07 Apr 2021 09:41 UTC
+! Last modified: 08 Apr 2021 10:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -524,6 +524,7 @@
 /adtoniq-
 /adtrk/*
 /adv/tracking.
+/adv?pixel_
 /adviewtrack.
 /advstats/*
 /adwords-conversion-tracking.
@@ -2463,6 +2464,7 @@
 /informb_stat.
 /informerStat?
 /init_cookie.php?
+/inline-pixel.js
 /inpl.measure.
 /insales_counter.
 /insert_impressions.
@@ -4818,6 +4820,7 @@
 /universal-tracking-
 /universalPixelStatic.
 /uo-stat?
+/update_hits3/*
 /updateBotStatus.do?
 /updateStats.
 /urchin.gif?
@@ -5849,6 +5852,7 @@ _mongo_stats/
 ||nxakpj4ac8gkd53.info^
 ||propeller-tracking.com^
 ||sbgsodufuosmmvsdf.info^
+||truffle.bid^
 ||z0uolej1qnxzub1.info^
 ! Third-party
 ||0emm.com^$third-party
@@ -10114,6 +10118,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||madnet.ru^$third-party
 ||mediaplan.ru^$third-party
 ||mediatoday.ru^$third-party
+||metrika-informer.com^$third-party
 ||mgid.com^$third-party,domain=~marketgid.com|~marketgid.com.ua
 ||mokuz.ru^$third-party
 ||musiccounter.ru^$third-party
@@ -13161,7 +13166,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sweet-candy.jp/c.php?$third-party
 ||sync.shinobi.jp^
 ||t.adlpo.com^
-||t.felmat.net^
+||t.felmat.net^$third-party
 ||t.seesaa.net^
 ||tag.cribnotes.jp^
 ||torimochi.line-apps.com^
@@ -14242,6 +14247,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||general-files.com/stat
 ||general-search.com/stat
 ||geo.battle.net^
+||geo.gfycat.com^
 ||geo.homepage-web.com^
 ||geo.metronews.ca^
 ||geo.nbcsports.com^
@@ -20681,6 +20687,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||inside-it.ch^*/ping/
 ||is.base.de^
 ||jobanova.de/stats.php?
+||jobs.ch^*/track/
 ||jolie.de^*/pic.gif?
 ||k-files.de/screen.js
 ||k-foren.de/screen.js
@@ -22099,6 +22106,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||ksta.de^*/tracking/tracking.js$domain=ksta.de
 @@||orginio.de/api/analytics/$~third-party,xmlhttprequest
 @@||rtl.de^*/videotracking.min.js$domain=rtl.de
+@@||rtoaster.jp^$script,domain=melonbooks.co.jp
 @@||showheroes.com/playlist/vast3?$xmlhttprequest,domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
 @@||showheroes.com/publishertag.js$domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
 @@||showheroes.com/pubtag.js$domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
@@ -22277,6 +22285,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||adobedtm.com^*-libraryCode_source.min.js$script,domain=disneyplus.disney.co.jp
 @@||adobedtm.com^*/mbox-contents-$script,domain=fcbarcelona.jp|sony.jp
 @@||adobedtm.com^*/satelliteLib-$script,domain=fcbarcelona.jp|radiko.jp|sony.jp
+@@||ads-twitter.com/oct.js$domain=jp.square-enix.com
 @@||allabout.co.jp/mtx_cnt.js$script,~third-party
 @@||analytics.edgekey.net/config/$xmlhttprequest,domain=nhk.or.jp
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=nhk.or.jp
@@ -22289,8 +22298,10 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||chancro.jp/assets/lib/googleanalytics-$script
 @@||disneyplus.disney.co.jp/view/vendor/analytics/$~third-party
 @@||flipdesk.jp/wp/wp-content/themes/flipdesk/images/analytics3.png$image
+@@||googleadservices.com/pagead/conversion_async.js$script,domain=jp.square-enix.com
 @@||googletagmanager.com/gtm.js$script,domain=anond.hatelabo.jp|book.impress.co.jp|kakuyomu.jp|sankei.com
 @@||in.treasuredata.com/js/*api_key$script,domain=retty.me
+@@||k-img.com/javascripts/modules/rst/analytics.js?$domain=tabelog.com
 @@||k-img.com/script/analytics/s_code.js$script,domain=kakaku.com
 @@||mediaweaver.jp^$image,domain=ismedia.jp
 @@||nakanohito.jp^*/bi.js$domain=kenko-tokina.co.jp
@@ -22299,6 +22310,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
 @@||suumo.jp/sp/js/beacon.js$script,~third-party
+@@||twitter.com/oct.js$domain=jp.square-enix.com
 @@||uliza.jp/IF/RequestVideoTag.aspx$script,domain=jsports.co.jp|kobe-np.co.jp|toonippo.co.jp
 @@||useinsider.com/ins.js$domain=pizzahut.jp
 @@||webcdn.stream.ne.jp^*/referrer.js$domain=stream.ne.jp
