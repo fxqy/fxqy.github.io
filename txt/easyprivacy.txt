@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: cNpRl+OSTkuzSU/0Y9NaMQ
-! Version: 202104111011
+! Checksum: XNX4RumJgbj0yIo+SHnDag
+! Version: 202104130951
 ! Title: EasyPrivacy
-! Last modified: 11 Apr 2021 10:11 UTC
+! Last modified: 13 Apr 2021 09:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5825,6 +5825,7 @@ _mongo_stats/
 !-----------------Third-party tracking domains-----------------!
 ! *** easylist:easyprivacy/easyprivacy_trackingservers.txt ***
 ! Revolving trackers
+||apxl.io^
 ||g2178927685.co^
 ||g2377012020.co^
 ||g2575096355.co^
@@ -7047,6 +7048,7 @@ _mongo_stats/
 ||instana.io^$third-party
 ||instant.page^$third-party
 ||instapage.com^$third-party,domain=~pagedemo.co
+||instapagemetrics.com^$third-party
 ||instore.biz^$third-party
 ||intelimet.com^$third-party
 ||intelli-direct.com^$third-party
@@ -10692,6 +10694,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||chanalytics.merchantadvantage.com^
 ||chartaca.com.s3.amazonaws.com^
 ||check.ddos-guard.net^$third-party
+||check.deadlinefunnel.com^$third-party
 ||checkout.com/logger/
 ||chicoryapp.com/widget_v2/
 ||choicestream.com^*/pixel/
@@ -11130,6 +11133,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||facebook.com/method/links.getstats?
 ||facebook.com/tr$third-party
 ||fairfax.com.au/js/track/
+||fastcdn.co/js/sptw.js
 ||fcmatch.google.com^
 ||fcmatch.youtube.com^
 ||feed.informer.com/fdstats
@@ -12244,6 +12248,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.g2crowd.com^
 ||tracking.godatafeed.com^
 ||tracking.hivecloud.net^
+||tracking.hyros.com^
 ||tracking.interweave.com^$third-party
 ||tracking.jotform.com^
 ||tracking.keywee.co^
@@ -12253,6 +12258,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.listhub.net^
 ||tracking.livingsocial.com^
 ||tracking.magnetmail.net^
+||tracking.markethero.io^
 ||tracking.maxcdn.com^$third-party
 ||tracking.menamarketplace.com^
 ||tracking.monsido.com^
@@ -16129,11 +16135,13 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /^https?:\/\/.*[a-f0-9]{6,}\.cdn.*\.forter\.com\//$script,third-party
 ||forter.com/events
 ||forter.com/prop.json$ping
+||forter.com/vchk2
 ! Airbnb facebook tracking
 ||airbnb.*/facebook_advanced_matchings?
 ! PerimeterX
 ||apartmenttherapy.com/jAYekY18/
 ||auctionzip.com/eKtvxkQ2/
+||bhphotovideo.com/3D8mkYG1/init.js
 ||bloomberg.com/8FCGYgk4/init.js
 ||booktopia.com.au/px_section_fetch/
 ||carbon38.com/7G7BfRT2/
