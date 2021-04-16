@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: LzNWjxTLsv/tyYAqXl6eJg
-! Version: 202104140951
+! Checksum: HGUz5EighGJbzHyFoh7eYQ
+! Version: 202104161121
 ! Title: EasyPrivacy
-! Last modified: 14 Apr 2021 09:51 UTC
+! Last modified: 16 Apr 2021 11:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3826,6 +3826,7 @@
 /sensorsdata-
 /sensorsdata.$domain=~sensorsdata.cn
 /sentry.*/?sentry_key=
+/sentry/*/?sentry_key=
 /seo-track.
 /seo.googleAnalytics-
 /seo.googleAnalytics.
@@ -10552,7 +10553,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||az693360.vo.msecnd.net^
 ||azureedge.net/javascripts/Tracking.
 ||azureedge.net/track
-||azureedge.net^*/loader-config.json
 ||azurewebsites.net/TrackView/
 ||azurewebsites.net^*/telemetry.js
 ||b-aws.aol.com^
@@ -11196,6 +11196,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gcion.com/gcion.ashx?
 ||geckofoot.com/gfcounterimg.aspx?
 ||geckofoot.com/gfvisitormap.aspx?
+||gem.com/api/o/$image,third-party
 ||gemius.mgr.consensu.org^
 ||geni.us/snippet.js
 ||geni.us/snippet.min.js
@@ -11572,6 +11573,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mmi.bemobile.ua^
 ||mochiads.com/clk/
 ||modules.ooyala.com^*/analytics-
+||monitor.azure.com^
 ||mormont.gamer-network.net^
 ||movementventures.com/_uid.gif
 ||mozilla.org/page/*/open.gif$third-party
@@ -12231,6 +12233,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracker.timesgroup.com^
 ||tracker.twenga.
 ||tracker.unbxdapi.com^
+||tracker.wigzopush.com^
 ||tracker.wpserveur.net^
 ||trackerapi.truste.com^
 ||trackicollect.ibase.fr^$third-party
@@ -12712,7 +12715,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mlm.de/pagerank-ranking/
 ||movad.de/c.ount?
 ||myv-img.de/m2/e?
-||nct.ui-portal.de/gmx/gmx/s?$image
+||nct.ui-portal.de/gmx/gmx/s?$image,ping
 ||newelements.de/tracker/
 ||ntmb.de/count.html?
 ||oe-static.de^*/wws.js
@@ -12964,6 +12967,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||qtmojo.com/pixel?
 ||r.sax.sina.com.cn^
 ||report.meituan.com^
+||s.cdin.me/i.php
 ||sitemaji.com/nownews.php?
 ||sobeycloud.com/Services/Stat.
 ||sohu.com/pvpb.gif?
@@ -12972,6 +12976,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||statics.itc.cn^*/spm.js$script,domain=sohu.com
 ||sugs.m.sm.cn^
 ||t.hypers.com.cn^
+||t.rainide.com^
 ||tanx.com/t/tanxclick.js
 ||tanx.com/t/tanxcollect.js
 ||taobao.com/tracker.
@@ -13143,6 +13148,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cookie.sync.usonar.jp^
 ||counter2.blog.livedoor.com^
 ||delivery.satr.jp^
+||estore.jp/beacon/
 ||future-shop.jp/rview.gif?
 ||imgstat.ameba.jp^$third-party
 ||ip2c.landscape.co.jp^
@@ -14031,7 +14037,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dsm.com^*/searchenginetracking.js
 ||duckduckgo.com/t.js
 ||duckduckgo.com/t/
-||duckduckgo.com/y.js
 ||dumpster.cam4.com^
 ||dvdempire.com/images/empty2.asp
 ||dvdempire.com/include/user/empty2.asp?
@@ -15884,7 +15889,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vs4food.com/ERA/era_rl.aspx
 ||vstats.digitaltrends.com^
 ||vzaar.com/libs/stats/
-||wa.gmx.net/gmx/gmx/s?$image
+||wa.gmx.net/gmx/gmx/s?$image,ping
 ||wa.ui-portal.de^
 ||wachovia.com^*/stats.js
 ||wal.co/cdn-perf.min.js
@@ -16338,6 +16343,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trustarc.mgr.consensu.org/get?
 ||ttauri.bikeperfect.com^
 ||ttauri.creativebloq.com^
+||ttauri.cyclingnews.com^
 ||ttauri.digitalcameraworld.com^
 ||ttauri.guitarworld.com^
 ||ttauri.laptopmag.com^
@@ -20800,7 +20806,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||rtlradio.de/stats.php?
 ||rtlradio.lu/stats.php?
 ||s.edeka.de^
-||sats.manager-magazin.de^
 ||schnaeppchenfuchs.com/js/default-$script
 ||secreta.de/tinc?
 ||shortnews.de/iframes/view_news.cfm?
@@ -20855,6 +20860,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||ts.rtl.de^
 ||tweakimg.net/x/vendor/wt/
 ||ui-portal.de/brbtpixel/
+||ui-portal.de/pos-cdn/tracklib/
+||ui-portal.de/prompt/permission/latest/tracking.min.js
 ||unser-star-fuer-oslo.de^*/stats.php
 ||vfd2dyn.vodafone.de^
 ||videovalis.tv/tracking/
@@ -21591,6 +21598,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||analytics.redlink.com.ar^
 ||audiencies.ccma.cat^
 ||bankinter.com/res/img/documento_cargado.gif?
+||caliente.mx/integration-scripts/tracking.min.js
 ||coletor.terra.com^
 ||compare.easyviajar.com^
 ||epimg.net/js/*/satelliteLib-
@@ -21996,6 +22004,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||scorecardresearch.com/c2/plugins/streamingtag_plugin_jwplayer.js
 @@||scorecardresearch.com/c2/plugins/streamsense_plugin_html5.js
 @@||scorecardresearch.com/c2/plugins/streamsense_plugin_theplatform.js
+@@||scorecardresearch.com/internal-c2/plugins/streamingtag_plugin_jwplayer.js
 @@||screen9.com/players/*/amber-google-analytics.esm.js$script,domain=api.screen9.com
 @@||sealserver.trustwave.com/seal.js$domain=zoom.us
 @@||secure.logmein.com/scripts/Tracking/$script,domain=logme.in|logmein.com
