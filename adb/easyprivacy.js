@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: HGUz5EighGJbzHyFoh7eYQ
-! Version: 202104161121
+! Checksum: /rt9Itn+g7vf2VcIyVCFdg
+! Version: 202104181211
 ! Title: EasyPrivacy
-! Last modified: 16 Apr 2021 11:21 UTC
+! Last modified: 18 Apr 2021 12:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2658,6 +2658,7 @@
 /librato-collector.
 /libs/tracker.js
 /liferay-analytics-
+/lightspeed_tracker.
 /lingabot.
 /link-tracker-
 /link_track.
@@ -2907,10 +2908,12 @@
 /metrics/init?
 /metrics/metrics$domain=~spatineo.com
 /metrics/onload
+/metrics/ping?
 /metrics/rum
 /metrics/stat.
 /metrics/statsd/*
 /metrics/survey/*
+/metrics/tpi?
 /metrics/track/*
 /metrics/v1/frontend/*
 /metrics/vanity/?
@@ -6925,6 +6928,7 @@ _mongo_stats/
 ||hentaicounter.com^$third-party
 ||hexagon-analytics.com^$third-party
 ||heyhelga.net^$third-party
+||heylink.com^$third-party
 ||heyloyalty.com^$third-party
 ||heystaks.com^$third-party
 ||hiconversion.com^$third-party
@@ -13030,6 +13034,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hottraffic.nl^$third-party
 ||marktplaats.net/cnt/
 ||npo.nl/divolte/tt/web-event?$domain=zapp.nl
+||sp.dpgmedia.net^
 ||statistics.rbi-nl.com^
 ||ugent.be/js/log.js
 ! Estonian
@@ -13541,6 +13546,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||amazon.com/gp/yourstore/recs/
 ||amazon.com^*/amazon-clicks/
 ||amazon.com^*/events/$domain=~aws.amazon.com
+||amazon.com^*/impress.html
 ||amazon.com^*/token/
 ||amazon.com^*/vap-metrics/
 ||amazonaws.com/beacon/vtpixpc.gif?
@@ -13972,6 +13978,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||data.ninemsn.com.au/*GetAdCalls
 ||data.webullfintech.com/event/
 ||data.younow.com^
+||datagroup-reporting.shopeemobile.com^
 ||datehookup.com/strk/dateadvertreg?
 ||daum.net^*/dwi.js
 ||db.com^*/stats.js?
@@ -20697,6 +20704,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||feed-reader.net/tracking.php
 ||fireball.de/statistikframe.asp?
 ||fr-online.de/analytics/
+||froglytics.eventfrog.ch^
 ||ftd.de^*/track.php?
 ||g.silicon.de^
 ||gala.de/js/tracking-
@@ -20844,6 +20852,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||track.derbund.ch^
 ||track.express.de^
 ||track.mopo.de^
+||track.rundschau-online.de^
 ||trackerstatistik.init-ag.de^
 ||tracking.finanzen.net^
 ||tracking.hrs.de^
@@ -21079,6 +21088,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||eclick.baidu.com^
 ||fang.com/stats/
 ||firefoxchina.cn/*/trac.js
+||forum.zuvio.com.tw/api/article/finish
 ||ftchinese.com/js/log.js
 ||funshion.com/interface/
 ||gia.jd.com^
@@ -21241,6 +21251,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||sanoma.nl/pixel/
 ||sat.sanoma.fi^
 ||stats.fd.nl^
+||temptation.ad.nl^
 ||tijd.be/fb/?
 ||tweakers.net/x/scripts/min/TyYQlL.js
 ||tweakers.net^*&p=$image
@@ -22376,6 +22387,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 !---------- Latvian ----------
 !
 @@/webtracking/*$domain=pasts.lv
+@@||delet.jhi.pl/bower_components/angular-google-analytics/$script,~third-party
 @@||eveselibaspunkts.lv/js/global/fingerprint2.min.js?
 @@||gemius.pl/gplayer.js$script,third-party
 @@||gjensidige.lv/Content/dev/scripts/analytics.js
