@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: /rt9Itn+g7vf2VcIyVCFdg
-! Version: 202104181211
+! Checksum: 8qUYtDb0GKkOC+7q8Q2aCA
+! Version: 202104190921
 ! Title: EasyPrivacy
-! Last modified: 18 Apr 2021 12:11 UTC
+! Last modified: 19 Apr 2021 09:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3869,7 +3869,6 @@
 /SETCOOKAFF.
 /setcooki.
 /setcookie.php?
-/setcookie?
 /setcookieADV.js
 /SetSabreAnalyticsCookie.
 /setTDUID.do?
@@ -4208,6 +4207,7 @@
 /surphace_track.
 /surveyoverlay/*
 /svc/comscore/*
+/sw/analytics.js
 /swa_t.gif?
 /swatag.js
 /swfaddress.js?tracker=
@@ -21573,6 +21573,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||rbc.ru/count/
 ||rbc.ru/redir/stat/
 ||rbc.ru/rightarror.gif
+||ria.ru/ping?
 ||rt.ru/proxy?
 ||rutube.ru/counters.html?
 ||rutube.ru/dbg/player_stat?
@@ -22173,6 +22174,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||showheroes.com/spot/iframe?pageurl=$script,subdocument,domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
 @@||spatialbuzz.com/piwik/piwik.js$domain=spatialbuzz.com
 @@||spiegel.de/layout/js/http/netmind-$script
+@@||stroeerdigitalgroup.de/metatag/live/bauer-autozeitung/metaTag.min.js$domain=autozeitung.de
 @@||sunday.de/skin/*/googleanalytics.js$script
 @@||taboola.com/libtrc/impl.$script,domain=bild.de|bz-berlin.de|computerbild.de|fitbook.de|jetzt.de|metal-hammer.de|musikexpress.de|noizz.de|rollingstone.de|stylebook.de|techbook.de|travelbook.de|welt.de|wieistmeineip.at|wieistmeineip.ch|wieistmeineip.de
 @@||tipico.de/js/modules/fingerprintjs2/fingerprint2.min.js$script,~third-party
