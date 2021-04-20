@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 8qUYtDb0GKkOC+7q8Q2aCA
-! Version: 202104190921
+! Checksum: Rdrcivx76HRsqSG7u7atHg
+! Version: 202104201111
 ! Title: EasyPrivacy
-! Last modified: 19 Apr 2021 09:21 UTC
+! Last modified: 20 Apr 2021 11:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3706,6 +3706,7 @@
 /roitracker.
 /roitracker2.
 /roiTrax.
+/rollbar-snippet.
 /rollbar.js
 /rollbar.min.js
 /rolluptracker_
@@ -5577,12 +5578,14 @@ cgi-bin/counter
 /pixel-prod.
 /pixel?cid=
 /pqt.email/o/*$image
+/rdir.inxmail.com^*/d.gif?
 /sendmail.backerupdate.com/t/*
 /sptracking.
 /ss/o/*.gif
 /track/open.php?
 /track/open?
 /tracking.fanbridge.com/*
+/tracking.srv2.de/op/*$image
 /trcksp.
 /wf/open?upn=$image
 ://email.*/e/o/
@@ -7837,6 +7840,7 @@ _mongo_stats/
 ||roiservice.com^$third-party
 ||roispy.com^$third-party
 ||roitesting.com^$third-party
+||rollbar.com^$third-party
 ||rollingcounters.com^$third-party
 ||roosterfirework.com^$third-party
 ||rp-rep.net^$third-party
@@ -9031,6 +9035,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||aloofvest.com^$third-party
 ||amazingairplane.com^$third-party
 ||amlg.io^$third-party
+||ancientact.com^$third-party
 ||annoyedairport.com^$third-party
 ||anxiousapples.com^$third-party
 ||attractivecap.com^$third-party
@@ -11786,6 +11791,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||primedia.co.za/analytics/
 ||print2webcorp.com/mkt3/_js/p2w_tracker.js
 ||prism.app-us1.com^$script,third-party
+||prismaconnect.fr/prd/ping
 ||privacy-center.org^*/events
 ||privacytool.org/AnonymityChecker/js/fontdetect.js$third-party
 ||processor.asccommunications.com^
@@ -11908,6 +11914,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||s-vop.sundaysky.com^$third-party
 ||s.clickability.com^
 ||s.clickiocdn.com^
+||s.pinimg.com/ct/core.js
 ||s.sniphub.com^
 ||s.srvsynd.com^
 ||s24cloud.net/log^
@@ -12496,6 +12503,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wss.maven.io^$websocket
 ||wstat.wibiya.com^
 ||wtbevents.pricespider.com^
+||www.google.*/imgevent?
 ||x.disq.us^
 ||x.weather.com^
 ||xt.persosa.com^
@@ -12909,6 +12917,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||alipay.com/common/um/lsa.swf
 ||analytics.meituan.net^
 ||atanx.alicdn.com^
+||atom-log.3.cn^
 ||baidu.com/cpro/ui/c.js
 ||baidu.com/cpro/ui/f.js
 ||baidu.com/h.js?
@@ -12940,6 +12949,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||etwun.com:8080/counter.php?
 ||fourier.taobao.com^
 ||g.yccdn.com^
+||gias.jd.com/js/td.js
 ||haostat.qihoo.com^
 ||hudong.com/flux.js
 ||hyrankhit.meldingcloud.com^
@@ -22348,7 +22358,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||adobedtm.com^*-libraryCode_source.min.js$script,domain=disneyplus.disney.co.jp
 @@||adobedtm.com^*/mbox-contents-$script,domain=fcbarcelona.jp|sony.jp
 @@||adobedtm.com^*/satelliteLib-$script,domain=fcbarcelona.jp|radiko.jp|sony.jp
-@@||ads-twitter.com/oct.js$domain=jp.square-enix.com
 @@||allabout.co.jp/mtx_cnt.js$script,~third-party
 @@||analytics.edgekey.net/config/$xmlhttprequest,domain=nhk.or.jp
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=nhk.or.jp
