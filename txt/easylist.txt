@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pFZ4ot4YfOtiy42TMhAaBQ
-! Version: 202104201110
+! Checksum: FhozFkYXJ9LeJrpNMkLEBQ
+! Version: 202104211041
 ! Title: EasyList
-! Last modified: 20 Apr 2021 11:10 UTC
+! Last modified: 21 Apr 2021 10:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -10361,6 +10361,11 @@ _popunder+$popup
 ###ad002
 ###ad01
 ###ad02
+###ad03
+###ad04
+###ad05
+###ad07
+###ad08
 ###ad1-468x400
 ###ad1-home
 ###ad1-placeholder
@@ -25469,6 +25474,7 @@ _popunder+$popup
 ##.gpt-leaderboard-banner
 ##.gpt-mpu-banner
 ##.gpt-sticky-sidebar
+##.gptslot
 ##.gr-adcast
 ##.gr-ads
 ##.gradientAd
@@ -32364,6 +32370,7 @@ menstennisforums.com#@#.top_ads
 ||407433bfc441.com^
 ||40a1eca447d.com^
 ||40ceexln7929.com^
+||40f386e243.com^
 ||41df76c67812005c.com^
 ||42297df5c090.com^
 ||4232f0badcf.com^
@@ -33160,6 +33167,7 @@ menstennisforums.com#@#.top_ads
 ||antfindicater.site^
 ||antiadblocksystems.com^
 ||anticalser.club^
+||anticipationbelieved.com^
 ||antidotefoepersecution.com^
 ||antiquitytissuepod.com^
 ||antiterroristqueenjolly.com^
@@ -33328,6 +33336,7 @@ menstennisforums.com#@#.top_ads
 ||atpqczsqjsxvln.com^
 ||attacketsun.space^
 ||attackscabbagevengeance.com^
+||attentionsauditoriummall.com^
 ||attenuatecripple.com^
 ||attresswhethe.fun^
 ||atvbrhljmsor.com^
@@ -35260,6 +35269,7 @@ menstennisforums.com#@#.top_ads
 ||dumbpop.com^
 ||dummywisdom.com^
 ||dunderaffiliates.com^
+||dunedisadvantagetentative.com^
 ||dungeonavenge.com^
 ||dupiwipo.xyz^
 ||durpygckli.com^
@@ -36049,6 +36059,7 @@ menstennisforums.com#@#.top_ads
 ||fiechaev.com^
 ||fiedinherite.top^
 ||fiendbenevolencemaker.com^
+||fierymanurepebble.com^
 ||fiestataseel.club^
 ||fiewqoyhdkdcm.com^
 ||fiferentsdr.club^
@@ -36940,6 +36951,7 @@ menstennisforums.com#@#.top_ads
 ||hoosorie.com^
 ||hootcodcagy.casa^
 ||hoowooze.net^
+||hopefulserversnecklace.com^
 ||hopeorganconstructive.com^
 ||hopilos.com^
 ||hopinionin.club^
@@ -37034,6 +37046,7 @@ menstennisforums.com#@#.top_ads
 ||hxwgfumgg.com^
 ||hyconsistenb.space^
 ||hyinlegvghul.com^
+||hyperoi.com^
 ||hyphenion.com^
 ||hysntzdseidl.com^
 ||hzkachqd.com^
@@ -37529,6 +37542,7 @@ menstennisforums.com#@#.top_ads
 ||kfptslry.com^
 ||kfuiprtjuqntp.com^
 ||kg8l81yh7vnf.com^
+||kglmcsivtqcbj.com^
 ||kgnagbymcdmlr.com^
 ||kgqhtakjphgdwg.com^
 ||kgxnaenrozyuh.com^
@@ -37680,6 +37694,7 @@ menstennisforums.com#@#.top_ads
 ||laiphouz.net^
 ||lalaping.com^
 ||lamberserer.club^
+||lamforsung.com^
 ||lamplosts.site^
 ||lanchaeanly.pro^
 ||landindiscreet.com^
@@ -38134,6 +38149,7 @@ menstennisforums.com#@#.top_ads
 ||maxonclick.com^
 ||maxserving.com^
 ||mayhemabjure.com^
+||mayordiminution.com^
 ||mazzappa.fun^
 ||mb01.com^
 ||mb102.com^
@@ -39035,6 +39051,7 @@ menstennisforums.com#@#.top_ads
 ||oardilin.com^
 ||oarvfvntktnoto.com^
 ||oasazedy.com^
+||oathhillsidetile.com^
 ||oavaidan.com^
 ||oaxpcohp.com^
 ||obahet.com^
@@ -40224,6 +40241,7 @@ menstennisforums.com#@#.top_ads
 ||refyewdye.com^
 ||regarden.club^
 ||regardianpleast.site^
+||reginasfreyr.com^
 ||regionsparametersvacancy.com^
 ||regislandery.club^
 ||registrybrotherinlawdots.com^
@@ -41871,6 +41889,7 @@ menstennisforums.com#@#.top_ads
 ||unskilledsqueakjunk.com^
 ||untabilityde.site^
 ||untaryes.online^
+||untiloutrage.com^
 ||untpresearch.club^
 ||untridrisa.cf^
 ||untruewring.com^
@@ -42585,6 +42604,7 @@ menstennisforums.com#@#.top_ads
 ||xfs5yhr1.com^
 ||xg084mgkfsfk.com^
 ||xgctdamahrzy.com^
+||xgdhmwbgilx.com^
 ||xgfugivkvkak.com^
 ||xgmlmmulciz.com^
 ||xgraph.net^
@@ -48359,6 +48379,7 @@ menstennisforums.com#@#.top_ads
 ||ckrf1.com^$popup
 ||connexionsafe.com^$popup
 ||cooch.tv^$popup,third-party
+||cpng.lol.^$popup
 ||crentexgate.com^$popup
 ||crptentry.com^$popup
 ||crptgate.com^$popup
@@ -51575,7 +51596,6 @@ $popup,third-party,domain=cloudvideo.tv|loader.to|mystream.to|play.hydracdn.netw
 ||8boobs.com/flr.js
 ||8boobs.com/images/8boobs.com/banners/
 ||8boobs.com/images/8boobs.com/istripper/
-||a.hyperoi.com^
 ||absoluporn.com/code/script/
 ||adult-sex-games.com/images/promo/
 ||adultasianporn.com/puty3s/
@@ -51831,7 +51851,7 @@ $popup,third-party,domain=cloudvideo.tv|loader.to|mystream.to|play.hydracdn.netw
 ! motherless
 /^https?:\/\/motherless\.com\/[a-z0-9A-Z]{3,}\.[a-z0-9A-Z]{2,}\_/$image,subdocument
 ! (/sw.js)
-/^https?:\/\/.*\/.*sw[0-9._].*/$script,xmlhttprequest,domain=1vag.com|4tube.com|adult-channels.com|analdin.com|biguz.net|bogrodius.com|daftsex.com|extremetube.com|fantasti.cc|fuqer.com|fux.com|hclips.com|heavy-r.com|incesto69.com|indianbfvideos.com|megapornx.com|milfzr.com|mypornhere.com|niceporn.xxx|porn555.com|pornerbros.com|pornj.com|pornl.com|pornototale.com|porntube.com|sexu.com|spankwire.com|sss.xxx|thisav.com|titkino.net|tubepornclassic.com|tuberel.com|tubev.sex|txxx.com|vidmo.org|vpornvideos.com|xozilla.com|youporn.lc|youpornhub.it|yourdailypornstars.com
+/^https?:\/\/.*\/.*sw[0-9._].*/$script,xmlhttprequest,domain=1vag.com|4tube.com|adult-channels.com|analdin.com|biguz.net|bogrodius.com|daftsex.com|fantasti.cc|fuqer.com|fux.com|hclips.com|heavy-r.com|incesto69.com|indianbfvideos.com|megapornx.com|milfzr.com|mypornhere.com|niceporn.xxx|porn555.com|pornerbros.com|pornj.com|pornl.com|pornototale.com|porntube.com|sexu.com|sss.xxx|thisav.com|titkino.net|tubepornclassic.com|tuberel.com|tubev.sex|txxx.com|vidmo.org|vpornvideos.com|xozilla.com|youporn.lc|youpornhub.it|yourdailypornstars.com
 ! gaybeeg.info
 @@||netdna-storage.com^$xmlhttprequest,domain=gaybeeg.info
 @@||translate.google.com^$script,domain=gaybeeg.info
@@ -51858,7 +51878,7 @@ $websocket,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|
 ! *** easylist:easylist_adult/adult_specific_block_popup.txt ***
 .com./$popup,domain=pornhub.com|pornhubthbh7ap3u.onion
 ^utm_medium=pops^$popup,domain=ratedporntube.com|sextuberate.com
-|http*://*?$popup,third-party,domain=pornhub.com|pornhubthbh7ap3u.onion|pornsocket.com|redtube.com|spankwire.com|tube8.com|vidz78.com|xxxkingtube.com|youporn.com|youporngay.com
+|http*://*?$popup,third-party,domain=pornhub.com|pornhubthbh7ap3u.onion|pornsocket.com|redtube.com|tube8.com|vidz78.com|xxxkingtube.com|youporn.com|youporngay.com
 ||adultvideoz.net/lovex/$popup
 ||bitchcrawler.com/?$popup
 ||delivery.porn.com^$popup
@@ -51887,7 +51907,7 @@ $websocket,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|
 ||pornflip.com/away/pop?$popup
 ||publicagent.com/bigzpup.php$popup
 ||r18.com/*utm_source$popup
-||rackcdn.com^$popup,domain=extremetube.com|pornhub.com|pornhubthbh7ap3u.onion|redtube.com|spankwire.com|tube8.com|youporn.com|youporngay.com
+||rackcdn.com^$popup,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|tube8.com|youporn.com|youporngay.com
 ||site-rips.org^$popup,domain=backupload.net
 ||xvideos-free.com/d/$popup
 ! about:blank popups
@@ -54284,6 +54304,7 @@ barrons.com##div[class^="BarronsTheme--adWrapper"]
 apnews.com##div[class^="Component-adTitle-"]
 apnews.com##div[class^="Component-placeholderWrapper-"]
 apnews.com##div[class^="Component-rectanglePlaceholderWrapper-"]
+games.dailymail.co.uk##div[class^="DisplayAd_"]
 issuu.com##div[class^="ExploreShelf__ad"]
 games.dailymail.co.uk##div[class^="GameTemplate__displayAdTop_"]
 games.dailymail.co.uk##div[class^="HomeCategory__adWrapper_"]
@@ -54743,7 +54764,7 @@ flashx.tv,myfreeblack.com###nuevoa
 22pixx.xyz,imagevenue.com###overlayBg
 videos.com###pToolbar
 jizzhut.com###pagetitle
-extremetube.com,redtube.com,redtube.com.br,youporngay.com###pb_block
+redtube.com,redtube.com.br,youporngay.com###pb_block
 pornhub-com.appspot.com,pornhub.com,pornhub.net,pornhubthbh7ap3u.onion,youporn.com###pb_template
 youporn.com###personalizedHomePage > div:nth-child(2)
 imagearn.com###picBanner
@@ -54804,7 +54825,6 @@ hentai-sharing.net###text-9
 mansurfer.com###top-ban
 hiddencamshots.com###top-banner
 nude.hu###topPartners
-extremetube.com###topRightsquare
 69gfs.com,allureamateurs.net,mataporno.com,sexmummy.com,teenwantme.com,worldgatas.com,xpg.com.br###topbar
 gifsfor.com###topbar1
 motherless.com###topsites
@@ -54815,7 +54835,6 @@ usatoday.com###usat_PosterBlog
 homemoviestube.com###v_right
 teenist.com###video-bottom-right
 xvideos.com###video-sponsor-links
-extremetube.com###videoPageObject
 porndoo.com###videoTr
 bangyoulater.com###video_ad
 pornvideoscout.com,xsharebox.com###video_cover
@@ -54826,11 +54845,7 @@ pervclips.com,pornicom.com###view_video_ad
 tjoob.com###viewvidright
 thisav.com###vjs-banner-container
 matureworld.ws###vote_popup
-extremetube.com###whole
 mrstiff.com###xdv-preroll
-extremetube.com##._mapm_link_local_sex
-extremetube.com##._mapm_link_phone_sex
-extremetube.com##._mapm_link_premium
 sunporno.com##.a-block
 seductivetease.com##.a-center
 bravoteens.com##.a352
@@ -54843,7 +54858,7 @@ porn300.com##.aan_fake
 bravotube.net##.abbs
 vrsmash.com##.abovePlayer
 chaturbate.com,playboy.com,playporngames.xxx,rampant.tv,sex.com,signbucks.com,tallermaintenancar.com,tehvids.com,thehun.net,uflash.tv,xcafe.com##.ad
-extremetube.com,pinflix.com##.ad-container
+pinflix.com##.ad-container
 pornhub.com,pornhubthbh7ap3u.onion##.ad-link + table
 milfzr.com##.ad-widget > a
 redtube.net,xtube.com##.adContainer
@@ -55068,7 +55083,6 @@ hanksgalleries.com##.mob_vids
 yourdarkdesires.com##.moment
 xpics.me##.native
 yourlust.com##.native-aside
-extremetube.com##.noPopunder
 anysex.com##.no_pop.center
 xmissy.nl##.noclick-small-bnr
 hotmovs.com##.ntv-banners-container
@@ -55178,7 +55192,6 @@ imagepost.com##.textads1
 wichspornos.com##.tf-sp
 tallermaintenancar.com##.thumbs
 smutty.com##.tig_following_tags2
-extremetube.com##.title-sponsor-box
 drtuber.com##.title-sponsored
 boundhub.com##.to1p
 fpo.xxx##.top
@@ -55240,8 +55253,8 @@ porn.com,pussy.org,xvideos-free.com##.zone
 pornhd.com##.zone-area
 xhamster.com,xhamster.one,xhamster2.com##[class^="xplayer-banner"]
 sxyprn.com##[href*="/re/"]
-extremetube.com,pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[href*="base64"]
-extremetube.com,pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[href*="data:"]
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[href*="base64"]
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[href*="data:"]
 hentai-foundry.com##[href="http://www.hentaiunited.com/"]
 xxxgames.biz##[href="javascript:void(0);"]
 hentai-top100.com##[href^="http://sexmaxx.com"]
@@ -55251,12 +55264,13 @@ porngames.club##[href^="https://www.porngames.club/friends/out.php"]
 ero-advertising.com##[id][style]
 imagevenue.com##[id^="MarketGid"]
 youporn.com##[id^="parent_zone_"]
-extremetube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[src*="blob:"]
+tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[src*="blob:"]
 gamcore.com##[src^="//fgn.cdn.serverable.com/common/images/nfr2ie0nd1s9/"]
+tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[src^="blob:"]
 porngames.club##[src^="https://wheelwheel.space/"]
 pornhub.com,pornhubthbh7ap3u.onion##[srcdoc]
-extremetube.com,pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="base64"]
-extremetube.com,pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="blob:"]
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="base64"]
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="blob:"]
 porn.com##a[href*="&ref="]
 asspoint.com,babepedia.com,babesandstars.com,babesource.com,dachix.com,dbnaked.com,definebabe.com,freeones.com,gaytube.com,gfycatporn.com,girlsnaked.net,javfor.me,mansurfer.com,newpornstarblogs.com,ok.porn,pichunter.com,porn-star.com,porn.com,porndoe.com,pornerbros.com,pornhubpremium.com,pornstarchive.com,porntube.com,rogreviews.com,sexyandfunny.com,shemaletubevideos.com,spankbang.com,str8upgayporn.com,the-new-lagoon.com,tube8.com,wcareviews.com,xxxonxxx.com,youjizz.com,youporn.com##a[href*=".com/track/"]
 pornhub.com,pornhubthbh7ap3u.onion##a[href*=".download/"]
@@ -55364,10 +55378,6 @@ tube8.com##div[style="margin-bottom: 10px;"]
 sexbot.com##div[style="width:300px;height:20px;text-align:center;padding-top:30px;"]
 imgflare.com##div[style^="width:604px; height:250px;"]
 ahentai.top##div[style^="width:728px;height:90px"]
-extremetube.com,pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(*data:image*)
-extremetube.com,pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(base64)
-extremetube.com,pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(data:)
-extremetube.com,pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(image/)
 pornhub.com,pornhubthbh7ap3u.onion##figure > [id][style="display: block;"]
 rateherpussy.com##font[size="1"][face="Verdana"]
 3movs.com##iframe[height="250"][width="300"]
@@ -55386,6 +55396,10 @@ pornhub.com,pornhubthbh7ap3u.onion##img[width="300"][height="250"]
 naughty.com##img[width="450"]
 adultwork.com,babepicture.co.uk,naughty.com,sexmummy.com,tophentai.biz,tvgirlsgallery.co.uk##img[width="468"]
 babeshows.co.uk,jessie-rogers.com##img[width="728"]
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(*data:image*)
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(base64)
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(data:)
+pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(image/)
 pornhub.com,pornhubthbh7ap3u.onion##sads
 porngifs2u.com##section[class*="elementor-hidden-"]
 mysexgames.com##table[height="630"]
@@ -56538,6 +56552,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||phncdn.com^*/userfavorites.js$script
 @@||phncdn.com^*/xp_bubble-$script
 @@||phncdn.com^*/xp_bubble_$script
+@@||polyfill.io^$script,domain=tube8.com|tube8.es|tube8.fr|tube8.net
 @@||pornhub.com/_Incapsula_Resource?$image,subdocument,xmlhttprequest
 @@||pornhub.com/album/$xmlhttprequest
 @@||pornhub.com/album_upload$xmlhttprequest
@@ -56668,7 +56683,9 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||s.ytimg.com/yts/jsbin/*/www-widgetapi.js$domain=pornhub.com|pornhubthbh7ap3u.onion
 @@||s7.addthis.com^$script,domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com
 @@||services.pornhub.com^$~third-party,xmlhttprequest
+@@||static.trafficjunky.com/invocation/embeddedads/production/embeddedads.es6.min.js$domain=pornhub.com|pornhubthbh7ap3u.onion|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|tube8.net|xvideos.com|youjizz.com|youporn.com|youporngay.com
 @@||t8cdn.com//js/$script,domain=tube8.com|tube8.es|tube8.fr
+@@||t8cdn.com/assets/pc/$script,domain=tube8.com|tube8.es|tube8.fr|tube8.net
 @@||t8cdn.com/assets/plugins/$script,domain=tube8.com|tube8.es|tube8.fr
 @@||t8cdn.com/js/$script,domain=tube8.com|tube8.es|tube8.fr
 @@||t8cdn.com^$image,media,domain=tube8.com|tube8.es|tube8.fr
@@ -56727,12 +56744,10 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||ads.b10f.jp/flv/$~third-party
 ! *** easylist:easylist_adult/adult_allowlist_popup.txt ***
 @@&utm_medium=traffic_trade&utm_campaign=pornhub_trade_search_box$popup,domain=pornhub.com|pornhubthbh7ap3u.onion
-@@||as.sexad.net^*?p=*&v=$popup,domain=extremetube.com|keezmovies.com|pornhub.com|pornhubthbh7ap3u.onion|redtube.com|spankwire.com|tube8.com|tube8.es|tube8.fr
+@@||as.sexad.net^*?p=*&v=$popup,domain=keezmovies.com|pornhub.com|pornhubthbh7ap3u.onion|redtube.com|tube8.com|tube8.es|tube8.fr
 @@||blogger.com^$popup,domain=pornhub.com|pornhubthbh7ap3u.onion
 @@||contentabc.com/ads?spot_id=$popup,domain=tube8.com|tube8.es|tube8.fr
 @@||download.pornhub.phncdn.com/videos/$popup,domain=pornhub.com|pornhubthbh7ap3u.onion
-@@||extremetubefreehd.com^*.Extreme_HeaderTab&$popup,domain=extremetube.com
-@@||extremetubemate.com/?AFNO=$popup,domain=extremetube.com
 @@||gelbooru.com^$popup,~third-party
 @@||imagebam.com/image/$popup
 @@||pornhublive.com/?AFNO=$popup,domain=pornhub.com|pornhubthbh7ap3u.onion
@@ -56742,9 +56757,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||redtubeplatinum.com/signup/signup.php$popup,domain=redtube.com
 @@||redtubeplatinum.com/track/*/join?$popup,domain=redtube.com
 @@||rncdn3.com/videos/$popup,domain=pornhub.com|pornhubthbh7ap3u.onion
-@@||securejoinsite.com/loader.php?*_HeaderTab&$popup,domain=extremetube.com|spankwire.com
-@@||spankwirecams.com/?AFNO=$popup,domain=spankwire.com
-@@||spankwirefreehd.com^*.Spankwire_HeaderTab&$popup,domain=spankwire.com
 @@||stumbleupon.com^$popup,domain=pornhub.com|pornhubthbh7ap3u.onion
 @@||supportchat.contentabc.com^$popup,domain=brazzerssupport.com
 @@||t8premium.com/signup/signup.php?$popup,domain=tube8.com|tube8.es|tube8.fr
@@ -56752,4 +56764,3 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||tube8live.com/?AFNO=$popup,domain=tube8.com|tube8.es|tube8.fr
 @@||tumblr.com^$popup,domain=pornhub.com|pornhubthbh7ap3u.onion
 @@||twitter.com^$popup,domain=pornhub.com|pornhubthbh7ap3u.onion
-@@||wmtrafficentry.com/cgi-bin/ewm.cgi/*_HeaderTab?$popup,domain=extremetube.com|spankwire.com
