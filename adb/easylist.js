@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Lw0tLZGw3WISU87POOWy8w
-! Version: 202104221031
+! Checksum: Gr1bHwvPlqdRJ0iNz4Zpwg
+! Version: 202104231033
 ! Title: EasyList
-! Last modified: 22 Apr 2021 10:31 UTC
+! Last modified: 23 Apr 2021 10:33 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -903,6 +903,8 @@
 /_js2/oas.
 /_scripts/_oas/*
 /_svc/ad/*
+/_xa/ads?
+/_xa/ads_
 /a-ads.$third-party
 /a/?ad=
 /a/ads/*
@@ -2131,7 +2133,7 @@
 /admatcherclient.
 /admatik.
 /admaven.
-/admax.$domain=~admax.cn|~admax.co|~admax.eu|~admax.fi|~admax.hu|~admax.info|~admax.net|~admax.nu|~admax.org|~admax.se|~admax.us
+/admax.$domain=~admax.cn|~admax.co|~admax.co.jp|~admax.eu|~admax.fi|~admax.hu|~admax.info|admax.jp|~admax.net|~admax.nu|~admax.org|~admax.se|~admax.shinobi.jp|~admax.us
 /admax/*
 /admaxads.
 /admcoreext.
@@ -3828,6 +3830,7 @@
 /app/ads/*
 /apstag.js
 /aptads/*
+/apu.php?*&zoneid=
 /arcAdsJS/*
 /Article-Ad-
 /article-advert-
@@ -4535,7 +4538,7 @@
 /display/ads?
 /display?ad_
 /display_ad
-/displayad.$~script,domain=~displayad.naver.com
+/displayad.$~script
 /displayad/*
 /displayad?
 /displayadbanner_
@@ -6425,7 +6428,7 @@
 /search/ads?
 /search/ads_
 /search_ads.
-/searchad.$domain=~searchad.naver.com
+/searchad.
 /searchad_
 /searchads/*
 /searchAdsIframe.
@@ -17349,7 +17352,9 @@ _popunder+$popup
 ###topadcontainer
 ###topaddwide
 ###topadh
+###topadleft
 ###topadone
+###topadright
 ###topads-spacer
 ###topads-wrapper
 ###topadsblock
@@ -17985,6 +17990,7 @@ _popunder+$popup
 ##.ContentTextAd
 ##.DAWRadvertisement
 ##.DFP_AD_UNIT
+##.DFPad
 ##.DartAdvert
 ##.DeptAd
 ##.DetachedAd
@@ -18654,6 +18660,7 @@ _popunder+$popup
 ##.ad-box-2
 ##.ad-box-300x250
 ##.ad-box-adsea
+##.ad-box-auto
 ##.ad-box-caption
 ##.ad-box-container
 ##.ad-box-title
@@ -27526,6 +27533,7 @@ _popunder+$popup
 ##.player_hide_ad
 ##.player_hover_ad
 ##.player_page_ad_box
+##.playerdads
 ##.playlist-row-ad
 ##.plistaList > .itemLinkPET
 ##.plistaList > .plista_widget_underArticle_item[data-type="pet"]
@@ -30873,6 +30881,8 @@ _popunder+$popup
 ##a[href^="https://www.pornhat.com/"][rel="nofollow"]
 ##a[href^="https://www.securegfm.com/"]
 ##a[href^="https://www.share-online.biz/affiliate/"]
+##a[href^="https://www.sheetmusicplus.com/"][href*="?aff_id="]
+##a[href^="https://www.sheetmusicplus.com/?aff_id="]
 ##a[href^="https://www.spyoff.com/"]
 ##a[href^="https://www.travelzoo.com/oascampaignclick/"]
 ##a[href^="https://www.vewwrmp.com/"]
@@ -34396,6 +34406,7 @@ menstennisforums.com#@#.top_ads
 ||coaphauk.net^
 ||coastsoak.com^
 ||coazuthu.net^
+||cobalten.com^
 ||cobdieink.com^
 ||coccusadmanlob.com^
 ||coccyxwickimp.com^
@@ -34944,6 +34955,7 @@ menstennisforums.com#@#.top_ads
 ||dentalsadness.com^
 ||dentedporc.club^
 ||deparabides.club^
+||departureweathertraces.com^
 ||depictlicencegrandmother.com^
 ||depicturalki.club^
 ||deplaisamment.xyz^
@@ -48540,6 +48552,7 @@ menstennisforums.com#@#.top_ads
 ||artistdirect.com/partner/
 ||as.jivox.com/jivox/serverapis/getcampaignbysite.php?$object
 ||assets.betterbills.com/widgets/
+||assets.sheetmusicplus.com^$third-party
 ||associmg.com^*.gif?tag-
 ||astrology.com/partnerpages/
 ||augine.com/widget|$third-party
@@ -50000,6 +50013,8 @@ menstennisforums.com#@#.top_ads
 ||worldofjudaica.com/static/show/external/
 ||wp.com/*.postaffiliatepro.com/$third-party
 ||wp.com/adnetsreview.com/wp-content/uploads/*banner
+||wp.com/assets.sheetmusicplus.com/banner/
+||wp.com/assets.sheetmusicplus.com/smp/
 ||wp.com/stripe.rs-stripe.com/
 ||wp.com^*/linkwidgets/$domain=coedmagazine.com
 ||wpzoom.com/images/aff/$third-party
@@ -50707,6 +50722,7 @@ menstennisforums.com#@#.top_ads
 ||canyoublockit.com/wp-content/uploads/nzraxtwifgbg/
 ||carfinderph.com/popup/
 ||carmag.co.za/upload/dmx_banners/
+||catholicregister.org/images/banners/
 ||cd1025.com/www/assets/a/
 ||cdjapan.co.jp/aff/tmpl/big_banner_728x90i.js
 ||ceforum.co.uk/images/misc/PartnerLinks
@@ -50869,6 +50885,7 @@ menstennisforums.com#@#.top_ads
 ||lawprofessorblogs.com/responsive-template/*advert.
 ||leechpremium.link/img/banner/promo.png
 ||lespagesjaunesafrique.com/bandeaux/
+||lifehack.org/Tm73FWA1STxF.js
 ||linkedin.com/tscp-serving/
 ||linkhub.icu/vendors/h.js
 ||linkshare.pro/img/btc.gif
@@ -52520,6 +52537,7 @@ electronicshub.org###text-5
 ssbcrack.com###text-51
 quickonlinetips.com###text-57
 2smsupernetwork.com,times.co.zm###text-6
+yugatech.com###text-69
 nanoreview.net###the-app > .mb
 placehold.it###tla
 mma-core.com###tlbrd
@@ -52899,7 +52917,7 @@ arcadebomb.com##.bannerext
 saigoneer.com##.bannergroup-main
 malaysiandigest.com##.bannergroup_sideBanner2
 dailynews.co.tz##.bannergroup_text
-asianmirror.lk,crown.co.za,marengo-uniontimes.com,nikktech.com##.banneritem
+asianmirror.lk,catholicregister.org,crown.co.za,marengo-uniontimes.com,nikktech.com##.banneritem
 mtvindia.com##.bannermain
 mtvindia.com##.bannermain2
 c21media.net,carfinderph.com,classicsdujour.com,igirlsgames.com,jobstreet.com.my,jobstreet.com.sg,lolroflmao.com,marinetechnologynews.com,maritimeprofessional.com,maritimepropulsion.com,mumbrella.com.au,petapixel.com,phuketgazette.net,rapidtvnews.com,telesurtv.net,travelpulse.com##.banners
@@ -53678,6 +53696,7 @@ reddit.com##.promotedlink
 racingtv.com,twitter.com,wral.com##.promotion
 bostonreview.net##.promotop
 kathmandupost.com##.pt-0
+news.abplive.com##.pt-2.mt-4.card
 1980-games.com,flash-mp3-player.net,larousse.com,theportugalnews.com,tolonews.com##.pub
 yabiladi.com##.pub2
 tvgolo.com##.pub468x60top
@@ -54049,7 +54068,7 @@ naturalnews.com##[href*="/WBA-"]
 naturalnewsblogs.com##[href*="/WBA/"]
 libtorrent.org,mailgen.biz,speedcheck.org,torrentfreak.com,tubeoffline.com##[href*="://go.nordvpn.net/"]
 gamecopyworld.com,gamecopyworld.eu##[href*="@"]
-9jaflaver.com,alaskapublic.org,allkeyshop.com,ancient-origins.net,animeidhentai.com,arabtimesonline.com,carmag.co.za,cnx-software.com,coingolive.com,digitallydownloaded.net,downturk.net,elitepvpers.com,fresherslive.com,gizmochina.com,guidedhacking.com,hackernoon.com,hlstester.com,indishare.org,linkhub.icu,mbauniverse.com,mydramalist.com,myreadingmanga.info,owaahh.com,parkablogs.com,premiumtimesng.com,resultuniraj.co.in,retail.org.nz,rtvonline.com,techspot.com,totemtattoo.com,trancentral.tv,ultshare.com,vumafm.co.za,yeyeboyz.net,zmescience.com##[href*="bit.ly/"]
+9jaflaver.com,alaskapublic.org,allkeyshop.com,ancient-origins.net,animeidhentai.com,arabtimesonline.com,carmag.co.za,cnx-software.com,coingolive.com,digitallydownloaded.net,downturk.net,elitepvpers.com,fresherslive.com,gizmochina.com,guidedhacking.com,hackernoon.com,hlstester.com,indishare.org,linkhub.icu,mbauniverse.com,mydramalist.com,myreadingmanga.info,owaahh.com,parkablogs.com,premiumtimesng.com,resultuniraj.co.in,retail.org.nz,rtvonline.com,techspot.com,totemtattoo.com,trancentral.tv,ultshare.com,vumafm.co.za,yeyeboyz.net,yugatech.com,zmescience.com##[href*="bit.ly/"]
 whatleaks.com##[href*="doublevpn.com"]
 elitepvpers.com##[href*="https://bitly.com/"]
 elitepvpers.com##[href*="https://oddeven.net"]
@@ -54127,6 +54146,7 @@ filefleck.com,sadeempc.com,upload4earn.org##a[href*="javascript:"]
 twitter.com##a[href*="src=promoted_trend_click"]
 twitter.com##a[href*="src=promoted_trend_click"] + div
 unitconversion.org##a[href="../noads.html"]
+apkpure.com##a[href="https://www.macblurayplayer.com/spyhunter-malware-removal-windows.htm"]
 rarbg.to,rarbgaccess.org,rarbgmirror.com,rarbgmirror.org,rarbgproxy.com,rarbgproxy.org,rarbgunblock.com,rarbgunblocked.org##a[href][target="_blank"] > button
 facebook.com,shroomery.org##a[href^="/ads/"]
 lightreading.com##a[href^="/lg_redirect.asp?piddl_lgid_docid="]
@@ -54156,6 +54176,7 @@ domaintyper.com##a[href^="https://www.kqzyfj.com/"]
 provideocoalition.com##a[href^="https://www.provideocoalition.com/ghost/"]
 ynetnews.com##a[href^="https://www.xplorer.co.il/"]
 tubeoffline.com##a[href^="https://www.xvinlink.com/?a_"]
+yugatech.com##a[href^="https://yugatech.ph/"]
 krapps.com##a[href^="index.php?adclick="]
 kitguru.net##a[id^="href-ad-"]
 home-barista.com,shtfplan.com,washingtontimes.com##a[onclick]
@@ -54441,7 +54462,6 @@ arstechnica.com##.ad_crown
 arstechnica.com##.ad_fullwidth
 arstechnica.com##.ad_wrapper
 arstechnica.com##.ad_xrail
-afreesms.com##.adsbygoogle
 reuters.com##.amp-ad-container
 bing.com##.b_ad
 tweaktown.com##.center-tag-rightad
@@ -55294,6 +55314,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 ! *** easylist:easylist/easylist_allowlist.txt ***
 @@||2mdn.net/instream/html5/ima3.js$script,domain=earthtv.com|zdnet.com
 @@||4cdn.org/adv/$image,xmlhttprequest,domain=4channel.org
+@@||4channel.org/adv/$image,xmlhttprequest,domain=4channel.org
 @@||abcnews.com/assets/js/prebid.min.js$~third-party
 @@||abcnews.com/assets/player/$script,~third-party
 @@||accuweather.com/bundles/prebid.$script
@@ -55356,6 +55377,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||boatwizard.com/ads_prebid.min.js$script,domain=boats.com
 @@||borneobulletin.com.bn/wp-content/banners/bblogo.jpg
 @@||britannica.com/resources/js/libs/prebid*.js$script,~third-party
+@@||btcmanager.com/wp-content/uploads/wp-banners/banner_cf0c55bbe3e654b2e631fd0552e0322b.png
 @@||canadianlisted.com/css/*/ad/index.css
 @@||candystand.com/assets/images/ads/$image
 @@||capertongillett.com/glp?r=$script,~third-party
@@ -55410,7 +55432,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||flying-lines.com/banners/$image,~third-party
 @@||forums.opera.com/api/topic/$~third-party,xmlhttprequest
 @@||freelitecoin.vip/assets/img/ad_$~third-party
-@@||fuseplatform.net^*/fuse.js$script,domain=broadsheet.com.au
+@@||fuseplatform.net^*/fuse.js$script,domain=broadsheet.com.au|friendcafe.jp
 @@||fwmrm.net^*/AdManager.js$script
 @@||g.doubleclick.net/gampad/ads$xmlhttprequest,domain=gamespot.com
 @@||g.doubleclick.net/gampad/ads*%20Web%20Player$domain=imasdk.googleapis.com
@@ -55633,62 +55655,27 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@/wp-content/plugins/blocked-ads-notifier-lite/*$script,~third-party,domain=~gaytube.com|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com|~youporngay.com
 @@/wp-content/plugins/simple-adblock-notice/*$script,~third-party,domain=~gaytube.com|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com|~youporngay.com
 @@/wp-prevent-adblocker/*$script,~third-party,domain=~gaytube.com|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com|~youporngay.com
-@@||8shit.net^$generichide
 @@||adf.ly/ad/banner/*=$xmlhttprequest
 @@||adf.ly^$generichide
-@@||adsbox.in^$generichide
-@@||aetv.com^$generichide
-@@||afdah.tv^$script
-@@||afreesms.com^$generichide
-@@||ahctv.com^$generichide
 @@||aiasahi.jp/ads/$image,domain=japan.zdnet.com
-@@||allmusic.com^$generichide
-@@||alphahistory.com^$generichide
-@@||anilinkz.io^$generichide
 @@||avforums.com/*ad$script
-@@||bicimotosargentina.com^$generichide
-@@||business-standard.com/ad/banner.js
 @@||centro.co.il^$generichide
-@@||comicbook.com^$generichide
 @@||crunchyroll.com^*/ads_$script
 @@||ddmcdn.com^*/comscore.streaming.$script,domain=ahctv.com|animalplanet.com|cookingchanneltv.com|destinationamerica.com|discovery.com|discoverylife.com|diynetwork.com|foodnetwork.com|hgtv.com|investigationdiscovery.com|motortrend.com|sciencechannel.com|tlc.com|travelchannel.com
-@@||destinationamerica.com^$generichide
-@@||diep.io^$script,~third-party
 @@||dlh.net^$script,subdocument,domain=dlh.net
-@@||dnswatch.info^$script,domain=dnswatch.info
-@@||drfile.net^$generichide
-@@||dutplanet.net/ajax/reclamecheck.php?$xmlhttprequest
-@@||dx-tv.com^$generichide
-@@||dynamicyield.com/abadimage/$image,subdocument
-@@||e24.no^$generichide
-@@||embedupload.com^$generichide
-@@||euroman.dk^$generichide
 @@||exponential.com^*/tags.js$domain=yellowbridge.com
 @@||fullmatchesandshows.com^$generichide
 @@||games.pch.com^$generichide
-@@||globfone.com^$generichide
-@@||huffingtonpost.co.uk^$generichide
 @@||informer.com^$generichide
-@@||mediafire.com^$generichide
-@@||newsconcierge.com.au/google-adwords-offer/$~third-party
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cpu-world.com|megaleech.us|short.am
-@@||picfont.com^$generichide
-@@||play-old-pc-games.com^$generichide
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cpu-world.com|megaleech.us
 @@||premiumleecher.com^$generichide
-@@||problogbooster.com^$generichide
-@@||pttrns.com^$generichide
-@@||r10s.jp/share/themes/ds/js/show_ads_randomly.js$domain=travel.rakuten.co.jp
 @@||receive-a-sms.com^$generichide
 @@||rojadirecta.me^$generichide
 @@||sc2casts.com^$generichide
 @@||sc2casts.com^$script,domain=sc2casts.com
-@@||sciencechannel.com^$generichide
 @@||spanishdict.com^$generichide
-@@||spaste.com^$script
 @@||stream4free.live^$generichide
 @@||television-envivo.com^$generichide
-@@||thebarchive.com^$generichide
-@@||tlc.com^$generichide
 @@||tomshardware.co.uk^$generichide
 @@||tomshardware.com^$generichide
 @@||tweaktown.com^$generichide
@@ -55734,6 +55721,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||daumcdn.net/adfit/static/ad-native.min.js$domain=daum.net
 @@||daumcdn.net/adfit/static/ad.min.js$script,domain=daum.net
 @@||discordapp.com/banners/$image
+@@||displayad.naver.com^$~third-party
 @@||dmm.com/p/general/$image,~third-party
 @@||dmm.com^*/display_ad.js$~third-party
 @@||downol.dr.dk/download/*&clicktag=http$document,subdocument,domain=dr.dk
@@ -55784,6 +55772,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||samplefan.com/img/ad/$image
 @@||sascdn.com/diff/templates/ts/dist/banner/sas-banner-$script,domain=dr.dk
 @@||scan-manga.eu/*pageID=$~third-party
+@@||searchad.naver.com^$~third-party
 @@||smartadserver.com/3310/call$xmlhttprequest,domain=dr.dk
 @@||smartadserver.com/ac?nwid=3310^$script,domain=dr.dk
 @@||smartadserver.com/h/nshow?siteid=$script,domain=dr.dk
@@ -55795,10 +55784,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||velet.jp/images/adv/$image,~third-party
 @@||vitalia.pl/gfx/*reklama$image,domain=diety.wp.pl
 @@||wikiwiki.jp^*/plus/adv.png$~third-party
-! Used as an Anti-adblock check
-@@||fastly.net/ad/$image,script,xmlhttprequest
-@@||fastly.net/ad2/$image,script,xmlhttprequest
-@@||fastly.net/js/*_ads.$script
 ! Allowlists to fix broken pages of advertisers
 ! Facebook
 @@||www.facebook.com/ads/$generichide
