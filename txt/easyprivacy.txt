@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: MpwznMqlapvTfwAAO9Kg4A
-! Version: 202104251231
+! Checksum: soYFnNarV+7oY4Gorc+L6g
+! Version: 202104270911
 ! Title: EasyPrivacy
-! Last modified: 25 Apr 2021 12:31 UTC
+! Last modified: 27 Apr 2021 09:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1597,6 +1597,7 @@
 /d_tracking.ashx?
 /dart_wrapper.html?
 /data.do?session_
+/data.mistat.
 /data/collect/*$xmlhttprequest
 /data_collect.js
 /datacapture/track
@@ -6070,7 +6071,6 @@ _mongo_stats/
 ||analytk.com^$third-party
 ||anametrix.com^$third-party
 ||anametrix.net^$third-party
-||andyetanotherthing.com^$third-party
 ||angelfishstats.com^$third-party
 ||angorch-cdr7.com^$third-party
 ||angsrvr.com^$third-party
@@ -6383,7 +6383,6 @@ _mongo_stats/
 ||cloud-exploration.com^$third-party
 ||cloud-iq.com^$third-party
 ||cloudtracer101.com^$third-party
-||cmcintra.net^$third-party
 ||cmcore.com^$third-party
 ||cmmeglobal.com^$third-party
 ||cmptch.com^$third-party
@@ -6445,7 +6444,6 @@ _mongo_stats/
 ||countergeo.com^$third-party
 ||counterland.com^$third-party
 ||counters4u.com^$third-party
-||counterservis.com^$third-party
 ||countersforlife.com^$third-party
 ||countertracker.com^$third-party
 ||counterviews.net^$third-party
@@ -6574,13 +6572,7 @@ _mongo_stats/
 ||dotaki.com^$third-party
 ||dotjs.com^$third-party
 ||dotomi.com^$third-party
-||doubleclick.net/activity$third-party
-||doubleclick.net/imp%$third-party
-||doubleclick.net/imp;$third-party
-||doubleclick.net/json?$third-party
-||doubleclick.net/pixel?$third-party
-||doubleclick.net^$image,third-party
-||doubleclick.net^*/trackimp/$third-party
+||doubleclick.net^$third-party
 ||doubleverify.com^$third-party
 ||dpbolvw.net^$third-party
 ||dps-reach.com^$third-party
@@ -7923,7 +7915,6 @@ _mongo_stats/
 ||seomonitor.ro^$third-party
 ||seomoz.org^$third-party
 ||seoparts.net^$third-party
-||seoradar.ro^$third-party
 ||serious-partners.com^$third-party
 ||serv-ac.com^$third-party
 ||servebom.com^$third-party
@@ -8429,7 +8420,6 @@ _mongo_stats/
 ||vmmpxl.com^$third-party
 ||voicefive.com^$third-party
 ||volantix.com^$third-party
-||voodooalerts.com^$third-party
 ||votistics.com^$third-party
 ||vprza.com^$third-party
 ||vtracker.net^$third-party
@@ -8580,7 +8570,6 @@ _mongo_stats/
 ||zoosnet.net^$third-party
 ||zoossoft.net^$third-party
 ||zqtk.net^$third-party
-||zroitracker.com^$third-party
 ||ztsrv.com^$third-party
 ||zuzab.com^$third-party
 ! https://www.opensubtitles.org/
@@ -8739,7 +8728,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||a-calc.de^$third-party
 ||abc.pema.cl^$third-party
 ||acbp0020171456.page.tl^
-||ad-miner.com^$third-party
 ||adless.io^$third-party
 ||adminer.com^$third-party
 ||aleinvest.xyz^$third-party
@@ -8789,7 +8777,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cloudcoins.co^$third-party
 ||cloudflareinsights.com^$third-party
 ||cnhv.co^$third-party
-||coin-cube.com^
 ||coin-have.com^$third-party
 ||coin-hive.com^$third-party
 ||coin-service.com^$third-party
@@ -8829,7 +8816,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dzizsih.ru^$third-party
 ||easyhash.de^$third-party
 ||easyhash.io^$third-party
-||encoding.ovh^
 ||etacontent.com^
 ||eth-pocket.com^$third-party
 ||eth-pocket.de^$third-party
@@ -8856,7 +8842,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gay-hotvideo.net^
 ||goldoffer.online^$third-party
 ||googleanalytcs.com^$third-party
-||graftpool.ovh^
 ||gramombird.com^
 ||greengaming.de^$third-party
 ||gus.host^$third-party
@@ -8866,7 +8851,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hashvault.pro^$third-party
 ||hashzone.io^$third-party
 ||hemnes.win^$third-party
-||hide.ovh^
 ||hostcontent.live^$third-party
 ||hostingcloud.faith
 ||hostingcloud.party
@@ -8926,10 +8910,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nddmcconmqsy.ru^$third-party
 ||ner-de-mi-nis-6.info^$third-party
 ||nerohut.com^$third-party
-||never.ovh^
 ||nexioniect.com^
 ||nextbdom.ru^$third-party
-||nexttime.ovh^
 ||nfwebminer.com^$third-party
 ||niematego.tk^$third-party
 ||nimiq.com^$third-party
@@ -8949,7 +8931,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||party-vqgdyvoycc.now.sh^$third-party
 ||pertholin.com^$third-party
 ||play.mix.kinostuff.com^
-||poolmining.eu^$third-party
 ||pr0gram.org^$third-party
 ||rand.com.ru^
 ||reauthenticator.com^
@@ -8980,7 +8961,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||thewhizproducts.com^$third-party
 ||thewise.com^$third-party
 ||thismetric.com^$third-party
-||tidafors.xyz^$third-party
 ||tmmp.io^$third-party
 ||traffic.tc-clicks.com^$third-party
 ||truemine.org^$third-party
@@ -9820,7 +9800,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hetchi.com^$third-party
 ||lead.im^$third-party
 ||mimgoal.com^$third-party
-||ritogaga.com^$third-party
 ! Hungarian
 ||gpr.hu^$third-party
 ||hirmatrix.hu^$third-party
@@ -10430,6 +10409,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.edgekey.net^
 ||analytics.edgesuite.net^
 ||analytics.erepublic.com^
+||analytics.facebook.com^$third-party
 ||analytics.favcy.com^
 ||analytics.foresee.com^
 ||analytics.groupe-seb.com^
@@ -10458,6 +10438,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.performable.com^
 ||analytics.photorank.me^
 ||analytics.piksel.com^
+||analytics.pinterest.com^$third-party
+||analytics.pointdrive.linkedin.com^
 ||analytics.prezly.com^
 ||analytics.prod.aws.ecnext.net^
 ||analytics.radiatemedia.com^
@@ -10609,7 +10591,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bestofmedia.com^*/beacons/$~image
 ||bfnsoftware.com^*/environment.cgi?
 ||bhphotovideo.com/imp/
-||bid.g.doubleclick.net^
 ||bidsystem.com/ppc/sendtracker.aspx?
 ||bin.clearspring.*/b.swf
 ||bing.com/aclick/$third-party
@@ -10782,7 +10763,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cloudfunctions.net/function-record-stream-metric?
 ||cloudfunctions.net/ingest?
 ||clustrmaps.com/counter/$third-party
-||cm.g.doubleclick.net^
 ||cmail19.com/t/$image,third-party
 ||cmmeglobal.com/evt?
 ||cmmeglobal.com^*/page-view?
@@ -10978,7 +10958,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d4ax0r5detcsu.cloudfront.net^
 ||d6jkenny8w8yo.cloudfront.net^
 ||d81mfvml8p5ml.cloudfront.net^
-||d8rk54i4mohrb.cloudfront.net^
 ||dadi.technology^$third-party
 ||daq0d0aotgq0f.cloudfront.net^
 ||data.alexa.com^
@@ -12030,7 +12009,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.datahjaelp.net^
 ||stats.edicy.com^
 ||stats.fomo.com^
-||stats.g.doubleclick.net^
 ||stats.geegain.com^
 ||stats.gifs.com^
 ||stats.heyoya.com^
@@ -12234,7 +12212,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracker.downdetector.com^
 ||tracker.financialcontent.com^
 ||tracker.icerocket.com^
-||tracker.iqnomy.com^
 ||tracker.keywordintent.com^
 ||tracker.marinsoftware.com^
 ||tracker.roitesting.com^
@@ -12336,6 +12313,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trk.bhs4.com^
 ||trk.cloudsna.com^
 ||trk.email.dynect.net^
+||trk.pinterest.com^
 ||trk.pswec.com^$third-party
 ||trk.sele.co^
 ||trk.techtarget.com^
@@ -12529,6 +12507,33 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||zmags.com/a/p/p.js
 ||zoover.co.uk/tracking/
 ||zope.net^*/ghs_wa.js
+! https://d3ward.github.io/toolz/src/adblock.html
+||adsdk.yandex.ru^
+||analytics-api.samsunghealthcn.com^
+||analytics.mobile.yandex.net^
+||analytics.samsungknox.com^
+||app.chat.xiaomi.net^$third-party
+||appmetrica.yandex.com^$third-party
+||bigdata.ssp.samsung.com^
+||data.hicloud.com^$third-party
+||extmaps-api.yandex.net^
+||insights.samsung.com^
+||logbak.hicloud.com^
+||logservice.hicloud.com^
+||logservice1.hicloud.com^
+||metrics-dra.dt.hicloud.com^
+||metrics.icloud.com^
+||metrics.mzstatic.com^
+||mistat.xiaomi.com^
+||open.oneplus.net^$third-party
+||sa.api.intl.miui.com^
+||stat.xiaomi.com^
+||stats.redditmedia.com^
+||supportmetrics.apple.com^
+||tracking.miui.com^
+||trackingshipment.apple.com^
+||widgets.pinterest.com^$domain=d3ward.github.io
+||yandexadexchange.net^
 ! Appcues
 /^https?:\/\/fast\.appcues\.com\/[0-9]{4,6}\.js/
 ! taboola
@@ -12706,7 +12711,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||im.aol.de^
 ||info.elba.at^$third-party
 ||insene.de/tag/$third-party
-||insights.blogfoster.com^$third-party
 ||iqcontentplatform.de/tracking/
 ||js.stroeermediabrands.de^$third-party
 ||koe-vip.com/statistik/
@@ -15835,7 +15839,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||up.nytimes.com^
 ||upi.com/*/stat/
 ||uploaded.net/io/pixel/
-||uploadrocket.net/downloadfiles.php?*&ip
 ||upornia.com/js/0818.js
 ||upromise.com/js/csgather.js
 ||upsellit.com^*/visitor?
@@ -23277,6 +23280,10 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||outal.origo.hu^
 ||rtl.hu/_stat/
 ||videa.hu/flvplayer_setcookie.php?
+! Indonesian
+||analytic20.detik.com^
+||ktracker.kumparan.com^
+||tokopedia.com^*/pixel$xmlhttprequest
 ! Italian
 /~shared/do/~/count/?$image
 ||alfemminile.com/logpix.php
@@ -23656,9 +23663,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||log.ttbc-hcm.gov.vn^
 ||logsbin.dantri.com.vn^
 ||stats.muasamcong.gov.vn^
-! Indonesian
-||analytic20.detik.com^
-||ktracker.kumparan.com^
 ! Specific blocking filters necessary for sites allowlisting with $genericblock filter option
 ! Gamestar.de
 /ping.gif?$domain=gamestar.de
