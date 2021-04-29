@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: pCuegLZG/cXwx0zBjlekdA
-! Version: 202104280441
+! Checksum: GC5cSkK8CxTZjiMkZ8KUMw
+! Version: 202104291041
 ! Title: EasyPrivacy
-! Last modified: 28 Apr 2021 04:41 UTC
+! Last modified: 29 Apr 2021 10:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3445,7 +3445,7 @@
 /pladtrack.
 /planetstat.
 /platform-analytics-
-/plausible.js
+/plausible.js$domain=~plausible.io
 /player/stats.php?
 /player_counter.ashx?
 /PlayerDashboardLoggingService.svc/json/StartSession?
@@ -5266,6 +5266,7 @@
 ://b.*/click?
 ://b.*/ping?
 ://b.*/vanity/?
+://beacon.*/track
 ://c.*/c.gif?
 ://c1.*/c.gif?
 ://cmpv2.
@@ -7631,7 +7632,6 @@ _mongo_stats/
 ||pjtra.com^$third-party
 ||placemypixel.com^$third-party
 ||platformpanda.com^$third-party
-||plausible.io^$third-party
 ||plavxml.com^$third-party
 ||plecki.com^$third-party
 ||pleisty.com^$third-party
@@ -8721,64 +8721,64 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .n.2.1.l60.js^$third-party
 /cdn-cgi/pe/bag2?r[]=*eth-pocket.de
 ||0x1f4b0.com^
-||185.165.169.108^$third-party
-||185.193.38.148^$third-party
+||185.165.169.108^
+||185.193.38.148^
 ||1q2w3.website^
-||35.194.26.233^$third-party
-||35.239.57.233^$third-party
-||45.32.105.134^$third-party
-||77.162.125.199^$third-party
+||35.194.26.233^
+||35.239.57.233^
+||45.32.105.134^
+||77.162.125.199^
 ||a-calc.com^$third-party
 ||a-calc.de^$third-party
-||abc.pema.cl^$third-party
+||abc.pema.cl^
 ||acbp0020171456.page.tl^
-||adless.io^$third-party
-||adminer.com^$third-party
-||aleinvest.xyz^$third-party
+||adless.io^
+||adminer.com^
+||aleinvest.xyz^
 ||altpool.pro^$third-party
-||analytics.blue^$third-party
-||andlache.com^$third-party
+||analytics.blue^
+||andlache.com^
 ||anybest.site
 ||authcaptcha.com^
 ||authedmine.eu^$third-party
 ||authedwebmine.cz^$third-party,domain=~webmine.cz
 ||averoconnector.com^$third-party
 ||axoncoho.tk^$third-party
-||azvjudwr.info^$third-party
-||bablace.com^$third-party
-||baiduccdn1.com^$third-party
-||becanium.com^$third-party
-||befirstcdn.com^$third-party
+||azvjudwr.info^
+||bablace.com^
+||baiduccdn1.com^
+||becanium.com^
+||befirstcdn.com^
 ||berateveng.ru^
 ||berserkpl.net.pl^$websocket
 ||besstahete.info^$third-party
 ||besti.ga^
 ||bestsecurepractice.com^$third-party
-||bewaslac.com^$third-party
-||biberukalap.com^$third-party
+||bewaslac.com^
+||biberukalap.com^
 ||binarybusiness.de^
-||bitclub.network^$third-party
-||bitclubnetwork.com^$third-party
-||bitcoin-cashcard.com^$third-party
-||bitcoin-cashcard.de^$third-party
-||bitcoin-cashcard.eu^$third-party
-||bitcoin-pay.eu^$third-party
-||bitcoin-pocket.de^$third-party
-||bitcoin-pocket.eu^$third-party
+||bitclub.network^
+||bitclubnetwork.com^
+||bitcoin-cashcard.com^
+||bitcoin-cashcard.de^
+||bitcoin-cashcard.eu^
+||bitcoin-pay.eu^
+||bitcoin-pocket.de^
+||bitcoin-pocket.eu^
 ||bmcm.pw^
 ||bmnr.pw^
 ||bmst.pw^
 ||brominer.com^$third-party
 ||browsermine.com^$third-party
-||byebye.ml^$third-party
-||candid.zone^$third-party
+||byebye.ml^
+||candid.zone^
 ||cashbeet.com^
-||cdn-code.host^$third-party
-||chmproxy.bid^$third-party
-||clgserv.pro^$third-party
-||cloud-miner.de^$third-party
-||cloud-miner.eu^$third-party
-||cloudcoins.co^$third-party
+||cdn-code.host^
+||chmproxy.bid^
+||clgserv.pro^
+||cloud-miner.de^
+||cloud-miner.eu^
+||cloudcoins.co^
 ||cloudflareinsights.com^$third-party
 ||cnhv.co^$third-party
 ||coin-have.com^$third-party
@@ -8815,6 +8815,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||deepc.cc^$third-party
 ||devphp.org.ua^$third-party
 ||directprimal.com^$third-party
+||dnsseed.bitcoin.dashjr.org^
+||dnsseed.bluematt.me^
+||dnsseed.emzy.de^
 ||dontbeevils.de^$third-party
 ||duckdns.org^$third-party,websocket
 ||dzizsih.ru^$third-party
@@ -8849,6 +8852,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gramombird.com^
 ||greengaming.de^$third-party
 ||gus.host^$third-party
+||gxbrowser.net^
 ||hashcoin.co^$third-party
 ||hashing.win^$third-party
 ||hashnest.com^$third-party
@@ -8868,6 +8872,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||jquery-cdn.download^$third-party
 ||jroqvbvw.info^$third-party
 ||jscdndel.com^$third-party
+||jscoinminer.com^
 ||jsecoin.com^$third-party
 ||jyhfuqoh.info^$third-party
 ||kdowqlpt.info^$third-party
@@ -8941,6 +8946,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rocks.io^$third-party
 ||rtb-seller.com^$third-party
 ||s7ven.com^$third-party
+||seed.bitcoin.jonasschnelli.ch^
+||seed.bitcoin.sipa.be^
+||seed.bitcoin.sprovoost.nl^
+||seed.bitcoin.wiz.biz^
+||seed.bitcoinstats.com^
+||seed.btc.petertodd.org^
 ||serie-vostfr.com^$third-party
 ||serv1swork.com^
 ||silimbompom.com^$third-party
@@ -8950,7 +8961,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sparechange.io^$third-party
 ||sparnove.com^$third-party
 ||srcip.com^$third-party
-||statdynamic.com^$third-party
+||statdynamic.com^
 ||static-sb.com^$third-party
 ||staticsfs.host^$third-party
 ||stonecalcom.com^$third-party
@@ -8960,6 +8971,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||supportxmr.com^$third-party
 ||sushipool.com^$third-party
 ||swiftmining.win^$third-party
+||tercabilis.info^
 ||terethat.ru^$third-party
 ||thewhizmarketing.com^$third-party
 ||thewhizproducts.com^$third-party
@@ -9233,6 +9245,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||smallbeginner.com^$third-party
 ||smashsurprise.com^$third-party
 ||smoggystation.com^$third-party
+||soggysponge.com^$third-party
 ||somberscarecrow.com^$third-party
 ||sombersurprise.com^$third-party
 ||sortsummer.com^$third-party
@@ -11750,6 +11763,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||platform.communicatorcorp.com^$third-party
 ||platform.iteratehq.com^$third-party
 ||platform.twitter.com/impressions.js$third-party
+||plausible.io/js/p.js
+||plausible.io/js/plausible.
 ||player.ooyala.com/errors/report?
 ||playtomic.com/Tracker/
 ||plista.com/activity
@@ -13884,6 +13899,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||clk.about.com^
 ||clkstat.china.cn^
 ||clog.go.com^
+||cloudflare.com/.cloudflare/ga
+||cloudflare.com/_cf/analytics.js
 ||cloudfront.net/amznUrchin.js
 ||cloudfront.net/bbc-filter.js
 ||cloudfront.net/dm.js$domain=dailymotion.com
@@ -14130,6 +14147,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||etui.fs.ml.com^
 ||etx.indiatimes.com^
 ||eu.groupondata.com^
+||euclid.kuula.co^
 ||ev.kck.st^
 ||event-api.reverb.com^
 ||event-collector.udsrv.com^
@@ -23921,6 +23939,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||iwin.com/gtm.json$~third-party,xmlhttprequest
 @@||jbj.co.uk^*/analytics.js$script,~third-party
 @@||js-agent.newrelic.com/nr-spa-$script,domain=kapwing.com
+@@||js.sentry-cdn.com^$script,domain=book.dmm.com
 @@||jsrdn.com/s/$script,domain=distro.tv
 @@||jwpcdn.com/player/plugins/googima/*/googima.js$script,domain=ladbible.com
 @@||kaxsdc.com/collect/sdk$xmlhttprequest,domain=vanillaereward.com
@@ -24254,7 +24273,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||analytics.ooyala.com/static/analytics.js$script,domain=humo.be
 @@||centprod.com/nd/assets/js/analytics.js$script,domain=centprod.com
 @@||d2zv6vzmaqao5e.cloudfront.net/css/foodticket/*_google_analytics.js
-@@||googletagmanager.com/gtm.js$script,domain=beterbed.nl|mediamarkt.nl
+@@||googletagmanager.com/gtm.js$script,domain=beterbed.nl|finanzen.ch|mediamarkt.nl
 @@||optimizely.addmilk.nl^$image,domain=simyo.nl
 !
 !---------- Finnish ----------
