@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: GtPKZRkn6DGfZuxzrSlwHA
-! Version: 202104291041
+! Checksum: AMvOV5jWGt/OC4sRTB7KvQ
+! Version: 202104301200
 ! Title: EasyList
-! Last modified: 29 Apr 2021 10:40 UTC
+! Last modified: 30 Apr 2021 12:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6422,7 +6422,7 @@
 /scrollAd-
 /scrollads/*
 /scrpads.
-/sd_ads_
+/sd_ads_$domain=~rakuten.co.jp
 /search-ads?
 /search.php?uid=*.*&src=
 /search/ad/*
@@ -29833,6 +29833,7 @@ _popunder+$popup
 ##.vjs-ad-iframe
 ##.vjs-ad-overlay
 ##.vjs-ima3-ad-container
+##.vjs-overlay.size-300x250
 ##.vl-ad-item
 ##.vlog-ad
 ##.vmp-ad
@@ -30788,6 +30789,7 @@ _popunder+$popup
 ##a[href^="https://m.do.co/c/"] > img
 ##a[href^="https://mcdlks.com/"]
 ##a[href^="https://medleyads.com/"]
+##a[href^="https://meet-sexhere.com/"]
 ##a[href^="https://meet-to-fuck.com/tds"]
 ##a[href^="https://members.linkifier.com/public/affiliateLanding?refCode="]
 ##a[href^="https://misspkl.com/"]
@@ -30923,6 +30925,7 @@ _popunder+$popup
 ##bottomadblock
 ##div[aria-label="Ads"]
 ##div[cel_widget_id="dpx-sponsored-products-detail_csm_instrumentation_wrapper"]
+##div[class$="_b-ad-main"]
 ##div[class*="-storyBodyAd-"]
 ##div[class*="_AdInArticle_"]
 ##div[class*="_browserAdOuterContainer_"]
@@ -34959,6 +34962,7 @@ menstennisforums.com#@#.top_ads
 ||demannewcure.site^
 ||demoney.club^
 ||demotesusceptible.com^
+||demurcobsoho.com^
 ||denaviatived.space^
 ||denetsuk.com^
 ||denis-pj0823031-491201b.com^
@@ -35211,6 +35215,7 @@ menstennisforums.com#@#.top_ads
 ||dosveggietotem.casa^
 ||dotandad.com^
 ||dotandads.com^
+||dothbognib.com^
 ||dotnxdomain.net^
 ||dotrkme.com^
 ||double.net^
@@ -35997,6 +36002,7 @@ menstennisforums.com#@#.top_ads
 ||fdmtoyfpjk.com^
 ||fdnfnqgmfykg.com^
 ||fdrgtt9edmej010.com^
+||fdrptpyxchzjk.com^
 ||fdwbhggm.com^
 ||fdxdjkswppg.com^
 ||fe95a992e6afb.com^
@@ -36700,6 +36706,7 @@ menstennisforums.com#@#.top_ads
 ||gusfinishedsue.com^
 ||gutfdaizu.com^
 ||gutsfidelity.com^
+||guvivqlbh.com^
 ||gvcmiz3vze3n.com^
 ||gw7eez7b7fa3.com^
 ||gwatchestfe.top^
@@ -42044,6 +42051,7 @@ menstennisforums.com#@#.top_ads
 ||viighj.com^
 ||viihot.com^
 ||viirad.com^
+||villageeatable.com^
 ||villandopingcon.site^
 ||vimjarawl.com^
 ||vimmenced.club^
@@ -50132,6 +50140,7 @@ menstennisforums.com#@#.top_ads
 ! *** easylist:easylist/easylist_thirdparty_popup.txt ***
 ||6angebot.ch/?ref=$popup,third-party
 ||adfoc.us/serve/$popup,third-party
+||adfreevision.com^$popup,third-party
 ||admngronline.com^$popup,third-party
 ||adpopblocker.com^$popup,third-party
 ||adrotator.se^$popup
@@ -50180,6 +50189,7 @@ menstennisforums.com#@#.top_ads
 ||generic4all.com^*.dhtml?refid=$popup,third-party
 ||get-express-vpn.online^$popup,third-party
 ||getsecuredfiles.com^$popup,third-party
+||go.etoro.com^*?utm_$popup,third-party
 ||go.streamcomplet.$popup
 ||greevid.com/exit_p/$popup
 ||healthyproshop.com^*/prelanding/*?utm_$popup,third-party
@@ -53726,6 +53736,7 @@ independent.co.uk##.sc-pscky.kBPJSk.sc-qQYBZ
 independent.co.uk##.sc-qZtCU.wIkUb.sc-qQYBZ
 newindianexpress.com##.scc
 readmng.com##.scroll_target_top
+st.chatango.com##.sdlg-main-cbdr-cpbg
 semiconductor-today.com##.searchmidbox
 minecraftservers.org##.second-banner
 wbur.org##.section--breakout
@@ -54489,6 +54500,7 @@ facebook.com,facebookcorewwwi.onion#?#div[id^="hyperfeed_story_id_"]:-abp-has(a[
 facebook.com,facebookcorewwwi.onion#?#div[id^="hyperfeed_story_id_"]:-abp-has(a[data-hovercard^="/ajax/hovercard/page.php?id=931112240236154&"])
 facebook.com,facebookcorewwwi.onion#?#div[id^="hyperfeed_story_id_"]:-abp-has(a[href*="is_sponsored"])
 facebook.com,facebookcorewwwi.onion#?#div[id^="hyperfeed_story_id_"]:-abp-has(input[data-next-question-id])
+google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk#?#.mapsConsumerUiSubviewSectionGm2Placeresultcontainer__result-container:-abp-has(span.mapsConsumerUiSubviewSectionGm2SharedAdbadge__ad-badge)
 guru99.com#?#.content2:-abp-has(div[id^="div-gpt-ad"])
 guru99.com#?#.moduletable:-abp-has(div[id^="div-gpt-ad"])
 ksl.com#?#.queue:-abp-has(.sponsored)

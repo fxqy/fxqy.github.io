@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: GC5cSkK8CxTZjiMkZ8KUMw
-! Version: 202104291041
+! Checksum: kN3Pwpcz//g8jGgxdHXJwQ
+! Version: 202104301201
 ! Title: EasyPrivacy
-! Last modified: 29 Apr 2021 10:41 UTC
+! Last modified: 30 Apr 2021 12:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -9095,6 +9095,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||distributiontomatoes.com^$third-party
 ||disturbedquiet.com^$third-party
 ||divehope.com^$third-party
+||dockdigestion.com^$third-party
 ||dogcollarfavourbluff.com^$third-party
 ||dollardelta.com^$third-party
 ||dq95d35.com^$third-party
@@ -9104,6 +9105,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||enormousearth.com^$third-party
 ||enviousshape.com^$third-party
 ||fadedsnow.com^$third-party
+||fallaciousfifth.com^$third-party
 ||falseframe.com^$third-party
 ||familiarrod.com^$third-party
 ||farmergoldfish.com^$third-party
@@ -13037,10 +13039,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||counter.cnw.cz^
 ||fimg-resp.seznam.cz^
 ||h.imedia.cz^
+||h.seznam.cz^
 ||hit.skrz.cz^
 ||i.imedia.cz^
 ||log.idnes.cz^
 ||pixel.cpex.cz^
+||ssp.seznam.cz^
 ||stat.cncenter.cz^
 ||stat.ringier.cz^$third-party
 ||t.leady.com^
@@ -23247,6 +23251,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 ||jutarnji.hr/template/js/eph_analytics.js
 ! Czech
 ||o2.cz^*-ga_o2cz_bundle.js?
+||report.novinky.cz^
 ||stat.novinky.cz^
 ! Dutch
 ||analytics.rambla.be^
@@ -24114,7 +24119,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||sourcepointcmp.bloomberg.*/ccpa.js$script,domain=bloomberg.co.jp|bloomberg.com
 @@||sourcepointcmp.bloomberg.*/mms/get_site_data$xmlhttprequest,domain=bloomberg.co.jp|bloomberg.com
 ! Downdetector Consent
-@@||googletagservices.com/tag/js/gpt.js$domain=allestoringen.be|allestoringen.nl|allestörungen.at|allestörungen.ch|allestörungen.de|downdetector.ae|downdetector.ca|downdetector.cl|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com|downdetector.com.ar|downdetector.com.au|downdetector.com.br|downdetector.com.co|downdetector.cz|downdetector.dk|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetector.hk|downdetector.hr|downdetector.hu|downdetector.id|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.my|downdetector.no|downdetector.pe|downdetector.ph|downdetector.pk|downdetector.pl|downdetector.pt|downdetector.ro|downdetector.ru|downdetector.se|downdetector.sg|downdetector.sk|downdetector.web.tr
+@@||googletagservices.com/tag/js/gpt.js$domain=allestoringen.be|allestoringen.nl|downdetector.ae|downdetector.ca|downdetector.cl|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com|downdetector.com.ar|downdetector.com.au|downdetector.com.br|downdetector.com.co|downdetector.cz|downdetector.dk|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetector.hk|downdetector.hr|downdetector.hu|downdetector.id|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.my|downdetector.no|downdetector.pe|downdetector.ph|downdetector.pk|downdetector.pl|downdetector.pt|downdetector.ro|downdetector.ru|downdetector.se|downdetector.sg|downdetector.sk|downdetector.web.tr|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de
 ! Cloudflare hcaptcha test
 @@/cdn-cgi/images/trace/captcha/js/h/transparent.gif$image,~third-party
 ! uBO-CNAME (Specific allowlists)
