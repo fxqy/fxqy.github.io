@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: FyiaMc3DK7syvFZxsdzeEw
-! Version: 202105011111
+! Checksum: 98KjFHwqTCMo9c3DVwhZCg
+! Version: 202105021601
 ! Title: EasyPrivacy
-! Last modified: 01 May 2021 11:11 UTC
+! Last modified: 02 May 2021 16:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3276,7 +3276,7 @@
 /pageview?user_guid=
 /pageviews-counter-
 /pageviews.gif?
-/pageviews/*$domain=~pageviews.toolforge.org|~tools.wmflabs.org|~wikimedia.org|~wikipedia.org
+/pageviews/*$domain=~mediawiki.org|~pageviews.toolforge.org|~tools.wmflabs.org|~wikimedia.org|~wikipedia.org
 /pageviews?token=
 /pageviews_counter.
 /PageviewsTracker.
@@ -10607,6 +10607,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beacon2.indieclick.com^
 ||beacons.brandads.net^
 ||beacons.mediamelon.com^
+||beam.mjhlifesciences.com^
 ||bento.agoda.com^
 ||bestofmedia.com^*/beacons/$~image
 ||bfnsoftware.com^*/environment.cgi?
@@ -23945,7 +23946,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||iwin.com/gtm.json$~third-party,xmlhttprequest
 @@||jbj.co.uk^*/analytics.js$script,~third-party
 @@||js-agent.newrelic.com/nr-spa-$script,domain=kapwing.com
-@@||js.sentry-cdn.com^$script,domain=book.dmm.com
+@@||js.sentry-cdn.com^$script,domain=book.dmm.com|jobs.ch
 @@||jsrdn.com/s/$script,domain=distro.tv
 @@||jwpcdn.com/player/plugins/googima/*/googima.js$script,domain=ladbible.com
 @@||kaxsdc.com/collect/sdk$xmlhttprequest,domain=vanillaereward.com
@@ -24211,6 +24212,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||chronopost.fr/tracking-no-cms/resources/js/lib/atinternet/smarttag.prod.$script
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
 @@||forecast.lemonde.fr/p/event/pageview?$image,~third-party
+@@||gdpr-tcfv2.sp-prod.net^$script,domain=voici.fr
 @@||getviously.com/js$script,domain=consoglobe.com|futura-sciences.com|gentsu.fr|gossip-room.fr|wamiz.com
 @@||google-analytics.com/analytics.js$domain=infoconso-multimedia.fr|viandesuisse.ch
 @@||googletagmanager.com/gtm.js$script,domain=chronopost.fr|linternaute.com|sciencesetavenir.fr|wamiz.com
@@ -24227,6 +24229,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||static.s-sfr.fr/stats/header.js$script,~third-party
 @@||tag.aticdn.net/583901/at.js$script,domain=tv5monde.com
 @@||tag.aticdn.net^*/smarttag.js$domain=mon.compteczam.fr
+@@||tra.scds.pmdstatic.net/sourcepoint/$domain=voici.fr
 @@||ultimedia.com/api/widget/getwidget/$xmlhttprequest,domain=ouest-france.fr
 @@||vuplay.co.uk/stats/adobe/*/AppMeasurement.js$script,domain=radioplus.be
 @@||vuplay.co.uk/stats/adobe/*/VisitorAPI.js$script,domain=radioplus.be
