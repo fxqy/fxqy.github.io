@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PClqDNFR/qNWQtQiq9b+NQ
-! Version: 202105041400
+! Checksum: yfOhNcfcIRPaYIbSDQ54Tg
+! Version: 202105051051
 ! Title: EasyList
-! Last modified: 04 May 2021 14:00 UTC
+! Last modified: 05 May 2021 10:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -108,6 +108,7 @@
 -ad-313x232.
 -ad-336x280-
 -ad-340x400-
+-Ad-360.
 -ad-360x600.
 -ad-360x72.
 -ad-400.
@@ -7091,6 +7092,7 @@
 /viewbannerad.
 /viewer/rad?
 /viewid=*/site=*/size=
+/views-native-ads.
 /views/ads/*
 /vifGoogleAd.
 /virtuagirl.
@@ -10143,6 +10145,7 @@ _popunder+$popup
 ###ad-manager
 ###ad-manager-ad-bottom-0
 ###ad-manager-ad-top-0
+###ad-masthead
 ###ad-medium
 ###ad-medium-lower
 ###ad-medium-rectangle
@@ -23076,6 +23079,7 @@ _popunder+$popup
 ##.amp-ad
 ##.amp-ads
 ##.amp-ads-container
+##.amp-unresolved
 ##.ampFlyAdd
 ##.amsSparkleAdWrapper
 ##.anc_ads_show
@@ -25940,6 +25944,7 @@ _popunder+$popup
 ##.hwg-row-ad
 ##.hyad
 ##.hype_adrotate_widget
+##.i-amphtml-unresolved
 ##.i360ad
 ##.iAdserver
 ##.iRx9
@@ -39134,6 +39139,7 @@ menstennisforums.com#@#.top_ads
 ||ophoahik.net^
 ||oplwseln.com^
 ||opoapibs.net^
+||opoxv.com^
 ||opportedag.top^
 ||oppositehometowndrunken.com^
 ||oppressiveinterdependenthumanity.com^
@@ -42073,6 +42079,7 @@ menstennisforums.com#@#.top_ads
 ||vpagzcjp.com^
 ||vpfcvagfrmy.com^
 ||vpico.com^
+||vpnlist.to^
 ||vptggenzv.com^
 ||vpwlynobnnqg.com^
 ||vqr3jeu1qi41.com^
@@ -44663,6 +44670,7 @@ menstennisforums.com#@#.top_ads
 ||kurlipush.com^$third-party
 ||kwnq4hg2n9.com^$third-party
 ||kymirasite.pro^$third-party
+||l3g3media.com^$third-party
 ||lacerta.space^$third-party
 ||ladbrokesaffiliates.com.au^$third-party
 ||lailivob.net^$third-party
@@ -44872,6 +44880,7 @@ menstennisforums.com#@#.top_ads
 ||netaffiliation.com^$~script,third-party
 ||netavenir.com^$third-party
 ||netinsight.co.kr^$third-party
+||netizen.co^$third-party
 ||netliker.com^$third-party
 ||netloader.cc^$third-party
 ||netseer.com^$third-party
@@ -47074,6 +47083,7 @@ menstennisforums.com#@#.top_ads
 ||onstunkyr.com^$popup
 ||oodsotso.com^$popup
 ||openadserving.com^$popup
+||opoxv.com^$popup
 ||opptmzpops.com^$popup
 ||opskln.com^$popup
 ||optimizesrv.com^$popup
@@ -47433,6 +47443,7 @@ menstennisforums.com#@#.top_ads
 ||vpnfortorrents.biz^$popup
 ||vpnfortorrents.cc^$popup
 ||vpnfortorrents.com^$popup
+||vpnlist.to^$popup
 ||vq40567.com^$popup
 ||waframedia5.com^$popup
 ||wahoha.com^$popup
@@ -51290,20 +51301,20 @@ $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|co
 ! IP address
 /^https?:\/\/([0-9]{1,3}\.){3}[0-9]{1,3}/$domain=1movies.is|bittorrent.am|limetorrents.info|magnetdl.com|megaup.net|o2tvseries.com|rarbg.to|rarbgaccess.org|rarbgmirror.com|rarbgmirror.org|rarbgmirrored.org|rarbgproxy.org|rarbgprx.org|rarbgto.org|rarbgunblocked.org|rarbgway.org|readcomiconline.to|yourbittorrent2.com
 ! CSP filters
-$csp=script-src 'self' * 'unsafe-inline',domain=pirateproxy.live|thehiddenbay.com|downloadpirate.com|thepiratebay10.org|ukpass.co|pirateproxy.life
+$csp=script-src 'self' '*' 'unsafe-inline',domain=pirateproxy.live|thehiddenbay.com|downloadpirate.com|thepiratebay10.org|ukpass.co|pirateproxy.life
 $csp=worker-src 'none',domain=torlock.com|123movie.cc|1movies.best|alltube.pl|alltube.tv|annuaire-bleu.net|centrum-dramy.pl|cmovies.ac|coinfaucet.eu|crictime.com|crictime.is|deltabit.co|doodcdn.com|estream.to|extreme-down.tv|flashx.co|flashx.to|flashx.tv|gomo.to|hdvid.fun|hdvid.tv|hentai-online.pl|hitomi.la|kinox.to|lewd.ninja|assia1.tv|assia2.tv|nflbite.com|nyafilmer.app|pirateproxy.live|plytv.me|potomy.ru|powvideo.cc|powvideo.net|putlocker.to|reactor.cc|rojadirecta.watch|sickrage.ca|stream2watch.one|streamtape.com|thehiddenbay.com|thepiratebay.org|thepiratebay10.org|tomadivx.tv|tpb.party|unblockit.buzz|uptomega.me|ustream.to|vidcloud9.com|vidnext.net|vidoza.co|vidoza.net|vidtodo.pro|vipbox.lc|vumoo.to|wallpoper.com|wearesaudis.net|yazilir.com
-||allthetests.com^$csp=script-src 'self' * blob: data:
+||allthetests.com^$csp=script-src 'self' '*' blob: data:
 ||bittorrent.am^$csp=script-src 'self' 'unsafe-inline'
-||britannica.com^$csp=script-src 'self' * 'unsafe-inline'
-||convertcase.net^$csp=script-src 'self' * blob: data:
-||convertfiles.com^$csp=script-src 'self' * 'unsafe-inline'
+||britannica.com^$csp=script-src 'self' '*' 'unsafe-inline'
+||convertcase.net^$csp=script-src 'self' '*' blob: data:
+||convertfiles.com^$csp=script-src 'self' '*' 'unsafe-inline'
 ||eztv.io^$csp=script-src 'self' 'unsafe-inline' *.cloudflare.com *.googleapis.com *.facebook.net
-||fullmatchesandshows.com^$csp=script-src 'self' * 'unsafe-inline'
-||gelbooru.com^$csp=script-src 'self' * 'unsafe-inline' *.gstatic.com *.google.com *.googleapis.com *.bootstrapcdn.com
-||grammarist.com^$csp=script-src 'self' * 'unsafe-inline'
+||fullmatchesandshows.com^$csp=script-src 'self' '*' 'unsafe-inline'
+||gelbooru.com^$csp=script-src 'self' '*' 'unsafe-inline' *.gstatic.com *.google.com *.googleapis.com *.bootstrapcdn.com
+||grammarist.com^$csp=script-src 'self' '*' 'unsafe-inline'
 ||limetorrents.info^$csp=script-src 'self' 'unsafe-inline'
-||merriam-webster.com^$csp=script-src 'self' * 'unsafe-inline'
-||moviewatcher.is^$csp=script-src 'self' * 'unsafe-inline'
+||merriam-webster.com^$csp=script-src 'self' '*' 'unsafe-inline'
+||moviewatcher.is^$csp=script-src 'self' '*' 'unsafe-inline'
 ||pirateiro.com^$csp=script-src 'self' 'unsafe-inline' https://hcaptcha.com *.hcaptcha.com
 ! CSP Yavli
 ||activistpost.com^$csp=script-src *.leadpages.net *.gstatic.com *.google.com *.googleapis.com *.playwire.com *.facebook.com *.bootstrapcdn.com
@@ -51409,12 +51420,11 @@ $popup,third-party,domain=cloudvideo.tv|highstream.tv|loader.to|mystream.to|play
 ||europixhd.net^*/goads2$popup
 ||filecrypt.cc/pax/$popup
 ||flashx.tv^$popup,~third-party,domain=flashx.tv
-||flixhq.net/?$popup
 ||grammarly.com^$popup,domain=smallseotools.com
 ||hurawatch.com^$popup,domain=9anime.to|gogoanime.pro
 ||kick4ss.com/*?$popup
+||kick4ss.net/*?$popup
 ||linkshrink.net^*#^$popup,domain=linkshrink.net
-||movies7.to/?$popup
 ||mp3-convert.org/p/$popup
 ||multiupload.nl/popunder/$popup
 ||nordvpn.com^$popup,domain=browserleaks.com
@@ -51433,6 +51443,8 @@ $popup,third-party,domain=cloudvideo.tv|highstream.tv|loader.to|mystream.to|play
 /^https?:\/\/.*\.(jpg|png|php|html|svg|ico|js)/$popup,domain=5movies.fm|adf.ly|animepahe.com|bhplay.me|cmovies.ac|dood.so|dood.to|dood.video|dood.watch|europixhd.net|fcdn.stream|french-stream.lol|gowatchseries.bz|hqq.to|hulkstreams.com|jackstream.net|jackstreams.com|meomeo.pw|mixdrop.co|mp4upload.com|mystream.to|olympicstreams.me|player.cineflixtv.com|putlockers.fm|redirect-ads.com|speedvideo.net|streamsb.net|streamtape.cc|streamtape.com|streamtape.net|strikeout.nu|strtape.cloud|strtape.site|strtape.tech|tapecontent.net|telerium.net|upvid.co|vidnext.net|vido.fun|vipleague.cc|voe.sx|vumoo.to|watchserieshd.tv
 !
 /^https?:\/\/.*\.(info|pro|icu|app|xyz|pet|win|live|me|io|cc|pw|is|zone|bid|cf|ovh|site|review|ml)\.?(\/|:|$)/$popup,domain=dood.watch|fcdn.stream|fmovies.to|idup.io|mixdrop.co|mixdrop.to|mp4upload.com|powvideo.net|powvldeo.cc|putlocker.style|streamsb.net|strtape.cloud|thepiratebay.org|upstream.to|uptostream.com|vevo.io|vidcloud.co|videobin.co|videowood.tv|viditodo.com|vidoza.net|vortez.net|vshare.eu
+! third-party site popup
+/^https?:\/\/.*\/[?]/$popup,domain=9anime.ru|flixhq.net|kick4ss.com|kick4ss.net|movies7.to|tvshows88.com
 ! semi-generic popup block
 /^https?:\/\/.*[&%+=]/$popup,domain=dood.to|dood.video|dood.watch|jawcloud.co|mixdrop.co|powvideo.net|powvldeo.cc|prox4you.xyz|putlocker.fyi|putlocker.ninja|putlocker.style|putlockers.fm|putlockers.mn|putlockers.movie|rarbg.to|rarbgaccess.org|rarbgmirror.com|rarbgmirror.org|rarbgmirrored.org|rarbgproxy.org|rarbgprx.org|rarbgunblock.org|rarbgway.org|readcomiconline.to|repelis.net|seehd.pl|sendit.cloud|sendspace.com|sendvid.com|sportp2p.com|steamplay.cc|streamplay.life|streamplay.to|thepiratebay.org|thepiratebay10.org|torlock.com|torrentdownloads.me|torrentfunk2.com|uiz.io|ukpirate.org|unblockall.org|unblocker.cc|up-load.io|upload.ac|uploadproper.com|uploadproper.net|upstream.to|uptobox.com|userscloud.com|vidbull.tv|videobin.co|vidlox.me|vidoza.co|vidoza.net|vidtomp3.com|vidup.io|vipbox.live|vipstand.se|vshare.eu|y2mate.com|yify-movies.net|youwatch.org|youzik.com|zippyshare.com
 ! data popups
@@ -54138,6 +54150,7 @@ games.dailymail.co.uk##div[class^="HomeCategory__adWrapper_"]
 qwant.com##div[class^="HomeFlag-module__CommercialFlagContainer"]
 games.dailymail.co.uk##div[class^="HomeTemplate__afterCategoryAd_"]
 versus.com##div[class^="LegendSingle__show"]
+qwant.com##div[class^="ProductAdsMicrosoft-"]
 games.dailymail.co.uk##div[class^="RightRail__displayAdRight_"]
 barandbench.com##div[class^="ad-service-"]
 barandbench.com##div[class^="ad-slot"]
@@ -54508,6 +54521,7 @@ windowsbulletin.com#?#.code-block:-abp-has(a[href^="http://www.reimageplus.com/"
 windowsbulletin.com#?#strong:-abp-has(a[href^="http://www.reimageplus.com/"])
 yelp.at,yelp.be,yelp.ca,yelp.ch,yelp.cl,yelp.co.jp,yelp.co.nz,yelp.co.uk,yelp.com,yelp.com.ar,yelp.com.au,yelp.com.br,yelp.com.hk,yelp.com.mx,yelp.com.ph,yelp.com.sg,yelp.com.tr,yelp.cz,yelp.de,yelp.dk,yelp.es,yelp.fi,yelp.fr,yelp.ie,yelp.it,yelp.my,yelp.nl,yelp.no,yelp.pl,yelp.pt,yelp.se#?#div[class^=" container_"]:-abp-has(a[href^="/adredir?"])
 ! msn.com
+msn.com###native_ad_nativead-1
 msn.com###promotedlinksplaceholder
 msn.com##.ad-content
 msn.com##.adsContent-DS-EntryPoint1-1
@@ -54517,7 +54531,9 @@ msn.com##.dynamicRRWrapper
 msn.com##.extnativead
 msn.com##.extnativeaditem
 msn.com##.medianetintraarticlenativead
+msn.com##.modernRightRail_topAd_container-DS-EntryPoint1-1
 msn.com##.nativeAd-DS-card1-1
+msn.com##.nativeAdsCard_fluentCard-DS-EntryPoint1-1
 msn.com##.nativeadasideplaceholder
 msn.com##.nativeadserversidecontentmodule
 msn.com##.replacead23
@@ -54528,6 +54544,7 @@ msn.com##a.nativead[target="_blank"]
 msn.com##a[href*=".booking.com/"]
 msn.com##a[href*="clk.tradedoubler.com/click?"]
 msn.com##a[href^="https://rover.ebay.com/"]
+msn.com##display-ads
 msn.com##div[data-section-id="sponsored.stripe.shopping"]
 ! Bing
 bing.com###mm_pla
