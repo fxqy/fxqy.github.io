@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 1TfurRqDBnX5M63tC8lzkQ
-! Version: 202105061141
+! Checksum: N+fWAjh4IwhRpX953gN0Xw
+! Version: 202105071121
 ! Title: EasyPrivacy
-! Last modified: 06 May 2021 11:41 UTC
+! Last modified: 07 May 2021 11:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5567,6 +5567,7 @@ cgi-bin/counter
 /ap.lijit.com/*
 /beacon.krxd.net/*
 /beaconimages.netflix.net/*$image
+/click.*/q/$image
 /click.email.$image
 /clicks.email.$image
 /cmail2.com/t/
@@ -13080,6 +13081,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wee.dk/modules/$third-party
 ||wwwportal.dk/statistik.php
 ! Dutch
+||adult-trade.nl/lo/track.php
 ||analytics.belgacom.be^
 ||bbvms.com/zone/js/zonestats.js
 ||cookies.reedbusiness.nl^
@@ -24686,6 +24688,7 @@ ytics.disneyplus.com^
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
 @@||static.foxnews.com^*/VisitorAPI.js$domain=foxbusiness.com|foxnews.com
 @@||static.wikia.nocookie.net^*/tracking-opt-in.min.js$script,domain=fandom.com
+@@||travel-assets.com/platform-analytics-prime/$domain=chase.com
 @@||uniqlo.com^*/trackingservice/$~third-party
 ! @@||browser.sentry-cdn.com^$domain=cardiffmedia.co.uk|connect.shore.com|crrowd.com|gina-phillips.com|gracevanberkum.com|imperial.ac.uk|loveotv.com|onginnovations.com|simonparkes.org|stockforecasttoday.com|tekku.co.za|theangryviking1776.com|thegivingblock.com|thepittsburghoratory.org|truenews4u.com|washingtonpost.com|wix.com
 @@||browser.sentry-cdn.com^$domain=eco-clobber.co.uk
