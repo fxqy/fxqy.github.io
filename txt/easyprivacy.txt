@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: rbvqQtnErPxjTD/I1pd1Qg
-! Version: 202105081151
+! Checksum: dfKE+FXkhbxYhNFIBjz3lw
+! Version: 202105091111
 ! Title: EasyPrivacy
-! Last modified: 08 May 2021 11:51 UTC
+! Last modified: 09 May 2021 11:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3642,7 +3642,7 @@
 /referadd?
 /referal-cookie.
 /referer.gif?
-/referer_frame.
+/referer_frame.$domain=~developers.facebook.com
 /refererRecord.
 /referral_tracker.
 /referral_tracking.
@@ -25190,7 +25190,7 @@ ytics.disneyplus.com^
 @@||ensighten.com^*/Bootstrap.js$domain=williamhill.it
 @@||google-analytics.com/analytics.js$domain=carnesvizzera.ch
 @@||googletagmanager.com/gtag/js$script,domain=timparty.tim.it
-@@||googletagmanager.com/gtm.js$domain=iphoneitalia.com|la7.it|raiplayradio.it|savethechildren.it
+@@||googletagmanager.com/gtm.js$domain=eprice.it|iphoneitalia.com|la7.it|raiplayradio.it|savethechildren.it
 @@||ilsole24ore.com^*/fingerprint2.min.js?
 @@||imrworldwide.com/novms/*/ggcm*.js$domain=la7.it|sky.it|video.corriere.it
 @@||imrworldwide.com/v60.js$domain=capital.it|corriereadriatico.it|fanpage.it|huffingtonpost.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|leggo.it|m2o.it|quotidianodipuglia.it|video.deejay.it|video.espresso.repubblica.it|video.ilsecoloxix.it|video.lanuovasardegna.it|video.lastampa.it|video.rep.repubblica.it|video.repubblica.it

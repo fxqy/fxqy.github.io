@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rCU8AmYGgv9XrtLPDVXGWA
-! Version: 202105081150
+! Checksum: Icf6+zmbGL5iXY4wWfeluA
+! Version: 202105091111
 ! Title: EasyList China+EasyList
-! Last modified: 08 May 2021 11:50 UTC
+! Last modified: 09 May 2021 11:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -8120,6 +8120,7 @@ _yad_jsonp_
 ||weihaojiaju.com/tu888/
 ||weike87.com/images/*0
 ||weike87.com/images/*1
+||weikeys.com/js/zt.js
 ||weilekangnet.com:59188/wz/dingpiao_
 ||weilekangnet.com:59188/wz/vod_shang.js
 ||weilekangnet.com:59188/wz/wz.js
@@ -16107,26 +16108,31 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||libs.baidu.com^$domain=138txt.com|18xs.org|1biqu.com|1kanshu.cc|230book.com|23hh.com|23txt.com|23wxx.com|258zw.com|266ks.com|27xsw.com|2baob.com|30sy.com|33yq.com|37zw.la|39shubao.com|3yt.com|477zw.com|52biquge.com|5ccc.tw|81zw.me|877zw.com|99mk.com|99shumeng.net|aixswx.com|aomolit.com|aoyuge.com|balingtxt.com|baoshuu.com|biqiuge8.com|biqubao.com|biqudu.tv|biquduo.com|biquge.com.cn|biquge.lu|biquge.tv|biquge11.com|biquge98.net|biqugecd.com|biqugego.com|biqugemm.com|biqugesc.com|biqusan.com|biquyi.com|bixia.org|bodekang.net|boluoxs.com|bookbao.org|botaodz.com|bqkan.com|bshuku.com|bswtan.com|bxwx.org|bxwx.tw|bxwx8.la|bxwxorg.com|clewx.com|damengzhu1.com|dashenxiaoshuo.com|day66.com|ddxs0.com|ddxsku.com|dushuge.net|farpop.com|fbxsw.com|gdbzkz.com|guaili.org|hatxt.com|hbfie.org|hehuamei.com|heikexs.com|heiyanwang.com|hongyeshuzhai.com|hybiquge.com|iddwx.com|imiaobige.com|ishisetianxia.com|ixiatxt.com|ixs.la|jianlaixiaoshuo.com|jinshulo.com|jx.la|kkbiqu2.com|liewen.la|lindiankanshu.cc|liudatxt.com|loubiqu.com|lwtxt.net|lwxstxt.com|mhtwx.la|mubige.com|paoshu8.com|paoshuzw.com|pfwx.com|piaotianxs.com|ppskw.com|qbxs8.net|qianrenge.cc|qishusk.com|quge6.com|quledu.net|qushuba.com|rmxsba.com|shu008.com|shuhaiwu.com|shumil.co|siluke.tv|siluwx.org|sizhicn.com|skyzww.com|soxscc.com|tangsanshu.com|thxsw.com|ttzw.tv|tutengzw.com|txshuku.la|u33.me|uidzhx.com|v63xs.com|vipsk.org|wanwenhui.com|wenxuem.com|wrlwx.com|x23us.me|x81zw.com|xbiqugecc.com|xbiqugew.net|xbiquke.com|xbqge.net|xcmxsw.com|xdingdiann.com|xieyixs.com|xinshuhaige.com|xinxs.la|xs5200.com|xs98.com|xsbiqu.com|xsbiqugew.com|xsqishu.com|xsw55.net|xszww.com|xuanshu.com|xuehongxs.com|xyusk.com|yawenb.com|yikanxiaoshuoa.com|yq-888.com|yruan.com|yssm.info|yunxs.com|zbzw.la|zhnxcw.com|zhuaji.org|zmccx.com|zwdu.com|zzs5.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
-||riccol.cn^
-||jxaucs1802.cn^
-||mrjfsc.cn^
-||yvrpeky.cn^
-||51df7z.cn^
-||qwddcwmwqiqwd21.cn^
-bxwx3.org###addiv3
-bxwx3.org###bdstatic
-55shuba.com###botDiv
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
 ###downdiv > .downcode
 ###gudingweiDiv
 ##.appguide-wrap[onclick*="bcebos.com"]
 ##.box_con[style="border-radius:10px;background-color:#ff0000;padding:15px;"]
-.ca.bxwx3.org^
-.com/code.php?a=index&z=$script,third-party,xmlhttprequest
 ##.downcode[style^="position:fixed;z-index:1000;top:200px;"]
 ##.layui-row[style="border-radius:10px;background-color:#ff0000;padding:15px;margin:15px;"]
 ##.layui-row[style="border-radius:10px;background-color:#ff0000;padding:15px;margin:15px;margin-right:0px;margin-left:0px;"]
 ##.layui-row[style="height:160px;border-radius:10px;background-color:#ff0000;padding:15px;margin:15px;"]
+##.readerListADbox
+##[class][onclick="window.location.href='/api/goapp/'"]
+##[class][onclick="window.location.href='https://www.suyuexs.com'"]
+##[class][onclick^="window.location.href"][onclick*="%AF%B4.apk"]
+##[class][onclick^="window.location.href"][onclick*=".bcebos."]
+##a[href*=".1956hl.com/"]
+##a[href*=".233787.com/"]
+##a[href*=".com/tg.html?id="]
+##a[href*=".nksauiiya0214.top"]
+##a[href*="://mgzs.cdn.bcebos.com/"]
+##a[href="/ad2.html"]
+##dd[style="padding:16px 16px 20px;margin: 15px;border-radius:50%;background-color:green;"]
+##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
+##div[style="box-sizing:border-box;padding:20px 16px;border-radius:8px;width:90%;margin:0 auto;"]
+.ca.bxwx3.org^
+.com/code.php?a=index&z=$script,third-party,xmlhttprequest
 .m.23txt.com^
 .m.biquduo.com^
 .m.biquge5200.cc^
@@ -16146,8 +16152,6 @@ bxwx3.org###bdstatic
 .m.zineworm.com^
 .m.zwda.com^
 .m.zwdu.com^
-duanwenxue.com##.qgzdwx
-##.readerListADbox
 .wap.vbiquge.com^
 .wap.x4399.com^
 .wap.yb3.cc^
@@ -16160,30 +16164,21 @@ duanwenxue.com##.qgzdwx
 /xxgg/book.js
 /xxgg/gzh.js
 /xxgg/xsggs.js
+52biquge.com##[onclick*="app"]
+52biquge.com##a[href^="http://html.350.com/"]
+55shuba.com###botDiv
 @@||31xiaoshuo.org/style/pxne5d.js
 @@||dzz8.com/public/ptcms/*.js?g=$domain=m.daizhuzai.com
 @@||meiwenfen.com^$xmlhttprequest,domain=520tingshu.com
-##[class][onclick^="window.location.href"][onclick*="%AF%B4.apk"]
-##[class][onclick="window.location.href='/api/goapp/'"]
-##[class][onclick^="window.location.href"][onclick*=".bcebos."]
-##[class][onclick="window.location.href='https://www.suyuexs.com'"]
-jx.la##[onclick*="apk"]
-52biquge.com##[onclick*="app"]
-dukankan.com,ibqg5200.com,snwx3.com##[style*="fixed"]
-##a[href*=".1956hl.com/"]
-##a[href*=".233787.com/"]
-##a[href*=".com/tg.html?id="]
-##a[href*=".nksauiiya0214.top"]
-##a[href*="://mgzs.cdn.bcebos.com/"]
-##a[href="/ad2.html"]
-52biquge.com##a[href^="http://html.350.com/"]
-bixia.org##dd[style*="bottom:"]
-##dd[style="padding:16px 16px 20px;margin: 15px;border-radius:50%;background-color:green;"]
-xuehongxs.com##div[id^="cs_DIV_cscpvrich"]
-##div[style="border-radius:8px;background-color:#005737;padding:6px;"]
-##div[style="box-sizing:border-box;padding:20px 16px;border-radius:8px;width:90%;margin:0 auto;"]
 biqubao.com##div[style="width:976px;"]
+bixia.org##dd[style*="bottom:"]
+bxwx3.org###addiv3
+bxwx3.org###bdstatic
+duanwenxue.com##.qgzdwx
+dukankan.com,ibqg5200.com,snwx3.com##[style*="fixed"]
+jx.la##[onclick*="apk"]
 piaotian5.com##script + div[style="padding:15px;"]
+xuehongxs.com##div[id^="cs_DIV_cscpvrich"]
 ||027whht.com^
 ||0316dieroxiemzfjwmapk.xyz^
 ||0323wqpioutyuencsamxsd.xyz^
@@ -16263,6 +16258,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||4z5o27.cn^
 ||517kp.com^
 ||519397.com^
+||51df7z.cn^
 ||51dianji.cn^
 ||51elandt.com^
 ||51fishplace.com^
@@ -17104,6 +17100,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||juyour8.org^
 ||jvyigg.biqugeq.com^
 ||jvyigg.zbzw.la^
+||jxaucs1802.cn^
 ||jxbtl.com^
 ||jxdzoy.cn^
 ||jxhcyc.com^
@@ -17284,6 +17281,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||movii-loft.cn^
 ||moxiaoyang.top^
 ||mozqca.cn^
+||mrjfsc.cn^
 ||msccabin.com^
 ||mtcat.cn^
 ||mudezs.com^
@@ -17450,7 +17448,6 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||qiruidea.com^
 ||qivsod.com^
 ||qizixsw.com^
-||claiks.com^
 ||qjxszp.cn^
 ||qkptx.com^
 ||qkykxrm.cn^
@@ -17468,6 +17465,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||qwddcwmwqiqwd18.cn^
 ||qwddcwmwqiqwd19.cn^
 ||qwddcwmwqiqwd20.cn^
+||qwddcwmwqiqwd21.cn^
 ||qxyu.top^
 ||qyhwqie.cn^
 ||qysyyg.com^
@@ -17492,6 +17490,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||requested.cn^
 ||rfese.com^
 ||rfjckj.cn^
+||riccol.cn^
 ||ricqo.com^
 ||rishenglaw.cn^
 ||rmwdn.com^
@@ -17978,6 +17977,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||yushengyuancaishui.com^
 ||yuxiny.com^
 ||yuyanhe.com^
+||yvrpeky.cn^
 ||ywbwsm.com^
 ||ywqpgy.com^
 ||ywqum.cn^
@@ -49605,6 +49605,7 @@ _popunder+$popup
 ##span[data-component-type="s-ads-metrics"]
 ##topadblock
 ! ultimedia (invideo advertising)
+##.van_vid_carousel
 ##.vid-present > .van_vid_carousel__padding
 ! VPN Affiliate Banners
 ##a[href*="get-express-vpn.xyz"]
@@ -64274,6 +64275,7 @@ menstennisforums.com#@#.top_ads
 ||supersonicads.com^$third-party
 ||superwebs.pro^$third-party
 ||supletcedintand.pro^$third-party
+||supplyframe.com^$third-party
 ||supuv2.com^$third-party
 ||surf-bar-traffic.com^$third-party
 ||surfe.pro^$third-party
@@ -69774,23 +69776,16 @@ $csp=worker-src 'none',domain=torlock.com|123movie.cc|1movies.best|alltube.pl|al
 ! Mobile
 ! Specific filters necessary for sites allowlisted with $genericblock filter option
 ! Spiegel.de
-@@||ad.yieldlab.net^$script,domain=spiegel.de
-@@||cdn.teads.tv/media/format.js$domain=spiegel.de
-@@||conative.de/serve/domain/158/config.js$domain=spiegel.de
-@@||conative.de^*/adscript.min.js$domain=spiegel.de
-@@||damoh.spiegel.de^$script,domain=spiegel.de
 @@||doubleclick.net/gampad/*adPositionName%3Dsuperbanner_$xmlhttprequest,domain=spiegel.de
 @@||doubleclick.net/getconfig$xmlhttprequest,domain=spiegel.de
 @@||g.doubleclick.net/gampad/ads?*superbanner_3$xmlhttprequest,domain=spiegel.de
 @@||g.doubleclick.net/gampad/ads?*wallpaper_1$xmlhttprequest,domain=spiegel.de
 @@||g.doubleclick.net/gpt/pubads_impl_$script,domain=spiegel.de
 @@||g.doubleclick.net/tag/js/gpt.js$domain=spiegel.de
-@@||imagesrv.adition.com/banners/1337/files/*.jpg?*.png$image,domain=spiegel.de
-@@||imagesrv.adition.com/js/adition.js$domain=spiegel.de
-@@||imagesrv.adition.com/js/srp.js$domain=spiegel.de
 @@||pagead2.googlesyndication.com/getconfig/sodar?$xmlhttprequest,domain=spiegel.de
 @@||spiegel.de^$genericblock,generichide
-@@||static.adfarm1.adition.com/ci.html$subdocument,domain=spiegel.de
+spiegel.de###vi-stories-main-container
+spiegel.de##.emsAnzeige
 spiegel.de##a[data-nvp*="'trafficUrl':'https://paid.outbrain.com/network/redir?"]
 spiegel.de##a[href^="http://paid.outbrain.com/network/redir?"]
 spiegel.de##a[href^="https://paid.outbrain.com/network/redir?"]
@@ -69798,55 +69793,48 @@ spiegel.de##a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"]
 spiegel.de##a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"]
 spiegel.de##div[id*="/spon_dt/"]:not(#google_ads_iframe_\/6032\/spon_dt\/homepage_5__container__)
 ||2mdn.net^$domain=spiegel.de
-||a-ssl.ligatus.com^$domain=spiegel.de
-||ad.atdmt.com/i/a.html$domain=spiegel.de
-||ad.atdmt.com/i/a.js$domain=spiegel.de
-||ad.doubleclick.net^$domain=spiegel.de
+||360yield.com^$domain=spiegel.de
 ||adalliance.io^$domain=spiegel.de
 ||adform.net^$domain=spiegel.de
-||adition.com/banner?$domain=spiegel.de
 ||adition.com^$domain=spiegel.de
-||adition.com^$popup,domain=spiegel.de
 ||adnxs.com^$domain=spiegel.de
+||ads.viralize.tv^$domain=spiegel.de
 ||adsafeprotected.com^$domain=spiegel.de
-||adverserve.net^$domain=spiegel.de
-||advertising.com^$domain=spiegel.de
-||advolution.de^$domain=spiegel.de
 ||amazon-adsystem.com^$domain=spiegel.de
-||ampproject.org^*/amp-ad-$domain=spiegel.de
 ||bidder.criteo.com^$domain=spiegel.de
 ||cas.*.criteo.com^$domain=spiegel.de
 ||cas.criteo.com^$domain=spiegel.de
 ||caw.*.criteo.com^$domain=spiegel.de
+||ced.sascdn.com^$domain=spiegel.de
 ||conative.de^$domain=spiegel.de
 ||criteo.com/delivery/$domain=spiegel.de
 ||emsservice.de^$domain=spiegel.de
 ||g.doubleclick.net^$domain=spiegel.de
+||googlesyndication.com/pagead/$domain=spiegel.de
 ||googlesyndication.com/safeframe/$domain=spiegel.de
+||googlesyndication.com/simgad/$domain=spiegel.de
 ||googlesyndication.com/sodar/$domain=spiegel.de
 ||images.*.criteo.net^$domain=spiegel.de
-||libs.sphere.com/video/outbrain-player/$domain=spiegel.de
-||mediaplex.com^$domain=spiegel.de
+||imasdk.googleapis.com^$domain=spiegel.de
+||inforsea.com^$domain=spiegel.de
 ||mookie1.com^$domain=spiegel.de
-||movad.net^$domain=spiegel.de
-||openx.net^$domain=spiegel.de
+||netpoint-media.de^$domain=spiegel.de
+||omnitagjs.com^$domain=spiegel.de
 ||pagead2.googlesyndication.com^$domain=spiegel.de
-||qservz.com^$domain=spiegel.de
+||partner.googleadservices.com^$domain=spiegel.de
+||pubmatic.com^$domain=spiegel.de
 ||rdi.*.criteo.com^$domain=spiegel.de
 ||rdi.criteo.com^$domain=spiegel.de
 ||rtax.criteo.com^$domain=spiegel.de
-||servedby.flashtalking.com/imp/$script,domain=spiegel.de
 ||serving-sys.com^$domain=spiegel.de
 ||smartadserver.com^$domain=spiegel.de
-||smartclip.net/ads?$domain=spiegel.de
-||t4ft.de^$domain=spiegel.de
+||smartstream.tv^$domain=spiegel.de
+||spotxchange.com^$domain=spiegel.de
+||stickyadstv.com^$domain=spiegel.de
 ||teads.tv^$domain=spiegel.de
-||theadex.com^$domain=spiegel.de
-||view.atdmt.com/partner/$domain=spiegel.de
-||view.atdmt.com^*/iview/$domain=spiegel.de
-||view.atdmt.com^*/view/$domain=spiegel.de
+||twiago.com^$domain=spiegel.de
+||vi-serve.com^$domain=spiegel.de
 ||vix.*.criteo.net^$domain=spiegel.de
-||widgets.outbrain.com/nativeVideoPlayer/NVPInjector.min.js$domain=spiegel.de
 ||yieldlab.net^$domain=spiegel.de
 ! jetzt.de
 @@||jetzt.de^$generichide
@@ -70307,6 +70295,7 @@ myabandonware.com###artCLX
 myabandonware.com###artST
 riverbender.com###article-banner
 pcworld.com###articleLeaderboardWrapper
+brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au###articlePartnerStories
 findmysoft.com###as_336
 flyordie.com###asf
 1movies.is###askfdgyhsd_
