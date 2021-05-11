@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: dfKE+FXkhbxYhNFIBjz3lw
-! Version: 202105091111
+! Checksum: mxn7FLSERY4ZzFZ3hwXuwg
+! Version: 202105111211
 ! Title: EasyPrivacy
-! Last modified: 09 May 2021 11:11 UTC
+! Last modified: 11 May 2021 12:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2581,6 +2581,7 @@
 /js/tracking/*
 /js/tracking_
 /js/trk_
+/js_event_tracking/*
 /js_gpt.
 /js_hotlink.php?
 /js_ibeat_ext.
@@ -6011,6 +6012,7 @@ _mongo_stats/
 ||adsrvr.org^$third-party
 ||adsymptotic.com^$third-party
 ||adtarget.me^$third-party
+||adtector.com^$third-party
 ||adtelligence.de^$third-party
 ||adtrackers.net^$third-party
 ||adultblogtoplist.com^$third-party
@@ -8951,6 +8953,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rand.com.ru^
 ||reauthenticator.com^
 ||rocks.io^$third-party
+||rollercoin.com^$third-party
 ||rtb-seller.com^$third-party
 ||s7ven.com^$third-party
 ||seed.bitcoin.jonasschnelli.ch^
@@ -10436,6 +10439,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.dvidshub.net^
 ||analytics.edgekey.net^
 ||analytics.edgesuite.net^
+||analytics.eggoffer.com^
 ||analytics.erepublic.com^
 ||analytics.facebook.com^$third-party
 ||analytics.favcy.com^
@@ -10463,6 +10467,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.orenshmu.com^
 ||analytics.ostr.io^
 ||analytics.paddle.com^
+||analytics.pagefly.io^
 ||analytics.performable.com^
 ||analytics.photorank.me^
 ||analytics.piksel.com^
@@ -11645,7 +11650,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||neulion.vo.llnwd.net^*/track.js
 ||news.banggood.com/mo/$image,third-party
 ||news.co.uk^*/propensities?
-||news.google.com/swg/$third-party
 ||newsanalytics.com.au^$third-party
 ||newsletters.nationalgeographic.com^$image,third-party
 ||newton.pm/events/track_bulk
@@ -12566,12 +12570,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mistat.xiaomi.com^
 ||open.oneplus.net^$third-party
 ||sa.api.intl.miui.com^
+||smetrics.samsung.com^
 ||stat.xiaomi.com^
 ||stats.redditmedia.com^
 ||supportmetrics.apple.com^
 ||tracking.miui.com^
 ||trackingshipment.apple.com^
-||widgets.pinterest.com^$domain=d3ward.github.io
 ||yandexadexchange.net^
 ! Appcues
 /^https?:\/\/fast\.appcues\.com\/[0-9]{4,6}\.js/
@@ -15186,6 +15190,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||register.it/scripts/track_
 ||rel.msn.com^
 ||relatable.inquisitr.com^$image
+||relay.fiverr.com^
 ||rent.com/track/visit/
 ||rentalcars.com/tracking/
 ||report-zt.allmusic.com^
@@ -16016,6 +16021,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wills.co.tt/analytics
 ||windowscentral.com^*/linkid.js
 ||windowsphone.com/scripts/siteTracking.js
+||windy.com/sedlina/ga/
 ||wired.co.uk^*/Statistics/
 ||wired.com/ecom/
 ||wired.com/event?
@@ -16222,6 +16228,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||crunchbase.com/rw7M6iAV/init.js
 ||drupal.org/VnPBBfwe/init.js
 ||eatgeek.com/aG6ZzoXU/init.js
+||fiverr.com/px/client/PXK3bezZfO/main.min.js
 ||flooranddecor.com/v1HqbVho/init.js
 ||foodora.fi/lJuB4eTB/init.js
 ||foodora.se/lJuB4eTB/init.js
@@ -24655,6 +24662,7 @@ ytics.disneyplus.com^
 @@||analytics.logsss.com/logsss*.min.js$script,domain=rosegal.com
 @@||analytics.twitter.com^$domain=analytics.twitter.com
 @@||ancestrycdn.com/ui-static/lib/tracking/$domain=ancestry.com
+@@||api.cxense.com/public/widget/data?$domain=marketwatch.com
 @@||api.getmakerlog.com/discussions/$~third-party,websocket,xmlhttprequest
 @@||api.ipify.org^$xmlhttprequest,domain=account.pennytel.com.au
 @@||api.ipstack.com/check$domain=blockfi.com|withpersona.com
@@ -24677,6 +24685,7 @@ ytics.disneyplus.com^
 @@||bluecare.express/js/tracking/$script,~third-party
 @@||bobbibrowncosmetics.com^*/analytics.min.js$~third-party
 @@||bookmate.com^*/impressions?$~third-party,xmlhttprequest
+@@||cdn.cxense.com^$script,domain=marketwatch.com
 @@||cleverpush.com/channel/$script,domain=bsdex.de
 @@||community.brave.com/t/$xmlhttprequest
 @@||daan.dev/wp-content/*/caos-supports-google-analytics-$image,~third-party
@@ -24691,6 +24700,7 @@ ytics.disneyplus.com^
 @@||static.wikia.nocookie.net^*/tracking-opt-in.min.js$script,domain=fandom.com
 @@||travel-assets.com/platform-analytics-prime/$domain=chase.com
 @@||uniqlo.com^*/trackingservice/$~third-party
+@@||wsj.net/iweb/static_html_files/cxense-candy.js$script,domain=marketwatch.com
 ! @@||browser.sentry-cdn.com^$domain=cardiffmedia.co.uk|connect.shore.com|crrowd.com|gina-phillips.com|gracevanberkum.com|imperial.ac.uk|loveotv.com|onginnovations.com|simonparkes.org|stockforecasttoday.com|tekku.co.za|theangryviking1776.com|thegivingblock.com|thepittsburghoratory.org|truenews4u.com|washingtonpost.com|wix.com
 @@||browser.sentry-cdn.com^$domain=eco-clobber.co.uk
 @@||brsrvr.com/api/$xmlhttprequest,domain=dollargeneral.com
