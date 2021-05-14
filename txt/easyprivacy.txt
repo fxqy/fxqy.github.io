@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: mxn7FLSERY4ZzFZ3hwXuwg
-! Version: 202105111211
+! Checksum: dhuBeZ3VSCqQPG7udgWnmA
+! Version: 202105140421
 ! Title: EasyPrivacy
-! Last modified: 11 May 2021 12:11 UTC
+! Last modified: 14 May 2021 04:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -35,6 +35,7 @@
 -action/ping?
 -ad-targeting?
 -adobe-analytics.
+-adobeDatalayer_
 -ads-tracking-
 -AdTracking.
 -amp-error-reporting.
@@ -62,6 +63,7 @@
 -conversion-tracking-
 -criteo.
 -datacollection.
+-didomi.js
 -dspcookiematching.
 -dtaectolog-
 -event-tracking.
@@ -683,6 +685,7 @@
 /analytics.js/v1/*
 /analytics.js?
 /analytics.json?
+/analytics.log.
 /analytics.min.
 /analytics.php.
 /analytics.php?
@@ -750,6 +753,7 @@
 /analytics/posts
 /analytics/pv.gif?
 /analytics/report/*
+/analytics/rt?
 /analytics/script/*
 /analytics/smarttag-
 /analytics/sockjs.
@@ -1820,6 +1824,7 @@
 /event/?ra=
 /event/beacon|
 /event/fingerprint
+/event/img?type=
 /event/impression/*
 /event/pageview/*
 /event/pageview?
@@ -5006,6 +5011,7 @@
 /vmtracking.
 /vpstats.
 /vptrack_
+/vrbo-analytics.
 /vs-track.js
 /vs.gif?
 /vs/track.
@@ -5517,6 +5523,7 @@ _zag_cookie.
 cgi-bin/counter
 ||meetrics.netbb-
 ! Email tracking pixels
+&mi_ecmp=
 -track-email-open?
 .acemlna.com/Prod/link-tracker?
 .alcmpn.com/
@@ -5543,6 +5550,7 @@ cgi-bin/counter
 .kijiji.ca/r/
 .klclick.com/$image
 .list-manage.com/track/
+.mailbutler.io/tracking/
 .maillist-manage.com/clicks/$image
 .members.babbel.com/mo/
 .mjt.lu/oo/$image
@@ -5592,6 +5600,7 @@ cgi-bin/counter
 /pqt.email/o/*$image
 /rdir.inxmail.com^*/d.gif?
 /sendmail.backerupdate.com/t/*
+/shoutout.wix.com/*$image
 /sptracking.
 /ss/o/*.gif
 /track/open.php?
@@ -6283,6 +6292,7 @@ _mongo_stats/
 ||burstbeacon.com^$third-party
 ||burt.io^$third-party
 ||buzzdeck.com^$third-party
+||byside.com^$third-party
 ||bytemgdd.com^$third-party
 ||c-o-u-n-t.com^$third-party
 ||c-rings.net^$third-party
@@ -9142,6 +9152,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gulliblecamp.com^$third-party
 ||haltingbadge.com^$third-party
 ||hammerhearing.com^$third-party
+||hearthorn.com^$third-party
 ||hilariouszinc.com^$third-party
 ||historicalbeam.com^$third-party
 ||hocgeese.com^$third-party
@@ -9707,11 +9718,13 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cr-nielsen.com^$third-party
 ||ctags.cn^$third-party
 ||datamaster.com.cn^$third-party
+||datayi.cn^$third-party
 ||elevenmedia.cn^$third-party
 ||emarbox.com^$third-party
 ||eyeota.net^$third-party
 ||fraudmetrix.cn^$third-party
 ||ggxt.net^$third-party
+||giocdn.com^$third-party
 ||gm99.com^$third-party
 ||gostats.cn^$third-party
 ||gridsum.com^$third-party
@@ -9916,7 +9929,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d-markets.net^$third-party
 ||d2-apps.net^$third-party
 ||deteql.net^$third-party
-||digitiminimi.com^$third-party
 ||docodoco.jp^$third-party
 ||e-click.jp^$third-party
 ||e-kaiseki.com^$third-party
@@ -9962,7 +9974,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rentracks.jp^$third-party
 ||research-artisan.com^$third-party
 ||rtoaster.jp^$third-party
-||seesaa.jp^$third-party
 ||segs.jp^$third-party
 ||sibulla.com^$third-party
 ||smart-bdash.com^$third-party
@@ -13615,6 +13626,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||americanexpress.com/monitoring/
 ||amy.gs/track/
 ||analytic.imlive.com^
+||analytics-proxy.springboard.com^
 ||analytics.adfreetime.com^
 ||analytics.amplitude.com^$domain=~analytics.amplitude.com
 ||analytics.archive.org^
@@ -13623,6 +13635,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.chase.com^
 ||analytics.ecosia.org^
 ||analytics.eip.telegraph.co.uk^
+||analytics.faceitanalytics.com^
 ||analytics.footballdb.com^
 ||analytics.getshogun.com^
 ||analytics.ghostery.com^$subdocument,domain=www.ghostery.com
@@ -15112,6 +15125,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||primevideo.com/uedata/
 ||primevideo.com^*/ref=$~xmlhttprequest
 ||princetonreview.com/logging/
+||privacy-api.9gag.com^
 ||prnewswire.com/rit.gif?
 ||prnewswire.com/rt.gif?
 ||proac.nationwide.com^
@@ -15545,6 +15559,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.paste2.org^
 ||stats.piaggio.com^
 ||stats.propublica.org^
+||stats.pstream.net^
 ||stats.searchftps.net^
 ||stats.searchftps.org^
 ||stats.shoppydoo.com^
@@ -16253,6 +16268,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||skechers.com/dL6GOSf9/init.js
 ||sweetwater.com/p2TBVNJZ/init.js
 ||therealreal.com/ev56mY37/init.js
+||twentytwowords.com/static/clients/twentytwowords/3CVQBi14_init.js
 ||upwork.com/Ss13U803/init.js
 ||wine-searcher.com/K6S8okp3/init.js
 ||zazzle.ca/a0o07ort/init.js
