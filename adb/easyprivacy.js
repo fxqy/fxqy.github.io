@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 005CsWr0fGKIVv2115ZIkA
-! Version: 202105171351
+! Checksum: octQDIQmKp7m/E1VRXzrQw
+! Version: 202105181041
 ! Title: EasyPrivacy
-! Last modified: 17 May 2021 13:51 UTC
+! Last modified: 18 May 2021 10:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1547,6 +1547,7 @@
 /countstat.php?
 /countubn.
 /countus.php
+/CoveoForSitecore.
 /cpeEvent.
 /cpeEventTracking.
 /cqcounter.
@@ -4317,6 +4318,7 @@
 /thirdPartyTags.js
 /thirdPartyTagscachebuster.js
 /ThirdPartyTracking.
+/thixel.js
 /thuzianayltics.
 /ti.gif?slotid=
 /tiara/tracker/*
@@ -8243,6 +8245,7 @@ _mongo_stats/
 ||track-server-100.com^$third-party
 ||track-web.net^$third-party
 ||track2.me^$third-party
+||trackadm.com^$third-party
 ||trackalyzer.com^$third-party
 ||trackcb.com^$third-party
 ||trackcdn.com^$third-party
@@ -10414,6 +10417,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||amplifypixel.outbrain.com^
 ||an.yandex.ru^
 ||analyse.bcovery.com^
+||analytic.rollout.io^
 ||analytic.xingcloud.com^$third-party
 ||analyticcdn.globalmailer.com^
 ||analytics-beacon-*.amazonaws.com^
@@ -11174,6 +11178,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||facebook.com/method/links.getstats?
 ||facebook.com/tr$third-party
 ||fairfax.com.au/js/track/
+||faphouse.com/api/collector/
 ||fastcdn.co/js/sptw.js
 ||fcmatch.google.com^
 ||fcmatch.youtube.com^
@@ -11823,6 +11828,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||prism.app-us1.com^$script,third-party
 ||prismaconnect.fr/prd/ping
 ||privacy-center.org^*/events
+||privacy.outdoorsg.com^
 ||privacytool.org/AnonymityChecker/js/fontdetect.js$third-party
 ||processor.asccommunications.com^
 ||production-mcs.lvp.llnw.net^
@@ -11849,6 +11855,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pv.pjtsu.com^
 ||px-cdn.net/*main.min.js
 ||px-cdn.net/b/s
+||px-cdn.net^*/collector
 ||px.excitedigitalmedia.com^
 ||px.marchex.io^
 ||px.owneriq.net^
@@ -14229,6 +14236,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ez.no/statjs/
 ||ezinearticles.com/blank/
 ||f-secure.com^*/wtsdc.js
+||f.schemeflood.com^
 ||f.staticlp.com^
 ||facebook.com/a/bz?
 ||facebook.com/ajax/*/log.php
@@ -24900,7 +24908,7 @@ ytics.disneyplus.com^
 @@||q-examiner.online/api/Ping?
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
 @@||quantcast.mgr.consensu.org/cmp.js$script,domain=cyclingnews.com|independent.co.uk|ladbible.com
-@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bigodino.it|bikeperfect.com|cyclingnews.com|digitalcameraworld.com|einthusan.tv|f1aldia.com|formulapassion.it|gamesradar.com|guitarplayer.com|independent.co.uk|indy100.com|ladbible.com|laptopmag.com|livescience.com|livingetc.com|mirror.co.uk|musicradar.com|pcgamer.com|porconocer.com|realhomes.com|researchgate.net|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|whathifi.com|whattowatch.com
+@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bigodino.it|bikeperfect.com|cyclingnews.com|digitalcameraworld.com|einthusan.tv|f1aldia.com|formulapassion.it|gamesradar.com|gianlucadimarzio.com|guitarplayer.com|independent.co.uk|indy100.com|ladbible.com|laptopmag.com|livescience.com|livingetc.com|mirror.co.uk|musicradar.com|pcgamer.com|porconocer.com|realhomes.com|researchgate.net|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|whathifi.com|whattowatch.com
 @@||rasset.ie/dotie/js/tracker.js$domain=rte.ie
 @@||rba-screen.healthsafe-id.com/fp/tags.js$script,domain=myuhc.com
 @@||repairtrackingsite.nintendo.eu/Tracking/$subdocument,domain=nintendo.co.uk
