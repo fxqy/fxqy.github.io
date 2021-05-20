@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: octQDIQmKp7m/E1VRXzrQw
-! Version: 202105181041
+! Checksum: VTBeQaYXAX1C+rehBexf6g
+! Version: 202105201241
 ! Title: EasyPrivacy
-! Last modified: 18 May 2021 10:41 UTC
+! Last modified: 20 May 2021 12:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1251,6 +1251,7 @@
 /chicken.gif?*=
 /ci-capture.
 /cim_tns/spring.js
+/ciso_tracking/*
 /citycounter.
 /cjtracker2.
 /ckaudience/*
@@ -5012,7 +5013,6 @@
 /vmtracking.
 /vpstats.
 /vptrack_
-/vrbo-analytics.
 /vs-track.js
 /vs.gif?
 /vs/track.
@@ -6791,6 +6791,7 @@ _mongo_stats/
 ||free-counter.co.uk^$third-party
 ||free-counter.com^$third-party
 ||free-counters.co.uk^$third-party
+||free-hit-counters.net^$third-party
 ||free-website-hit-counters.com^$third-party
 ||free-website-statistics.com^$third-party
 ||freebloghitcounter.com^$third-party
@@ -6806,6 +6807,7 @@ _mongo_stats/
 ||freestats.com^$third-party
 ||freetrafficsystem.com^$third-party
 ||freeusersonline.com^$third-party
+||freevisitorcounters.com^$third-party
 ||freeweblogger.com^$third-party
 ||freshcounter.com^$third-party
 ||freshmarketer.com^$third-party
@@ -7913,6 +7915,7 @@ _mongo_stats/
 ||scriptshead.com^$third-party
 ||sddan.com^$third-party
 ||sea-nov-1.com^$third-party
+||searchenginegenie.com^$third-party
 ||searchfeed.com^$third-party
 ||searchignite.com^$third-party
 ||searchplow.com^$third-party
@@ -9933,6 +9936,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d2-apps.net^$third-party
 ||deteql.net^$third-party
 ||docodoco.jp^$third-party
+||docomo-analytics.com^$third-party
 ||e-click.jp^$third-party
 ||e-kaiseki.com^$third-party
 ||ebis.ne.jp^$third-party
@@ -10441,6 +10445,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.bigcommerce.com^
 ||analytics.brandcrumb.com^
 ||analytics.carambo.la^
+||analytics.chegg.com^
 ||analytics.cincopa.com^
 ||analytics.clickpathmedia.com^
 ||analytics.codigo.se^
@@ -11523,6 +11528,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||logs-api.shoprunner.com^
 ||logs.datadoghq.com^$domain=~app.datadoghq.com
 ||logs.datadoghq.eu^$domain=~app.datadoghq.eu
+||logs.psm.wmcdp.io^
 ||logs.spilgames.com^
 ||logs.thebloggernetwork.com^
 ||logs.vmixcore.com^
@@ -14010,6 +14016,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||count.prx.org^
 ||count.rin.ru^
 ||counter.entertainmentwise.com^
+||counter.plos.org^
 ||counter.sina.com.cn^
 ||counter.theconversation.edu.au^
 ||counter.zerohedge.com^
@@ -15569,6 +15576,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.pandora.com^
 ||stats.paste2.org^
 ||stats.piaggio.com^
+||stats.podcastwebsites.com^
 ||stats.propublica.org^
 ||stats.pstream.net^
 ||stats.searchftps.net^
@@ -24827,10 +24835,11 @@ ytics.disneyplus.com^
 @@||imgur.com/min/px.js$~third-party
 @@||imrworldwide.com/novms/js/2/ggc$script,domain=9now.com.au|adelaidenow.com.au|advertiser.com.au|bestrecipes.com.au|byronnews.com.au|cairnspost.com.au|coffscoastadvocate.com.au|couriermail.com.au|dailyexaminer.com.au|espn.com|frasercoastchronicle.com.au|gattonstar.com.au|geelongadvertiser.com.au|gladstoneobserver.com.au|goldcoastbulletin.com.au|heraldsun.com.au|ipswichadvertiser.com.au|news-mail.com.au|news.com.au|noosanews.com.au|ntnews.com.au|sunshinecoastdaily.com.au|theaustralian.com.au|themercury.com.au|theweeklytimes.com.au|townsvillebulletin.com.au|weeklytimesnow.com.au|whitsundaytimes.com.au
 @@||imrworldwide.com/v60.js$domain=adelaidenow.com.au|advertiser.com.au|bestrecipes.com.au|byronnews.com.au|cairnspost.com.au|coffscoastadvocate.com.au|couriermail.com.au|dailyexaminer.com.au|frasercoastchronicle.com.au|gattonstar.com.au|geelongadvertiser.com.au|gladstoneobserver.com.au|goldcoastbulletin.com.au|heraldsun.com.au|ipswichadvertiser.com.au|last.fm|musicfeeds.com.au|news-mail.com.au|noosanews.com.au|ntnews.com.au|nzherald.co.nz|realestateview.com.au|sf.se|sunshinecoastdaily.com.au|theaustralian.com.au|themercury.com.au|theweeklytimes.com.au|threenow.co.nz|townsvillebulletin.com.au|weatherchannel.com.au|weeklytimesnow.com.au|whitsundaytimes.com.au
+@@||indeed.com/rpc/log/myjobs/$~third-party
 @@||infowarsmedia.com/videojs-event-tracking/dist/videojs-event-tracking.js$script,~third-party
 @@||ingest.sentry.io/api/$xmlhttprequest,domain=tesco.com
 @@||innovelsolutions.com^*/tracking/$~third-party
-@@||ipapi.co/json/$xmlhttprequest,domain=audius.co
+@@||ipapi.co/json/$xmlhttprequest,domain=168.dailymaverick.co.za|audius.co
 @@||ipinfo.io/?token=$domain=assurancemortgage.com|webtv.ert.gr
 @@||isgprivacy.cbsi.com/dist/optanon$script
 @@||iwin.com/gtm.json$~third-party,xmlhttprequest
@@ -24848,6 +24857,7 @@ ytics.disneyplus.com^
 @@||listrakbi.com^$image,script,stylesheet,domain=sks-bottle.com
 @@||live.bbc.co.uk^*/comscore.js$script,~third-party
 @@||logging.apache.org^$domain=apache.org
+@@||logmein.com/js/tracking.js$domain=logme.in|logmein.com
 @@||lowesgiftcardbonus.com/js/third-party/angulartics-google-analytics/dist/angulartics-ga.min.js$script,~third-party
 @@||maxmind.com/geoip/$xmlhttprequest,domain=bandai-hobby.net|elgato.com|filld.com|ibanez.com
 @@||maxmind.com^*/geoip.js$domain=aljazeera.com|ballerstatus.com|bikemap.net|carltonjordan.com|cashu.com|coolsport.tv|dereon.com|dr.dk|everydaysource.com|fab.com|girlgames4u.com|incgamers.com|ip-address.cc|maaduu.com|qatarairways.com|sat-direction.com|sotctours.com|stoli.com|vibe.com
@@ -25267,6 +25277,7 @@ ytics.disneyplus.com^
 @@||analytics.edgekey.net/ma_library/javascript/javascript_malibrary.js$script,domain=nhk.or.jp
 @@||api.cxense.com/document/search?$xmlhttprequest,domain=friday.kodansha.co.jp
 @@||api.cxense.com/public/widget/data?$script,domain=wpb.shueisha.co.jp
+@@||api.cxense.com/public/widget/data?$xmlhttprequest,domain=cyclestyle.net
 @@||api.cxense.com/public/widget/data|$xmlhttprequest,domain=friday.kodansha.co.jp
 @@||assets.adobedtm.com^*-librarycode_source.min.js$script,domain=mora.jp
 @@||atwiki.jp/common/_img/spacer.gif?$image,domain=atwiki.jp
@@ -25284,7 +25295,7 @@ ytics.disneyplus.com^
 @@||e-stat.go.jp/modules/custom/retrieve/src/js/stat.js?$script,~third-party
 @@||flipdesk.jp/wp/wp-content/themes/flipdesk/images/analytics3.png$image
 @@||googleadservices.com/pagead/conversion_async.js$script,domain=jp.square-enix.com
-@@||googletagmanager.com/gtm.js$script,domain=anond.hatelabo.jp|book.impress.co.jp|kakuyomu.jp|sankei.com|ymobile.jp
+@@||googletagmanager.com/gtm.js$script,domain=anond.hatelabo.jp|book.impress.co.jp|cyclestyle.net|kakuyomu.jp|sankei.com|ymobile.jp
 @@||in.treasuredata.com/js/*api_key$script,domain=retty.me
 @@||k-img.com/javascripts/modules/rst/analytics.js?$domain=tabelog.com
 @@||k-img.com/script/analytics/s_code.js$script,domain=kakaku.com
@@ -25292,10 +25303,13 @@ ytics.disneyplus.com^
 @@||mediaweaver.jp^$image,domain=ismedia.jp
 @@||nakanohito.jp^*/bi.js$domain=kenko-tokina.co.jp
 @@||nihongo.alc.co.jp/theme/Japanese/img/home/nf/us.gif$image,~third-party
+@@||o-uccino.jp/api/v2/collector?$xmlhttprequest,domain=o-uccino.com
 @@||ovp.piksel.com/ipLookup.php$xmlhttprequest,domain=nhk.or.jp
+@@||sail-horizon.com/spm/spm.v1.min.js$script,domain=voguegirl.jp
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
 @@||scdn.cxense.com/cx.cce.js$domain=wpb.shueisha.co.jp
+@@||scdn.cxense.com/cx.js$script,domain=cyclestyle.net
 @@||support-beacon.nakanohito.jp/widget/$xmlhttprequest
 @@||support-widget.nakanohito.jp/chatbot$script,stylesheet
 @@||suumo.jp/sp/js/beacon.js$script,~third-party
