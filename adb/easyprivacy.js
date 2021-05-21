@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: VTBeQaYXAX1C+rehBexf6g
-! Version: 202105201241
+! Checksum: EeZl7NbEidrCF+sO+ZowqA
+! Version: 202105211451
 ! Title: EasyPrivacy
-! Last modified: 20 May 2021 12:41 UTC
+! Last modified: 21 May 2021 14:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -7146,6 +7146,7 @@ _mongo_stats/
 ||ixiaa.com^$third-party
 ||izea.com^$third-party
 ||izearanks.com^$third-party
+||izooto.com^$third-party
 ||janrain.xyz^$third-party
 ||jdoqocy.com^$third-party
 ||jirafe.com^$third-party
@@ -10090,6 +10091,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||2parale.ro^$third-party
 ||2performant.com^$third-party
 ||aghtag.tech^$third-party
+||agorahtag.tech^$third-party
 ||best-top.ro^$third-party
 ||gtop.ro^$third-party
 ||hit100.ro^$third-party
@@ -10358,7 +10360,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ads.bridgetrack.com^$image
 ||adsv7.com/t/
 ||adultmastercash.com/e1.php$third-party
-||aevents.izooto.com^
 ||affiliate.iamplify.com^
 ||affiliate.mediatemple.net^$~third-party
 ||affiliates.mgmmirage.com^
@@ -10521,6 +10522,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.unilogcorp.com^
 ||analytics.urx.io^
 ||analytics.vanillaforums.com^
+||analytics.vdo.ai^
 ||analytics.vendemore.com^
 ||analytics.webgains.io^
 ||analytics.websolute.it^
@@ -11148,7 +11150,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events.audiate.me^
 ||events.brightline.tv^
 ||events.demoup.com^
-||events.izooto.com^
 ||events.jotform.com^
 ||events.launchdarkly.com^$third-party
 ||events.matterport.com^
@@ -11167,7 +11168,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||eviesays.com/js/analytics/
 ||evri.com/analytics/
 ||evt.collarity.com^$image
-||evt.izooto.com^
 ||ex.co/content/monetization/legacy-pixels/
 ||exacttarget.com^$third-party
 ||excite.ie/?click_in=
@@ -11860,7 +11860,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pussy.org^*/track.php
 ||pv.pjtsu.com^
 ||px-cdn.net/*main.min.js
-||px-cdn.net/b/s
+||px-cdn.net/b/
 ||px-cdn.net^*/collector
 ||px.excitedigitalmedia.com^
 ||px.marchex.io^
@@ -14079,6 +14079,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dd.nytimes.com^
 ||dealnews.com/lw/ul.php?
 ||debtconsolidationcare.com/affiliate/tracker/
+||deepl.com/web/statistics
 ||deliver.oztam.com.au^
 ||deliver.ptgncdn.com^
 ||dellcdn.com/csb/scripts/csb-boomr.$domain=dell.com
@@ -16289,6 +16290,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||therealreal.com/ev56mY37/init.js
 ||twentytwowords.com/static/clients/twentytwowords/3CVQBi14_init.js
 ||upwork.com/Ss13U803/init.js
+||walmart.com/px/PXu6b0qd2S/init.js
 ||wine-searcher.com/K6S8okp3/init.js
 ||zazzle.ca/a0o07ort/init.js
 ||zazzle.co.uk/a0o07ort/init.js
@@ -24733,11 +24735,12 @@ ytics.disneyplus.com^
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
 @@||static.foxnews.com^*/VisitorAPI.js$domain=foxbusiness.com|foxnews.com
 @@||static.wikia.nocookie.net^*/tracking-opt-in.min.js$script,domain=fandom.com
+@@||tapinfluence.com/tap.js$script,domain=titus2homemaker.com
 @@||travel-assets.com/platform-analytics-prime/$domain=chase.com
 @@||uniqlo.com^*/trackingservice/$~third-party
 @@||wsj.net/iweb/static_html_files/cxense-candy.js$script,domain=marketwatch.com
 ! @@||browser.sentry-cdn.com^$domain=cardiffmedia.co.uk|connect.shore.com|crrowd.com|gina-phillips.com|gracevanberkum.com|imperial.ac.uk|loveotv.com|onginnovations.com|simonparkes.org|stockforecasttoday.com|tekku.co.za|theangryviking1776.com|thegivingblock.com|thepittsburghoratory.org|truenews4u.com|washingtonpost.com|wix.com
-@@||browser.sentry-cdn.com^$domain=eco-clobber.co.uk
+@@||browser.sentry-cdn.com^$domain=doconcall.com.my|eco-clobber.co.uk
 @@||brsrvr.com/api/$xmlhttprequest,domain=dollargeneral.com
 @@||c.paypal.com/da/r/fb.js$script
 @@||cbsinteractive.com^*/lib/tracking/comscore/$script
@@ -24918,7 +24921,7 @@ ytics.disneyplus.com^
 @@||q-examiner.online/api/Ping?
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
 @@||quantcast.mgr.consensu.org/cmp.js$script,domain=cyclingnews.com|independent.co.uk|ladbible.com
-@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bigodino.it|bikeperfect.com|cyclingnews.com|digitalcameraworld.com|einthusan.tv|f1aldia.com|formulapassion.it|gamesradar.com|gianlucadimarzio.com|guitarplayer.com|independent.co.uk|indy100.com|ladbible.com|laptopmag.com|livescience.com|livingetc.com|mirror.co.uk|musicradar.com|pcgamer.com|porconocer.com|realhomes.com|researchgate.net|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|whathifi.com|whattowatch.com
+@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bigodino.it|bikeperfect.com|centrometeoitaliano.it|cyclingnews.com|digitalcameraworld.com|einthusan.tv|f1aldia.com|formulapassion.it|gamesradar.com|gianlucadimarzio.com|guitarplayer.com|independent.co.uk|indy100.com|ladbible.com|laptopmag.com|livescience.com|livingetc.com|mirror.co.uk|musicradar.com|pcgamer.com|porconocer.com|realhomes.com|researchgate.net|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|whathifi.com|whattowatch.com
 @@||rasset.ie/dotie/js/tracker.js$domain=rte.ie
 @@||rba-screen.healthsafe-id.com/fp/tags.js$script,domain=myuhc.com
 @@||repairtrackingsite.nintendo.eu/Tracking/$subdocument,domain=nintendo.co.uk
