@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dxsmDLYgp71D7+7tcOYlaw
-! Version: 202105211450
+! Checksum: Sf9SmMnpnfdxSZJxoej+kw
+! Version: 202105221000
 ! Title: EasyList
-! Last modified: 21 May 2021 14:50 UTC
+! Last modified: 22 May 2021 10:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -19334,6 +19334,7 @@ _popunder+$popup
 ##.ad-takeover-homepage
 ##.ad-tall
 ##.ad-target2-wrapper
+##.ad-tech-widget
 ##.ad-text
 ##.ad-text-blockA01
 ##.ad-text-blockB01
@@ -21748,6 +21749,7 @@ _popunder+$popup
 ##.ads_top
 ##.ads_top_banner
 ##.ads_top_both
+##.ads_top_middle
 ##.ads_top_nav
 ##.ads_top_promo
 ##.ads_topbanner
@@ -26114,6 +26116,7 @@ _popunder+$popup
 ##.inline-adblock
 ##.inline-advert
 ##.inline-display-ad
+##.inline-google-ad-slot
 ##.inline-mpu
 ##.inline-mpu-left
 ##.inline-panorama-ad
@@ -31460,6 +31463,7 @@ _popunder+$popup
 ##.taboola-item
 ##.taboola-left-rail-wrapper
 ##.taboola-partnerlinks-ad
+##.taboola-placement
 ##.taboola-single-asset-ads
 ##.taboola-unit
 ##.taboola-widget
@@ -48546,6 +48550,7 @@ menstennisforums.com#@#.top_ads
 ||bluhostedbanners.blucigs.com^
 ||boago.com^*_Takeover_
 ||bollyrulez.net/media/adz/
+||booking.com/images/partner/$third-party
 ||booking.com^$subdocument,domain=ekathimerini.com
 ||booking.com^*;tmpl=banner_
 ||bookingdragon.com^$subdocument,third-party
@@ -51053,6 +51058,7 @@ menstennisforums.com#@#.top_ads
 ||player.anyclip.com/anyclip-widget/$script,third-party
 ||player.avplayer.com^$third-party
 ||playwire.com/bolt/js/$script,third-party
+||rumble.com^$third-party
 ||ultimedia.com/js/common/smart.js$script,third-party
 ||vidazoo.com/basev/$script,third-party
 ||viewdeos.com^$script,third-party
@@ -51649,6 +51655,7 @@ $popup,third-party,domain=cloudvideo.tv|highstream.tv|loader.to|mystream.to|play
 ||mrskin.com/scripts/loader2?
 ||myhentai.tv/popsstuff.
 ||mylegalporno.com/static/main-10641872.js
+||mypornstarblogs.com/ads/
 ||mysexgames.com/pix/*/400x800_*.mp4
 ||mysexgames.com/pix/best-sex-games/*.gif
 ||mysexgames.com/t78d42b806a3.js
@@ -51750,7 +51757,7 @@ $popup,third-party,domain=cloudvideo.tv|highstream.tv|loader.to|mystream.to|play
 ! (/sw.js)
 /^https?:\/\/.*\/.*sw[0-9._].*/$script,xmlhttprequest,domain=1vag.com|4tube.com|adult-channels.com|analdin.com|biguz.net|bogrodius.com|daftsex.com|fantasti.cc|fuqer.com|fux.com|hclips.com|heavy-r.com|incesto69.com|indianbfvideos.com|megapornx.com|milfzr.com|mypornhere.com|niceporn.xxx|porn555.com|pornerbros.com|pornj.com|pornl.com|pornototale.com|porntube.com|sexu.com|sss.xxx|thisav.com|titkino.net|tubepornclassic.com|tuberel.com|tubev.sex|txxx.com|vidmo.org|vpornvideos.com|xozilla.com|youporn.lc|youpornhub.it|yourdailypornstars.com
 !
-/^https?:\/\/.*\/[a-z0-9A-Z]{2,15}\.(php|jx|jsx|1ph|jsf)/$image,script,subdocument,domain=4tube.com|alrincon.com|anysex.com|bdsmstreak.com|bravotube.net|cockmeter.com|fantasti.cc|gfsvideos.com|openloadporn.co|orsm.net|porn-plus.com|shameless.com|spankbang.name|str8ongay.com|tnaflix.com|yourlust.com|zbporn.tv
+/^https?:\/\/.*\/[a-z0-9A-Z]{2,15}\.(php|jx|jsx|1ph|jsf)/$image,script,subdocument,domain=4tube.com|alrincon.com|anysex.com|bdsmstreak.com|bravotube.net|cockmeter.com|fantasti.cc|gfsvideos.com|openloadporn.co|orsm.net|porn-plus.com|shameless.com|smutty.com|spankbang.name|str8ongay.com|tnaflix.com|yourlust.com|zbporn.tv
 ! gaybeeg.info
 @@||netdna-storage.com^$xmlhttprequest,domain=gaybeeg.info
 @@||translate.google.com^$script,domain=gaybeeg.info
@@ -53988,6 +53995,7 @@ winaero##[href="/fix-windows-issues-performance/"]
 2pass.co.uk##[href="bicycle-insurance.htm"]
 toumpano.net##[href="http://roz-tilefona.xbomb.net/"]
 daijiworld.com##[href="http://www.expertclasses.org/"]
+lovehug.net##[href="https://2048.biz/"]
 seganerds.com##[href="https://casino.betway.com/"]
 isekaiscan.com##[href="https://comichub.net/"]
 sqlfiddle.com##[href="https://entityframework-extensions.net/"]
@@ -54014,6 +54022,7 @@ headfonics.com##[href^="https://headfonics.com/linkout/"]
 imagetwist.com##[href^="https://imagetwist.com/pxt/"]
 kreationnext.com##[href^="https://kreationnext.com/servers-and-hosting/"]
 noypigeeks.com##[href^="https://nypgks.com/"]
+manganelo.com##[href^="https://oackoubs.com/"]
 analyticsindiamag.com##[href^="https://praxis.ac.in/"]
 analyticsindiamag.com##[href^="https://programs.upgrad.com/"]
 readlightnovel.org##[href^="https://readlightnovelnew.onelink.me/"]
@@ -54213,6 +54222,7 @@ add0n.com##div[style^="height: 90px;"]
 whatmobile.com.pk##div[style^="height:610px"]
 google.co.in,google.co.uk,google.com,google.com.bd,google.com.pk,news18.com##div[style^="margin-bottom:15px"][class^=jsx-]
 add0n.com,news18.com##div[style^="min-height:90px"]
+lovehug.net##div[style^="position: fixed; display: flow-root; z-index:"]
 passiveaggressivenotes.com,twcenter.net##div[style^="width: 728px;"]
 napuzba.com##div[style^="width:336px"]
 jwire.com.au##div[style^="width:468px;"]
