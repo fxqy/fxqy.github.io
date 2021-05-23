@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: hQcUMmLXoKk6pe+z5I/rDQ
-! Version: 202105221001
+! Checksum: YoatQD+CuDXL2aUx9ft5Hg
+! Version: 202105231011
 ! Title: EasyPrivacy
-! Last modified: 22 May 2021 10:01 UTC
+! Last modified: 23 May 2021 10:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -35,6 +35,7 @@
 -action/ping?
 -ad-targeting?
 -adobe-analytics.
+-adobe-analytics/
 -adobeDatalayer_
 -ads-tracking-
 -AdTracking.
@@ -1548,6 +1549,7 @@
 /countstat.php?
 /countubn.
 /countus.php
+/coveo.analytics.js/*
 /CoveoForSitecore.
 /cpeEvent.
 /cpeEventTracking.
@@ -3302,6 +3304,7 @@
 /pc-log?
 /pcookie_get_key
 /pcount.asp
+/pdst-events-prod-sink
 /Peermap/Log/*
 /pepperjam.js
 /perf-beacon-
@@ -3311,6 +3314,7 @@
 /performance-logger.
 /performance-metrics.js
 /performance.fcgi?
+/performance/metrics
 /performance_timing/*
 /performance_tracker-
 /performanceMetrics?
@@ -3457,6 +3461,7 @@
 /planetstat.
 /platform-analytics-
 /plausible.js$domain=~plausible.io
+/player-test-impression?
 /player/stats.php?
 /player_counter.ashx?
 /PlayerDashboardLoggingService.svc/json/StartSession?
@@ -3872,6 +3877,7 @@
 /session-hit.
 /session-tracker/tracking-
 /session/preparecookies?$domain=~mirapodo.de|~mytoys.de|~yomonda.de
+/session/update-beacon
 /sessioncam.min.$script
 /sessioncam.recorder.js
 /sessioncam/*
@@ -7613,6 +7619,7 @@ _mongo_stats/
 ||pclicks.com^$third-party
 ||pcspeedup.com^$third-party
 ||pdbu.net^$third-party
+||pdst.fm^$third-party
 ||peerius.com^$third-party
 ||pendo.io^$third-party
 ||percentmobile.com^$third-party
@@ -7722,6 +7729,7 @@ _mongo_stats/
 ||publishflow.com^$third-party
 ||pubplus.com^$third-party
 ||pubstack.io^$third-party
+||pubxtag1.com^$third-party
 ||pulleymarketing.com^$third-party
 ||pulselog.com^$third-party
 ||pulsemaps.com^$third-party
@@ -8241,6 +8249,7 @@ _mongo_stats/
 ||tracc.it^$third-party
 ||trace-2000.com^$third-party
 ||trace.events^$third-party
+||tracead.com^$third-party
 ||traceless.me^$third-party
 ||tracelytics.com^$third-party
 ||tracemyip.org^$third-party
@@ -8600,6 +8609,7 @@ _mongo_stats/
 ||zoomino.com^$third-party
 ||zoosnet.net^$third-party
 ||zoossoft.net^$third-party
+||zprk.io^$third-party
 ||zqtk.net^$third-party
 ||ztsrv.com^$third-party
 ||zuzab.com^$third-party
@@ -10371,6 +10381,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||affirm.com/api/v2/session/touch_track
 ||afrigator.com/track/
 ||agendize.com^*/counts.jsp?
+||air.audioeye.com^
 ||aiya.com.cn/stat.js
 ||akamaihd.net/p1lakjen.gif
 ||akamaized.net/cookie_check/
@@ -10611,6 +10622,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||b8cdn.com^*/analytics.js
 ||bab.frb.io^
 ||backstage.funnelenvy.com^
+||bacon.getcarro.com^
 ||bacon.section.io^
 ||baidu.com/pixel?
 ||bamgrid.com/dust
@@ -10988,6 +11000,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d2rnkf2kqy5m6h.cloudfront.net^
 ||d2ry9vue95px0b.cloudfront.net^
 ||d2san7t27xb2pn.cloudfront.net^
+||d2t77mnxyo7adj.cloudfront.net^
 ||d2tcg4i9q4js4a.cloudfront.net^
 ||d2tgfbvjf3q6hn.cloudfront.net^
 ||d2wu036mkcz52n.cloudfront.net^
@@ -11280,6 +11293,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||goadv.com^*/track.js
 ||goaww.com/stats.php
 ||godaddy.com/js/gdwebbeacon.js
+||gomoxie.solutions^*/events
 ||google.com/analytics/$third-party
 ||googleapis.com/aam.js
 ||googleapis.com/gadasource/gada.js
@@ -11829,6 +11843,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||prd-collector-auth.playbuzz.com^
 ||prd-collector-platform.ex.co^
 ||presspage.com/statistics/
+||prf.vagnt.com^
 ||pricespider.com/impression/
 ||primedia.co.za/analytics/
 ||print2webcorp.com/mkt3/_js/p2w_tracker.js
@@ -13674,6 +13689,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.plex.tv^
 ||analytics.posttv.com^
 ||analytics.productreview.com.au^
+||analytics.realestate.com.au^
 ||analytics.schoolwires.com^
 ||analytics.shorte.st^
 ||analytics.sketchup.com^
@@ -13935,6 +13951,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||chud.com/community/p/
 ||civicscience.com/jot?
 ||cjtube.com/tp/*.php
+||cl.canva.com^
 ||cl.expedia.com^
 ||cl.ly/metrics?
 ||clancy.spiceworks.com^
@@ -15066,6 +15083,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||petersons.com^*/trackFunctionsBeta.asp
 ||petplanet.co.uk^*/js/ga.js
 ||petri.co.il/akit/?
+||pexa.realestate.com.au^
 ||pf.newegg.com^
 ||phar.gu-web.net^
 ||phonearena.com/_track.php
@@ -24724,6 +24742,7 @@ ytics.disneyplus.com^
 @@||bluecare.express/js/tracking/$script,~third-party
 @@||bobbibrowncosmetics.com^*/analytics.min.js$~third-party
 @@||bookmate.com^*/impressions?$~third-party,xmlhttprequest
+@@||catalogue.jbhifi.com.au^*/static/analytics.js$script,~third-party
 @@||cdn.cxense.com^$script,domain=marketwatch.com
 @@||cleverpush.com/channel/$script,domain=bsdex.de
 @@||community.brave.com/t/$xmlhttprequest
@@ -24740,6 +24759,7 @@ ytics.disneyplus.com^
 @@||tapinfluence.com/tap.js$script,domain=titus2homemaker.com
 @@||travel-assets.com/platform-analytics-prime/$domain=chase.com
 @@||uniqlo.com^*/trackingservice/$~third-party
+@@||webapp.simplisafe.com^*/angulartics-ga.min.js$script,~third-party
 @@||wsj.net/iweb/static_html_files/cxense-candy.js$script,domain=marketwatch.com
 ! @@||browser.sentry-cdn.com^$domain=cardiffmedia.co.uk|connect.shore.com|crrowd.com|gina-phillips.com|gracevanberkum.com|imperial.ac.uk|loveotv.com|onginnovations.com|simonparkes.org|stockforecasttoday.com|tekku.co.za|theangryviking1776.com|thegivingblock.com|thepittsburghoratory.org|truenews4u.com|washingtonpost.com|wix.com
 @@||browser.sentry-cdn.com^$domain=doconcall.com.my|eco-clobber.co.uk
