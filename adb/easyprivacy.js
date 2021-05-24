@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: YoatQD+CuDXL2aUx9ft5Hg
-! Version: 202105231011
+! Checksum: gcLtqOlnKOkhXWSUGNJDLA
+! Version: 202105241041
 ! Title: EasyPrivacy
-! Last modified: 23 May 2021 10:11 UTC
+! Last modified: 24 May 2021 10:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -13,6 +13,7 @@
 !
 !-----------------General tracking systems-----------------!
 ! *** easylist:easyprivacy/easyprivacy_general.txt ***
+&action=confection_send_data&
 &action=js_stats&
 &action=js_stats_
 &callback=hitStats_
@@ -329,6 +330,7 @@
 .v4.analytics.
 .vn/0.gif?
 .vsTracking.
+.web-vitals-reporting.
 .webmetrics.js
 .webstats.
 .wxAdTargeting.
@@ -2668,6 +2670,7 @@
 /lib.tailtarget/*
 /lib/analytics.
 /lib/ga.js
+/lib/snowplow-
 /lib/tracking/*
 /library/svy/*/broker.js
 /library/svy/broker.js
@@ -8042,6 +8045,7 @@ _mongo_stats/
 ||sni-dat.com^$third-party
 ||sniperlog.ru^$third-party
 ||sniphub.com^$third-party
+||snitcher.com^$third-party
 ||snoobi.com^$third-party
 ||snowsignal.com^$third-party
 ||social-sb.com^$third-party
@@ -13566,6 +13570,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||aa.avvo.com^
 ||aax-eu-dub.amazon.com^
 ||aax-us-iad.amazon.com^
+||ab-machine.forbes.com^
 ||abc.net.au/counters/
 ||abc.net.au^*/stats/
 ||abebooks.com/timer.gif?
@@ -16207,6 +16212,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||zylom.com/pixel.jsp
 ||zylom.com^*/tracking_spotlight.js
 ||zytpirwai.net/track/
+! confection.io
+||hubspot.com/collected-forms/$xmlhttprequest,domain=confection.io
+||s3.amazonaws.com/downloads.mailchimp.com/$script,domain=confection.io
+||substation.confection.io^
 ! whatleaks.com
 ||dns.whatleaks.com^
 ||p0f.whatleaks.com
