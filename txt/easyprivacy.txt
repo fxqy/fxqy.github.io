@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: gcLtqOlnKOkhXWSUGNJDLA
-! Version: 202105241041
+! Checksum: itX2vxgKby7euxyuWbwZnQ
+! Version: 202105260251
 ! Title: EasyPrivacy
-! Last modified: 24 May 2021 10:41 UTC
+! Last modified: 26 May 2021 02:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6291,6 +6291,7 @@ _mongo_stats/
 ||bstn-14-ma.com^$third-party
 ||btbuckets.com^$third-party
 ||btloader.com^$third-party
+||btncdn.com^$third-party
 ||btserve.com^$third-party
 ||btstatic.com^$third-party
 ||btttag.com^$third-party
@@ -7202,6 +7203,7 @@ _mongo_stats/
 ||knowlead.io^$third-party
 ||knowledgevine.net^$third-party
 ||koddi.com^$third-party
+||koji-analytics.com^$third-party
 ||kokos.click^$third-party
 ||komtrack.com^$third-party
 ||konduit.me^$third-party
@@ -7972,6 +7974,7 @@ _mongo_stats/
 ||sexystat.com^$third-party
 ||sf14g.com^$third-party
 ||shareasale.com^$third-party
+||sharedid.org^$third-party
 ||sharpspring.com^$third-party
 ||shinystat.com^$third-party
 ||shippinginsights.com^$third-party
@@ -11040,6 +11043,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dadi.technology^$third-party
 ||daq0d0aotgq0f.cloudfront.net^
 ||data.alexa.com^
+||data.beop.io^
 ||data.circulate.com^
 ||data.gosquared.com^$third-party
 ||data.imakenews.com^$third-party
@@ -11975,6 +11979,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rva.outbrain.com^
 ||s-microsoft.com/mscc/$~stylesheet
 ||s-vop.sundaysky.com^$third-party
+||s.beop.io^
 ||s.clickability.com^
 ||s.clickiocdn.com^
 ||s.pinimg.com/ct/core.js
@@ -14170,12 +14175,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||eafyfsuh.net/track/
 ||easy2.com^*/logging/
 ||eba-amadeus.netdna-ssl.com/fastTrack/$domain=flyasiana.com
-||ebay-us.com/fp/
-||ebay.*/autotrk/
-||ebay.com/op/t.do?event
-||ebayobjects.com/*;dc_pixel_url=$image
-||ebaystatic.com^*/agof_survey_
-||ebaystatic.com^*/iam_
+||ebay.com^*/customer_image_service?
+||ebaystatic.com/rs/c/9527tracking/configuration.js$script,domain=ebay.com
 ||economist.com/geoip.php
 ||ectnews.com/shared/missing.gif?
 ||edgecastcdn.net^*/ehow_am.js$domain=ehow.com
