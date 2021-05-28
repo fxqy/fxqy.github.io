@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: itX2vxgKby7euxyuWbwZnQ
-! Version: 202105260251
+! Checksum: 1o5bZfaGVsA9EpI6zlo05Q
+! Version: 202105280251
 ! Title: EasyPrivacy
-! Last modified: 26 May 2021 02:51 UTC
+! Last modified: 28 May 2021 02:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -4111,6 +4111,7 @@
 /statisticsv2/*
 /statlogger.
 /stats-amp.
+/stats-collect
 /stats-dc1.
 /stats-js.cgi?
 /stats-listener.js
@@ -7624,7 +7625,7 @@ _mongo_stats/
 ||pclicks.com^$third-party
 ||pcspeedup.com^$third-party
 ||pdbu.net^$third-party
-||pdst.fm^$third-party
+||pdst.fm^$script,third-party
 ||peerius.com^$third-party
 ||pendo.io^$third-party
 ||percentmobile.com^$third-party
@@ -9224,6 +9225,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||parcelcreature.com^$third-party
 ||parsimoniouspolice.com^$third-party
 ||partplanes.com^$third-party
+||pastoralroad.com^$third-party
 ||pedropanther.com^$third-party
 ||penspade.com^$third-party
 ||perceivequarter.com^$third-party
@@ -9254,6 +9256,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||realizerecess.com^$third-party
 ||realizevacation.com^$third-party
 ||receptivereaction.com^$third-party
+||reconditerake.com^$third-party
 ||regularplants.com^$third-party
 ||rejectfairies.com^$third-party
 ||repeatsweater.com^$third-party
@@ -13196,6 +13199,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||iol.it^*/clickserver.js
 ||italiaonline.it/script/ga.
 ||italiaonline.it/script/iol-body.js
+||limone.iltrovatore.it^
 ||livestats.matrix.it^
 ||log.superweb.ws^
 ||logger.kataweb.it^
@@ -24845,7 +24849,8 @@ ytics.disneyplus.com^
 @@||geo-targetly.com/geolocation?id$script,third-party
 @@||geo.ngtv.io/locate/$domain=hbo.com
 @@||geoip-db.com/jsonp/$script,third-party
-@@||geoip-js.com^*/me?referrer=$xmlhttprequest,domain=ibanez.com
+@@||geoip-js.com/js/apis/geoip2/$script,domain=freshdesk.com
+@@||geoip-js.com^*/me?referrer=$xmlhttprequest,domain=freshdesk.com|ibanez.com
 @@||geoplugin.net/javascript.gp?$script,domain=suicidepreventionlifeline.org|virginmobile.ca
 @@||geoplugin.net/json.gp?jsoncallback=$script,domain=worldc.am
 @@||geostag.cardinalcommerce.com/DeviceFingerprintWeb/includes/js/fingerprint2.min.js$script
@@ -24953,7 +24958,7 @@ ytics.disneyplus.com^
 @@||q-examiner.online/api/Ping?
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
 @@||quantcast.mgr.consensu.org/cmp.js$script,domain=cyclingnews.com|independent.co.uk|ladbible.com
-@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bigodino.it|bikeperfect.com|centrometeoitaliano.it|cyclingnews.com|digitalcameraworld.com|einthusan.tv|f1aldia.com|formulapassion.it|gamesradar.com|gianlucadimarzio.com|guitarplayer.com|independent.co.uk|indy100.com|ladbible.com|laptopmag.com|livescience.com|livingetc.com|mirror.co.uk|musicradar.com|pcgamer.com|porconocer.com|realhomes.com|researchgate.net|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|whathifi.com|whattowatch.com
+@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bigodino.it|bikeperfect.com|centrometeoitaliano.it|cyclingnews.com|digitalcameraworld.com|einthusan.tv|f1aldia.com|fantacalcio.it|formulapassion.it|gamesradar.com|gianlucadimarzio.com|guitarplayer.com|independent.co.uk|indy100.com|ladbible.com|laptopmag.com|livescience.com|livingetc.com|mirror.co.uk|musicradar.com|pcgamer.com|porconocer.com|realhomes.com|researchgate.net|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|whathifi.com|whattowatch.com
 @@||rasset.ie/dotie/js/tracker.js$domain=rte.ie
 @@||rba-screen.healthsafe-id.com/fp/tags.js$script,domain=myuhc.com
 @@||repairtrackingsite.nintendo.eu/Tracking/$subdocument,domain=nintendo.co.uk
@@ -25061,6 +25066,7 @@ ytics.disneyplus.com^
 ! Cloudflare hcaptcha test
 @@/cdn-cgi/images/trace/captcha/js/h/transparent.gif$image,~third-party
 ! CNAME (Specific allowlists)
+@@||calo.extole.io^$script,xmlhttprequest,domain=refer.calo.app
 @@||mycleverpush.com/iframe?$domain=bsdex.de
 @@||n8s.jp^$script,domain=nikkei.com
 @@||takeda.com.dxcloud.episerver.net^$domain=takeda.com
