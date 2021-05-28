@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 1o5bZfaGVsA9EpI6zlo05Q
-! Version: 202105280251
+! Checksum: DV1CUPt1Kn2GBOtRrxhyuQ
+! Version: 202105281411
 ! Title: EasyPrivacy
-! Last modified: 28 May 2021 02:51 UTC
+! Last modified: 28 May 2021 14:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6416,6 +6416,7 @@ _mongo_stats/
 ||clickzzs.nl^$third-party
 ||clientgear.com^$third-party
 ||clixcount.com^$third-party
+||clixgalore.com^$third-party
 ||clixpy.com^$third-party
 ||cloud-exploration.com^$third-party
 ||cloud-iq.com^$third-party
@@ -8471,6 +8472,7 @@ _mongo_stats/
 ||votistics.com^$third-party
 ||vprza.com^$third-party
 ||vtracker.net^$third-party
+||vuukle.com^$third-party
 ||w3counter.com^$third-party
 ||w55c.net^$third-party
 ||walmeric.com^$third-party
@@ -10726,6 +10728,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bzgint.com/CUNCollector/
 ||bzpics.com/jslib/st.js?
 ||c-date.com/pixel/
+||c.cloudwp.io^
 ||c.imedia.cz^
 ||c.live.com^
 ||c.mgid.com^
@@ -11206,7 +11209,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||facebook.com/brandlift.php
 ||facebook.com/common/cavalry_endpoint.php?
 ||facebook.com/method/links.getstats?
-||facebook.com/tr$third-party
+||facebook.com/tr?
 ||fairfax.com.au/js/track/
 ||faphouse.com/api/collector/
 ||fastcdn.co/js/sptw.js
