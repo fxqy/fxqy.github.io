@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: DV1CUPt1Kn2GBOtRrxhyuQ
-! Version: 202105281411
+! Checksum: XX0SCM09F4LJRJE89UBgtg
+! Version: 202105291051
 ! Title: EasyPrivacy
-! Last modified: 28 May 2021 14:11 UTC
+! Last modified: 29 May 2021 10:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1949,6 +1949,7 @@
 /fingerprint3.js
 /fingerprint3.min.js
 /fingerprintjs2.
+/firebase-performance-
 /firestats/*
 /firm_tracking.js
 /fkounter/*
@@ -3311,6 +3312,7 @@
 /Peermap/Log/*
 /pepperjam.js
 /perf-beacon-
+/perf-vitals_
 /perflog/*
 /perfmetrics.js
 /perfops-cc.
@@ -6069,6 +6071,7 @@ _mongo_stats/
 ||air2s.com^$third-party
 ||airpr.com^$third-party
 ||airserve.net^$third-party
+||aivalabs.com^$third-party
 ||akanoo.com^$third-party
 ||akstat.com^$third-party
 ||akstat.io^$third-party
@@ -7957,6 +7960,7 @@ _mongo_stats/
 ||semanticverses.com^$third-party
 ||semasio.net^$third-party
 ||sematext.com^$third-party
+||sendbird.com^$third-party,websocket
 ||sendtraffic.com^$third-party
 ||sentry-cdn.com^$third-party,domain=~sentry.dev|~sentry.io
 ||sentry.io^$third-party
@@ -9180,6 +9184,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gulliblecamp.com^$third-party
 ||haltingbadge.com^$third-party
 ||hammerhearing.com^$third-party
+||handyfireman.com^$third-party
 ||hearthorn.com^$third-party
 ||hilariouszinc.com^$third-party
 ||historicalbeam.com^$third-party
@@ -11824,6 +11829,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.solvemedia.com^
 ||pixel.sprinklr.com^
 ||pixel.tree.com^
+||pixel.videohub.tv^
 ||pixel.widgetly.com^
 ||pixel.wp.com^
 ||pixel.xmladfeed.com^$third-party
@@ -12328,6 +12334,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.brandmentions.com^
 ||tracking.customerly.io^
 ||tracking.drsfostersmith.com^$third-party
+||tracking.drum.io^
 ||tracking.dsmmadvantage.com^
 ||tracking.edvisors.com^$third-party
 ||tracking.ehavior.net^
@@ -12455,6 +12462,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||uplynk.com/session/ping/
 ||upt.graphiq.com^
 ||uptime.com/static/rum/$third-party
+||uriports.com/reports/$third-party
 ||usercentrics.eu/session/$image
 ||userexperience.thehut.net^
 ||users.techtarget.com^*/GetCookiesWithCallback?
@@ -13656,6 +13664,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||amazon.*/batch/*uedata=$image
 ||amazon.*/gp/r.html?
 ||amazon.*/uedata/
+||amazon.com/1/remote-weblab-triggers/
 ||amazon.com/clog/
 ||amazon.com/e/xsp/imp?
 ||amazon.com/empty.gif?$image
@@ -15561,6 +15570,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||srt.pch.com^
 ||srtb.msn.com^
 ||ssc.api.bbc.com^
+||ssl-images-amazon.com^*/31PaR7mjhbL.js
 ||st.arte.tv^
 ||stan.xing.com^
 ||startpage.*/avtc?
@@ -15900,6 +15910,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tunein.com^*/log/
 ||turn.com/js/module.tracking.js
 ||turnsocial.com/track/
+||tvmaze.com/script.js
 ||tvshark.com/stats.js
 ||tw.i.hulu.com^
 ||tweakers.net/ajax/ping/
@@ -16196,6 +16207,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||yuku.com/stats?
 ||yupptv.com/yupptvreports/stats.php^
 ||yyv.co/track/
+||z.cdp-dev.cnn.com^
 ||zap.dw-world.de^$image
 ||zap2it.com^*/editorial-partner/
 ||zappos.com/*.cgi?

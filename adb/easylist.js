@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: QuDtNTsPICyoolwIBTEw2A
-! Version: 202105281411
+! Checksum: AKH7F++1cn9hEJKCy9mjYg
+! Version: 202105291101
 ! Title: EasyList
-! Last modified: 28 May 2021 14:11 UTC
+! Last modified: 29 May 2021 11:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -19306,6 +19306,8 @@ _popunder+$popup
 ##.ad-vertical-container
 ##.ad-vertical-stack-ad
 ##.ad-vtu
+##.ad-w-300
+##.ad-w-728
 ##.ad-w300
 ##.ad-wall-3-wrapper
 ##.ad-wall-4
@@ -30281,6 +30283,7 @@ _popunder+$popup
 ##[href^="https://join3.bannedsextapes.com"]
 ##[href^="https://refpahrwzjlv.top/"]
 ##[href^="https://secure.bmtmicro.com/servlets/"]
+##[href^="https://shiftnetwork.infusionsoft.com/go/"]
 ##[href^="https://wct.link/"]
 ##[href^="https://www.reimageplus.com/"]
 ##[href^="https://www.xvbelink.com/"]
@@ -30808,6 +30811,7 @@ _popunder+$popup
 ##a[href^="https://msecure117.com/"]
 ##a[href^="https://my-movie.club/"]
 ##a[href^="https://myusenet.xyz/"]
+##a[href^="https://oackoubs.com/"]
 ##a[href^="https://offerforge.net/"]
 ##a[href^="https://offers.refchamp.com/"]
 ##a[href^="https://ovb.im/"]
@@ -32406,6 +32410,7 @@ menstennisforums.com#@#.top_ads
 ||3d0da2373af57.com^
 ||3d1a1e7f6db3.com^
 ||3d643f542787c62a7.com^
+||3de3a133cf5.com^
 ||3djd3.xyz^
 ||3e787c93af8de.com^
 ||3f32172d509aeb0.com^
@@ -32718,6 +32723,7 @@ menstennisforums.com#@#.top_ads
 ||99818fb574.com^
 ||9989be8064c80b.com^
 ||9a24a1b3dcd5f4.com^
+||9aaeea3094d8.com^
 ||9ad16721d9d5c56.com^
 ||9ads.mobi^
 ||9ae7c9ffe8509b0.com^
@@ -32846,6 +32852,7 @@ menstennisforums.com#@#.top_ads
 ||achinahdh.club^
 ||acidlikenessdejected.com^
 ||acirtpkh.com^
+||ackcdn.net^
 ||aclickads.com^
 ||acloudvideos.com^
 ||acmsg.online^
@@ -33257,6 +33264,7 @@ menstennisforums.com#@#.top_ads
 ||aranlucas.pro^
 ||arbawijlgq.com^
 ||arbingfifted.club^
+||arbitrarydefectrightfully.com^
 ||arccdyvgh.com^
 ||archhandlingperpetrate.com^
 ||archivendrons.xyz^
@@ -34896,6 +34904,7 @@ menstennisforums.com#@#.top_ads
 ||daugloon.net^
 ||dauntlessomelette.com^
 ||dauphinelles.xyz^
+||daurmonb.com^
 ||dayanygold.com^
 ||daysaristocracy.com^
 ||dazhantai.com^
@@ -35636,6 +35645,7 @@ menstennisforums.com#@#.top_ads
 ||engineseeker.com^
 ||engingalon.top^
 ||englingedrxa.club^
+||englishheadlight.com^
 ||engppdoqrtivjd.com^
 ||engrievinebef.fun^
 ||enhancereviewpacket.com^
@@ -35715,6 +35725,7 @@ menstennisforums.com#@#.top_ads
 ||eriniquep.club^
 ||erkchpofubojfm.com^
 ||erkhxw.com^
+||ermitteedi.biz^
 ||ernettesew.club^
 ||erniphiq.com^
 ||ernmentin.top^
@@ -36428,6 +36439,7 @@ menstennisforums.com#@#.top_ads
 ||gconfirmat.fun^
 ||gcqdiydpfytvn.com^
 ||gcxjczooe.com^
+||gdcjzyfjwvyqvq.com^
 ||gdcuixkjhnmot.com^
 ||gdl5vtbbv0lj.com^
 ||gdmconvtrck.com^
@@ -37450,6 +37462,7 @@ menstennisforums.com#@#.top_ads
 ||jollyfirmexterminate.com^
 ||jomtingi.net^
 ||joobuste.com^
+||joodoush.com^
 ||joophesh.com^
 ||josephcalculatedsewer.com^
 ||joubozie.com^
@@ -38976,6 +38989,7 @@ menstennisforums.com#@#.top_ads
 ||nunailsum.com^
 ||nunhoefey.com^
 ||nunscawamok.icu^
+||nupcn.com^
 ||nupoot.com^
 ||nuqwe.com^
 ||nurobi.info^
@@ -39087,6 +39101,7 @@ menstennisforums.com#@#.top_ads
 ||ohtdsplu.com^
 ||oicretarifiedy.top^
 ||oicssiq.com^
+||oidaio.com^
 ||oihudydlsvxsi.com^
 ||oinvalentpriv.top^
 ||oiycak.com^
@@ -42040,6 +42055,7 @@ menstennisforums.com#@#.top_ads
 ||video-adblocker.com^
 ||videoaccess.xyz^
 ||videoonecom.com^
+||videosflop.com^
 ||videosubsi.fun^
 ||videosvstincredible.com^
 ||videotapespecialize.com^
@@ -42610,6 +42626,7 @@ menstennisforums.com#@#.top_ads
 ||xqzlgbbe.com^
 ||xrbmomiow.com^
 ||xrhobrrgwhtlu.com^
+||xroynaxvqvouy.com^
 ||xrqrpdxqpm.com^
 ||xsxvxqtdppippq.com^
 ||xtendente.club^
@@ -52659,6 +52676,7 @@ dailymail.co.uk,thisismoney.co.uk##.billboard_wrapper
 msn.com##.bing-native-ad
 bundesliga.com##.bl-broadcaster
 nowsci.com##.black_overlay
+tvmaze.com##.blad
 fastpic.ru##.bleft
 wearedore.com##.bloc-pub
 rpgsite.net##.block
@@ -53385,6 +53403,7 @@ reddit.com##.promotedlink
 racingtv.com,twitter.com,wral.com##.promotion
 bostonreview.net##.promotop
 kathmandupost.com##.pt-0
+washingtonpost.com##.pt-0.dn-hp-xs
 news.abplive.com##.pt-2.mt-4.card
 1980-games.com,flash-mp3-player.net,larousse.com,theportugalnews.com,tolonews.com##.pub
 yabiladi.com##.pub2
@@ -53978,6 +53997,7 @@ rlslog.net##div[style="padding-left:40px;"]
 funvid.hu##div[style="padding: 3px 0px 0px 26px; height: 90px; clear: both;"]
 shaaditimes.com##div[style="padding: 5 0 0 0px; height: 138px; text-align:center; width:780px; background: url('/imgs/top-ad-bg.gif') repeat-x left bottom; background-color:#FFF9D0;"]
 indusladies.com##div[style="padding:5%;margin-left:30%;"]
+readmanganato.com##div[style="text-align: center; max-width: 620px; max-height: 270px; margin: 10px auto; overflow: hidden; display: block;"]
 croatia.org##div[style="width: 120px; text-align:center"]
 googletutor.com##div[style="width:125px;text-align:center;"]
 worstpreviews.com##div[style="width:160;height:600;background-color:#FFFFFF;"]
