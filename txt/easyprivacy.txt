@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: XX0SCM09F4LJRJE89UBgtg
-! Version: 202105291051
+! Checksum: ICUkBT1ikrW1b8/zfJ8EvA
+! Version: 202105301411
 ! Title: EasyPrivacy
-! Last modified: 29 May 2021 10:51 UTC
+! Last modified: 30 May 2021 14:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3692,7 +3692,6 @@
 /reporting/campaignresolution/?
 /request_tracker+
 /RequestTrackerServlet?
-/RequestVideoTag.
 /res/x.gif?
 /resmeter.js
 /resonance.js
@@ -5555,6 +5554,7 @@ cgi-bin/counter
 .efeedbacktrk.com/$third-party
 .emltrk.com/
 .epicgames.com/O/
+.eventim.de/op/$image
 .flipboard.com/usage?
 .getblueshift.com/q/
 .hootsuite.com/trk?
@@ -5902,6 +5902,9 @@ _mongo_stats/
 ||g7923373400.co^
 ||g8121457735.co^
 ||g8319542070.co^
+||g8517626405.co^
+||g8715710740.co^
+||g8913795075.co^
 ||lltrck.com^
 ||mors22.com^
 ||nxakpj4ac8gkd53.info^
@@ -7634,6 +7637,7 @@ _mongo_stats/
 ||pendo.io^$third-party
 ||percentmobile.com^$third-party
 ||perf-serving.com^$third-party
+||perfalytics.com^$third-party
 ||perfdrive.com^$third-party
 ||perfectaudience.com^$third-party
 ||perfiliate.com^$third-party
@@ -7710,6 +7714,7 @@ _mongo_stats/
 ||predicta.net^$third-party
 ||predictivedna.com^$third-party
 ||predictiveresponse.net^$third-party
+||presage.io^$third-party
 ||prfct.co^$third-party
 ||prnx.net^$third-party
 ||pro6e.com^$third-party
@@ -8458,7 +8463,6 @@ _mongo_stats/
 ||visitorprofiler.com^$third-party
 ||visitortracklog.com^$third-party
 ||visitorville.com^$third-party
-||visitstats.com^$third-party
 ||visitstreamer.com^$third-party
 ||visto1.net^$third-party
 ||visualdna.com^$third-party
@@ -9347,6 +9351,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||unarmedindustry.com^$third-party
 ||unbecominghall.com^$third-party
 ||unequalbrake.com^$third-party
+||uninterestedquarter.com^$third-party
 ||unknowncrate.com^$third-party
 ||untidyrice.com^$third-party
 ||unwieldyhealth.com^$third-party
@@ -11206,6 +11211,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||excite.ie/?click_in=
 ||exitintel.com/log/$third-party
 ||experience.contextly.com^
+||f-log-at.grammarly.io^
+||f-log-test.grammarly.io^
 ||f.email.bjs.com^*/1x2.gif
 ||facebook.com*/impression.php
 ||facebook.com/adnw_request?
@@ -25348,6 +25355,7 @@ ytics.disneyplus.com^
 @@||cm-beacon.nakanohito.jp/cm/comment_count/$xmlhttprequest
 @@||cm-widget.nakanohito.jp/cm/$script,stylesheet
 @@||cm-widget.nakanohito.jp/img/$image
+@@||dev.visualwebsiteoptimizer.com^$script,domain=internetorder.dominos.jp
 @@||disneyplus.disney.co.jp/view/vendor/analytics/$~third-party
 @@||e-stat.go.jp/modules/custom/retrieve/src/js/stat.js?$script,~third-party
 @@||flipdesk.jp/wp/wp-content/themes/flipdesk/images/analytics3.png$image
@@ -25371,7 +25379,6 @@ ytics.disneyplus.com^
 @@||support-widget.nakanohito.jp/chatbot$script,stylesheet
 @@||suumo.jp/sp/js/beacon.js$script,~third-party
 @@||twitter.com/oct.js$domain=jp.square-enix.com
-@@||uliza.jp/IF/RequestVideoTag.aspx$script,domain=jsports.co.jp|kobe-np.co.jp|toonippo.co.jp
 @@||useinsider.com/ins.js$domain=pizzahut.jp
 @@||webcdn.stream.ne.jp^*/referrer.js$domain=stream.ne.jp
 @@||yu.xyz.mn/images/event.gif?$image,~third-party
