@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: ICUkBT1ikrW1b8/zfJ8EvA
-! Version: 202105301411
+! Checksum: OFF2g0CJ1n+LSBNAGTtOCg
+! Version: 202105311551
 ! Title: EasyPrivacy
-! Last modified: 30 May 2021 14:11 UTC
+! Last modified: 31 May 2021 15:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1146,6 +1146,7 @@
 /bundles/tracciamento?
 /busting/*/gtm-
 /buzz_stats.
+/bypassma.js
 /bypassmajs|
 /bypasspiphp?
 /byside_webcare.
@@ -4952,6 +4953,7 @@
 /videojs-tracking.
 /videojs.ga.
 /videolog?vid=
+/videotracking-v3/*
 /VideoTracking.
 /videotracking/*
 /vidtrack.
@@ -10597,6 +10599,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||appspot.com/api/track/
 ||appspot.com/collect
 ||appspot.com/stats?
+||arc.io/widget.min.js
 ||arclk.net/trax?
 ||areyouahuman.com/kitten?
 ||argos.citruserve.com^
@@ -10764,6 +10767,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||caspionlog.appspot.com^
 ||cbsi.com/lib/api/client-info
 ||cbsistatic.com^*/siteTracking.js
+||cbsivideo.com/measurements/
 ||cc.swiftype.com^
 ||ccexperimentsstatic.oracleoutsourcing.com^
 ||cdn-channels-pixel.ex.co^
@@ -11115,6 +11119,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dn34cbtcv9mef.cloudfront.net^
 ||dnn506yrbagrg.cloudfront.net^
 ||domodomain.com^*/ddsense.aspx?
+||doppler-reporting.cbsivideo.com^
 ||dotaudiences.com^$third-party
 ||doug1izaerwt3.cloudfront.net^
 ||dreamhost.com/*.cgi?$image,third-party
@@ -11221,6 +11226,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||facebook.com/brandlift.php
 ||facebook.com/common/cavalry_endpoint.php?
 ||facebook.com/method/links.getstats?
+||facebook.com/tr/
 ||facebook.com/tr?
 ||fairfax.com.au/js/track/
 ||faphouse.com/api/collector/
@@ -11678,6 +11684,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mts.mansion.com^$third-party
 ||mtvnservices.com/aria/projectX/
 ||mtvnservices.com/aria/uuid.html
+||mtvnservices.com/measurements/
 ||mtvnservices.com/metrics/
 ||munchkin.marketo.net^
 ||murdoog.com^*/Pixel/$image
@@ -11759,6 +11766,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||optimizely.appspot.com^$third-party
 ||ora.tv/j/ora_evttracking.js
 ||orb.ee/collect
+||ordergroove.com/log/offer?
 ||orts.wixawin.com^$third-party
 ||outbrain.com/nanoWidget/externals/cookie/
 ||outbrain.com/widgetOBUserSync/
@@ -12219,6 +12227,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tagcdn.com/pix/?
 ||tagger.opecloud.com^
 ||taggstar.com^*/taggstar.min.js
+||tags.catapultx.com^
 ||tags.cdn.circlesix.co^
 ||tags.clickagy.com^
 ||tags.creativille.co.uk^
@@ -12679,6 +12688,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||he7ll.com/api/js/ec-
 ||ipqualityscore.com/api/$third-party
 ||mhxk.com^*/main/entry.common.$script
+||mjca-yijws.global.ssl.fastly.net^
 ||nofraud.com/js/device.js
 ||nofraud.com^*/customer_code.js
 ||poll-maker.com^*/scpolls.js
@@ -14473,6 +14483,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||go.com^*/analytics.js
 ||go.pardot.com^
 ||go.theregister.com^$image
+||gofundme.com/track
 ||golfsmith.com/ci/
 ||google.*/api/sclk?
 ||google.*/gwt/x/ts?
@@ -15292,6 +15303,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||reuters.com^*/widget-rta-poc.js
 ||reutersmedia.net^*/tracker-article*.js
 ||revsci.tvguide.com^
+||rfk.biglots.com^
 ||rgbstock.com/logsearch/
 ||rightmove.co.uk/ps/images/logging/timer.gif?
 ||rightstuf.com/phplive/ajax/footprints.php
@@ -15745,6 +15757,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||thefashionspot.com^*/pb.track.js
 ||thefilter.com^*/CaptureRest.ashx?cmd=
 ||thefind.com/page/sizelog?
+||thefreedictionary.com/_/tr.ashx?
 ||thefreedictionary.com/x/tp.ashx
 ||thefreedictionary.com^*/track.ashx?
 ||thefrisky.com/?act=
@@ -16329,6 +16342,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||foodpanda.ro/lJuB4eTB/init.js
 ||foodpanda.sg/lJuB4eTB/init.js
 ||hotpads.com/xOR1K5b6/init.js
+||joann.com/qXTWmr91/init.js
 ||kerastase-usa.com^*/init.js
 ||kickstarter.com/Uy3R669N/init.js
 ||kiehls.com^*/init.js
