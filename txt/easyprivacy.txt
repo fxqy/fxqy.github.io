@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: Mefdouo4gQYDftRUMScxbg
-! Version: 202106020431
+! Checksum: Tth5vZF/IK2o5k0axXy6WQ
+! Version: 202106030922
 ! Title: EasyPrivacy
-! Last modified: 02 Jun 2021 04:31 UTC
+! Last modified: 03 Jun 2021 09:22 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -12739,6 +12739,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fastly.net/i?
 ||fastly.net/plw.js
 ||fastly.net/sp.js
+! CPU abuse
+! https://publicwww.com/websites/%22cloudfront.net%2Fscript.js%22/
+||cloudfront.net./script.js$script,third-party
+||cloudfront.net/script.js$script,third-party
 ! Seals, Websecurity, Protection etc. Unnecessary third-party scripts
 ||beyondsecurity.com^$third-party
 ||cyveillance.com^$third-party
