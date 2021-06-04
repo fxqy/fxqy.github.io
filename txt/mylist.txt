@@ -124,6 +124,29 @@ dema1905
 wanmancn
 guangyaoli
 apple.com
+7656c4.com
+michael31lin.com
+tetiao9.com
+liuchengming.com
+govjiangsu.cn
+govhangzhou.cn
+xiuxiuji.com
+cxcyhr.com
+sc01.alicdn.com
+byteimg.com
+ppslsa.com
+kowqd1.top
+oceanbot-steam.com
+googletagmanager.com
+shiinaliu.com
+tzsjwy.com
+just-machinery
+api.share.baidu.com
+nsclick.baidu.com
+caishuitonghr.com
+qqppz.com
+
+!------------------------------some------------------------------
 kuaidi100.com##.download-nav,.open-mp
 mail.126.com##.gWel-bottom
 !------------------------------bilibili------------------------------
@@ -143,7 +166,7 @@ aisouk.cn
 jungbey.xyz
 40yb.com/js/bbs/pb.js
 40yb.com/js/seajump.js
-40yb.com,60ws.com,aiaike.com,tv6.cc,980kp.com,97kpb.com,980kp.com,9zdy.com##.animated,div[style*="infinite"],div[style*="right: 0px;"]
+40yb.com,60ws.com,aiaike.com,tv6.cc,980kp.com,97kpb.com,980kp.com,9zdy.com,98ju.com,97kpz.com,kp980.com,92kpb.com##.animated,div[style*="infinite"],div[style*="right: 0px;"]
 !------------------------------props------------------------------
 ! 40yb.com#?#:-abp-has(> canvas)
 ! micaitu.net,40yb.com,60ws.com,aiaike.com,tv6.cc,980kp.com,97kpb.com,980kp.com,9zdy.com#?#:-abp-properties(transform)

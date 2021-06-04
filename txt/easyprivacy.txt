@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: Tth5vZF/IK2o5k0axXy6WQ
-! Version: 202106030922
+! Checksum: GKwdjsK6qo1rXVoQj3rQxw
+! Version: 202106041001
 ! Title: EasyPrivacy
-! Last modified: 03 Jun 2021 09:22 UTC
+! Last modified: 04 Jun 2021 10:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -24808,6 +24808,7 @@ ytics.disneyplus.com^
 @@||gettingpersonal.co.uk^*/scripts/app/shared/googleanalytics.js$script,~third-party
 @@||googleoptimize.com/optimize.js$script,domain=tentree.ca
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
+@@||humaninterest.com/api/analytics/$script,~third-party
 @@||lenovo.com/fea/js/adobeAnalytics/adobeAnalytics-searchComponent.js$xmlhttprequest,domain=lenovo.com
 @@||live.house.gov/js/analytics.$script,~third-party
 @@||online.tivo.com/assets/tve/common/js/vendor/jsnlog/$script,~third-party
