@@ -143,8 +143,17 @@ tzsjwy.com
 just-machinery
 api.share.baidu.com
 nsclick.baidu.com
+push.zhanzhang.baidu.com
 caishuitonghr.com
 qqppz.com
+anlgh.com
+mmstat.com
+realwanghao.com
+zzdsjxsb.com
+newgreenarmy.com
+xujingch.com
+metro114.com
+alibalala.com
 
 !------------------------------some------------------------------
 kuaidi100.com##.download-nav,.open-mp
