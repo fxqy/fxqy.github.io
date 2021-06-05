@@ -154,6 +154,7 @@ newgreenarmy.com
 xujingch.com
 metro114.com
 alibalala.com
+7077f.vip
 
 !------------------------------some------------------------------
 kuaidi100.com##.download-nav,.open-mp
@@ -174,8 +175,11 @@ feigedaojia.com
 aisouk.cn
 jungbey.xyz
 40yb.com/js/bbs/pb.js
+97kpz.com/js/bbs/pb.js
 40yb.com/js/seajump.js
+97kpz.com/js/seajump.js
 40yb.com,60ws.com,aiaike.com,tv6.cc,980kp.com,97kpb.com,980kp.com,9zdy.com,98ju.com,97kpz.com,kp980.com,92kpb.com##.animated,div[style*="infinite"],div[style*="right: 0px;"]
+97kpz.com/js/bbk/b.js
 !------------------------------props------------------------------
 ! 40yb.com#?#:-abp-has(> canvas)
 ! micaitu.net,40yb.com,60ws.com,aiaike.com,tv6.cc,980kp.com,97kpb.com,980kp.com,9zdy.com#?#:-abp-properties(transform)
