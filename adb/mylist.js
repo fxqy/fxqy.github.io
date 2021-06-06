@@ -155,6 +155,8 @@ xujingch.com
 metro114.com
 alibalala.com
 7077f.vip
+taotaoxt.com
+vinuxhome.com
 
 !------------------------------some------------------------------
 kuaidi100.com##.download-nav,.open-mp
