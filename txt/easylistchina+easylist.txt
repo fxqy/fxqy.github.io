@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: NyHEr1vM6+NsOIIH3n8czA
-! Version: 202106061521
+! Checksum: mSRv8B4Zc1x8OgX43cDPbA
+! Version: 202106071001
 ! Title: EasyList China+EasyList
-! Last modified: 06 Jun 2021 15:21 UTC
+! Last modified: 07 Jun 2021 10:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -18,6 +18,7 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
+/css/78dfj/*.js
 -880-80-4.jpg
 -90mh-gg.
 .bid/ads/
@@ -906,6 +907,7 @@ _xiuno_com_ad/
 ##.frontpageAdvM
 ##.full-ads
 ##.full.banners12
+##.g1_wz > .g1_tp
 ##.getads
 ##.gg1000
 ##.gg430
@@ -1225,6 +1227,7 @@ _xiuno_com_ad/
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
 ##img[data-src*=".alicdn.com/img/ibank/"][src="/static/images/loadingerror.gif"]
 ##img[onclick*=".aiyou305.com/"]
+##img[onclick*="/2e9c9aa9.com"]
 ##img[onclick*="/60hthty.vip"]
 ##img[onclick*="/789htbet.vip"]
 ##img[onclick*="/ayx600.com/"]
@@ -1235,22 +1238,16 @@ _xiuno_com_ad/
 ##img[src*=".qpic.cn"][width="980"][height="80"]
 ##img[src*=".sinaimg."][style="width:1025px;height:80px"]
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
+##A[href*="/nba9.lol"]
 ##script + #coupletBox
 ##script + #rbbox
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
-##IMG[onclick*="/2e9c9aa9.com"]
-##.g1_wz > .g1_tp
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
-||292812.com^
-||899792.com^
-||5mn.net^$third-party
-||yunchong6.cn^
-||qingsedhhh.xyz^$third-party
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/d/*-*-*.ap|$script,third-party
@@ -1527,6 +1524,7 @@ ubmcmm.baidustatic.com
 ||2898.com^$third-party
 ||28acglz.com^
 ||28wangmeng.com^
+||292812.com^
 ||293870.com^
 ||29wjns.com^
 ||2d-c.cn^
@@ -1639,6 +1637,7 @@ ubmcmm.baidustatic.com
 ||5imoney.com^
 ||5jcom.com.cn^
 ||5leji.com^$third-party
+||5mn.net^$third-party
 ||5mnh.com^$third-party
 ||60.190.139.164^
 ||61.152.223.15^
@@ -1711,6 +1710,7 @@ ubmcmm.baidustatic.com
 ||88shu.cn^$third-party
 ||88ysg.com^$third-party
 ||892155.com^
+||899792.com^
 ||89h8.com^
 ||8ao8ao.com^
 ||8hdp.cn^
@@ -2923,6 +2923,7 @@ ubmcmm.baidustatic.com
 ||qidou.com^$third-party
 ||qilashou.com^
 ||qingniao.me^$third-party
+||qingsedhhh.xyz^$third-party
 ||qingyanmjg.com^
 ||qinqiaotrade.com
 ||qiqivv.com^
@@ -3592,6 +3593,7 @@ ubmcmm.baidustatic.com
 ||yuggcd.com^
 ||yujiangchu.com^
 ||yule8.net^
+||yunchong6.cn^
 ||yunfanlm.com^$third-party
 ||yunmowu.com^
 ||yunrong360.com^
@@ -4963,6 +4965,7 @@ _yad_jsonp_
 ||azureedge.net/wp-content/cache/minify/d2299.js
 ||azureedge.net/wp-content/uploads/*-AD0
 ||b.tukucc.com^
+||b1.cdn.mh3666.com/html/
 ||b168.net^*.*?$image
 ||b7yy.com/ad/
 ||baby-kingdom.com/reqsads?
@@ -8774,10 +8777,9 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||b1.cdn.mh3666.com/html/
+||lycc72.com/resources/js/content.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-x6d.com##.tmall_tab
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -12793,6 +12795,7 @@ manmanw.net##.tlads
 esnai.com##.tlgg
 maxthon.cn##.tmall-nav-v2
 duba.com,newduba.cn##.tmall_bg15
+x6d.com##.tmall_tab
 qq.com##.tmallredpacket
 qq.com##.tmallskin
 sxrom.com##.tmk
@@ -16275,9 +16278,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||libs.baidu.com^$domain=138txt.com|18xs.org|1biqu.com|1kanshu.cc|230book.com|23hh.com|23txt.com|23wxx.com|258zw.com|266ks.com|27xsw.com|2baob.com|30sy.com|33yq.com|37zw.la|39shubao.com|3yt.com|477zw.com|52biquge.com|5ccc.tw|81zw.me|877zw.com|99mk.com|99shumeng.net|aixswx.com|aomolit.com|aoyuge.com|balingtxt.com|baoshuu.com|biqiuge8.com|biqubao.com|biqudu.tv|biquduo.com|biquge.com.cn|biquge.lu|biquge.tv|biquge11.com|biquge98.net|biqugecd.com|biqugego.com|biqugemm.com|biqugesc.com|biqusan.com|biquyi.com|bixia.org|bodekang.net|boluoxs.com|bookbao.org|botaodz.com|bqkan.com|bshuku.com|bswtan.com|bxwx.org|bxwx.tw|bxwx8.la|bxwxorg.com|clewx.com|damengzhu1.com|dashenxiaoshuo.com|day66.com|ddxs0.com|ddxsku.com|dushuge.net|farpop.com|fbxsw.com|gdbzkz.com|guaili.org|hatxt.com|hbfie.org|hehuamei.com|heikexs.com|heiyanwang.com|hongyeshuzhai.com|hybiquge.com|iddwx.com|imiaobige.com|ishisetianxia.com|ixiatxt.com|ixs.la|jianlaixiaoshuo.com|jinshulo.com|jx.la|kkbiqu2.com|liewen.la|lindiankanshu.cc|liudatxt.com|loubiqu.com|lwtxt.net|lwxstxt.com|mhtwx.la|mubige.com|paoshu8.com|paoshuzw.com|pfwx.com|piaotianxs.com|ppskw.com|qbxs8.net|qianrenge.cc|qishusk.com|quge6.com|quledu.net|qushuba.com|rmxsba.com|shu008.com|shuhaiwu.com|shumil.co|siluke.tv|siluwx.org|sizhicn.com|skyzww.com|soxscc.com|tangsanshu.com|thxsw.com|ttzw.tv|tutengzw.com|txshuku.la|u33.me|uidzhx.com|v63xs.com|vipsk.org|wanwenhui.com|wenxuem.com|wrlwx.com|x23us.me|x81zw.com|xbiqugecc.com|xbiqugew.net|xbiquke.com|xbqge.net|xcmxsw.com|xdingdiann.com|xieyixs.com|xinshuhaige.com|xinxs.la|xs5200.com|xs98.com|xsbiqu.com|xsbiqugew.com|xsqishu.com|xsw55.net|xszww.com|xuanshu.com|xuehongxs.com|xyusk.com|yawenb.com|yikanxiaoshuoa.com|yq-888.com|yruan.com|yssm.info|yunxs.com|zbzw.la|zhnxcw.com|zhuaji.org|zmccx.com|zwdu.com|zzs5.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
-||gxmbr.cn^
-||oyknmi.cn^
-||renyantian.top^
+||833761.com^
+||anqpq.cn^
 bxwx3.org###addiv3
 bxwx3.org###bdstatic
 55shuba.com###botDiv
@@ -17054,6 +17056,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||gxfc2021.top^
 ||gxklsftz.cn^
 ||gxkyl.com^
+||gxmbr.cn^
 ||gybdtg.com^
 ||gycy2.com^
 ||gyeet.com^
@@ -17607,6 +17610,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||oycslia.xyz^
 ||oycslib.xyz^
 ||oycslic.xyz^
+||oyknmi.cn^
 ||p0pm5z.cn^
 ||panwenjun.top^
 ||pbbgfsm.cn^
@@ -17719,6 +17723,7 @@ piaotian5.com##script + div[style="padding:15px;"]
 ||renfas.com^
 ||renrentoutiao.cn^
 ||renshengyiyi.com^
+||renyantian.top^
 ||represented.cn^
 ||requested.cn^
 ||rfese.com^
@@ -18475,10 +18480,10 @@ thzk.cc##style + div[style="margin-bottom:5px"]
 !#torrentkitty
 ##.nordvpn-popup
 ##.nordvpn-popup + .sidebar-vpn
-$script,third-party,domain=torkitty.com|torrentkitty.app|torrentkitty.io|torrentkitty.net|torrentkitty.lol|torrentkitty.se|torrentkitty.tv
-/jquery.bpopup.$domain=torkitty.com|torrentkitty.app|torrentkitty.io|torrentkitty.net|torrentkitty.lol|torrentkitty.se|torrentkitty.tv
+$script,third-party,domain=torkitty.com|torrentkitty.app|torrentkitty.io|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv
+/jquery.bpopup.$domain=torkitty.com|torrentkitty.app|torrentkitty.io|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv
 /nordvpn/autoptimize_
-torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.net,torrentkitty.lol,torrentkitty.se,torrentkitty.tv##a[href*="/aff_"]
+torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.lol,torrentkitty.net,torrentkitty.se,torrentkitty.tv##a[href*="/aff_"]
 !#u
 !#v
 !#webkaka.com
@@ -26272,8 +26277,8 @@ fqsousou.com,kengso.com#@#.user-share
 ?wpproads-
 ?wpproadszoneid=
 ?zoneid=*&ext=$script
-?ZoneID=*&PageID=*&SiteID=
-?ZoneID=*&SiteID=*&PageID=
+?ZoneID=*&PageID=*&SiteID=$~image
+?ZoneID=*&SiteID=*&PageID=$~image
 ^fp=*&prvtof=
 ^mod=wms&do=view_*&zone=
 ^pid=Ads^
@@ -32357,6 +32362,7 @@ _popunder+$popup
 ###c_upperad_c
 ###c_wdt_ads_2
 ###caAdLarger
+###canmobileanchoradclick
 ###captcha-adspace
 ###carbonads-container
 ###card-ads-top
@@ -49119,6 +49125,7 @@ _popunder+$popup
 ##[href^="https://affect3dnetwork.com/track/"]
 ##[href^="https://detachedbates.com/"]
 ##[href^="https://dooloust.net/"]
+##[href^="https://go.4rabettraff.com/"]
 ##[href^="https://go.affiliatexe.com/"]
 ##[href^="https://go.astutelinks.com/"]
 ##[href^="https://join3.bannedsextapes.com"]
@@ -51257,6 +51264,7 @@ menstennisforums.com#@#.top_ads
 ||3cnce854.com^
 ||3d0da2373af57.com^
 ||3d1a1e7f6db3.com^
+||3d287090587.com^
 ||3d643f542787c62a7.com^
 ||3djd3.xyz^
 ||3e787c93af8de.com^
@@ -51336,6 +51344,7 @@ menstennisforums.com#@#.top_ads
 ||55d6000d6d.com^
 ||55e593878c2d47.com^
 ||563015cf3d.com^
+||5654c2679f.com^
 ||56bc7e3668e952c.com^
 ||56bfc388bf12.com^
 ||5726303d87522d05.com^
@@ -51683,6 +51692,7 @@ menstennisforums.com#@#.top_ads
 ||accessoryoppression.com^
 ||accidentrepeat.com^
 ||accoladebestiality.com^
+||accoladethoroughly.com^
 ||accommodationinfractructuretwo.com^
 ||accompared.club^
 ||accomplex.club^
@@ -52822,6 +52832,7 @@ menstennisforums.com#@#.top_ads
 ||bxmfuxxiqmw.com^
 ||bycixeba.com^
 ||byronevaca.fun^
+||byshatilu.com^
 ||bystfied.pro^
 ||byvngx98ssphwzkrrtsjhnbyz5zss81dxygxvlqd05.com^
 ||byxlivaqzo.com^
@@ -53212,6 +53223,7 @@ menstennisforums.com#@#.top_ads
 ||cldrck.com^
 ||clean.gg^
 ||cleaneryelded.site^
+||cleanmediaads.com^
 ||clear-request.com^
 ||clearac.com^
 ||clearadnetwork.com^
@@ -53916,6 +53928,7 @@ menstennisforums.com#@#.top_ads
 ||detachedbates.com^
 ||detailyesgrip.com^
 ||detecteddesigningspirited.com^
+||detectivesrecoilatmospheric.com^
 ||detectorvenomouscutlery.com^
 ||deteran.club^
 ||deterindependentblocked.com^
@@ -55357,6 +55370,7 @@ menstennisforums.com#@#.top_ads
 ||genuschaseslowly.com^
 ||geoaddicted.net^
 ||geoinventory.com^
+||gepsuzogra.com^
 ||geras-con.com^
 ||germinatedisgustokay.com^
 ||gerskatimi.club^
@@ -55652,6 +55666,7 @@ menstennisforums.com#@#.top_ads
 ||h8bjfdcu.com^
 ||h8vzwpv.com^
 ||habitualbasin.com^
+||habitualorthodox.com^
 ||hackelevensol.com^
 ||hackesie.net^
 ||hacmoone.net^
@@ -55859,6 +55874,7 @@ menstennisforums.com#@#.top_ads
 ||hnlsyandeos.com^
 ||hnpvnnhzazkl.com^
 ||hoanoola.net^
+||hobbyatticnickname.com^
 ||hobfadbig.com^
 ||hockeymusclebanged.com^
 ||hoemasfat.site^
@@ -56202,6 +56218,7 @@ menstennisforums.com#@#.top_ads
 ||iraithiz.com^
 ||irecentlym.club^
 ||iredirect.net^
+||irements.club^
 ||ironicfolks.com^
 ||ironypestilenthelp.com^
 ||irqtkzvyhmmtyw.com^
@@ -57519,6 +57536,7 @@ menstennisforums.com#@#.top_ads
 ||musicaldurabledays.com^
 ||musicnote.info^
 ||musicrebuild.com^
+||musicvideoz.biz^
 ||mustardlearnfourteenth.com^
 ||mustwaste.com^
 ||mutary.com^
@@ -58027,6 +58045,7 @@ menstennisforums.com#@#.top_ads
 ||ojeergoy.com^
 ||ojwd63thskiz.com^
 ||okaoqyvdgoozbt.com^
+||okhfyyfgw.com^
 ||okrnvztkhkghas.com^
 ||okueroskynt.com^
 ||olderdiverge.com^
@@ -58639,6 +58658,7 @@ menstennisforums.com#@#.top_ads
 ||prankmechanics.com^
 ||praterswhally.com^
 ||prayuserparka.com^
+||pre4sentre8dhf.com^
 ||preadyaggrego.club^
 ||precautionbuoy.com^
 ||precisetackle.com^
@@ -58770,6 +58790,7 @@ menstennisforums.com#@#.top_ads
 ||psoageeb.com^
 ||psoaksoo.com^
 ||psoanouy.net^
+||psoapeez.click^
 ||psoomeeg.com^
 ||psoptopi.com^
 ||psougrie.com^
@@ -59190,6 +59211,7 @@ menstennisforums.com#@#.top_ads
 ||renormaliseras.xyz^
 ||rentsincrea.top^
 ||rentwillionc.club^
+||renvahirions.xyz^
 ||reojou.com^
 ||reopenmetresubstance.com^
 ||reorganizewallet.com^
@@ -59617,6 +59639,7 @@ menstennisforums.com#@#.top_ads
 ||secretate.club^
 ||secretexts.club^
 ||secure-12.com^
+||secureaddisplay.com^
 ||secureclickers.com^
 ||securecloud-dt.com^
 ||securecloud-smart.com^
@@ -59860,6 +59883,7 @@ menstennisforums.com#@#.top_ads
 ||smokerdecoy.com^
 ||smokerforestallinsane.com^
 ||smokingpetty.com^
+||smoothbestialityteam.com^
 ||smoothlyconsulatecrossroad.com^
 ||smrtgs.com^
 ||smsimprisee.club^
@@ -61291,6 +61315,7 @@ menstennisforums.com#@#.top_ads
 ||wfnetwork.com^
 ||wfordsgoo.club^
 ||wg-aff.com^
+||wgafd.com^
 ||wgat5ln2wly8.com^
 ||wgbeugkn.com^
 ||wgimuuqvlumvyy.com^
@@ -61536,6 +61561,7 @@ menstennisforums.com#@#.top_ads
 ||xev2o.com^
 ||xeverirpunyv.com^
 ||xfastforyoux.com^
+||xffiyaucxebto.com^
 ||xfileload.com^
 ||xg084mgkfsfk.com^
 ||xgctdamahrzy.com^
@@ -61752,6 +61778,7 @@ menstennisforums.com#@#.top_ads
 ||yqezqofkb1nnmz.com^
 ||yqorexok.xyz^
 ||yr9n47004g.com^
+||ysdtcdnoox.com^
 ||ysensionlatio.space^
 ||ysmhcwwvgtcx.com^
 ||ysnj74ed.com^
@@ -64062,6 +64089,7 @@ menstennisforums.com#@#.top_ads
 ||onwsys.net^$third-party
 ||oodraune.com^$third-party
 ||oodsotso.com^$third-party
+||oogala.com^$third-party
 ||oopt.fr^$third-party
 ||oorseest.net^$third-party
 ||oos4l.com^$third-party
@@ -67943,6 +67971,7 @@ menstennisforums.com#@#.top_ads
 ||dtrk.slimcdn.com^
 ||dttek.com/sponsors/
 ||dtto8zfzskfoa.cloudfront.net^
+||dtyry4ejybx0.cloudfront.net^
 ||du2uh7rq0r0d3.cloudfront.net^
 ||duckduckgo.com/public/$third-party
 ||dunhilltraveldeals.com^$subdocument,third-party
@@ -69526,6 +69555,7 @@ menstennisforums.com#@#.top_ads
 ||audiobookbay.nl/images/direct.gif
 ||audiotag.info/images/banner_
 ||aveherald.com/images/banners/
+||b.cdnst.net/javascript/amazon.js$script,domain=speedtest.net
 ||bahamaslocal.com/img/banners/
 ||beap.gemini.yahoo.com^
 ||bernama.com/storage/banner/
@@ -69701,7 +69731,6 @@ menstennisforums.com#@#.top_ads
 ||local.tampabay.com^$subdocument
 ||lycos.com/catman/
 ||m.haradeiu.rocks^
-||m.youtube.com/s/player/*/ad.js$script,~third-party
 ||machineseeker.com/data/ofni/
 ||mail-ads.google.com^
 ||manhwahentai.me/script/
@@ -71211,7 +71240,7 @@ electronicshub.org###text-34
 ssbcrack.com###text-37
 theairportnews.com,vgleaks.com###text-4
 bigblueball.com###text-416290631
-electronicshub.org###text-5
+electronicshub.org,technipages.com###text-5
 2smsupernetwork.com,khaama.com###text-50
 ssbcrack.com###text-51
 quickonlinetips.com###text-57
@@ -71902,6 +71931,7 @@ experts-exchange.com##.eeAD
 notebooks.com##.efbleft
 ctvnews.ca##.election-leaderboard
 onmsft.com##.enhanced-text-widget
+technipages.com##.entry-content > div
 easyvoyage.co.uk##.esv-ads
 hltv.org##.etbx
 mobafire.com##.exhibit-narrow
@@ -74000,6 +74030,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||adserve.atedra.com/js/$script,domain=repeatmyvids.com
 @@||adserve.atedra.com/vast/wrap.php?$script,domain=repeatmyvids.com
 @@||adserve.atedra.com/zones.php$xmlhttprequest,domain=repeatmyvids.com
+@@||adswizz.com/adswizz/js/SynchroClient*.js$script,third-party,domain=jjazz.net
 @@||affiliate.kickapps.com/service/
 @@||airplaydirect.com/openx/www/images/$image
 @@||akamaized.net^*.stream/$domain=naver.com
@@ -74557,6 +74588,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||arnhemland-safaris.com/images/*_480_80_
 @@||cloud.mail.ru^$image,~third-party
 @@||findafranchise.com/_img/*_120x60.$image
+@@||glbimg.com^*/300x250/$image,domain=globo.com
 @@||government-and-constitution.org/images/presidential-seal-300-250.gif$image
 @@||leffatykki.com/media/banners/tykkibanneri-728x90.png
 @@||nc-myus.com/images/pub/www/uploads/merchant-logos/

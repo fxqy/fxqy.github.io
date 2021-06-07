@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: BVrTOTxIdHjafzMh/1C2mQ
-! Version: 202106061521
+! Checksum: vNINTJuwD4dVeNiawlAjLA
+! Version: 202106071001
 ! Title: EasyPrivacy
-! Last modified: 06 Jun 2021 15:21 UTC
+! Last modified: 07 Jun 2021 10:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5657,7 +5657,6 @@ _ad_impression.
 ! Admiral
 /admiral.js
 /js/admiral-
-_admiral.
 ! eventbrite tracking
 /search/log_requests/*
 ! Consent/GDPR tracking
@@ -25397,6 +25396,7 @@ ytics.disneyplus.com^
 @@||cm-widget.nakanohito.jp/img/$image
 @@||dev.visualwebsiteoptimizer.com^$script,domain=internetorder.dominos.jp
 @@||disneyplus.disney.co.jp/view/vendor/analytics/$~third-party
+@@||docodoco.jp^*/docodoco?key=$script,domain=jrtours.co.jp
 @@||e-stat.go.jp/modules/custom/retrieve/src/js/stat.js?$script,~third-party
 @@||flipdesk.jp/wp/wp-content/themes/flipdesk/images/analytics3.png$image
 @@||googleadservices.com/pagead/conversion_async.js$script,domain=jp.square-enix.com
