@@ -157,6 +157,16 @@ alibalala.com
 7077f.vip
 taotaoxt.com
 vinuxhome.com
+uerlqe.com
+njjinbaixing.com
+88416789.com
+899792.com
+daxianglx.com
+abkingwl.com
+chumanduo.com
+ruigezx.com
+40fenzhong.com
+xmtesting.com
 
 !------------------------------some------------------------------
 kuaidi100.com##.download-nav,.open-mp
