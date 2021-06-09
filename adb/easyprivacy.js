@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: vNINTJuwD4dVeNiawlAjLA
-! Version: 202106071001
+! Checksum: dGl20NS5twY7IePZPlDhPw
+! Version: 202106090241
 ! Title: EasyPrivacy
-! Last modified: 07 Jun 2021 10:01 UTC
+! Last modified: 09 Jun 2021 02:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1029,6 +1029,7 @@
 /beacon.html?
 /beacon.js
 /beacon.min.js
+/beacon/*?appKey=
 /beacon/affiliates
 /beacon/b.ashx?
 /beacon/baminsights.
@@ -5600,7 +5601,7 @@ cgi-bin/counter
 /click.*/q/*$image
 /click.email.$image
 /clicks.email.$image
-/cmail2.com/t/
+/cmail2.com/t/*
 /email-pixel?
 /email/open?
 /emimp/*$image
@@ -5609,7 +5610,7 @@ cgi-bin/counter
 /gate.amnesty-international.*/open.php?
 /gp/r.html?$image
 /link.coindesk.com/img/*
-/link.e-mail.*/mo/$image
+/link.e-mail.*/mo/*$image
 /lzdmailer.letter.open?
 /mail-tracking/*$image
 /mail.sparksport.co.nz/forms/read/*
@@ -5875,6 +5876,7 @@ _mongo_stats/
 ! *** easylist:easyprivacy/easyprivacy_trackingservers.txt ***
 ! Revolving trackers
 ||apxl.io^
+||cloudwp.io^
 ||g2178927685.co^
 ||g2377012020.co^
 ||g2575096355.co^
@@ -5911,11 +5913,13 @@ _mongo_stats/
 ||g8517626405.co^
 ||g8715710740.co^
 ||g8913795075.co^
+||g9111879410.co^
 ||lltrck.com^
 ||mors22.com^
 ||nxakpj4ac8gkd53.info^
 ||propeller-tracking.com^
 ||sbgsodufuosmmvsdf.info^
+||site24x7rum.eu^
 ||truffle.bid^
 ||wknd.ai^
 ||z0uolej1qnxzub1.info^
@@ -8397,6 +8401,7 @@ _mongo_stats/
 ||united-infos.net^$third-party
 ||unknowntray.com^$third-party
 ||upapi.net^$third-party
+||uplift-platform.com^$third-party
 ||upscore.com^$third-party
 ||upstats.ru^$third-party
 ||uptain.de^$third-party
@@ -9134,6 +9139,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cautiouscredit.com^$third-party
 ||cloisteredcord.com^$third-party
 ||colorfulafterthought.com^$third-party
+||colossalcoat.com^$third-party
 ||complextoad.com^$third-party
 ||conditioncrush.com^$third-party
 ||confesschairs.com^$third-party
@@ -10043,6 +10049,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wonder-ma.com^$third-party
 ||ziyu.net^$third-party
 ! Korean
+||acrosspf.com^$third-party
 ||adpick.co.kr^$third-party
 ||adtive.com^$third-party
 ||aicontents.net^$third-party
@@ -10609,7 +10616,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||appspot.com/api/track/
 ||appspot.com/collect
 ||appspot.com/stats?
-||arc.io/widget.min.js
 ||arclk.net/trax?
 ||areyouahuman.com/kitten?
 ||argos.citruserve.com^
@@ -10708,6 +10714,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bitdash-reporting.appspot.com^
 ||bitgravity.com/b.gif$third-party
 ||bitgravity.com^*/tracking/
+||bitmovin.com/impression
 ||bitrix.info/ba.js
 ||bizrate-images.co.uk^*/tracker.js
 ||bizrate-images.com^*/tracker.js
@@ -10751,7 +10758,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bzgint.com/CUNCollector/
 ||bzpics.com/jslib/st.js?
 ||c-date.com/pixel/
-||c.cloudwp.io^
 ||c.imedia.cz^
 ||c.live.com^
 ||c.mgid.com^
@@ -11526,7 +11532,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||letv.com/env/
 ||levelaccess.net/analytics/
 ||licdn.com/*.gif?rnd=
-||licensing.bitmovin.com^
 ||lift.acquia.com^
 ||ligatus.com/push/url.gif?
 ||ligatus.com/rms/rend?
@@ -12058,6 +12063,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sendibm4.com^*/op/$third-party
 ||sendtonews.com/player/loggingajax.php?
 ||sendtonews.com^*/data_logging.php
+||sentry.arc.io^
 ||session.timecommerce.net^
 ||sftrack.searchforce.net^
 ||share-online.biz/affiliate/$third-party
@@ -12135,7 +12141,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.bitgravity.com^
 ||stats.bluebillywig.com^
 ||stats.clickability.com^
-||stats.cloudwp.io^
 ||stats.cmcigroup.com^
 ||stats.datahjaelp.net^
 ||stats.edicy.com^
@@ -13374,11 +13379,14 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ! Korean
 ||cafe24.com/cfa.js
 ||cafe24.com/weblog.js
+||cm-exchange.toast.com^
 ||log.cizion.com^
 ||log.targetpush.co.kr^
 ||mtag.mman.kr^
+||ngc1.nsm-corp.com^
 ||performanceplay.co.kr^
 ||recobell.io/rest/logs?
+||sas.nsm-corp.com^
 ||teralog.techhub.co.kr^
 ||tracking.adweb.co.kr^$third-party
 ! Latvian
@@ -14297,6 +14305,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||everythinggirl.com/assets/tracker/
 ||evgnet.com/beacon/
 ||evisit.exeter.ac.uk^
+||evs.sgmt.loom.com^$script
 ||eweek.com/hqxapi/
 ||ex.ua/counter/
 ||exalead.com/search/pixel-ref/
@@ -24791,7 +24800,7 @@ ytics.disneyplus.com^
 @@||ancestrycdn.com/ui-static/lib/tracking/$domain=ancestry.com
 @@||api.cxense.com/public/widget/data?$domain=marketwatch.com
 @@||api.getmakerlog.com/discussions/$~third-party,websocket,xmlhttprequest
-@@||api.ipify.org^$xmlhttprequest,domain=account.pennytel.com.au
+@@||api.ipify.org^$xmlhttprequest,domain=account.pennytel.com.au|speedcheck.ky
 @@||api.ipstack.com/check$domain=blockfi.com|withpersona.com
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||appboycdn.com^*/appboy.min.js$script,domain=bakkt.com
@@ -25394,6 +25403,7 @@ ytics.disneyplus.com^
 @@||cm-beacon.nakanohito.jp/cm/comment_count/$xmlhttprequest
 @@||cm-widget.nakanohito.jp/cm/$script,stylesheet
 @@||cm-widget.nakanohito.jp/img/$image
+@@||deteql.net/recommend/provision?$xmlhttprequest,domain=t-fashion.jp
 @@||dev.visualwebsiteoptimizer.com^$script,domain=internetorder.dominos.jp
 @@||disneyplus.disney.co.jp/view/vendor/analytics/$~third-party
 @@||docodoco.jp^*/docodoco?key=$script,domain=jrtours.co.jp
@@ -25410,6 +25420,7 @@ ytics.disneyplus.com^
 @@||nihongo.alc.co.jp/theme/Japanese/img/home/nf/us.gif$image,~third-party
 @@||o-uccino.jp/api/v2/collector?$xmlhttprequest,domain=o-uccino.com
 @@||ovp.piksel.com/ipLookup.php$xmlhttprequest,domain=nhk.or.jp
+@@||s.yjtag.jp/tag.js$script,domain=www.epson.jp
 @@||sail-horizon.com/spm/spm.v1.min.js$script,domain=voguegirl.jp
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest

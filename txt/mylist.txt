@@ -167,6 +167,8 @@ chumanduo.com
 ruigezx.com
 40fenzhong.com
 xmtesting.com
+zehnnanne.com
+ruigezx.com
 
 !------------------------------some------------------------------
 kuaidi100.com##.download-nav,.open-mp
