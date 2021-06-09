@@ -168,6 +168,7 @@ ruigezx.com
 40fenzhong.com
 xmtesting.com
 zehnnanne.com
+bigdzh.com
 
 !------------------------------some------------------------------
 kuaidi100.com##.download-nav,.open-mp
