@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Version: 20190820001
+! Version: 20210609
 ! Title: mylist
 menhyil
 cnql
@@ -168,7 +168,6 @@ ruigezx.com
 40fenzhong.com
 xmtesting.com
 zehnnanne.com
-ruigezx.com
 
 !------------------------------some------------------------------
 kuaidi100.com##.download-nav,.open-mp
