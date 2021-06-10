@@ -130,6 +130,8 @@ tetiao9.com
 liuchengming.com
 govjiangsu.cn
 govhangzhou.cn
+govzhuhai.cn
+govgaungzhou.cn
 xiuxiuji.com
 cxcyhr.com
 sc01.alicdn.com
@@ -170,6 +172,14 @@ xmtesting.com
 zehnnanne.com
 bigdzh.com
 yaichao.com
+hcesc.cn
+haowui.com
+xaysys.com
+daaali.com
+zrqd5.com
+91xianyu.com
+xsjyun.cn
+toutiao.social
 
 !------------------------------some------------------------------
 kuaidi100.com##.download-nav,.open-mp
