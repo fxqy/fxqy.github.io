@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: S5t/ymPU0k9rGygS0xMNTg
-! Version: 202106101202
+! Checksum: czfATuyjAbNyW66+wdx0ww
+! Version: 202106120302
 ! Title: EasyPrivacy
-! Last modified: 10 Jun 2021 12:02 UTC
+! Last modified: 12 Jun 2021 03:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -13641,8 +13641,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||4info.com/alert/listeners/
 ||6waves.com/trker/
 ||99bitcoins.com/_load/
+||a.electerious.com^
 ||a.huluad.com/beacons/
-||a4xo-eng.spankbang.com^
+||a5xo-eng.spankbang.com^
 ||a7.org/infol.php?
 ||aa.avvo.com^
 ||aax-eu-dub.amazon.com^
@@ -13671,6 +13672,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||adc.api.nine.com.au^
 ||adc.nine.com.au^
 ||adf.ly/omni*.swf
+||adguard.com/-/event/
 ||adidas.com/analytics/
 ||adidas.com^*/analytics/
 ||adroll.com/pixel/
@@ -13910,6 +13912,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beacon.walmart.com^
 ||beacon.wikia-services.com^
 ||beacon.www.theguardian.com^
+||beam-ws.giraffe360.com^
+||beam.giraffe360.com^
 ||beap-bc.yahoo.com^
 ||beeg.com/logo.gif?
 ||bench.uc.cn^
@@ -14538,6 +14542,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||google.*/ping?
 ||google.*/stats?frame=
 ||google.com/_/DotsSplashUi/browserinfo
+||google.com/_/DotsSplashUi/data/batchexecute?
 ||google.com/appserve/mkt/img/*.gif
 ||google.com/dssw.js
 ||google.com/insights/$script
@@ -15253,6 +15258,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||primevideo.com^*/ref=$~xmlhttprequest
 ||princetonreview.com/logging/
 ||privacy-api.9gag.com^
+||privacyfriendly.brainbits.in^
 ||prnewswire.com/rit.gif?
 ||prnewswire.com/rt.gif?
 ||proac.nationwide.com^

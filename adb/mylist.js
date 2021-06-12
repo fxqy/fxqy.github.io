@@ -179,6 +179,9 @@ daaali.com
 zrqd5.com
 xsjyun.cn
 toutiao.social
+oddsds.com
+pch3366.com
+superxq.com
 
 !------------------------------some------------------------------
 kuaidi100.com##.download-nav,.open-mp

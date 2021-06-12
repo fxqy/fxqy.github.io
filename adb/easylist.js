@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ejN8vFHxdY+KqCn+fOhFyA
-! Version: 202106101201
+! Checksum: Y41K39A7qdt0xOZYMDYHAA
+! Version: 202106120301
 ! Title: EasyList
-! Last modified: 10 Jun 2021 12:01 UTC
+! Last modified: 12 Jun 2021 03:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -12498,6 +12498,7 @@ _popunder+$popup
 ###adv_holder
 ###adv_id
 ###adv_leaderboard
+###adv_mob
 ###adv_mpu1
 ###adv_mpu2
 ###adv_network
@@ -13383,6 +13384,7 @@ _popunder+$popup
 ###bottom-ad-banner
 ###bottom-ad-container
 ###bottom-ad-leaderboard
+###bottom-ad-slot
 ###bottom-ad-tray
 ###bottom-ad-wrapper
 ###bottom-add
@@ -15597,6 +15599,7 @@ _popunder+$popup
 ###mens-journal-feature-ad
 ###menu-ads
 ###menuAds
+###menu_ad_mrec3
 ###menuad
 ###menubanner-ad-content
 ###mgid-container
@@ -15604,6 +15607,9 @@ _popunder+$popup
 ###mi_story_assets_ad
 ###microAdDiv
 ###microsoft_ad
+###mid-ad-slot-1
+###mid-ad-slot-3
+###mid-ad-slot-5
 ###mid-ad300x250
 ###mid-ads
 ###mid-table-ad
@@ -18120,6 +18126,7 @@ _popunder+$popup
 ##.SBAUA
 ##.SHAd2
 ##.SIM_ad_140x140_homepage_tv_promo
+##.SPMADS
 ##.SRPads
 ##.STR_AdBlock
 ##.SecondaryAd
@@ -18245,6 +18252,8 @@ _popunder+$popup
 ##.a-article-teaser--sponsored
 ##.a-d-container
 ##.a-d-rotate_widgets
+##.a-dserver
+##.a-dserver_text
 ##.a-sponsor
 ##.a160x600
 ##.a300x250
@@ -20155,6 +20164,7 @@ _popunder+$popup
 ##.ad_adblade
 ##.ad_adsense_spacer
 ##.ad_adv
+##.ad_after_section
 ##.ad_amazon
 ##.ad_area
 ##.ad_area_two
@@ -22184,6 +22194,7 @@ _popunder+$popup
 ##.adv-lshaped-wrapper
 ##.adv-mid-rect
 ##.adv-mid-rect--right
+##.adv-mobile-wrapper
 ##.adv-mpu
 ##.adv-mpu-shoulder
 ##.adv-outer
@@ -23837,6 +23848,7 @@ _popunder+$popup
 ##.box-ads
 ##.box-ads-small
 ##.box-adsense
+##.box-adsense-top
 ##.box-adv-300-home
 ##.box-adv-300-text-bottom
 ##.box-adv-social
@@ -24537,6 +24549,7 @@ _popunder+$popup
 ##.dc-half-banner
 ##.dc-widget-adv-125
 ##.dcAdvertHeader
+##.dcm-advert
 ##.dcmads
 ##.dd-ad
 ##.dd-ad-container
@@ -24627,6 +24640,7 @@ _popunder+$popup
 ##.dfp_ad_header
 ##.dfp_ad_inner
 ##.dfp_ad_unit
+##.dfp_ads_block
 ##.dfp_frame
 ##.dfp_slot
 ##.dfp_strip
@@ -25088,6 +25102,8 @@ _popunder+$popup
 ##.four-six-eight-ad
 ##.four_button_threeone_ad
 ##.four_percent_ad
+##.fp-ad-nativendo-one-third
+##.fp-ad-rectangle
 ##.fp-ad300
 ##.fp-adinsert
 ##.fp-ads
@@ -25536,6 +25552,7 @@ _popunder+$popup
 ##.gt_ad_728x90
 ##.gt_adlabel
 ##.gtadlb
+##.gtm-ad-slot
 ##.gtop_ad
 ##.guide-ad
 ##.guide__row--fixed-ad
@@ -25857,6 +25874,7 @@ _popunder+$popup
 ##.horiz_adspace
 ##.horizontal-ad
 ##.horizontal-ad-holder
+##.horizontal-ad-wrapper
 ##.horizontal-ad2
 ##.horizontal-ads
 ##.horizontal-advert-container
@@ -28784,6 +28802,7 @@ _popunder+$popup
 ##.splitAdResultsPane
 ##.splitter_ad
 ##.splitter_ad_holder
+##.spmads_medrec
 ##.spn_links_box
 ##.spnsr-wrapper
 ##.spnsrAdvtBlk
@@ -29983,6 +30002,7 @@ _popunder+$popup
 ##.wide_sponsors
 ##.widead
 ##.wideadbox
+##.widget--ad
 ##.widget--ajdg_bnnrwidgets
 ##.widget-300x250ad
 ##.widget-ad
@@ -31378,6 +31398,7 @@ _popunder+$popup
 ##.ob-strip-layout
 ##.ob-widget > .ob-first.ob-widget-section
 ##.outbrain-ad-slot
+##.outbrain-ad-units
 ##.outbrain-bg
 ##.outbrain-widget
 ##.outbrain_ad_li
@@ -40489,6 +40510,7 @@ menstennisforums.com#@#.top_ads
 ||reductingds.club^
 ||redundancyphilosophicalwest.com^
 ||redvxjlmaehy.com^
+||reechokelvin.casa^
 ||reembrasserait.website^
 ||reenrageasse.xyz^
 ||refaucherais.site^
@@ -41001,6 +41023,7 @@ menstennisforums.com#@#.top_ads
 ||selfbiological.com^
 ||selfevidentpotsfertility.com^
 ||selfpuc.com^
+||selfswayjay.com^
 ||sellerbackstagejolly.com^
 ||selwrite.com^
 ||semblanceterrifiednoon.com^
@@ -41935,6 +41958,7 @@ menstennisforums.com#@#.top_ads
 ||trackerislive.com^
 ||trackingsltns.click^
 ||trackingzen.com^
+||trackmundo.com^
 ||trackspeeder.com^
 ||tracktraf.com^
 ||tracot.com^
@@ -47852,6 +47876,7 @@ menstennisforums.com#@#.top_ads
 ||trackerislive.com^$popup
 ||tracking.marketing^$popup
 ||trackingsltns.click^$popup
+||trackmundo.com^$popup
 ||traffic-c.com^$popup
 ||trafficdelivery1.com^$popup
 ||trafficforce.com^$popup
@@ -51071,6 +51096,7 @@ menstennisforums.com#@#.top_ads
 ||gamerevolution.com^*/buynow-
 ||gasgoo.com/promo/
 ||geo*.hltv.org^
+||goal.com/img/sponsor/
 ||gocdkeys.com/images/background
 ||gold-splits.speedrun.com^
 ||gomovies-online.me/addons/adsaskd78a6sdfkisdf.gif
@@ -53530,6 +53556,7 @@ mail.com##.indeed
 brudirect.com##.index-banner
 theinertia.com##.inertia-ad-300x250
 bab.la##.info-panel
+eatthis.com##.inline
 kijiji.ca##.inline-banner
 pcgamesn.com,theloadout.com##.inlinerail
 nintendolife.com##.insert
@@ -53761,7 +53788,7 @@ westernjournal.com##.persistent-footer
 proxfree.com##.pfad2
 proxfree.com##.pftopad
 locklab.com##.picwrap
-dallasobserver.com,houstonpress.com,miaminewtimes.com,phoenixnewtimes.com,westword.com,zerohedge.com##.placement
+dallasobserver.com,houstonpress.com,miaminewtimes.com,phoenixnewtimes.com,streetcheck.co.uk,westword.com,zerohedge.com##.placement
 diglloyd.com,windinmyface.com##.placementInline
 diglloyd.com,windinmyface.com##.placementTL
 diglloyd.com,windinmyface.com##.placementTR
@@ -53912,6 +53939,7 @@ siliconrepublic.com##.show-for-medium-up
 pixabay.com##.show-getty-item
 etherscan.io##.showcase-banner-spacing
 mbauniverse.com##.shriresume-logo
+gaming.uefa.com##.si-ucl--head-bandSprLogo
 news.am,viva.co.nz##.side-banner
 gfycat.com##.side-slot
 panarmenian.net##.side_panner
@@ -54116,6 +54144,7 @@ tumblr.com##.vd2CF
 fox10phoenix.com##.vendor-unit
 tetris.com##.verticalAx
 videogameschronicle.com##.vgc-boxout
+eatthis.com##.vi-video-wrapper
 vice.com##.vice-ad__container
 yahoo.com##.viewer-sda-container
 variety.com##.vip-banner
@@ -54245,6 +54274,7 @@ bikeroar.com##[href^="https://www.roaradventures.com/"]
 upload.ee##[href^="https://www.upload.ee/click.php"]
 searchenginejournal.com##[id^="SEJ_300x250_"]
 geeksforgeeks.org##[id^="bsa-zone"]
+eatthis.com##[id^="gm_karmaadunit_widget"]
 transfermarkt.co.uk##[referrerpolicy]
 audioz.download##[src*="/promo/"]
 manganelo.com##[src^="/ads/"]
@@ -54318,6 +54348,7 @@ himovies.to,home-barista.com,shtfplan.com,washingtontimes.com##a[onclick]
 themoviesflix.io##a[rel="noopener"]
 forexmt4indicators.com##a[target="_blank"] > img[width="300"]
 forexmt4indicators.com##a[target="_blank"] > img[width="728"]
+goal.com##aside[class^="layouts_asideContentCommercial_"]
 dictionary.com,thesaurus.com##aside[id$="728x90"]
 just-dice.com##body > .wrapper > .container:first-child
 psychnewsdaily.com##center
@@ -54356,9 +54387,11 @@ goodrx.com##div[class^="adContainer"]
 goodrx.com##div[class^="adWrapper-"]
 greatandhra.com##div[class^="add"]
 technical.city##div[class^="banner_"]
+goal.com##div[class^="fedex_banner_"]
 keengamer.com##div[class^="gameon-in-"]
 keengamer.com##div[class^="gameon-mpu-"]
 keengamer.com##div[class^="gameon-top-"]
+goal.com##div[class^="layout_banner_"]
 productreview.com.au##div[class^="leaderboard_"]
 pcgamer.com,techradar.com,tomsguide.com,tomshardware.com##div[class^="slot-"]
 kijiji.ca##div[class^="sponsored-"]
@@ -55489,10 +55522,11 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||google.com/adsense/$subdocument,domain=sedo.co.uk|sedo.com|sedo.jp|sedo.kr|sedo.pl
 @@||google.com/images/integrations/$image,~third-party
 @@||google.com/recaptcha/$script,subdocument,xmlhttprequest
-@@||googletagservices.com/tag/js/gpt.js$domain=epaper.timesgroup.com|nbcsports.com|vimeo.com|windalert.com
+@@||googletagservices.com/tag/js/gpt.js$domain=epaper.timesgroup.com|nbcsports.com|uefa.com|vimeo.com|windalert.com
 @@||gpt-worldwide.com/js/gpt.js$~third-party
 @@||guim.co.uk/uploader/$image,~third-party
 @@||hotstar.com/vs/getad.php$domain=hotstar.com
+@@||hp.com/in/*/ads/$script,stylesheet,~third-party
 @@||hulu.com/published/*.flv
 @@||hulu.com/published/*.mp4
 @@||hutchgo.advertserve.com^$domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
