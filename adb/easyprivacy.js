@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: czfATuyjAbNyW66+wdx0ww
-! Version: 202106120302
+! Checksum: TN0cV9NyHwApeDLvzUh2eQ
+! Version: 202106131022
 ! Title: EasyPrivacy
-! Last modified: 12 Jun 2021 03:02 UTC
+! Last modified: 13 Jun 2021 10:22 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -12794,6 +12794,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||shopperapproved.com^$third-party
 ||siteintercept.allegiancetech.com^
 ||siteintercept.qualtrics.com^$third-party
+||smart-widget-assets.ekomiapps.de^$third-party
 ||trusted-web-seal.cybertrust.ne.jp^
 ||trustev.com/trustev.min.js$third-party
 ||verify.authorize.net^$third-party
@@ -13493,6 +13494,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||counter.tovarro.com^
 ||counter.wapstart.ru^
 ||crm-analytics.imweb.ru^
+||d.wi-fi.ru^
 ||dbex-tracker-v2.driveback.ru^
 ||dp.ru/counter.gif?
 ||emoment.net/cnt/
@@ -13554,6 +13556,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.embedcdn.cc^
 ||stats.seedr.com^
 ||stats.tazeros.com^
+||stats2.videonow.ru^
 ||subscribe.ru/1.gif/$image
 ||target.mirtesen.ru^
 ||target.smi2.net^
@@ -13561,6 +13564,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tbe.tom.ru^
 ||telemetry.jivosite.com^
 ||tms-st.cdn.ngenix.net^
+||tms.dmp.wi-fi.ru^
 ||top.elec.ru^
 ||track.recreativ.ru^
 ||track.spacepush.ru^
@@ -13740,6 +13744,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||amd.com/us/as/vwo/vwo_
 ||americanexpress.com/beacon
 ||americanexpress.com/monitoring/
+||amnesty.org/collect/
 ||amy.gs/track/
 ||analytic.imlive.com^
 ||analytics-proxy.springboard.com^
@@ -14542,7 +14547,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||google.*/ping?
 ||google.*/stats?frame=
 ||google.com/_/DotsSplashUi/browserinfo
-||google.com/_/DotsSplashUi/data/batchexecute?
 ||google.com/appserve/mkt/img/*.gif
 ||google.com/dssw.js
 ||google.com/insights/$script
@@ -15959,6 +15963,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trb.com/hive/swf/analytics.swf
 ||tre.emv3.com/P?
 ||treatme.co.nz^*/Census.js
+||tredir.go.com^
 ||trezor.efscle.com^
 ||triadretail.com^*/roverTrack.js
 ||trialpay.com/mi/
