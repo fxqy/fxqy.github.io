@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: TN0cV9NyHwApeDLvzUh2eQ
-! Version: 202106131022
+! Checksum: 5+TaV7dQeySNh7K9toph2A
+! Version: 202106140051
 ! Title: EasyPrivacy
-! Last modified: 13 Jun 2021 10:22 UTC
+! Last modified: 14 Jun 2021 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -12573,6 +12573,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vpoweb.com/counter.php?
 ||vs4.com/impr.php?
 ||vtnlog-*.elb.amazonaws.com^
+||vuukle.com/bq-publish?
 ||vvhp.net/read/view.gif
 ||vwdealerdigital.com/cdn/sd.js
 ||w3track.com/newtrk/$third-party
@@ -25457,6 +25458,7 @@ ytics.disneyplus.com^
 @@||k-img.com/javascripts/modules/rst/analytics.js?$domain=tabelog.com
 @@||k-img.com/script/analytics/s_code.js$script,domain=kakaku.com
 @@||line-scdn.net^*/torimochi.js$script,domain=demae-can.com
+@@||matsukiyo.co.jp^*/js/analytics/GoogleTagManager.js$~third-party
 @@||mediaweaver.jp^$image,domain=ismedia.jp
 @@||nakanohito.jp^*/bi.js$domain=kenko-tokina.co.jp
 @@||nihongo.alc.co.jp/theme/Japanese/img/home/nf/us.gif$image,~third-party

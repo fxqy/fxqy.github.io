@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RzTrZ0CEWjTE9n77fIRtYw
-! Version: 202106131021
+! Checksum: 6/frBPSiraZFa12m/T045g
+! Version: 202106140051
 ! Title: EasyList China+EasyList
-! Last modified: 13 Jun 2021 10:21 UTC
+! Last modified: 14 Jun 2021 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1159,6 +1159,7 @@ _xiuno_com_ad/
 ##a[href*=".yabovip2027.com/"]
 ##a[href*=".yb2843.vip"]
 ##a[href*=".ybvip5741.vip"]
+##a[href*=".youxi126.com"]
 ##a[href*=".youxi141.com"]
 ##a[href*=".yuanmengbi.com/"]
 ##a[href*=".yyk2.com/"]
@@ -1189,6 +1190,8 @@ _xiuno_com_ad/
 ##a[href*="/hth567.cn"]
 ##a[href*="/hth907.com"]
 ##a[href*="/hth908.com"]
+##a[href*="/hthty21.app"]
+##a[href*="/htvip21.app"]
 ##a[href*="/l1y5.com"]
 ##a[href*="/l1y9.com"]
 ##a[href*="/ly0909.com"]
@@ -1262,12 +1265,9 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
-##A[href*="/htvip21.app"]
-##A[href*="/hthty21.app"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
-||bole8dns.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/d/*-*-*.ap|$script,third-party
@@ -1959,6 +1959,7 @@ ubmcmm.baidustatic.com
 ||bnq86.com^
 ||bnuni.com^$third-party
 ||bole.asia^
+||bole8dns.com^
 ||boleimg.com^
 ||bolimen.top^
 ||books.com.tw/exep/ap/$third-party
@@ -5096,6 +5097,7 @@ _yad_jsonp_
 ||baoliny.com/js/jing.js
 ||baomihua.com/yy/
 ||baomitu.duapp.com/js/layer.js
+||bashiyy.com/static/js/plugin.js
 ||bb1nn.com/js/i.js
 ||bb999.net/pic/n/agents/C-79.gif
 ||bbnnnb.com^*.js
@@ -6033,7 +6035,6 @@ _yad_jsonp_
 ||gdmm.com/api.php?mod=js&bid=2111
 ||gdmm.com/images/leftbottom.png
 ||gdt.qq.com^
-||bashiyy.com/static/js/plugin.js
 ||geekbang.org/public/serving/
 ||geekpark.net/api/v1/ads
 ||gegeyingshi.com/template/*/images/g_js/
@@ -37156,6 +37157,7 @@ _popunder+$popup
 ##.ad--BANNER
 ##.ad--MAIN
 ##.ad--article-top
+##.ad--articlemodule
 ##.ad--b
 ##.ad--bottom
 ##.ad--bottom-label
@@ -42128,6 +42130,7 @@ _popunder+$popup
 ##.badge-style-type-ad
 ##.bads300
 ##.badxcn
+##.bam-ad-slot
 ##.bam-dcRefreshableAd
 ##.ban-720-container
 ##.ban300side
@@ -46217,6 +46220,7 @@ _popunder+$popup
 ##.outermainadtd1
 ##.outgameadbox
 ##.outside_ad
+##.outsider-ad
 ##.outstream-ad-outer-wrapper
 ##.ovAdLabel
 ##.ovAdPromo
@@ -50646,7 +50650,7 @@ livedoorblogstyle.jp#@#.ad-center
 jobmail.co.za,odysseyware.com#@#.ad-display
 foxnews.com,yahoo.com#@#.ad-enabled
 seattletimes.com#@#.ad-fixed
-mac-torrent-download.net,motortrade.me#@#.ad-header
+arukikata.com,mac-torrent-download.net,motortrade.me#@#.ad-header
 bigfishaudio.com,cnbcafrica.com,dublinairport.com,yahoo.com#@#.ad-holder
 transparencyreport.google.com#@#.ad-icon
 freebitco.in,lastpass.com,recycler.com,usedvictoria.com#@#.ad-img
@@ -52746,6 +52750,7 @@ menstennisforums.com#@#.top_ads
 ||blrqeqn.com^
 ||blu5fdclr.com^
 ||blueparrot.media^
+||blueswordksh.com^
 ||bluffrebuke.com^
 ||blusterbailbriefly.com^
 ||bmkz57b79pxk.com^
@@ -65777,6 +65782,7 @@ menstennisforums.com#@#.top_ads
 ||bst-offers.com^$popup
 ||btpnav.com^$popup
 ||bullads.net^$popup
+||bursultry-exprights.com^$popup
 ||busyroughly.com^$popup
 ||buy404s.com^$popup
 ||buyeasy.by^$popup
@@ -66432,6 +66438,7 @@ menstennisforums.com#@#.top_ads
 ||redirectvoluum.com^$popup
 ||refpa.top^$popup
 ||refpazcx.xyz^$popup
+||remove-ads.xyz^$popup
 ||renaissanto.com^$popup
 ||renceriskie.fun^$popup
 ||replainy.co^$popup
@@ -71555,10 +71562,9 @@ coderwall.com##._300x250
 tumblr.com##._3L_Fb
 tumblr.com##._3x1ep
 thequint.com##._4xQrn
-smallseotools.com##.__hmmm__
+smallseotools.com##.____hmmmmmm
 gadgets.ndtv.com##._ad
 pirateiro.com##._br9is
-smallseotools.com##._hmmm_
 afro.com##.a-215.g-single
 analyticsindiamag.com##.a-9.g-single
 rumble.com##.a-break
@@ -73790,13 +73796,13 @@ pichunter.com##.galleryad
 tallermaintenancar.com##.girl
 bravoteens.com##.good_list_wrap
 tube8.com,tube8.es,tube8.fr##.gridBanner
-indianpornvideos2.com,milkporntube.com##.happy-footer-mobile
+gigapornmovies.com,indianpornvideos2.com,milkporntube.com##.happy-footer-mobile
 indianpornvideos2.com,milkporntube.com##.happy-header-mobile
 sexseeimage.com,yporn.tv##.happy-inside-player
 sexseeimage.com##.happy-player-beside
 sexseeimage.com##.happy-player-under
 sexseeimage.com##.happy-section
-indianpornvideos2.com,milkporntube.com##.happy-under-player
+gigapornmovies.com,indianpornvideos2.com,milkporntube.com##.happy-under-player
 redtube.com##.hd
 mansurfer.com##.headerbanner
 worldsex.com##.hide-on-mobile
@@ -73873,6 +73879,8 @@ madmovs.com,pornosexxxtits.com##.player-outer-banner
 blogbugs.org,tallermaintenancar.com##.player-right
 sexu.com##.player__side
 xnxxvideoporn.com##.player_bn
+young-sexy.com##.popup
+uflash.tv##.pps-banner
 pornicom.com##.pre-ad
 porntube.com##.pre-footer
 japan-whores.com##.premium-thumb
@@ -74507,6 +74515,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||an.yandex.ru/system/video-ads-sdk/adsdk.js$domain=5-tv.ru|armdb.org|gisher.org|peers.tv|tele-sport.ru
 @@||anandabazar.com/js/anandabazar-bootstrap/$script
 @@||api.friends.ponta.jp/api/$~third-party
+@@||arukikata.com/images_ad/$image,~third-party
 @@||asahi.com/ads/$image,~third-party
 @@||asahicom.jp/ad/js/video/ytpfp.js$domain=asahi.com
 @@||asahicom.jp/ads/$image,script,stylesheet,domain=asahi.com
@@ -74521,6 +74530,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||candidate.hr-manager.net/Advertisement/PreviewAdvertisement.aspx$subdocument,~third-party
 @@||cdn.adsafeprotected.com/iasPET.1.js$script,domain=gentside.com
 @@||ced.sascdn.com/tag/*/smart.js$domain=dr.dk
+@@||cinema.pia.co.jp/img/ad/$image,~third-party
 @@||cloudflare.com^*/videojs-contrib-ads.js$domain=wtk.pl
 @@||cloudinary.com/portalbici/advertisements/$domain=portalbici.es
 @@||core.windows.net^*/annonser/$image,domain=kmauto.no
@@ -74592,6 +74602,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||smartadserver.com/3310/call$xmlhttprequest,domain=dr.dk
 @@||smartadserver.com/ac?nwid=3310^$script,domain=dr.dk
 @@||smartadserver.com/h/nshow?siteid=$script,domain=dr.dk
+@@||stats.g.doubleclick.net/dc.js$script,domain=chintaistyle.jp
 @@||stranger.se/socket.io/$~third-party
 @@||strangermeetup.com/socket.io/$~third-party
 @@||success-games.net/*/hold_ad.png?
