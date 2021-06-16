@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: huUyFShMZWk8Mvdb6he4uw
-! Version: 202106141152
+! Checksum: bqlRFG9iJjahdGJjzOUw6g
+! Version: 202106160252
 ! Title: EasyPrivacy
-! Last modified: 14 Jun 2021 11:52 UTC
+! Last modified: 16 Jun 2021 02:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -7341,6 +7341,7 @@ _mongo_stats/
 ||m-t.io^$third-party
 ||m0mentum.net^$third-party
 ||m1ll1c4n0.com^$third-party
+||m365log.com^$third-party
 ||m6r.eu^$third-party
 ||mabipa.com^$third-party
 ||macandcheeseandads.com^$third-party
@@ -8486,6 +8487,7 @@ _mongo_stats/
 ||visitorjs.com^$third-party
 ||visitorpath.com^$third-party
 ||visitorprofiler.com^$third-party
+||visitorqueue.com^$third-party
 ||visitortracklog.com^$third-party
 ||visitorville.com^$third-party
 ||visitstreamer.com^$third-party
@@ -14002,6 +14004,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||candy.com/3droi/
 ||canoe.ca/generix/ga.js
 ||canstockphoto.com/monitor/
+||canstockphoto.com/server.php?rqst=track
+||canstockphoto.com/testing/site/conversion.gif?
 ||capitalone.com/collector/
 ||capture.crutchfield.com^
 ||cardomain.com/js/tibbylog.js?
@@ -14451,6 +14455,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||freeones.com^*/cd/?cookies=
 ||freepik.com/_ga?
 ||fresh.techdirt.com^
+||fresnel-events.vimeocdn.com^
 ||frontdoor.com/_track?
 ||frstatic.net^*/tracking.js
 ||ft.com/conker/service/pageview?
@@ -16095,6 +16100,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vietnamnet.vn^*/tracking.js
 ||villarenters.com/inttrack.aspx
 ||vimeo.com/ablincoln/
+||vimeocdn.com/js_opt/logging_combined.min.js
 ||viralnova.com/track.php
 ||viralogy.com/javascript/viralogy_tracker.js
 ||virginholidays.co.uk/_assets/js/dc_storm/track.js
@@ -24869,6 +24875,7 @@ ytics.disneyplus.com^
 @@||cdn.cxense.com^$script,domain=marketwatch.com
 @@||cleverpush.com/channel/$script,domain=bsdex.de
 @@||community.brave.com/t/$xmlhttprequest
+@@||d2wy8f7a9ursnm.cloudfront.net^$script,domain=staples.ca
 @@||daan.dev/wp-content/*/caos-supports-google-analytics-$image,~third-party
 @@||gettingpersonal.co.uk^*/scripts/app/shared/googleanalytics.js$script,~third-party
 @@||googleoptimize.com/optimize.js$script,domain=tentree.ca
