@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: skJkvf1udX2mj0wkkG7rkg
-! Version: 202106160251
+! Checksum: 7D02Sk1RluYJHXAIXiAVDA
+! Version: 202106171511
 ! Title: EasyList
-! Last modified: 16 Jun 2021 02:51 UTC
+! Last modified: 17 Jun 2021 15:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3831,6 +3831,7 @@
 /apstag.js
 /aptads/*
 /apu.php?*&zoneid=
+/arcads.js
 /arcAdsJS/*
 /Article-Ad-
 /article-advert-
@@ -5155,7 +5156,7 @@
 /iabadvertisingplugin.swf
 /IBNjspopunder.
 /ico-ad-
-/icon_ad.
+/icon_ad.$domain=~adv.asahi.com
 /icon_ads_
 /icon_advertising_
 /idevaffiliate/banners/*
@@ -7205,6 +7206,7 @@
 /wppas_
 /wpproadds.
 /wpproads.
+/wpsafelink.js
 /wrapper/ads/*
 /writelayerad.
 /wsoAdserver.
@@ -7502,7 +7504,7 @@ _AD/jquery.
 _ad/public/
 _ad/section_
 _ad/show/
-_ad01.
+_ad01.$domain=~adv.asahi.com
 _ad01_
 _ad1.$~stylesheet
 _ad103.
@@ -13468,6 +13470,7 @@ _popunder+$popup
 ###box-ads-tr
 ###box-ads-x600
 ###box-ads300-picture-detail
+###box-adv-header
 ###box-adv-rn_u
 ###box-content-ad
 ###box-googleadsense-1
@@ -15213,6 +15216,7 @@ _popunder+$popup
 ###iqadtile11
 ###iqadtile14
 ###iqadtile15
+###iqadtile16
 ###iqadtile2
 ###iqadtile3
 ###iqadtile4
@@ -19089,6 +19093,7 @@ _popunder+$popup
 ##.ad-responsive
 ##.ad-responsive-slot
 ##.ad-responsive-wide
+##.ad-rev-content
 ##.ad-rh
 ##.ad-ri
 ##.ad-right
@@ -20462,6 +20467,8 @@ _popunder+$popup
 ##.ad_oms
 ##.ad_on_article
 ##.ad_one
+##.ad_one_one
+##.ad_one_third
 ##.ad_outer
 ##.ad_overlays
 ##.ad_p360
@@ -20544,6 +20551,7 @@ _popunder+$popup
 ##.ad_skyscrapper
 ##.ad_slider_out
 ##.ad_slot
+##.ad_slot_inread
 ##.ad_slot_right
 ##.ad_slug
 ##.ad_slug_font
@@ -20616,6 +20624,7 @@ _popunder+$popup
 ##.ad_trick_left
 ##.ad_ttl
 ##.ad_two
+##.ad_two_third
 ##.ad_txt2
 ##.ad_type_1
 ##.ad_type_adsense
@@ -22172,6 +22181,7 @@ _popunder+$popup
 ##.adv-full-width
 ##.adv-google
 ##.adv-gpt-desktop-wrapper
+##.adv-gpt-wrapper-desktop
 ##.adv-halfpage
 ##.adv-header
 ##.adv-home-300x600
@@ -22317,6 +22327,7 @@ _popunder+$popup
 ##.adv_main_right_down_wrapper
 ##.adv_medium_rectangle
 ##.adv_message
+##.adv_msg
 ##.adv_page_blocker_overlay
 ##.adv_panel
 ##.adv_placeholder_300_250
@@ -24364,6 +24375,7 @@ _popunder+$popup
 ##.content-ad-widget
 ##.content-ad-wrapper
 ##.content-ads
+##.content-ads-bottom
 ##.content-advert
 ##.content-advertisment
 ##.content-bottom-mpu
@@ -27489,6 +27501,7 @@ _popunder+$popup
 ##.panel_ad
 ##.paneladvert
 ##.panoramic_ad_placeholder
+##.par-adv-slot
 ##.parade-ad-container
 ##.paragraphAdinsert
 ##.paragraphs-item-advertisement
@@ -29212,6 +29225,7 @@ _popunder+$popup
 ##.subheader_adsense
 ##.subjects_ad
 ##.submenu_ad
+##.subnav-ad-layout
 ##.subtitle-ad-container
 ##.sudoku-ad
 ##.sugarad
@@ -29723,6 +29737,7 @@ _popunder+$popup
 ##.tv-ad-aside
 ##.tvkidsArticlesBottomAd
 ##.tvs-mpu
+##.tvsc-adv-slot
 ##.twitter-ad
 ##.two-col-ad-inArticle
 ##.twoColumnAd
@@ -32255,6 +32270,7 @@ iyalc.com#@#a[href^="https://www.iyalc.com/"]
 mrskin.com#@#a[href^="https://www.mrskin.com/account/"]
 mrskin.com#@#a[href^="https://www.mrskin.com/tour"]
 privateinternetaccess.com#@#a[href^="https://www.privateinternetaccess.com/"]
+marcpapeghin.com#@#a[href^="https://www.sheetmusicplus.com/"][href*="?aff_id="]
 marketgid.com,mgid.com#@#a[id^="mg_add"]
 politico.com#@#a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"]
 drive.google.com#@#div[aria-label="Ads"]
@@ -33030,6 +33046,7 @@ menstennisforums.com#@#.top_ads
 ||adrent.net^
 ||adrevenuerescue.com^
 ||adriftstressful.com^
+||adroitreclineinquisitive.com^
 ||adrunnr.com^
 ||adsbr.info^
 ||adscarrot.com^
@@ -33742,6 +33759,7 @@ menstennisforums.com#@#.top_ads
 ||becomesday.club^
 ||becominggland.com^
 ||bedaccustom.com^
+||bedbwgjjpxiuox.com^
 ||bedfundsevents.com^
 ||bedrapiona.com^
 ||bedrooming.club^
@@ -41200,6 +41218,7 @@ menstennisforums.com#@#.top_ads
 ||smenqskfmpfxnb.bid^
 ||smigro.info^
 ||smilingpilgrim.com^
+||smjdkmvhar.com^
 ||smjhzmln.com^
 ||smokedenforcementranch.com^
 ||smokerdecoy.com^
@@ -41239,6 +41258,7 @@ menstennisforums.com#@#.top_ads
 ||socialbars-web4.com^
 ||societyuga.club^
 ||socketboredomdigital.com^
+||socksorient.com^
 ||softenedimmortalityprocedure.com^
 ||softwarepastel.com^
 ||soggykaes.com^
@@ -42237,6 +42257,7 @@ menstennisforums.com#@#.top_ads
 ||uscpn0c485wn.com^
 ||useconoming.club^
 ||usedbreat.club^
+||usemarketings.com^
 ||usemyreferral.link^
 ||usenet-nl.top^
 ||usenetbombastic.cyou^
@@ -48816,6 +48837,7 @@ menstennisforums.com#@#.top_ads
 ! *** easylist:easylist/easylist_thirdparty.txt ***
 ||000webhost.com/images/banners/
 ||1080872514.rsc.cdn77.org^
+||1675450967.rsc.cdn77.org^
 ||1stag.com/main/img/banners/
 ||a.livesportmedia.eu^
 ||a.ucoz.net^
@@ -51713,6 +51735,7 @@ spiegel.de##div[id*="/spon_dt/"]:not(#google_ads_iframe_\/6032\/spon_dt\/homepag
 $popup,third-party,domain=cloudvideo.tv|highstream.tv|loader.to|mystream.to|play.hydracdn.network|playtube.ws|streamtape.com|strtape.cloud|supervideo.tv|upstream.to|vidcloud9.com|vidlox.me|vivo.sx|voe.sx|vupload.com
 :text^$popup,domain=zippyshare.com
 ||123moviesfree.world/hd-episode/$popup
+||amazon-adsystem.com^$popup,domain=twitch.tv
 ||animesuge.io^$popup,domain=flixhq.net|movies7.to
 ||bit.ly^$popup,domain=dexerto.com|eteknix.com|gdriveplayer.us|kitguru.com|ouo.io|ouo.press|sh.st
 ||embed.mystream.to^$popup
@@ -51727,7 +51750,7 @@ $popup,third-party,domain=cloudvideo.tv|highstream.tv|loader.to|mystream.to|play
 ||notube.lol/p/$popup
 ||vpnfortorrents.*?$popup
 ! about:blank popups
-/about:blank#/$popup,domain=22pixx.xyz|9anime.to|dailyuploads.net|disk.ly|dood.so|dood.to|dood.video|dood.watch|fcdn.stream|fmovies.to|french-stream.lol|gogoanime.pro|gowatchseries.bz|hydracdn.network|imagetwist.com|meomeo.pw|mixdrop.co|mp4upload.com|mstream.xyz|player.cineflixtv.com|player.cineflixtv.net|playtube.ws|popads.net|powvideo.net|powvldeo.cc|putlocker.style|run-syndicate.com|spcdn.cc|steamplay.cc|streamsb.net|streamtape.cc|streamtape.com|streamtape.site|streamz.vg|strtape.cloud|strtape.tech|tapecontent.net|upstream.to|uptostream.com|vev.red|vevo.io|vidcloud.co|videobin.co|videowood.tv|viditodo.com|vidoza.net|vidup.io|voe.sx|vortez.net|vshare.eu|vumoo.to|waaw.to|watchserieshd.tv
+/about:blank#/$popup,domain=22pixx.xyz|9anime.to|dailyuploads.net|disk.ly|dood.so|dood.to|dood.video|dood.watch|fcdn.stream|filmesportorrents.com|fmovies.to|french-stream.lol|gogoanime.pro|gowatchseries.bz|hydracdn.network|imagetwist.com|meomeo.pw|mixdrop.co|mp4upload.com|mstream.xyz|player.cineflixtv.com|player.cineflixtv.net|playtube.ws|popads.net|powvideo.net|powvldeo.cc|putlocker.style|run-syndicate.com|spcdn.cc|steamplay.cc|streamsb.net|streamtape.cc|streamtape.com|streamtape.site|streamz.vg|strtape.cloud|strtape.tech|tapecontent.net|upstream.to|uptostream.com|vev.red|vevo.io|vidcloud.co|videobin.co|videowood.tv|viditodo.com|vidoza.net|vidup.io|voe.sx|vortez.net|vshare.eu|vumoo.to|waaw.to|watchserieshd.tv
 ! html/image popups
 /^https?:\/\/.*\.(jpg|png|php|html|svg|ico|js)/$popup,domain=5movies.fm|adf.ly|animepahe.com|bhplay.me|cmovies.ac|dailyuploads.net|dood.so|dood.to|dood.video|dood.watch|europixhd.net|fcdn.stream|french-stream.lol|gowatchseries.bz|hqq.to|hulkstreams.com|jackstream.net|jackstreams.com|meomeo.pw|mixdrop.co|mp4upload.com|mystream.to|olympicstreams.me|player.cineflixtv.com|putlockers.fm|redirect-ads.com|speedvideo.net|streamsb.net|streamtape.cc|streamtape.com|streamtape.net|strikeout.nu|strtape.cloud|strtape.site|strtape.tech|tapecontent.net|telerium.net|upvid.co|vidnext.net|vido.fun|vipleague.cc|voe.sx|vumoo.to|watchserieshd.tv
 !
@@ -52644,6 +52667,7 @@ kuklaskorner.com###ultimate
 tomshardware.com###ultimedia_wrapper
 my.juno.com###usWorldTile
 nutritioninsight.com###verticlblks
+filmibeat.com,goodreturns.in,mykhel.com,oneindia.com###verticleLinks
 mentalfloss.com###video-div-polo
 eplsite.uk###video-section
 yahoo.com###viewer-LREC2-iframe
@@ -53127,6 +53151,7 @@ filepuma.com##.cRight_footer
 ria.ru##.c_banners
 thecable.ng##.cableads_mid
 challonge.com##.cake-unit
+dllme.com##.captchabox > div
 classicauctionreview.co.uk##.carlogobox
 supercheats.com##.cboth_sm
 ccm.net##.ccm_pugoo__sponso
@@ -53955,7 +53980,7 @@ ndtv.com##.sp_ad-t
 informer.com##.spnsd
 sundayworld.co.za##.spnsorhome
 worldtimezone.com##.spon-menu
-cd1025.com,domainincite.com,europages.co.uk,gamingcloud.com,kpbs.org,phillyvoice.com,speedcafe.com,westernjournal.com,wnd.com##.sponsor
+cd1025.com,domainincite.com,europages.co.uk,gamingcloud.com,kpbs.org,phillyvoice.com,speedcafe.com,thegatewaypundit.com,westernjournal.com,wnd.com##.sponsor
 cricketireland.ie##.sponsor-strip
 arizonasports.com,ktar.com##.sponsorBy
 blbclassic.org##.sponsorZone
@@ -54177,6 +54202,7 @@ deshdoaba.com##[href="https://www.nsbinsures.com/"]
 ftv-news.com##[href="https://www.rizik.com.bd/"]
 jagoroniya.com##[href="https://www.virtuanic.com/"]
 bittools.net##[href^="//www.bittools.net/binance"]
+shroomery.org##[href^="//www.shroomery.org/ads/"]
 yoursports.stream##[href^="/bet"]
 nzbindex.com##[href^="/i/c/"]
 steroid.com##[href^="/out.php"]
@@ -54252,7 +54278,6 @@ unitconversion.org##a[href="../noads.html"]
 himovies.to##a[href="https://sflix.to/"]
 apkpure.com##a[href="https://www.macblurayplayer.com/spyhunter-malware-removal-windows.htm"]
 rarbg.to,rarbgaccess.org,rarbgmirror.com,rarbgmirror.org,rarbgproxy.com,rarbgproxy.org,rarbgunblock.com,rarbgunblocked.org##a[href][target="_blank"] > button
-facebook.com,shroomery.org##a[href^="/ads/"]
 lightreading.com##a[href^="/lg_redirect.asp?piddl_lgid_docid="]
 tehrantimes.com##a[href^="/redirect/ads/"]
 xbox-hq.com##a[href^="banners.php?"]
@@ -54359,6 +54384,7 @@ thewrap.com##div[id^="dsk-box-ad"]
 whatsondisneyplus.com##div[id^="extra_mpu_"]
 micast.tv##div[id^="floatLayer"]
 yahoo.com##div[id^="gemini-item-"]
+insider.com##div[id^="gpt-post-travel-"]
 mangatigre.com##div[id^="i-d-cr-page"]
 medicalnewstoday.com##div[id^="inline3"]
 dexerto.com##div[id^="jwplayer_"]
@@ -55014,6 +55040,7 @@ vivud.com,zmovs.com##.player-aside-banners
 ok.xxx,pornhat.com,xxxonxxx.com##.player-bn
 madmovs.com,pornosexxxtits.com##.player-outer-banner
 blogbugs.org,tallermaintenancar.com##.player-right
+xvideos.com,xvideos.es##.player-video.xv-cams-block
 sexu.com##.player__side
 xnxxvideoporn.com##.player_bn
 young-sexy.com##.popup

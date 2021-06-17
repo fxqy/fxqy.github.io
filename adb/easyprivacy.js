@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: bqlRFG9iJjahdGJjzOUw6g
-! Version: 202106160252
+! Checksum: K9iqXn1wfPv6p0gRY1XNMQ
+! Version: 202106171502
 ! Title: EasyPrivacy
-! Last modified: 16 Jun 2021 02:51 UTC
+! Last modified: 17 Jun 2021 15:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1914,6 +1914,7 @@
 /facebook_fbevents.
 /facebookpixel.
 /facebookpixel/*
+/facebookproductad/*$script
 /FacebookTracking.
 /faciliti-tag.
 /fairfax_tracking.js
@@ -11350,6 +11351,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||glam.com^*/log.act?
 ||gleam.io/seen?
 ||gleam.io^$script,third-party
+||global.ssl.fastly.net/native/
 ||go.com/capmon/GetDE/?
 ||go.techtarget.com^$image,xmlhttprequest
 ||go.toutapp.com^$third-party
@@ -13245,6 +13247,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.competitoor.com^
 ||analytics00.meride.tv^
 ||aruba.it/servlet/counterserver?
+||audit.shaa.it^
 ||click.kataweb.it^
 ||counter.ksm.it^
 ||counter2.condenast.it^
