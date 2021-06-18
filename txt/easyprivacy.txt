@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: K9iqXn1wfPv6p0gRY1XNMQ
-! Version: 202106171502
+! Checksum: jRuA1Bq3WxbiFIS88J3N0g
+! Version: 202106181242
 ! Title: EasyPrivacy
-! Last modified: 17 Jun 2021 15:02 UTC
+! Last modified: 18 Jun 2021 12:42 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6914,6 +6914,7 @@ _mongo_stats/
 ||giddyuptrk.com^$third-party
 ||gigcount.com^$third-party
 ||gim.co.il^$third-party
+||glancecdn.net^$third-party
 ||glanceguide.com^$third-party
 ||glassboxcdn.com^$third-party
 ||glassboxdigital.io^$third-party

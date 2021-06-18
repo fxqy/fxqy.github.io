@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7D02Sk1RluYJHXAIXiAVDA
-! Version: 202106171511
+! Checksum: qnjdPL6mJWkrnBCVGcQoRw
+! Version: 202106181301
 ! Title: EasyList
-! Last modified: 17 Jun 2021 15:11 UTC
+! Last modified: 18 Jun 2021 13:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -25529,6 +25529,8 @@ _popunder+$popup
 ##.gpt-leaderboard-banner
 ##.gpt-mpu-banner
 ##.gpt-sticky-sidebar
+##.gptSlot
+##.gptSlot__sticky-footer
 ##.gptslot
 ##.gr-adcast
 ##.gr-ads
@@ -31976,6 +31978,7 @@ javbix.com#@#.adsleft
 fodey.com,tuxpi.com#@#.adslot
 wg-gesucht.de#@#.adslot_blurred
 cutepdf-editor.com#@#.adtable
+mediaite.com#@#.adthrive
 absolute.com#@#.adtile
 smilelocal.com#@#.adtop
 brandexperience-group.com#@#.adv-banner
@@ -44360,6 +44363,7 @@ menstennisforums.com#@#.top_ads
 ||bqiovml.com^$third-party
 ||br.rk.com^$third-party
 ||brainient.com^$third-party
+||brainlyads.com^$third-party
 ||branchr.com^$third-party
 ||brand-display.com^$third-party
 ||brand.net^$third-party
@@ -50936,6 +50940,7 @@ menstennisforums.com#@#.top_ads
 ||amazon.com/aan/$subdocument
 ||aolcdn.com/ads/$script
 ||armyrecognition.com/images/stories/customer/
+||artdaily.cc/banners/
 ||as.inbox.com^
 ||ascii-art-generator.org/cnc/$xmlhttprequest
 ||atptour.com^*/rolex/
@@ -50954,6 +50959,7 @@ menstennisforums.com#@#.top_ads
 ||bit.com.au/scripts/js_$script
 ||blbclassic.org/assets/images/*banners/
 ||borneobulletin.com.bn/wp-content/banners/
+||botswanaguardian.co.bw/images/banners/
 ||boxthislap.org/app/uploads/logos/fanatec/
 ||brisbanetimes.com.au/assets/europa.
 ||brudirect.com/images/banners/
@@ -53005,7 +53011,7 @@ as.com##.banner_sup
 mamul.am##.bannerb
 fashionotes.com##.bannerclick
 arcadebomb.com##.bannerext
-2merkato.com,2mfm.org,aps.dz,armyrecognition.com,beginlinux.com,cbn.co.za,dailynews.co.tz,eprop.co.za,finchannel.com,i-programmer.info,killerdirectory.com,pamplinmedia.com,radiolumiere.org,southfloridagaynews.com,thepatriot.co.bw##.bannergroup
+2merkato.com,2mfm.org,aps.dz,armyrecognition.com,beginlinux.com,botswanaguardian.co.bw,cbn.co.za,dailynews.co.tz,eprop.co.za,finchannel.com,i-programmer.info,killerdirectory.com,pamplinmedia.com,radiolumiere.org,southfloridagaynews.com,thepatriot.co.bw##.bannergroup
 saigoneer.com##.bannergroup-main
 malaysiandigest.com##.bannergroup_sideBanner2
 dailynews.co.tz##.bannergroup_text
@@ -54345,6 +54351,7 @@ games.dailymail.co.uk##div[class^="HomeTemplate__afterCategoryAd_"]
 versus.com##div[class^="LegendSingle__show"]
 qwant.com##div[class^="ProductAdsMicrosoft-"]
 games.dailymail.co.uk##div[class^="RightRail__displayAdRight_"]
+fodors.com##div[class^="ad-placeholder"]
 barandbench.com##div[class^="ad-service-"]
 barandbench.com##div[class^="ad-slot"]
 kijiji.ca##div[class^="adChoices-"]
@@ -55303,6 +55310,8 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||adjust.com/adjust-latest.min.js$domain=anchor.fm
 @@||adm.fwmrm.net^*/TremorAdRenderer.$object,domain=go.com
 @@||adm.fwmrm.net^*/videoadrenderer.$object,domain=cnbc.com|go.com|nbc.com|nbcnews.com
+@@||ads.adthrive.com/builds/$script,domain=www.mediaite.com
+@@||ads.adthrive.com/sites/$script,domain=www.mediaite.com
 @@||ads.dollartree.com/SneakPeek/$~third-party
 @@||ads.emarketer.com/adserve/;ID=176831;size=1170x117;setID=377294;type=json;$xmlhttprequest,domain=emarketer.com
 @@||ads.emarketer.com/adserve/;ID=176831;size=1170x117;setID=377297;type=json;$xmlhttprequest,domain=emarketer.com
@@ -55391,7 +55400,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||dnsleak.privateinternetaccess.com^$xmlhttprequest,domain=dnsleak.com
 @@||docs.woopt.com/wgact/$image,~third-party,xmlhttprequest
 @@||doubleclick.net/ddm/$image,domain=aetv.com|fyi.tv|history.com|mylifetime.com|speedtest.net
-@@||doubleclick.net/gpt/pubads_impl_$script,xmlhttprequest,domain=accuweather.com|blastingnews.com|downdetector.com|epaper.timesgroup.com|formularywatch.com|gamespot.com|managedhealthcareexecutive.com|medicaleconomics.com|nbcsports.com|physicianspractice.com
+@@||doubleclick.net/gpt/pubads_impl_$script,xmlhttprequest,domain=accuweather.com|blastingnews.com|downdetector.com|epaper.timesgroup.com|formularywatch.com|gamespot.com|managedhealthcareexecutive.com|mediaite.com|medicaleconomics.com|nbcsports.com|physicianspractice.com
 @@||dwiextreme.com/banners/dwiextreme$image
 @@||edmodo.com/ads$~third-party,xmlhttprequest
 @@||einthusan.tv/prebid.js$script,~third-party
@@ -55419,7 +55428,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||g.doubleclick.net/gampad/ads*%20Web%20Player$domain=imasdk.googleapis.com
 @@||g.doubleclick.net/gampad/ads?*RakutenShowtime$xmlhttprequest,domain=imasdk.googleapis.com
 @@||g.doubleclick.net/pagead/ads?*&description_url=https%3A%2F%2Fgames.wkb.jp$xmlhttprequest,domain=imasdk.googleapis.com
-@@||g.doubleclick.net/tag/js/gpt.js$script,xmlhttprequest,domain=accuweather.com|blastingnews.com|edy.rakuten.co.jp|epaper.timesgroup.com|formularywatch.com|gamespot.com|indy100.com|managedhealthcareexecutive.com|medicaleconomics.com|physicianspractice.com|theta.tv
+@@||g.doubleclick.net/tag/js/gpt.js$script,xmlhttprequest,domain=accuweather.com|blastingnews.com|edy.rakuten.co.jp|epaper.timesgroup.com|formularywatch.com|gamespot.com|indy100.com|managedhealthcareexecutive.com|mediaite.com|medicaleconomics.com|physicianspractice.com|theta.tv
 @@||g2crowd.com/uploads/product/image/$image,domain=g2.com
 @@||glos.ac.uk/DataRepository/CourseDatabase/*/adv/$image,~third-party
 @@||gn-web-assets.api.bbc.com/bbcdotcom/assets/$script,domain=bbc.co.uk
@@ -55484,8 +55493,10 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||optout.networkadvertising.org^$document
 @@||p.d.1emn.com^$script,domain=hotair.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=downloads.codefi.re|globaldjmix.com|nlfreevpn.com|oldapps.com|slideplayer.com|smallseotools.com|tampermonkey.net|thefreedictionary.com|windows7themes.net
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=real-sports.jp|slideplayer.com|smallseotools.com|tampermonkey.net|thefreedictionary.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=real-sports.jp|slideplayer.com|smallseotools.com|soranews24.com|tampermonkey.net|thefreedictionary.com
+@@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=soranews24.com
 @@||pagead2.googlesyndication.com/pagead/js/lidar.js$domain=convert-me.com|grammarist.com
+@@||pagead2.googlesyndication.com/pagead/js/rum.js$domain=soranews24.com
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=nlfreevpn.com|oldapps.com
 @@||pandora.com/images/public/devicead/$image
 @@||paperpk.com/Ads/site/$image,domain=paperpk.com
@@ -55526,6 +55537,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||somewheresouth.net/banner/banner.php$image
 @@||sonyliv.com/api/configuration/config_ads$~third-party,xmlhttprequest
 @@||sonyliv.com/extensions/gpt.js$script
+@@||soranews24.com^$generichide
 @@||spendino.de/admanager/
 @@||sportsnet.ca/wp-content/plugins/bwp-minify/$domain=sportsnet.ca
 @@||static.amp.services/clients/$script,domain=road.cc
