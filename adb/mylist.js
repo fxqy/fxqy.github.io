@@ -182,6 +182,7 @@ toutiao.social
 oddsds.com
 pch3366.com
 superxq.com
+swzcgs.com
 
 !------------------------------some------------------------------
 kuaidi100.com##.download-nav,.open-mp
