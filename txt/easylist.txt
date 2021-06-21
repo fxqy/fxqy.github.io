@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SUM0IZOasz1rIwDPpAGYZA
-! Version: 202106191041
+! Checksum: e/RF5oSHOJ6PExk6Boh6Qg
+! Version: 202106211011
 ! Title: EasyList
-! Last modified: 19 Jun 2021 10:41 UTC
+! Last modified: 21 Jun 2021 10:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -16762,6 +16762,7 @@ _popunder+$popup
 ###sp-adv-banner-top
 ###sp-advtop1
 ###sp-advtop3
+###sp-google-advertising-2x-468x100
 ###sp-top-ad-wrapper
 ###spec_offer_ad2
 ###special-deals-ad
@@ -20262,6 +20263,7 @@ _popunder+$popup
 ##.ad_cl
 ##.ad_claim
 ##.ad_click
+##.ad_cls_fix
 ##.ad_code
 ##.ad_col
 ##.ad_col_a
@@ -20285,6 +20287,7 @@ _popunder+$popup
 ##.ad_container__top
 ##.ad_container_body
 ##.ad_content
+##.ad_content_below
 ##.ad_content_img
 ##.ad_content_wide
 ##.ad_content_wrapper
@@ -20499,6 +20502,7 @@ _popunder+$popup
 ##.ad_promo
 ##.ad_promo1
 ##.ad_promo_spacer
+##.ad_push
 ##.ad_r
 ##.ad_r1_menu
 ##.ad_rakuten
@@ -26945,6 +26949,7 @@ _popunder+$popup
 ##.mod-tss-ads-wrapper
 ##.mod-vertical-ad
 ##.mod_ad
+##.mod_ad_container
 ##.mod_ad_imu
 ##.mod_ad_t25
 ##.mod_ad_text
@@ -27143,6 +27148,7 @@ _popunder+$popup
 ##.native-ad-mode
 ##.native-ad-placeholder
 ##.native-ad-promoted-provider
+##.native-ad-slot
 ##.native-adv
 ##.native-advts
 ##.native-leaderboard-ad
@@ -51017,6 +51023,7 @@ menstennisforums.com#@#.top_ads
 ||clarksvilleonline.com/cols/
 ||click.livedoor.com^
 ||cloudfront.net/transcode/storyTeller/$media,domain=amazon.ae|amazon.ca|amazon.cn|amazon.co.jp|amazon.co.uk|amazon.com|amazon.com.au|amazon.com.mx|amazon.de|amazon.es|amazon.fr|amazon.in|amazon.it|amazon.sa
+||cloudfront.net^*/sponsors/$domain=pbs.org
 ||cnn.com/ad/
 ||codelist.cc/bluehostbanner.jpg
 ||coincheck.com/images/affiliates/
@@ -51199,6 +51206,7 @@ menstennisforums.com#@#.top_ads
 ||nativetimes.com/images/banners/
 ||naturalnews.com/wp-content/themes/naturalnews-child/$script
 ||naukri.com/banners
+||navyrecognition.com/images/stories/customer/
 ||newsnow.co.uk/pharos.js
 ||newstalkzb.co.nz/media/*/newstalkzb-website-takeover-
 ||newstrackindia.com/images/hairfallguru728x90.jpg
@@ -51239,6 +51247,7 @@ menstennisforums.com#@#.top_ads
 ||ragezone.com/wp-content/uploads/2019/02/Widget_HF.png
 ||readlightnovel.org/assets/taoist_images/
 ||receive-sms-online.info/img/banner_
+||republicmonitor.com/images/lundy-placeholder.jpeg
 ||richardroeper.com/assets/banner/
 ||rpgcodex.net^*/gog_button.jpg
 ||s.radioreference.com/sm/$image
@@ -52789,11 +52798,13 @@ dailytech.com##.BottomMarquee
 tutiempo.net##.ContBannerTop
 diet.com##.Fine
 charismanews.com##.FpFeaturedBoxWrap
+askapache.com##.GAD
 google.co.uk##.GBTLFYRDM0
 google.com##.GC3LC41DERB + div[style="position: relative; height: 170px;"]
 google.com##.GGQPGYLCD5
 google.com##.GGQPGYLCMCB
 google.com##.GISRH3UDHB
+thefocus.news##.GRVMpuWrapper
 timesofisrael.com##.HP_Top_m-wrap
 metservice.com##.Header
 sporcle.com##.IMGgi
@@ -53072,6 +53083,7 @@ thepointsguy.com##.beam-card-feature
 beckershospitalreview.com##.becker_doubleclick
 wgbh.org##.becomeSponsor
 ssbcrack.com##.below-header
+mysanantonio.com##.belowMastheadWrapper
 vectorportal.com##.benner
 whoscored.com##.best-slip-button
 football365.com##.bet-link
@@ -53245,6 +53257,7 @@ marketwatch.com##.container--sponsored
 miniclip.com##.container-300x250
 villagesoup.com##.container-popup
 ina.fr##.container-pubcarre
+thejournal-news.net##.container.lightblue
 jokersupdates.com##.container_contentrightspan
 bbh.cc##.content + .sidebar
 adfoc.us##.content > iframe
@@ -53410,6 +53423,7 @@ livebasketball.tv##.footer-sponsor
 ar12gaming.com,timestalks.com,wrc.com##.footer-sponsors
 btn.com##.footer-widgets
 dg-premium.com##.footer__partner-logo
+pbs.org##.footer__sub
 satbeams.com##.footer_banner
 tiresandparts.net##.footer_top_banner
 eurocupbasketball.com,euroleague.net##.footersponsors-container
@@ -53658,6 +53672,7 @@ bikeroar.com##.lower-panel
 greatbritishlife.co.uk##.lp_track_vertical2
 hltv.org##.luckbox-firstcol-box
 politifact.com##.m-billboard
+euronews.com##.m-object--is-branded
 tech.hindustantimes.com##.m-to-add
 net-load.com##.m7s-81.m7s
 nagpurtoday.in##.main-logo + div[style="float:right;"]
@@ -54473,6 +54488,7 @@ google.co.in,google.co.uk,google.com,google.com.bd,google.com.pk,news18.com##div
 add0n.com,news18.com##div[style^="min-height:90px"]
 lovehug.net##div[style^="position: fixed; display: flow-root; z-index:"]
 integral-calculator.com,passiveaggressivenotes.com,twcenter.net##div[style^="width: 728px;"]
+thejournal-news.net##div[style^="width:300px; height:250px;"]
 napuzba.com##div[style^="width:336px"]
 jwire.com.au##div[style^="width:468px;"]
 interglot.com,stopmalvertising.com##div[style^="width:728px;"]
