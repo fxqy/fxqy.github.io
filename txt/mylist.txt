@@ -132,6 +132,7 @@ govjiangsu.cn
 govhangzhou.cn
 govzhuhai.cn
 govgaungzhou.cn
+govwuhan.cn
 xiuxiuji.com
 cxcyhr.com
 sc01.alicdn.com
@@ -183,6 +184,12 @@ oddsds.com
 pch3366.com
 superxq.com
 swzcgs.com
+qwpr38.com
+qwpr7.com
+qwpr3.com
+kbw2018.com
+xasdtx.com
+ahhczj.com
 
 !------------------------------some------------------------------
 kuaidi100.com##.download-nav,.open-mp

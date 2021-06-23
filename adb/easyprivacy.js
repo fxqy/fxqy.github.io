@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: DW5oawoyLRDXSsvbv7btJg
-! Version: 202106211002
+! Checksum: gG8bESIaXtfYMeyfhvizRw
+! Version: 202106230102
 ! Title: EasyPrivacy
-! Last modified: 21 Jun 2021 10:02 UTC
+! Last modified: 23 Jun 2021 01:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -7084,6 +7084,7 @@ _mongo_stats/
 ||imrworldwide.com^$third-party
 ||imtwjwoasak.com^$third-party
 ||inboxtag.com^$third-party
+||incapdns.net^$third-party
 ||incentivesnetwork.net^$third-party
 ||index.ru^$third-party
 ||indexstats.com^$third-party
@@ -12678,7 +12679,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bigdata.ssp.samsung.com^
 ||data.hicloud.com^$third-party
 ||extmaps-api.yandex.net^
-||insights.samsung.com^
 ||logbak.hicloud.com^
 ||logservice.hicloud.com^
 ||logservice1.hicloud.com^
@@ -24312,6 +24312,7 @@ ytics.disneyplus.com^
 ||marktplaats.nl/metrics/
 ||marktplaats.nl/px/
 ||npo-data.nl/tag/v3/npotag.js
+||pcmweb.nl/track/
 ||rtl.nl/system/track/
 ||sanoma.nl/pixel/
 ||sat.sanoma.fi^
@@ -24883,6 +24884,7 @@ ytics.disneyplus.com^
 @@||d2wy8f7a9ursnm.cloudfront.net^$script,domain=staples.ca
 @@||daan.dev/wp-content/*/caos-supports-google-analytics-$image,~third-party
 @@||gettingpersonal.co.uk^*/scripts/app/shared/googleanalytics.js$script,~third-party
+@@||glenat.com^*/static/analytics.js$script,~third-party
 @@||googleoptimize.com/optimize.js$script,domain=tentree.ca
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
 @@||humaninterest.com/api/analytics/$script,~third-party
@@ -25600,8 +25602,10 @@ ytics.disneyplus.com^
 @@||mts.ru/app/vendor/angular-google-analytics.min.js
 @@||mycargo.rzd.ru/dst/scripts/common/analytics-helper.js$~third-party
 @@||online.bcs.ru^*/piwik.bcs.js$script
+@@||pl.smotrim.ru/js/stat.js$script,domain=player.vgtrk.com
 @@||pladform.ru/dive/$xmlhttprequest
 @@||pladform.ru/player$subdocument
+@@||planetazdorovo.ru/pics/transparent_pixel.png$image,~third-party
 @@||playep.pro/log_event$~third-party,xmlhttprequest
 @@||player.fc-zenit.ru/msi/geoip?$xmlhttprequest
 @@||player.vgtrk.com/js/stat.js?
