@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: gG8bESIaXtfYMeyfhvizRw
-! Version: 202106230102
+! Checksum: 86wbzi/0yUhhYjDEjwHgNQ
+! Version: 202106260102
 ! Title: EasyPrivacy
-! Last modified: 23 Jun 2021 01:02 UTC
+! Last modified: 26 Jun 2021 01:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1599,6 +1599,7 @@
 /cvborder.gif?
 /cwTRACK.js
 /cwtracking-
+/cx-tracking.
 /cx-video-analytics.js
 /cx_tracking.js
 /cXense-Analytics-
@@ -3467,7 +3468,6 @@
 /PKAnalytics.
 /pladtrack.
 /planetstat.
-/platform-analytics-
 /plausible.js$domain=~plausible.io
 /plausible.outbound-links.js$domain=~plausible.io
 /player-test-impression?
@@ -5353,6 +5353,7 @@
 ?act=counter&
 ?action=event&
 ?action=log_promo_impression
+?action=statsjs&
 ?action=track_visitor&
 ?action=tracking_script
 ?ad_played=
@@ -7084,7 +7085,6 @@ _mongo_stats/
 ||imrworldwide.com^$third-party
 ||imtwjwoasak.com^$third-party
 ||inboxtag.com^$third-party
-||incapdns.net^$third-party
 ||incentivesnetwork.net^$third-party
 ||index.ru^$third-party
 ||indexstats.com^$third-party
@@ -7797,10 +7797,7 @@ _mongo_stats/
 ||quadran.eu^$third-party
 ||qualaroo.com^$third-party
 ||quantcount.com^$third-party
-||quantserve.com/api/
-||quantserve.com/aquant.js
-||quantserve.com/pixel/$third-party
-||quantserve.com^$~third-party
+||quantserve.com^$third-party
 ||quantummetric.com^$third-party
 ||quartic.pl^$third-party
 ||qubitproducts.com^$third-party
@@ -7996,6 +7993,8 @@ _mongo_stats/
 ||sentry.io^$third-party
 ||seomonitor.ro^$third-party
 ||seomoz.org^$third-party
+||seon.io^$third-party
+||seondnsresolve.com^$third-party
 ||seoparts.net^$third-party
 ||serious-partners.com^$third-party
 ||serv-ac.com^$third-party
@@ -11064,6 +11063,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d2wy8f7a9ursnm.cloudfront.net^
 ||d303e3cdddb4ded4b6ff495a7b496ed5.s3.amazonaws.com^
 ||d31bfnnwekbny6.cloudfront.net/customers/
+||d31qbv1cthcecs.cloudfront.net^
 ||d34ko97cxuv4p7.cloudfront.net^
 ||d34qb8suadcc4g.cloudfront.net^
 ||d35u1vg1q28b3w.cloudfront.net^
@@ -11455,6 +11455,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||impress.vcita.com^
 ||imprvdosrv.com^$image,third-party
 ||inboxtag.com/tag.swf
+||incapdns.net/monitor.js
 ||ind.sh/view.php?$third-party
 ||infinityid.condenastdigital.com^
 ||infogr.am/logger.php?
@@ -12534,6 +12535,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vast.com/vimpressions.js$third-party
 ||vcita.com/tr_
 ||vdo.ai/core/logger.php?
+||vdo.ai/core/scantrad-net/
 ||vee24.com/c/PageBehaviour?
 ||veeseo.com/tracking/
 ||ventunotech.com/beacon/
@@ -14845,6 +14847,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||localmonero.co/static/ga.js
 ||log-api.newrelic.com^
 ||log.china.cn^
+||log.genyt.net^
 ||log.go.com^
 ||log.hypebeast.com^
 ||log.mappy.net^
@@ -25433,6 +25436,8 @@ ytics.disneyplus.com^
 !
 !---------- Indonesian ----------
 !
+@@||anteraja.id/api/api/tracking/api/captchaImg$~third-party
+@@||anteraja.id/api/api/tracking/api/reloadCaptchaImg$~third-party
 @@||detik.com/urchin.js
 !
 !---------- Japanese ----------
