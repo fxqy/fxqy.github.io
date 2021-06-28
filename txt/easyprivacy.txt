@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: 86wbzi/0yUhhYjDEjwHgNQ
-! Version: 202106260102
+! Checksum: nhtcKdWGZKBGURYfaqXtMw
+! Version: 202106280152
 ! Title: EasyPrivacy
-! Last modified: 26 Jun 2021 01:02 UTC
+! Last modified: 28 Jun 2021 01:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1189,6 +1189,7 @@
 /cdcVanity?
 /cdn-cgi/bm/cv/*
 /cdn-cgi/ping?$image
+/cdn-cgi/rum?
 /cdn-monitoring-pixel.
 /cdn.stats2?
 /cdn5.js?
@@ -3316,6 +3317,7 @@
 /Peermap/Log/*
 /pepperjam.js
 /perf-beacon-
+/perf-vitals.
 /perf-vitals_
 /perflog/*
 /perfmetrics.js
@@ -5076,6 +5078,7 @@
 /webanalytics3.
 /WebAnalyticsInclude.
 /webanalyticsssl.
+/webapiv2/log/*
 /webbug.png?
 /webbug/*
 /webbug_c.gif?
@@ -7105,6 +7108,7 @@ _mongo_stats/
 ||ingage.tech^$third-party
 ||inimbus.com.au^$third-party
 ||inmoment.com^$third-party
+||innertrends.com^$third-party
 ||innomdc.com^$third-party
 ||innovateads.com^$third-party
 ||inphonic.com^$third-party
@@ -13019,6 +13023,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||easydmp.net/etag.
 ||easydmp.net/get_delivery_data.
 ||email-reflex.com^$third-party
+||events.newsroom.bi^
 ||events.sk.ht^
 ||free.fr/services/compteur_page.php?
 ||i-services.net^*/compteur.php?
@@ -14239,6 +14244,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dmp.marketgid.com^
 ||dmtracking2.alibaba.com^
 ||dmtrk.com/*/o.gif
+||docs.github.com/events
 ||docs.google.com/stat|$xmlhttprequest
 ||docstoc.com/metrics/
 ||dogpile.com/__kl.gif
@@ -25472,8 +25478,9 @@ ytics.disneyplus.com^
 @@||docodoco.jp^*/docodoco?key=$script,domain=jrtours.co.jp
 @@||e-stat.go.jp/modules/custom/retrieve/src/js/stat.js?$script,~third-party
 @@||flipdesk.jp/wp/wp-content/themes/flipdesk/images/analytics3.png$image
+@@||game-tsutaya.tsite.jp/pc/common/scripts/analytics/s_code_ggame.js
 @@||googleadservices.com/pagead/conversion_async.js$script,domain=jp.square-enix.com
-@@||googletagmanager.com/gtm.js$script,domain=anond.hatelabo.jp|book.impress.co.jp|cyclestyle.net|kakuyomu.jp|sankei.com|ymobile.jp
+@@||googletagmanager.com/gtm.js$script,domain=anond.hatelabo.jp|book.impress.co.jp|cyclestyle.net|hatenacorp.jp|kakuyomu.jp|radiko.jp|sankei.com|stage.parco.jp|viviennewestwood-tokyo.com|ymobile.jp
 @@||in.treasuredata.com/js/*api_key$script,domain=retty.me
 @@||k-img.com/javascripts/modules/rst/analytics.js?$domain=tabelog.com
 @@||k-img.com/script/analytics/s_code.js$script,domain=kakaku.com

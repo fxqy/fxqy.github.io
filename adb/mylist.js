@@ -190,6 +190,11 @@ qwpr3.com
 kbw2018.com
 xasdtx.com
 ahhczj.com
+zgcqxjzny.cn
+hhttm.top
+meihu56.cn
+xww360.com
+chumanduo.com
 
 !------------------------------some------------------------------
 kuaidi100.com##.download-nav,.open-mp
