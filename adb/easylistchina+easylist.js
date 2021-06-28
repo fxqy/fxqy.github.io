@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: FPnGgaB7CmCxm0O9FyTJPw
-! Version: 202106280151
+! Checksum: PkSXiab1GvNJSgY9AUduJg
+! Version: 202106280731
 ! Title: EasyList China+EasyList
-! Last modified: 28 Jun 2021 01:51 UTC
+! Last modified: 28 Jun 2021 07:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -37816,6 +37816,7 @@ _popunder+$popup
 ##.ad-header-sidebar
 ##.ad-heading
 ##.ad-headliner-container
+##.ad-heigh-mobile-250
 ##.ad-here
 ##.ad-hero
 ##.ad-hide-mobile
@@ -44161,6 +44162,9 @@ _popunder+$popup
 ##.framead
 ##.freedownload_ads
 ##.freegame_bottomad
+##.freestar-ad-sidebar-container
+##.freestar-ad-wide-container
+##.freestar-incontent-ad
 ##.freewheelDEAdLocation
 ##.frn_adbox
 ##.frn_adbox_placeholder
@@ -46909,6 +46913,7 @@ _popunder+$popup
 ##.rc-sponsored
 ##.rc_ad_300x100
 ##.rc_ad_300x250
+##.rcom-freestar-ads-widget
 ##.rd_header_ads
 ##.rdio-homepage-widget
 ##.re-Ads-l
@@ -50490,6 +50495,7 @@ _popunder+$popup
 ! Taboola
 ###block-boxes-taboola
 ###component-taboola-below-article-feed
+###component-taboola-below-article-feed-2
 ###ra-taboola-bottom
 ###taboola-above-article-thumbnails-title
 ###taboola-ad
@@ -73314,7 +73320,7 @@ geeksforgeeks.org##[id^="bsa-zone"]
 eatthis.com##[id^="gm_karmaadunit_widget"]
 techadvisor.com##[referrerpolicy="unsafe-url"]
 transfermarkt.co.uk##[referrerpolicy]
-techpowerup.com##[rel="nofollow"] img
+techpowerup.com##[rel*="nofollow"] img
 audioz.download##[src*="/promo/"]
 manganelo.com##[src^="/ads/"]
 ice.hockey##[src^="/images/banners/"]
@@ -73558,7 +73564,7 @@ opensubtitles.org##p[style="font-size:130%; font-weight:bold; margin-top:3px; te
 bbc.com##section[data-e2e="advertisement"]
 tempostorm.com##side-banners
 techpowerup.com##span > a[href] > div img
-techpowerup.com##span > a[rel="nofollow"][target="_blаnk"]
+techpowerup.com##span > a[rel*="nofollow"][target*="_blаnk"]
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##span[cel_widget_id="MAIN-CARDS-0"]
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##span[cel_widget_id^="MAIN-FEATURED_ASINS_LIST-"]
 amazon.ca,amazon.co.uk,amazon.com,amazon.com.au,amazon.de,amazon.fr##span[class*="widgetId=loom-desktop-brand-footer-slot_hsa-id"]
