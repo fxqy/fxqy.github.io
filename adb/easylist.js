@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: srhAJljedalKN63/x8DRVA
-! Version: 202106280731
+! Checksum: 93itkpZjI4SDxauAAyt3UA
+! Version: 202106300351
 ! Title: EasyList
-! Last modified: 28 Jun 2021 07:31 UTC
+! Last modified: 30 Jun 2021 03:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -5686,6 +5686,7 @@
 /modules_ads.
 /momsads.
 /monetization/ads-
+/monetize-show-ads
 /moneyball/ads/*
 /MonsterAd-
 /mont-min.js
@@ -25821,6 +25822,7 @@ _popunder+$popup
 ##.home-ad--promo
 ##.home-ad--top
 ##.home-ad-container
+##.home-ad-inline
 ##.home-ad-links
 ##.home-ad-region-1
 ##.home-ad-section
@@ -26047,6 +26049,7 @@ _popunder+$popup
 ##.iframead
 ##.iframeadflat
 ##.im-topAds
+##.imadswide
 ##.image-ad-336
 ##.image-advertisement
 ##.image-viewer-ad
@@ -27071,6 +27074,7 @@ _popunder+$popup
 ##.mpu-holder
 ##.mpu-leaderboard
 ##.mpu-left
+##.mpu-left-bk
 ##.mpu-mediatv
 ##.mpu-right
 ##.mpu-title
@@ -29112,6 +29116,7 @@ _popunder+$popup
 ##.sponsors-widget
 ##.sponsorsBanners
 ##.sponsors_300x250
+##.sponsors__container
 ##.sponsors__wide
 ##.sponsors_box_container
 ##.sponsors_fieldset
@@ -30455,6 +30460,7 @@ _popunder+$popup
 ##[href^="https://track.fiverr.com/visit/"]
 ##[href^="https://wct.link/"]
 ##[href^="https://www.highrevenuecpm.com"]
+##[href^="https://www.hostg.xyz/aff_c"]
 ##[href^="https://www.reimageplus.com/"]
 ##[href^="https://www.xvbelink.com/"]
 ##[id^="ad-wrap-"]
@@ -33716,6 +33722,7 @@ menstennisforums.com#@#.top_ads
 ||badleasump.cam^
 ||badsabs.com^
 ||badsamps.com^
+||badsans.com^
 ||badsbads.com^
 ||badsecs.com^
 ||badshades.com^
@@ -33834,6 +33841,7 @@ menstennisforums.com#@#.top_ads
 ||beefraidmob.com^
 ||beegmove.com^
 ||beegotou.net^
+||beehiveclergyman.com^
 ||beenmeekwarmth.casa^
 ||beforement.club^
 ||beforesfantr.club^
@@ -34102,6 +34110,7 @@ menstennisforums.com#@#.top_ads
 ||browsobsolete.com^
 ||brqvld0p.com^
 ||brrcaqvz.com^
+||brtcjmnplmzo.com^
 ||brtsumthree.com^
 ||brucelead.com^
 ||bruceleadx.com^
@@ -34842,6 +34851,7 @@ menstennisforums.com#@#.top_ads
 ||contrivancespannercooperate.com^
 ||controvedyt.club^
 ||conversityz.club^
+||convertmb.com^
 ||convrse.media^
 ||conyak.com^
 ||cookliverelk.com^
@@ -35416,6 +35426,7 @@ menstennisforums.com#@#.top_ads
 ||distractchafe.com^
 ||distraughtbudge.com^
 ||distressedsensesmanage.com^
+||distributeoldfashionedrung.com^
 ||districtbaloneywhiskers.com^
 ||districtm.ca^
 ||dit-dit-dot.com^
@@ -36121,6 +36132,7 @@ menstennisforums.com#@#.top_ads
 ||exercisely.club^
 ||exhaustedannulmentaccredited.com^
 ||exhaustedgemini.com^
+||exi8ef83z9.com^
 ||exitjunction.com^
 ||exjozegvbaresw.com^
 ||exobafrgdf.com^
@@ -37572,6 +37584,7 @@ menstennisforums.com#@#.top_ads
 ||instahookupclub2.com^
 ||instahookupclub3.com^
 ||installationtray.com^
+||installerleading.com^
 ||installsbarefootedringer.com^
 ||installssmashedbab.com^
 ||instantresp.com^
@@ -37821,6 +37834,7 @@ menstennisforums.com#@#.top_ads
 ||julrdr.com^
 ||jumbitr.com^
 ||jumbln.com^
+||jumotic.com^
 ||jumperdeduction.com^
 ||jumperproprietaryfifth.com^
 ||junmediadirect.com^
@@ -38290,6 +38304,7 @@ menstennisforums.com#@#.top_ads
 ||locationivanstutter.com^
 ||locationsreverenceaid.com^
 ||lockgranted.com^
+||lockingadmitted.com^
 ||lockingessay.com^
 ||locothet.com^
 ||loddawqst.com^
@@ -38434,6 +38449,7 @@ menstennisforums.com#@#.top_ads
 ||mailwithcash.com^
 ||maimeehu.com^
 ||main-ti-cod.com^
+||main-ti-hub.com^
 ||mainadv.com^
 ||mainauko.net^
 ||mainlandrambleinstinct.com^
@@ -39265,6 +39281,7 @@ menstennisforums.com#@#.top_ads
 ||noisysortcasualty.com^
 ||nomadpertexcess.com^
 ||nomicidenti.top^
+||nominalpowerlessunable.com^
 ||nonerr.com^
 ||nonewnews.name^
 ||nonfictionrobustchastise.com^
@@ -39420,6 +39437,7 @@ menstennisforums.com#@#.top_ads
 ||o626b32etkg6.com^
 ||oackoubs.com^
 ||oadaheba.net^
+||oadsouzi.net^
 ||oaffolksy.cam^
 ||oagnatch.com^
 ||oampitsa.com^
@@ -39966,6 +39984,7 @@ menstennisforums.com#@#.top_ads
 ||phoossax.net^
 ||phortaub.com^
 ||photographicconstablelanded.com^
+||photographiccreche.com^
 ||phovihopy.pro^
 ||phsism.com^
 ||phudreez.com^
@@ -42352,6 +42371,7 @@ menstennisforums.com#@#.top_ads
 ||uhkdsplo.com^
 ||uhodsplo.com^
 ||uhpdsplo.com^
+||uhqpnhorurueku.com^
 ||uhsmmaq4l2n5.com^
 ||uhxdsplo.com^
 ||uieoogjarimcey.com^
@@ -42548,7 +42568,9 @@ menstennisforums.com#@#.top_ads
 ||vaipsona.com^
 ||vaipsouw.com^
 ||vaivafie.net^
+||vak345.com^
 ||vallegalikty.club^
+||valonghost.xyz^
 ||valuethemarkets.info^
 ||vamprumbasfear.com^
 ||vanderebony.pro^
@@ -42560,6 +42582,7 @@ menstennisforums.com#@#.top_ads
 ||vapourgrievously.com^
 ||variabilitycomprehension.com^
 ||varietyofdisplayformats.com^
+||variouscreativeformats.com^
 ||varybailedascend.com^
 ||varylioness.com^
 ||vasgenerete.site^
@@ -49898,6 +49921,7 @@ menstennisforums.com#@#.top_ads
 ||namecheap.com/graphics/linkus/$third-party
 ||nanobrokers.com/img/banner_
 ||nativly.com/tds/widget?wid=$third-party
+||natureticks.com/images/banners/$third-party
 ||neighbourly.co.nz^$subdocument,domain=stuff.co.nz
 ||neogames-tech.com/resources/genericbanners/
 ||nesgamezone.com/syndicate?
@@ -50664,7 +50688,7 @@ menstennisforums.com#@#.top_ads
 ||fleshlight.com/?link=$popup,third-party
 ||fsoft4down.com^$popup
 ||fwmrm.net/ad/$popup
-||get-express-vpn.online^$popup,third-party
+||get-express-vpn.online^$popup
 ||go.etoro.com^*&utm_$popup,third-party
 ||go.streamcomplet.$popup
 ||insideoftech.com^$popup,third-party
@@ -50675,10 +50699,12 @@ menstennisforums.com#@#.top_ads
 ||lp.titanpoker.com^$popup,third-party
 ||mackeeperaffiliates.com/landings/$popup
 ||paid.outbrain.com/network/redir?$popup,third-party
+||promo.stormgain.com^*&utm_$popup,third-party
 ||record.affiliatelounge.com^$popup,third-party
 ||saucepanstream.com^$popup
 ||serve.prestigecasino.com^$popup,third-party
 ||serve.williamhillcasino.com^$popup,third-party
+||smartblocker.org^*&trackingdomain=$popup
 ||theonlygames.com^$popup
 ||topflownews.com^$popup
 ||torrent-protection.com^*&action=$popup,third-party
@@ -51318,7 +51344,7 @@ menstennisforums.com#@#.top_ads
 ||tb.turbocap.net/a637rw3.js
 ||techhive.com/ads/
 ||technewsworld.com/images/sda/
-||techpowerup.com/thlknzrjbv/
+||techpowerup.com/gjizhgdreg/
 ||techrepublic.com/leadgen/
 ||theage.com.au/assets/europa.
 ||thecenturion.co.za^*/banners/
@@ -51848,6 +51874,7 @@ $popup,third-party,domain=cloudvideo.tv|highstream.tv|loader.to|mystream.to|play
 ||8boobs.com/images/8boobs.com/banners/
 ||8boobs.com/images/8boobs.com/istripper/
 ||absoluporn.com/code/script/
+||add2home.files.wordpress.com^$domain=hentaigasm.com
 ||adrotic.girlonthenet.com^
 ||adult-sex-games.com/images/promo/
 ||adultasianporn.com/puty3s/
@@ -52013,6 +52040,8 @@ $popup,third-party,domain=cloudvideo.tv|highstream.tv|loader.to|mystream.to|play
 ||thehun.net/banners/
 ||tits-guru.com/js/istripper4.js
 ||tnaflix.com/azUhsbtsuzm?
+||toppixxx.com/images/banner-
+||toppixxx.com/images/gotoshop.jpg
 ||tryboobs.com/bf/
 ||vikiporn.com/jsb/
 ||vipergirls.to/clientscript/poptrigger_
@@ -52276,9 +52305,7 @@ hwhills.com###footerbanner
 feedicons.com###footerboard
 imgbox.com###full-page-redirect
 reviewgeek.com###future_Y_R_0_1
-hltv.org###g0_news
 hltv.org###g0_right
-hltv.org###g4_bottom
 colourlovers.com###ga-above-footer
 colourlovers.com###ga-below-header
 9bis.net###gad
@@ -53262,6 +53289,7 @@ disqus.com##.col-promoted
 nycgo.com##.colBBox
 jamendo.com##.col_extra
 iamgujarat.com,indiatimes.com,samayam.com,vijaykarnataka.com##.colombia
+hltv.org##.column-ASdvuasdr123Gazx-box
 2pass.co.uk##.column_right
 arcadebomb.com##.colunit1
 knowyourmeme.com##.combo-wrapper
@@ -53389,7 +53417,6 @@ notebooks.com##.efbleft
 ctvnews.ca##.election-leaderboard
 onmsft.com##.enhanced-text-widget
 technipages.com##.entry-content > div
-hltv.org##.etbx
 mobafire.com##.exhibit-narrow
 mobafire.com##.exhibit-vertical
 miami.com##.expedia-widget
@@ -53696,8 +53723,8 @@ netwerk24.com,wheels24.co.za##.love2meet
 vg247.com##.low-leader-container
 bikeroar.com##.lower-panel
 greatbritishlife.co.uk##.lp_track_vertical2
-hltv.org##.luckbox-firstcol-box
 politifact.com##.m-billboard
+aol.com##.m-jac-ad
 euronews.com##.m-object--is-branded
 tech.hindustantimes.com##.m-to-add
 net-load.com##.m7s-81.m7s
@@ -54348,6 +54375,7 @@ facebook.com##a[aria-label="Advertiser link"]
 bernama.com##a[class^="banner_photo_"]
 probuilds.net##a[class^="dl-blitz-"]
 3dnatives.com##a[data-bid][target="_blank"]
+msn.com##a[href*=".booking.com/"]
 beforeitsnews.com,in5d.com##a[href*=".hop.clickbank.net"]
 limetorrents.info##a[href*=".php"]
 whatismyreferer.com##a[href*="/?offer_id="]
@@ -54381,6 +54409,7 @@ thesearchenginelist.com##a[href^="http://www.kqzyfj.com/"]
 2x4u.de##a[href^="http://www.myfreecams.com/?baf="]
 rpg.net##a[href^="http://www.rpg.net/ads/"]
 tundraheadquarters.com##a[href^="http://www.tkqlhce.com/"]
+msn.com##a[href^="https://amzn.to/"]
 qwant.com##a[href^="https://api.taboola.com/"]
 japantoday.com##a[href^="https://go.injapan.com/"]
 disasterscans.com##a[href^="https://go.onelink.me/"]
@@ -54407,6 +54436,7 @@ goal.com##aside[class^="layouts_asideContentCommercial_"]
 dictionary.com,thesaurus.com##aside[id$="728x90"]
 just-dice.com##body > .wrapper > .container:first-child
 psychnewsdaily.com##center
+zegtrends.com##center > .lazyloaded
 python-graph-gallery.com##div > [href^="https://www.datacamp.com"]
 python-graph-gallery.com##div > [href^="https://www.dataquest.io/course/"]
 healthline.com##div.css-0 > div[class]:not([id])
@@ -54448,6 +54478,7 @@ goal.com##div[class^="fedex_banner_"]
 keengamer.com##div[class^="gameon-in-"]
 keengamer.com##div[class^="gameon-mpu-"]
 keengamer.com##div[class^="gameon-top-"]
+technologyreview.com##div[class^="headerTemplate__leaderboardRow-"]
 goal.com##div[class^="layout_banner_"]
 productreview.com.au##div[class^="leaderboard_"]
 pcgamer.com,techradar.com,tomsguide.com,tomshardware.com##div[class^="slot-"]
@@ -54813,6 +54844,7 @@ flyingjizz.com###adv_inplayer
 milffox.com###advertising
 pervclips.com###after-adv
 sexyandfunny.com###best-friends
+toppixxx.com###bottom
 eporner.com###btasd
 stileproject.com###dUnderVid
 hentai-img.com###display_image_detail > span
@@ -54977,6 +55009,7 @@ tabletporn.com##.bottom_pos
 dixyporn.com##.bottom_spot
 bravotube.net##.box-left
 tube8.com##.box-thumbnail-friends
+hentaianimedownloads.com##.bp_detail
 bravotube.net##.brazzers
 xozilla.com##.brazzers-link
 kompoz2.com##.brs-block
@@ -55105,6 +55138,7 @@ online-xxxmovies.com##.middle-spots
 lic.me##.miniplayer
 hotmovs.com##.mjs-closeplay
 tryindianporn.com##.mle
+hentaicore.org##.mob-lock
 hanksgalleries.com##.mob_vids
 gaymovievids.com,verygayboys.com##.mobile-random
 yourdarkdesires.com##.moment
@@ -55276,6 +55310,7 @@ porngames.club##[href^="https://www.porngames.club/friends/out.php"]
 gamcore.com##[src*="/nfr2ie0nd1s9/"]
 tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[src*="blob:"]
 redtube.com##[src^="bLob:"]
+hentaigasm.com##[src^="https://add2home.files.wordpress.com/"]
 porngames.club##[src^="https://wheelwheel.space/"]
 pornhub.com,pornhubthbh7ap3u.onion##[srcdoc]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com,youporngay.com##[style*="base64"]
@@ -55419,8 +55454,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||amazon-adsystem.com/aax2/apstag.js$domain=accuweather.com|blastingnews.com|exomashomepage.com|familyhandyman.com|foxbusiness.com|go.cnn.com|history.com|keloland.com|radio.com|rd.com|thehealthy.com|wboy.com|wkrn.com|wlns.com|wvnstv.com
 @@||amazon-adsystem.com/widgets/q?$image,third-party
 @@||amazonaws.com^*/sponsorbanners/$image,domain=members.portalbuzz.com
-@@||aolcdn.com^*/adsWrapper.$domain=aol.com|engadget.com|mapquest.com
-@@||aone-soft.com/style/images/ad*.jpg
+@@||aone-soft.com/style/images/ad2.jpg
 @@||api.adinplay.com^*/tag.min.js$script,domain=bigescapegames.com|findcat.io|squadd.io
 @@||api.adnetmedia.lt/api/$~third-party
 @@||api.paymentwall.com^$domain=adguard.com
@@ -55431,6 +55465,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||apple.com^*/images/ads_$image,domain=apple.com
 @@||apple.com^*/includes/ads
 @@||apple.com^*/video-ad.html
+@@||at.adtech.redventures.io/lib/dist/$script,domain=metacritic.com
 @@||auctionzip.com/cgi-bin/showimage.cgi?
 @@||autotrader.co.uk^*/advert$~third-party
 @@||avclub.com^*/adManager.$script,~third-party

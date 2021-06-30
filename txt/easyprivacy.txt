@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: kAvRkJLlHdqLbM+W/Gjtvw
-! Version: 202106280732
+! Checksum: VQad4XM4pXhFgFfQM+a6CA
+! Version: 202106300352
 ! Title: EasyPrivacy
-! Last modified: 28 Jun 2021 07:32 UTC
+! Last modified: 30 Jun 2021 03:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -2010,6 +2010,7 @@
 /ga*.js?PID=
 /ga-affiliates.
 /ga-async-
+/ga-audiences?
 /ga-beacon.*/UA-
 /ga-campaignTracker.
 /ga-collect?
@@ -7331,6 +7332,7 @@ _mongo_stats/
 ||lp4.io^$third-party
 ||lpbeta.com^$third-party
 ||lporirxe.com^$third-party
+||lr-ingest.io^$third-party
 ||lsfinteractive.com^$third-party
 ||lucidel.com^$third-party
 ||luckyorange.com^$third-party
@@ -10786,6 +10788,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cadreon.s3.amazonaws.com^
 ||cahf4eed.mooo.com^
 ||calltrk.com/companies/
+||camel.headfarming.com^
 ||canada.com/js/analytics/
 ||canecto.info/analytics.js
 ||canvas-ping.conduit-data.com^
@@ -11844,6 +11847,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||perf-events.cloud.unity3d.com^
 ||perf.dugout.com^
 ||perfect-privacy.com^*/?a_aid=$third-party
+||perfops.net/rom3/
 ||performgroup.com/metrics/
 ||perr.h-cdn.com^$third-party
 ||perso.aws.arc.pub^
@@ -12359,6 +12363,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.uc.cn^
 ||track.untd.com^
 ||track.vdo.ai^
+||track.venatusmedia.com^
 ||track.vscash.com^
 ||track.wayin.com^
 ||track.written.com^
@@ -14345,6 +14350,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events.privy.com^
 ||events.reddit.com^
 ||events.redditmedia.com^
+||events.santander.co.uk^
 ||events.turbosquid.com^
 ||events.uber.com^
 ||everythinggirl.com/assets/tracker/
@@ -23694,6 +23700,7 @@ ytics.disneyplus.com^
 ||as.base.de^
 ||as.mirapodo.de^
 ||as.mytoys.de^
+||as.saechsische.de^
 ||as.yomonda.de^
 ||banner.t-online.de^$image
 ||baur.de/servlet/LandmarkServlet?
@@ -24307,6 +24314,7 @@ ytics.disneyplus.com^
 ||zhihu-web-analytics.zhihu.com^
 ||zz.bdstatic.com^
 ! Croatian
+||avaz.ba/update/hits/
 ||jutarnji.hr/template/js/eph_analytics.js
 ! Czech
 ||o2.cz^*-ga_o2cz_bundle.js?
@@ -24905,6 +24913,7 @@ ytics.disneyplus.com^
 @@||static.foxnews.com^*/VisitorAPI.js$domain=foxbusiness.com|foxnews.com
 @@||static.wikia.nocookie.net^*/tracking-opt-in.min.js$script,domain=fandom.com
 @@||tapinfluence.com/tap.js$script,domain=titus2homemaker.com
+@@||tbs.com/modules/custom/ten_video/js/analytics.js$script,~third-party
 @@||travel-assets.com/platform-analytics-prime/$domain=chase.com
 @@||uniqlo.com^*/trackingservice/$~third-party
 @@||webapp.simplisafe.com^*/angulartics-ga.min.js$script,~third-party
