@@ -195,10 +195,12 @@ hhttm.top
 meihu56.cn
 xww360.com
 chumanduo.com
+yudianpc.com.cn
 
 !------------------------------some------------------------------
 kuaidi100.com##.download-nav,.open-mp
 mail.126.com##.gWel-bottom
+aicesu.cn##img[src*="gif"]
 !------------------------------bilibili------------------------------
 chat.bilibili.com
 hdslb.com/bfs/live
