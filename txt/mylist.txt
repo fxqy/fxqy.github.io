@@ -208,6 +208,7 @@ hdslb.com/bfs/static/live
 xycdn.com/api/get_seeds
 bilibili.com##.z-aside-area,.haruna-sekai-de-ichiban-kawaii,.haruna-sekai-de-ichiban-kawaii,.z-room-background,#sections-vm,.z-sidebar,.comment-m
 !------------------------------video site------------------------------
+anthh.com/*.gif
 zzyanhushi.com
 wyxcb6.top
 cloudpsvn.com
