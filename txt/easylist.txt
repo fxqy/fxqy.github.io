@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: S+0HUD1/MCjq9oAR+EWSnQ
-! Version: 202107301121
+! Checksum: s3+E/EMssdrfkXlxzJaHrA
+! Version: 202108090822
 ! Title: EasyList
-! Last modified: 30 Jul 2021 11:21 UTC
+! Last modified: 09 Aug 2021 08:22 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -15,14 +15,12 @@
 ! *** easylist:easylist/easylist_general_block.txt ***
 &ad.vid=$~xmlhttprequest
 &ad_block=
-&ad_box_
 &ad_classid=
 &ad_code=
 &ad_height=
 &ad_ids=
 &ad_keyword=
 &ad_network_
-&ad_number=
 &ad_slot=
 &ad_sub=
 &ad_time=
@@ -54,13 +52,10 @@
 &adstrade=
 &adstype=
 &AdType=
-&adunit=
-&adunits=$xmlhttprequest
 &adurl=
 &adv_keywords=
 &advert_
 &adzone=
-&banner_id=
 &bannerid=
 &clicktag=http
 &customSizeAd=
@@ -249,7 +244,6 @@
 -ads.generated.
 -ads.gif
 -ads.php?
--ads.swf
 -ads/728x
 -ads/ad-
 -ads/assets/
@@ -295,7 +289,6 @@
 -advert-label-
 -advert-placeholder.
 -advert.jpg?
--advert.swf
 -advert1.
 -advert2.
 -advert3.
@@ -339,7 +332,6 @@
 -banner-ads-$~script
 -banner-ads/
 -Banner-Advert-
--banner.swf?
 -banner300x250.
 -banner468x60.
 -bannerads/
@@ -794,16 +786,6 @@
 .sk/ads/
 .sponsorads.
 .streamads.
-.swf?1&clicktag=
-.swf?2&clicktag=
-.swf?ad=
-.swf?click=
-.swf?clicktag=
-.swf?clickthru=
-.swf?iurl=http
-.swf?link1=http
-.swf?link=http
-.swf?popupiniframe=
 .text-link-ads.
 .textads.
 .th/ads/
@@ -892,6 +874,7 @@
 /?addyn|*
 /?adv_partner
 /?advideo/*
+/?affiliateId=*&realDomain=
 /?view=ad
 /_/ads/*
 /_30/ads/*
@@ -1260,7 +1243,6 @@
 /ad/static_
 /ad/status?
 /ad/superbanner.
-/ad/swf/*
 /ad/takeover/*
 /ad/textlinks/*
 /ad/thumbs/*
@@ -1609,6 +1591,7 @@
 /ad_side.
 /ad_sidebar/*
 /ad_sizes=
+/ad_skin/*
 /ad_skin_
 /ad_sky.
 /ad_skyscraper.
@@ -2421,7 +2404,6 @@
 /ads.pl?
 /ads.release.
 /ads.release/*
-/ads.swf
 /ads.txt
 /ads.w3c.
 /ads/1.
@@ -2697,7 +2679,6 @@
 /ads/src/*
 /ads/storysponsors/*
 /ads/sub/*
-/ads/swfobject.
 /ads/syndicated/*
 /ads/taboola/*
 /ads/tags?
@@ -3545,7 +3526,6 @@
 /advertisings.
 /advertisingwidgets/*
 /advertisment-
-/advertisment.
 /advertisment/*
 /advertisment1-
 /advertisment4.
@@ -4097,7 +4077,6 @@
 /bigad_
 /bigads/*
 /bigboxad.
-/bigtopl.swf
 /bin/ads/*
 /binary/ad/*
 /bizad.
@@ -4364,9 +4343,7 @@
 /coread/*
 /corner-ad.
 /corner_ads/*
-/cornerbig.swf
 /cornerpeel-bbn/*
-/cornersmall.swf
 /country_ad.
 /couponAd.
 /cover_ad.
@@ -4419,6 +4396,7 @@
 /cvDisplayAd.
 /cvs/ads/*
 /cwggoogleadshow.
+/cxf-ad-banner
 /cyad.
 /cyad1.
 /d/ads/*
@@ -4567,7 +4545,6 @@
 /doubleclick.aspx
 /doubleclick.min
 /doubleclick.php
-/doubleclick.swf
 /doubleclick/iframe.
 /doubleclick_ads.
 /doubleclick_ads/*
@@ -5153,7 +5130,6 @@
 /i/adv/*
 /i_ads.
 /ia/ads/*
-/iabadvertisingplugin.swf
 /IBNjspopunder.
 /ico-ad-
 /icon_ad.$domain=~adv.asahi.com
@@ -5420,6 +5396,7 @@
 /js/ppu.$script
 /js/youmuffpu.js
 /js2.ad/size=
+/js3caf.js
 /js_ad_utf8.
 /js_ads/*
 /js_ads_
@@ -5576,6 +5553,7 @@
 /logoutad.
 /longad.
 /lotto_ad_
+/lovehug.js
 /lrec_ad.
 /lserver/*
 /m-ad.css?
@@ -6030,7 +6008,6 @@
 /placements/ad_
 /play/ad/*
 /player/ad/*
-/player/ads.
 /player/ads/*
 /player_ads/*
 /playerjs/ads.
@@ -6170,7 +6147,6 @@
 /promotions/ads/*
 /promotions/ads?
 /promotools.
-/promotools/*
 /promotools1.
 /propadbl.
 /propadbl_
@@ -6786,11 +6762,6 @@
 /superads_
 /supernorthroomad.
 /svnad/*
-/swf/ad-
-/swf/ads/*
-/swfbin/ad-
-/swfbin/ad3-
-/swfbin/ad3_
 /switchadbanner.
 /SWMAdPlayer.
 /syads.
@@ -7045,7 +7016,6 @@
 /vert_ad.
 /verticaladrotatorv2.
 /vghd.gif
-/vghd.swf
 /vghd2.gif
 /VHDpoppingModels/*
 /viagogoads.
@@ -7803,7 +7773,6 @@ _advertise.
 _advertise180.
 _advertisehere.
 _advertisement-
-_advertisement.
 _advertisement/
 _advertisement_$domain=~media.ccc.de
 _advertisementbar.
@@ -8321,10 +8290,9 @@ _prebid_
 /adblock.gif?
 /adblock_detect.
 /adblock_detector.
-/adblock_detector2.
 /adblock_logger.
 /adblockdetect.
-/adblockdetect/*
+/adblockdetect/*$~image
 /adblockdetection.
 /adBlockDetector/*
 /adblockdetectorwithga.
@@ -8829,6 +8797,7 @@ _980x100.
 .engine?PlacementId=$popup
 .net/adx.php?$popup
 /?a_aid=*&$popup
+/?affiliateId=*&realDomain=$popup
 /?cver=0&refer$popup
 /?cver=1&refer$popup
 /?ip=*&zoneid=$popup
@@ -9638,6 +9607,7 @@ _popunder+$popup
 ###WNAd63
 ###WarningCodecBanner
 ###WelcomeAd
+###WidgetADVMIDDLE
 ###WindowAdHolder
 ###WordFromSponsorAdvertisement
 ###XEadLeaderboard
@@ -12567,6 +12537,7 @@ _popunder+$popup
 ###advert-2
 ###advert-ahead
 ###advert-banner
+###advert-banner-container
 ###advert-banner-wrap
 ###advert-block
 ###advert-boomer
@@ -12846,6 +12817,7 @@ _popunder+$popup
 ###advt-right-skyscraper
 ###advt_bottom
 ###advtbar
+###advtcell
 ###advtext
 ###advtop
 ###advtopright
@@ -16186,10 +16158,13 @@ _popunder+$popup
 ###qm-dvdad
 ###qpon_big_ad-teaser
 ###qtopAd-graybg
+###quads-ad1
 ###quads-ad1_widget
 ###quads-ad2
 ###quads-ad2_widget
+###quads-ad3
 ###quads-ad4
+###quads-admin-ads-js
 ###quick_ads_frame_bottom
 ###quidgetad
 ###quigo
@@ -16219,6 +16194,7 @@ _popunder+$popup
 ###realEstateAds
 ###rearad
 ###rec_spot_ad_1
+###recommendAdBox
 ###recommendedAdContainer
 ###rect-ad
 ###rectAd
@@ -17094,8 +17070,6 @@ _popunder+$popup
 ###sway-banner-ad1
 ###sweep_right_ad
 ###sweep_top_ad
-###swfAd1
-###swfAd5
 ###syn_headerad_zone
 ###synced-ad
 ###synch-ad
@@ -18079,6 +18053,7 @@ _popunder+$popup
 ##.IM_ad_unit
 ##.InArticleAd
 ##.IndexRightAd
+##.InsertedAd
 ##.InternalAdPanel1
 ##.JobListMidAd
 ##.LL_Widget_Advertorial
@@ -18329,6 +18304,7 @@ _popunder+$popup
 ##._has-ads
 ##._inr___top-ad-wrap
 ##._iub_cs_activate_google_ads
+##._table_ad_div_wide
 ##._top_ad_wrapper
 ##.a-ad
 ##.a-article-teaser--sponsored
@@ -18426,6 +18402,7 @@ _popunder+$popup
 ##.ad--mobile
 ##.ad--mpu
 ##.ad--native
+##.ad--nativeFlex
 ##.ad--no-bg
 ##.ad--noscroll
 ##.ad--object
@@ -18451,6 +18428,7 @@ _popunder+$popup
 ##.ad--stripe
 ##.ad--stroer
 ##.ad--subcontainer
+##.ad--tabletDesktop
 ##.ad--top
 ##.ad--top-label
 ##.ad--top-leaderboard
@@ -18798,6 +18776,7 @@ _popunder+$popup
 ##.ad-container-wrapper
 ##.ad-container.component
 ##.ad-container1
+##.ad-container3x
 ##.ad-container__ad-slot
 ##.ad-container__leaderboard
 ##.ad-container_row
@@ -19365,6 +19344,7 @@ _popunder+$popup
 ##.ad-tall
 ##.ad-target2-wrapper
 ##.ad-tech-widget
+##.ad-temp
 ##.ad-text
 ##.ad-text-blockA01
 ##.ad-text-blockB01
@@ -20738,7 +20718,6 @@ _popunder+$popup
 ##.ad_strip_noline
 ##.ad_sub
 ##.ad_supersize
-##.ad_swf
 ##.ad_table
 ##.ad_tag
 ##.ad_tag_middle
@@ -21042,6 +21021,7 @@ _popunder+$popup
 ##.adgear-bb
 ##.adgear_header
 ##.adgeletti-ad-div
+##.adgmleaderboard
 ##.adgoogle_block
 ##.adhalfhome
 ##.adhalfpage
@@ -21251,6 +21231,7 @@ _popunder+$popup
 ##.ads-468x60-bordered
 ##.ads-560-65
 ##.ads-600-box
+##.ads-720x90
 ##.ads-728
 ##.ads-728-90
 ##.ads-728by90
@@ -21687,6 +21668,7 @@ _popunder+$popup
 ##.ads__header
 ##.ads__horizontal
 ##.ads__hyperleaderboard--hyperleaderboard
+##.ads__inline
 ##.ads__interstitial
 ##.ads__leaderboard--footer
 ##.ads__leaderboard--header
@@ -21697,6 +21679,9 @@ _popunder+$popup
 ##.ads__listing--small_center
 ##.ads__listing--small_left
 ##.ads__listing--small_right
+##.ads__midpage-fullwidth
+##.ads__native
+##.ads__right-rail-ad
 ##.ads__sidebar
 ##.ads__sidebar--home_column
 ##.ads__sidebar--sidebar_first
@@ -22306,7 +22291,9 @@ _popunder+$popup
 ##.adv--intermingled
 ##.adv--leaderboard
 ##.adv--square
+##.adv-120x600
 ##.adv-160
+##.adv-160x600
 ##.adv-200-200
 ##.adv-250-250
 ##.adv-300
@@ -22318,6 +22305,7 @@ _popunder+$popup
 ##.adv-336-280
 ##.adv-4
 ##.adv-468-60
+##.adv-468x60
 ##.adv-700
 ##.adv-728
 ##.adv-728-90
@@ -23063,6 +23051,7 @@ _popunder+$popup
 ##.advertleft
 ##.advertlink
 ##.advertnotice
+##.advertop
 ##.advertorial
 ##.advertorial-2
 ##.advertorial-block
@@ -23120,6 +23109,7 @@ _popunder+$popup
 ##.advt_single
 ##.advt_title
 ##.advt_widget
+##.advtcell
 ##.advtext
 ##.advtimg
 ##.advtitle
@@ -23326,6 +23316,7 @@ _popunder+$popup
 ##.article-google-adsense
 ##.article-grid__item--advert
 ##.article-header-ad
+##.article-header__railAd
 ##.article-inline-ad
 ##.article-mid-ad
 ##.article-news-videoad
@@ -23976,6 +23967,7 @@ _popunder+$popup
 ##.bottom-ads728
 ##.bottom-adv
 ##.bottom-adv-container
+##.bottom-adv1
 ##.bottom-banner-ad
 ##.bottom-center-adverts
 ##.bottom-game-ad
@@ -24477,6 +24469,7 @@ _popunder+$popup
 ##.col-ad-hidden
 ##.col-has-ad
 ##.col-line-ad
+##.col2-ads
 ##.colAd
 ##.colBoxAdframe
 ##.colRightAd
@@ -25765,6 +25758,7 @@ _popunder+$popup
 ##.gpt-leaderboard-banner
 ##.gpt-mpu-banner
 ##.gpt-sticky-sidebar
+##.gpt.top-slot
 ##.gptSlot
 ##.gptSlot__sticky-footer
 ##.gptslot
@@ -26088,6 +26082,7 @@ _popunder+$popup
 ##.homeadv
 ##.homeadwrapper
 ##.homefront468Ad
+##.homepage--sponsor-content
 ##.homepage-300-250-ad
 ##.homepage-ad
 ##.homepage-ad-block
@@ -26148,6 +26143,7 @@ _popunder+$popup
 ##.horizontaltextadbox
 ##.horizsponsoredlinks
 ##.hortad
+##.hotad_bottom
 ##.hotel-ad
 ##.house-ad
 ##.house-ad-small
@@ -26774,6 +26770,7 @@ _popunder+$popup
 ##.legacy-ads
 ##.legal-ad-choice-icon
 ##.lextraleftmoreads
+##.lft_advt_container
 ##.lg-ads-160x90
 ##.lg-ads-311x300-down
 ##.lg-ads-311x300-up
@@ -27778,6 +27775,7 @@ _popunder+$popup
 ##.paragraphAdinsert
 ##.paragraphs-item-advertisement
 ##.paralaxBackgorundAdwords
+##.parent-ad-desktop
 ##.partial-ad
 ##.partner-ad
 ##.partner-ads-container
@@ -28099,9 +28097,11 @@ _popunder+$popup
 ##.qm-ad
 ##.qm-ad-content
 ##.qm-ad-content-news
+##.quads-ad1
 ##.quads-ad1_widget
 ##.quads-ad2
 ##.quads-ad2_widget.first
+##.quads-ad3
 ##.quads-ad3_widget
 ##.quads-ad4
 ##.quads-ad4_widget
@@ -28481,6 +28481,7 @@ _popunder+$popup
 ##.row--gh-ad
 ##.row-ad
 ##.row-ad-fb
+##.row-ad-leaderboard
 ##.rowAd
 ##.rowAds
 ##.row_header_ads
@@ -28654,6 +28655,7 @@ _popunder+$popup
 ##.section-publicity
 ##.section-sponsor
 ##.section-sponsors__label
+##.section-story-ad-tag
 ##.section_AD
 ##.section_ad
 ##.section_ad_left
@@ -28689,6 +28691,7 @@ _popunder+$popup
 ##.sh-section-ad
 ##.shadvertisment
 ##.shareToolsItemAd
+##.sheknows-infuse-ad
 ##.shift-ad
 ##.shoppingGoogleAdSense
 ##.short-sidebar-ad-bottom
@@ -28711,6 +28714,7 @@ _popunder+$popup
 ##.shunno_widget_sidebar_sovrnadsmall
 ##.si-adRgt
 ##.sics-component__ad-space
+##.sics-component__sticky-ad-placeholder
 ##.sidbaread
 ##.side-ad
 ##.side-ad-120-bottom
@@ -28785,6 +28789,7 @@ _popunder+$popup
 ##.side_adv_left
 ##.side_adv_right
 ##.side_col_ad_wrap
+##.side_float_ad
 ##.sidead
 ##.sidead_150
 ##.sidead_300
@@ -29006,6 +29011,7 @@ _popunder+$popup
 ##.sl_ad6
 ##.sl_ad7
 ##.sl_admarker
+##.slate-ad
 ##.sleekadbubble
 ##.slide-ad
 ##.slide-advert
@@ -29222,6 +29228,7 @@ _popunder+$popup
 ##.sponsored-ad-ob
 ##.sponsored-add
 ##.sponsored-ads
+##.sponsored-article
 ##.sponsored-article-item
 ##.sponsored-b
 ##.sponsored-block
@@ -29423,6 +29430,7 @@ _popunder+$popup
 ##.stand-alone-adzone
 ##.standalone-ad-container
 ##.standalone_txt_ad
+##.standalonead
 ##.standard-ad
 ##.star-ad
 ##.start__advertising_container
@@ -29442,6 +29450,7 @@ _popunder+$popup
 ##.sticky-ad-slot--homepage--wrapper
 ##.sticky-ad-unit-default
 ##.sticky-ad-wrapper
+##.sticky-ads-container
 ##.sticky-bottom-ad
 ##.sticky-footer-ad
 ##.sticky-rail-ad-container
@@ -29737,6 +29746,7 @@ _popunder+$popup
 ##.tj_ad_box_top
 ##.tjads
 ##.tk-ad-top
+##.tk-ad-top-placeholder
 ##.tl-ad
 ##.tl-ad-dfp
 ##.tl-ad-display-3
@@ -30154,6 +30164,7 @@ _popunder+$popup
 ##.video-adv
 ##.video-advert
 ##.video-archive-ad
+##.video-boxad
 ##.video-innerAd-320x250
 ##.video-player-ad-center
 ##.video-right-ad
@@ -30697,11 +30708,14 @@ _popunder+$popup
 ##[href^="https://go.4rabettraff.com/"]
 ##[href^="https://go.affiliatexe.com/"]
 ##[href^="https://go.astutelinks.com/"]
+##[href^="https://join.playboyplus.com/track/"]
 ##[href^="https://join3.bannedsextapes.com"]
 ##[href^="https://mylead.global/stl/"] > img
 ##[href^="https://mysbitl.com"]
+##[href^="https://ptwmjmp.com/"]
 ##[href^="https://pulsetrack.biz/"]
 ##[href^="https://r.kraken.com/"]
+##[href^="https://rapidgator.net/article/premium/ref/"]
 ##[href^="https://refpahrwzjlv.top/"]
 ##[href^="https://secure.bmtmicro.com/servlets/"]
 ##[href^="https://shiftnetwork.infusionsoft.com/go/"]
@@ -30960,7 +30974,6 @@ _popunder+$popup
 ##a[href^="http://media.paddypower.com/redirect.aspx?"]
 ##a[href^="http://mgid.com/"]
 ##a[href^="http://mmo123.co/"]
-##a[href^="http://mo8mwxi1.com/"]
 ##a[href^="http://mob1ledev1ces.com/"]
 ##a[href^="http://n.admagnet.net/"]
 ##a[href^="http://onclickads.net/"]
@@ -31205,6 +31218,7 @@ _popunder+$popup
 ##a[href^="https://go.markets.com/visit/?bta="]
 ##a[href^="https://go.onclasrv.com/"]
 ##a[href^="https://go.stripchat.com/"][href*="&campaignId="]
+##a[href^="https://go.strpjmp.com/"]
 ##a[href^="https://go.trackitalltheway.com/"]
 ##a[href^="https://go.trkclick2.com/"]
 ##a[href^="https://go.xtbaffiliates.com/"]
@@ -31405,6 +31419,7 @@ _popunder+$popup
 ##div[class^="PreAd_"]
 ##div[class^="ResponsiveAd-"]
 ##div[class^="SponsoredAds"]
+##div[class^="StickyHeroAdWrapper-"]
 ##div[class^="adUnit_"]
 ##div[class^="ad_border_"]
 ##div[class^="ad_position_"]
@@ -31827,6 +31842,7 @@ _popunder+$popup
 ##.taboola-item
 ##.taboola-left-rail-wrapper
 ##.taboola-partnerlinks-ad
+##.taboola-placeholder
 ##.taboola-placement
 ##.taboola-single-asset-ads
 ##.taboola-unit
@@ -32151,14 +32167,14 @@ assetbar.com,jazzradio.com,o2.pl#@#.ad-button
 storebyweb.com#@#.ad-carousel
 bahtsold.com#@#.ad-cat
 livedoorblogstyle.jp#@#.ad-center
-job.inshokuten.com#@#.ad-content
+flat-ads.com,job.inshokuten.com#@#.ad-content
 jobmail.co.za,odysseyware.com#@#.ad-display
 foxnews.com,yahoo.com#@#.ad-enabled
 seattletimes.com#@#.ad-fixed
 arukikata.com,mac-torrent-download.net,motortrade.me#@#.ad-header
 bigfishaudio.com,cnbcafrica.com,dublinairport.com,yahoo.com#@#.ad-holder
 transparencyreport.google.com#@#.ad-icon
-freebitco.in,lastpass.com,recycler.com,usedvictoria.com#@#.ad-img
+flat-ads.com,freebitco.in,lastpass.com,recycler.com,usedvictoria.com#@#.ad-img
 kijiji.ca#@#.ad-inner
 daanauctions.com,queer.pl#@#.ad-item
 cnet.com#@#.ad-leader-top
@@ -32278,6 +32294,7 @@ insomnia.gr,kingsinteriors.co.uk,superbikeplanet.com#@#.adlink
 bmwoglasnik.si,clickindia.com#@#.adlist
 find-your-horse.com#@#.admain
 smilelocal.com#@#.admiddle
+ascii.jp#@#.adrect
 tomwans.com#@#.adright
 skatteverket.se#@#.adrow1
 skatteverket.se#@#.adrow2
@@ -32681,13 +32698,11 @@ menstennisforums.com#@#.top_ads
 ||06e17e67683b95.com^
 ||06f09b1008ae993a5a.com^
 ||06j9t6cw7wu6.com^
-||07912896220d4.com^
 ||07aa0353cc.com^
 ||07fe665dd33f.com^
 ||0898hhh.com^
 ||0926a687679d337e9d.com^
 ||0956228a2df97a.com^
-||0a0qetx8et.com^
 ||0azx1.com^
 ||0b19222804.com^
 ||0b9d84d93f1b.com^
@@ -32715,7 +32730,6 @@ menstennisforums.com#@#.top_ads
 ||1-m.xyz^
 ||1-vr.xyz^
 ||101m3.com^
-||10300378a5935.com^
 ||103092804.com^
 ||10b883b3d61d.com^
 ||10desires.com^
@@ -32760,6 +32774,7 @@ menstennisforums.com#@#.top_ads
 ||1bcde.com^
 ||1ccbt.com^
 ||1ced38bdc42b883.com^
+||1d19627916.com^
 ||1e310acae6aee.com^
 ||1ea1sley.com^
 ||1empiredirect.com^
@@ -32806,7 +32821,6 @@ menstennisforums.com#@#.top_ads
 ||24x7adservice.com^
 ||254a.com^
 ||2559a303164ddde96.com^
-||2622766fe5be.com^
 ||26554a376a71735.com^
 ||27vckaccbto7p761.pro^
 ||2894c9d5b32.com^
@@ -32816,6 +32830,7 @@ menstennisforums.com#@#.top_ads
 ||2b43cb6a34a.com^
 ||2b815136jjjv.com^
 ||2bbb379103988619ef.com^
+||2bc2456a2b.com^
 ||2bdde500c34.com^
 ||2c0dad36bdb9eb859f0.com^
 ||2c3a97984f45.com^
@@ -32842,6 +32857,7 @@ menstennisforums.com#@#.top_ads
 ||2tpwcqot22mb.com^
 ||302a67cac6.com^
 ||303marketplace.com^
+||307badb998ed.com^
 ||30b9e3a7d7e2b.com^
 ||32a79e2833309ebe.com^
 ||32fd7f438cb.com^
@@ -32852,6 +32868,7 @@ menstennisforums.com#@#.top_ads
 ||34baedd2d0b9.com^
 ||34c2f22e9503ace.com^
 ||350media.com^
+||35285e87c3.com^
 ||35d59588f15966.com^
 ||360popads.com^
 ||360protected.com^
@@ -32913,6 +32930,7 @@ menstennisforums.com#@#.top_ads
 ||4c13cac4bb.com^
 ||4c935d6a244f.com^
 ||4cr447ewncl4.com^
+||4d3eac9bc12.com^
 ||4dex.io^
 ||4dsbanner.net^
 ||4dtrk.com^
@@ -32932,6 +32950,7 @@ menstennisforums.com#@#.top_ads
 ||4wnet.com^
 ||4wnetwork.com^
 ||500969adcf7ae838.com^
+||507a5a9594.com^
 ||508ec56533e3937e.com^
 ||50trk.com^
 ||51189fb815.com^
@@ -32997,15 +33016,14 @@ menstennisforums.com#@#.top_ads
 ||65mjvw6i1z.com^
 ||65vk1fba34.com^
 ||65xps.com^
+||6657f1d5a25b6.com^
 ||66ce98158e4f402.com^
 ||67frzna9e9.com^
 ||688de7b3822de.com^
 ||68d0d5e26bb0ae.com^
 ||69i.club^
 ||69oxt4q05.com^
-||69v.club^
 ||6a40194bef976cc.com^
-||6a9102689db8e.com^
 ||6af461b907c5b.com^
 ||6b357cda0f.com^
 ||6b4bcc240ad94.com^
@@ -33031,6 +33049,7 @@ menstennisforums.com#@#.top_ads
 ||6zy9yqe1ew.com^
 ||7-7-7-partner.com^
 ||7017042b83a65ea.com^
+||7029c575c3ee.com^
 ||70ee6484605f.com^
 ||712e2a170bb3.com^
 ||71a30cae934e.com^
@@ -33175,6 +33194,7 @@ menstennisforums.com#@#.top_ads
 ||9ehy8a8u6b.com^
 ||9f38cd012c83.com^
 ||9fcbacf708f2.com^
+||9itmr1lzaltn.com^
 ||9t5.me^
 ||9utwbj08.top^
 ||a0675c1160de6c6.com^
@@ -33245,6 +33265,7 @@ menstennisforums.com#@#.top_ads
 ||abrjsiuuhet.com^
 ||abroadlynijiz.site^
 ||abroodeuripi.com^
+||absalomgunne.com^
 ||abserv123.com^
 ||absorbinginject.com^
 ||abstinencecalculation.com^
@@ -33356,6 +33377,7 @@ menstennisforums.com#@#.top_ads
 ||adriftcarpenterbeside.com^
 ||adriftstressful.com^
 ||adroitreclineinquisitive.com^
+||adrokt.com^
 ||adrunnr.com^
 ||adsbr.info^
 ||adscarrot.com^
@@ -33373,7 +33395,6 @@ menstennisforums.com#@#.top_ads
 ||adsrv.me^
 ||adstarget.net^
 ||adstargets.com^
-||adstellar.icu^
 ||adswam.com^
 ||adsyst.biz^
 ||adtng.com^
@@ -33396,12 +33417,12 @@ menstennisforums.com#@#.top_ads
 ||adv-links.com^
 ||advantscivile.club^
 ||adventory.com^
-||adverdirect.com^
 ||advertisingsex.com^
 ||advertom.com^
 ||advertrtb.com^
 ||advinci.life^
 ||advinci.uno^
+||advisedlyphilosophical.com^
 ||advisorded.club^
 ||advmaiotg.com^
 ||advmaker.ru^
@@ -33469,6 +33490,7 @@ menstennisforums.com#@#.top_ads
 ||agriculturaltherapist.com^
 ||agukalty.net^
 ||agzfxovg.com^
+||ahacdn.me^$script
 ||ahadsply.com^
 ||ahaumplab.com^
 ||ahbdsply.com^
@@ -33611,7 +33633,6 @@ menstennisforums.com#@#.top_ads
 ||amiablebackscertified.com^
 ||ammankeyan.com^
 ||amorphysp.fun^
-||amountant.club^
 ||ampcr.io^
 ||ampdaisbras.com^
 ||ampleteexis.info^
@@ -33634,7 +33655,6 @@ menstennisforums.com#@#.top_ads
 ||ancheonyo.fun^
 ||ancienslogoi.com^
 ||ancjmfycf.com^
-||andbaybay.club^
 ||andcanbere.fun^
 ||andorranisas.xyz^
 ||anelexpres.club^
@@ -33741,7 +33761,6 @@ menstennisforums.com#@#.top_ads
 ||armiesgiddinesscanes.com^
 ||armlyemoan.com^
 ||arnt.xyz^
-||arposastrar.space^
 ||arrariedcra.club^
 ||arrlnk.com^
 ||arrnaught.com^
@@ -33765,6 +33784,7 @@ menstennisforums.com#@#.top_ads
 ||asce.xyz^
 ||ascertainedfortnight.com^
 ||asdasdad.net^
+||asdb.xyz^
 ||asdccc.xyz^
 ||asdfix.com^
 ||asdpoi.com^
@@ -33774,11 +33794,8 @@ menstennisforums.com#@#.top_ads
 ||asgclickpp.com^
 ||ashcdn.com^
 ||ashhgo.com^
-||ashingcontro.top^
 ||ashtraysophomore.com^
 ||asiangfsex.com^
-||asilslmkcanfm.com^
-||asingsprxxebsx.com^
 ||asjdhajsdnweqwasdascxzccsdcsdcsdfewfwefqweqweqw.network^
 ||askaspalb.online^
 ||askewpatienceblameless.com^
@@ -33812,12 +33829,10 @@ menstennisforums.com#@#.top_ads
 ||atherenoth.info^
 ||athsexten.top^
 ||athshebath.club^
-||atictrementint.club^
 ||atilohdxsg.com^
 ||ationcomp.top^
 ||atmetagrossan.com^
 ||atoescruffy.fun^
-||atomisons.xyz^
 ||atoultou.com^
 ||attacketsun.space^
 ||attackscabbagevengeance.com^
@@ -33825,6 +33840,7 @@ menstennisforums.com#@#.top_ads
 ||attenuatecripple.com^
 ||auberginecorny.com
 ||auberginises.xyz^
+||auchoons.net^
 ||aud3g.com^
 ||audacitydipping.com^
 ||audacityprolong.com^
@@ -33861,6 +33877,7 @@ menstennisforums.com#@#.top_ads
 ||auxml.com^
 ||av20trk.com^
 ||avalhukof.com^
+||avatroom.com^
 ||avbpaaypbe.com^
 ||avenuehuminterpretation.com^
 ||averaladmi.info^
@@ -33904,7 +33921,6 @@ menstennisforums.com#@#.top_ads
 ||axeldivision.com^
 ||ay.delivery^
 ||ayswrotesre.club^
-||azasdf.be^
 ||aznapoz.info^
 ||azoaltou.com^
 ||azpresearch.club^
@@ -33941,13 +33957,14 @@ menstennisforums.com#@#.top_ads
 ||b8af8878e9a9565.com^
 ||b8cf0fd3179ef.com^
 ||b8pfulzbyj7h.com^
+||b91vip.com^
 ||b936c5932623f.com^
 ||b97beb2fed1c4f.com^
 ||b9ba73f1cd9b6.com^
 ||ba32365df2.com^
 ||ba5ed55a0d56f15.com^
-||ba7d8f30fba.com^
 ||baa2e174884c9c0460e.com^
+||baaomenaltho.com^
 ||babadnmak.com^
 ||babanmak.com^
 ||babanmas.com^
@@ -34014,8 +34031,11 @@ menstennisforums.com#@#.top_ads
 ||banernas.com^
 ||banesnorttat.cam^
 ||bangedmarketcake.com^
+||bangladest.com^
 ||banicywan.com^
+||banroads.com^
 ||banstockseldest.com^
+||bantgoau.com^
 ||banusdona.top^
 ||baptismwitnesseddisobedience.com^
 ||baqcpdctexlwgp.com^
@@ -34053,6 +34073,7 @@ menstennisforums.com#@#.top_ads
 ||bbnfcfrvjs.com^
 ||bbocajxn.com^
 ||bbom2b434493.com^
+||bcdnfk.com^
 ||bce97f29c40fc40.com^
 ||bcfabscdt.com^
 ||bckfnohmg.com^
@@ -34128,6 +34149,7 @@ menstennisforums.com#@#.top_ads
 ||besguses.pro^
 ||beshtienhr2hd8j09.com^
 ||besiasmere.site^
+||best-vpn.click^
 ||bestaryua.com^
 ||bestcond1tions.com^
 ||bestcontentaccess.top^
@@ -34182,7 +34204,9 @@ menstennisforums.com#@#.top_ads
 ||bid.glass^
 ||biddyfungussaps.com^
 ||bidiology.com^
+||bidvance.com^
 ||bidverdrd.com^
+||bigappboi.com^
 ||bigbolz.com^
 ||bigbootymania.com^
 ||bigprizesonline.com^
@@ -34195,6 +34219,7 @@ menstennisforums.com#@#.top_ads
 ||bilitycarrone.club^
 ||bilkscotpyx.com^
 ||billionpops.com^
+||bimathyphy.com^
 ||bin-tds.site^
 ||binalbamp.com^
 ||bindinginflict.com^
@@ -34214,7 +34239,9 @@ menstennisforums.com#@#.top_ads
 ||bitbeat7.com^
 ||bitcoin-news.vip^
 ||biteburied.com^
+||bitesizememorable.com^
 ||bitpcn.com^
+||bjakku.com^
 ||bjwxwgsittsf.com^
 ||bkembwdgujzp.com^
 ||bkjjepbwwgef.com^
@@ -34256,6 +34283,7 @@ menstennisforums.com#@#.top_ads
 ||bmwzdfrra.com^
 ||bmxg.xyz^
 ||bn5x.net^
+||bnbxwdkxccxfsn.com^
 ||bngpt.com^
 ||bngwlt.com^
 ||bnjxyqdvoegi.com^
@@ -34270,6 +34298,7 @@ menstennisforums.com#@#.top_ads
 ||boarshrubforemost.com^
 ||boayipids.com^
 ||bobblewrite.com^
+||bochugho.net^
 ||bodiedcer.biz^
 ||bodiesplayedcursed.com^
 ||bodyfairesra.club^
@@ -34296,12 +34325,14 @@ menstennisforums.com#@#.top_ads
 ||boodlewrite.com^
 ||bookingfreeze.com^
 ||boom-boom-vroom.com^
+||boosirad.net^
 ||boost-next.co.jp^
 ||boostcpm.su^
 ||bootstrap-framework.org^
 ||bootstrap-js.com^
 ||bopohsage.com^
 ||bopvetgel.com^
+||boreasinflash.com^
 ||bororango.com^
 ||borotango.com^
 ||borrowedbananaspite.com^
@@ -34322,7 +34353,6 @@ menstennisforums.com#@#.top_ads
 ||boyughaye.com^
 ||bposterss.net^
 ||bqcgrwahvuapq.com^
-||bradamante-per.com^
 ||braggingreorganizeunderworld.com^
 ||brainian.club^
 ||brainlesseither.com
@@ -34362,6 +34392,7 @@ menstennisforums.com#@#.top_ads
 ||broadlystipulate.com^
 ||broced.co^
 ||broomboxmain.com^
+||brothcorewearisome.com^
 ||brotherhoodminims.com^
 ||broughlystra.club^
 ||browsers.support^
@@ -34386,9 +34417,11 @@ menstennisforums.com#@#.top_ads
 ||btnldivewzzfso.com^
 ||btonzfjleinuax.com^
 ||bttvrqazwnjfl.com^
+||btzgadfn.com^
 ||bubblyalibiappear.com^
 ||bucogrzbgyysen.com^
 ||budgetcolt.com^
+||budvawshes.ru^
 ||buggiesgyronny.com^
 ||buggrater.com^
 ||buglethemfouls.casa^
@@ -34446,6 +34479,8 @@ menstennisforums.com#@#.top_ads
 ||byshatilu.com^
 ||bystfied.pro^
 ||byvngx98ssphwzkrrtsjhnbyz5zss81dxygxvlqd05.com^
+||byvuleci.pro^
+||bzrmxfxu.com^
 ||c02o3mpych.com^
 ||c0594.com^
 ||c0c.xyz^
@@ -34497,7 +34532,6 @@ menstennisforums.com#@#.top_ads
 ||caikouli.com^
 ||caiteesh.net^
 ||caithamo.net^
-||cakjoytm.com^
 ||calculatorconceivenonetheless.com^
 ||calfsbreedstax.com^
 ||callburdenblizzard.com^
@@ -34508,7 +34542,6 @@ menstennisforums.com#@#.top_ads
 ||camakaroda.com^
 ||cambrianter.club^
 ||camiocw.com^
-||campanja.com^
 ||camplacecash.com^
 ||camprime.com^
 ||camsitecash.com^
@@ -34600,6 +34633,7 @@ menstennisforums.com#@#.top_ads
 ||cdnativ.com^
 ||cdnativepush.com^
 ||cdnaz.win^
+||cdnbit.com^
 ||cdnbqw.com^
 ||cdncontentdelivery.com^
 ||cdncqw.com^
@@ -34682,6 +34716,7 @@ menstennisforums.com#@#.top_ads
 ||changeablesizepractically.com^
 ||changement.pro^
 ||chango.com^
+||chapelonefoldonefoldpuppet.com^
 ||chapsartore.com^
 ||chaptersus.com^
 ||chaptoor.com^
@@ -34732,6 +34767,7 @@ menstennisforums.com#@#.top_ads
 ||chickencashier.com^
 ||chigrikecy.pro^
 ||chiliadv.com^
+||chimaerason.com^
 ||china-netwave.com^
 ||chinacobweb.com^
 ||chinitnam.com^
@@ -34782,13 +34818,13 @@ menstennisforums.com#@#.top_ads
 ||cigarettywu.club^
 ||ciksolre.net^
 ||cilcountee.top^
-||ciqguphollyj.com^
 ||circuitrestbeds.com^
 ||circumferencefurfavour.com^
 ||circumferencemissionary.com^
 ||circumscribevetofurther.com^
 ||circumstantialobtrusive.com^
 ||circusbreadth.com^
+||citheekr.com^
 ||citizenshadowrequires.com^
 ||citizenshis.com^
 ||cityadspix.com^
@@ -34811,6 +34847,7 @@ menstennisforums.com#@#.top_ads
 ||clairedikio.club^
 ||clairiose.pro^
 ||clairvoyantvigourcelebrity.com^
+||clankallegation.com^
 ||clarityray.com^
 ||claspluke.com^
 ||class2deal.com^
@@ -34877,7 +34914,6 @@ menstennisforums.com#@#.top_ads
 ||clickthruserver.com^
 ||clicktrace.info^
 ||clicktraceclick.com^
-||clicktripz.co^
 ||clickunfit.com^
 ||clickupto.com^
 ||clickwedkeys.com^
@@ -34924,7 +34960,6 @@ menstennisforums.com#@#.top_ads
 ||cnt.my^
 ||cntdy.mobi^
 ||cntrafficpro.com^
-||cnwywgyfrm.com^
 ||coadvertise.com^
 ||coaphauk.net^
 ||coastsoak.com^
@@ -34970,6 +35005,7 @@ menstennisforums.com#@#.top_ads
 ||colonialismresolute.com^
 ||colonistnobilityheroic.com^
 ||colouredcavity.com^
+||colpursehowl.com^
 ||coltagainst.pro^
 ||colupoqy.xyz^
 ||com-wkejf32ljd23409system.net^
@@ -34996,7 +35032,6 @@ menstennisforums.com#@#.top_ads
 ||commencerons.xyz^
 ||commentaryharm.com^
 ||commercialvalue.org^
-||commissai.space^
 ||commission-junction.com^
 ||commissionkings.ag^
 ||commissionlounge.com^
@@ -35046,6 +35081,7 @@ menstennisforums.com#@#.top_ads
 ||confoundcoinghosts.com^
 ||confrontationproximity.com^
 ||congestit.com^
+||congressaffrayghosts.com^
 ||conjeller-chikemon.com^
 ||connectad.io^
 ||connectignite.com^
@@ -35286,6 +35322,7 @@ menstennisforums.com#@#.top_ads
 ||curedonswab.com^
 ||curiosityprobablyarbitrary.com^
 ||curlsrare.com^
+||currentlyclash.com^
 ||curriculture.com^
 ||curtisfrierson.com^
 ||curveconjure.com^
@@ -35360,9 +35397,11 @@ menstennisforums.com#@#.top_ads
 ||dadsokz.com^
 ||dadspms.com^
 ||dadspmz.com^
+||daedaelousscri.com^
 ||daero.pw^
 ||daethana.pw^
 ||daffaite.com^
+||dafoljqjmlopaf.com^
 ||dafthulksyams.com^
 ||daibusee.com^
 ||daichoho.com^
@@ -35414,13 +35453,13 @@ menstennisforums.com#@#.top_ads
 ||dauntlessomelette.com^
 ||dauphinelles.xyz^
 ||daurmonb.com^
+||dawhomeno.com^
 ||dawmal.com^
 ||dayanygold.com^
 ||daysaristocracy.com^
 ||daytrading.solutions^
 ||dazhantai.com^
 ||db03f3c62eb.com^
-||db327eccdd.com^
 ||db52cc91beabf7e8.com^
 ||db64500e2426cf.com^
 ||dbbsrv.com^
@@ -35430,7 +35469,6 @@ menstennisforums.com#@#.top_ads
 ||dbmdoldiqf.com^
 ||dbvault.net^
 ||dc63bfb069ea522f.com^
-||dcdilhaybpzkvj.com^
 ||dcdz5xfv4nws.com^
 ||dcfkalvbcs.com^
 ||dcop4khjxsmg.com^
@@ -35448,6 +35486,7 @@ menstennisforums.com#@#.top_ads
 ||debadu.com^
 ||debrisintercourseblackboard.com^
 ||debrium-surbara.com^
+||debysale.com^
 ||decademical.com^
 ||deceitmalnutritionhonest.com^
 ||decenthat.com^
@@ -35465,6 +35504,7 @@ menstennisforums.com#@#.top_ads
 ||dedicatetracks.com^
 ||dedictimgd.club^
 ||deductdoorwayfig.com^
+||deductionorderly.com^
 ||deemsteppemental.com^
 ||deepcolander.com^
 ||deeperindoorsrestriction.com^
@@ -35474,6 +35514,7 @@ menstennisforums.com#@#.top_ads
 ||defeaturesher.club^
 ||defenseaspirinlike.com^
 ||deferscoop.com^
+||definedlaunching.com^
 ||definitial.com^
 ||defpush.com^
 ||defutohy.pro^
@@ -35530,6 +35571,7 @@ menstennisforums.com#@#.top_ads
 ||depleastpo.club^
 ||deployads.com^
 ||depotshine.com^
+||depreciatewide.com^
 ||depressionwine.com^
 ||deprivationcorrectioncoats.com^
 ||deprivationzomby.com^
@@ -35551,11 +35593,12 @@ menstennisforums.com#@#.top_ads
 ||designsevere.com^
 ||desinferbe.club^
 ||deskminkgnu.com^
+||deslncsiq.com^
 ||desolatethings.com^
 ||despisenoughtshit.com^
-||destinationurl.com^
 ||deswhatlike.biz^
 ||detachedbates.com^
+||detailextentprevail.com^
 ||detailyesgrip.com^
 ||detecteddesigningspirited.com^
 ||detectivesrecoilatmospheric.com^
@@ -35706,6 +35749,7 @@ menstennisforums.com#@#.top_ads
 ||distributeoldfashionedrung.com^
 ||districtbaloneywhiskers.com^
 ||districtm.ca^
+||districtprovocativeforceful.com^
 ||dit-dit-dot.com^
 ||ditdotsol.com^
 ||dithesetha.pro^
@@ -35745,16 +35789,15 @@ menstennisforums.com#@#.top_ads
 ||dmxftmoqz.com^
 ||dnbizcdn.com^
 ||dnemkhkbsdbl.com^
+||doashair.net^
 ||doboacki.net^
 ||dodgekeelpops.com^
 ||dogconcurrencesauce.com^
 ||doghoust.net^
 ||dogwrite.com^
-||dohillright.com^
 ||doingneedleworkdeep.com^
 ||dokaboka.com^
 ||dokauzob.top^
-||dolgotok.pro^
 ||dolinaphtalic.com^
 ||dollarade.com^
 ||dollsdeclare.com^
@@ -35796,7 +35839,6 @@ menstennisforums.com#@#.top_ads
 ||dotandad.com^
 ||dotandads.com^
 ||dothbognib.com^
-||dotnxdomain.net^
 ||dotrkme.com^
 ||double.net^
 ||doubleclick-net.com^
@@ -35813,10 +35855,12 @@ menstennisforums.com#@#.top_ads
 ||douhooke.net^
 ||douoblelimpup.com^
 ||doushoom.net^
+||douthosh.net^
 ||doveprovidingyear.com^
 ||down1oads.com^
 ||downloadboutique.com^
 ||downloadgot.com^
+||downtonpudic.com^
 ||dozubatan.com^
 ||dp25.kr^
 ||dpallyihgtgu.com^
@@ -35859,7 +35903,6 @@ menstennisforums.com#@#.top_ads
 ||dspmulti.com^
 ||dsstrk.com^
 ||dstrentcon.club^
-||dstuckedot.space^
 ||dsufferent.top^
 ||dsultra.com^
 ||dt0ok92rg7r8.com^
@@ -35893,7 +35936,6 @@ menstennisforums.com#@#.top_ads
 ||dunedisadvantagetentative.com^
 ||dungeonavenge.com^
 ||dupiwipo.xyz^
-||durpygckli.com^
 ||dustycondition.com^
 ||dutorterraom.com^
 ||duxumpou.com^
@@ -35901,7 +35943,6 @@ menstennisforums.com#@#.top_ads
 ||dvoyy3qexr.com^
 ||dvucdnv.com^
 ||dvwvqeddi.com^
-||dwtroouhdh.com^
 ||dxpxlt.com^
 ||dyecowwhy.com^
 ||dyingdesignscharming.com^
@@ -35945,6 +35986,7 @@ menstennisforums.com#@#.top_ads
 ||e94a941778d.com^
 ||e9976b21f1b2775b.com^
 ||e9c1khhwn4uf.com^
+||e9d1f13c08d.com^
 ||ea1abaf867.com^
 ||ea6353e47e0ab3f78.com^
 ||ea978ca12bb65.com^
@@ -35960,8 +36002,8 @@ menstennisforums.com#@#.top_ads
 ||eailczoszdrz.com^
 ||eaintrolled.info^
 ||ealeo.com^
-||eaqxjz6bra.com^
 ||earchcreastil.top^
+||earchmess.fun^
 ||eardepth-prisists.com^
 ||earliestinspectprone.com^
 ||earlinggea.info^
@@ -35972,6 +36014,7 @@ menstennisforums.com#@#.top_ads
 ||earphonesvehicleexploded.com^
 ||earsagreenj.top^
 ||earthincomprehensibleintrepid.com^
+||easierblushingpicky.com^
 ||easiesttangle.com^
 ||easy-bars.com^
 ||easy2cnjuh34jb.com^
@@ -35984,7 +36027,6 @@ menstennisforums.com#@#.top_ads
 ||easygoingtouchybribe.com^
 ||easylist-to.xyz^
 ||easystopadblock.com^
-||eatmenticha.top^
 ||eatsidebicep.com^
 ||eatyfailiffacc.club^
 ||eavesdroppingsickleemotionally.com^
@@ -36001,7 +36043,6 @@ menstennisforums.com#@#.top_ads
 ||ebqfuphibj.com^
 ||ebuzzing.com^
 ||ebz.io^
-||eca1d7792ad5de43.com^
 ||eccehkho.com^
 ||ecgopezooczg.com^
 ||echoazou.com^
@@ -36025,6 +36066,7 @@ menstennisforums.com#@#.top_ads
 ||edfsqfaeenij.com^
 ||edfuyyweyz.com^
 ||edgeads.org^
+||edgeadulthoodblessed.com^
 ||edgeimpregnable.com^
 ||edgevertise.com^
 ||edgreateria.info^
@@ -36035,7 +36077,6 @@ menstennisforums.com#@#.top_ads
 ||edimpleteexce.club^
 ||edinburghemotionalalive.com^
 ||edioca.com^
-||edjokerned.space^
 ||edmodernia.top^
 ||edomz.net^
 ||edotherest.club^
@@ -36112,7 +36153,6 @@ menstennisforums.com#@#.top_ads
 ||ejirytuw.xyz^
 ||ejoonsoo.net^
 ||ejurzsax.com^
-||ejyrabeonmyh.com^
 ||ek9xrk5gyu.com^
 ||ekansovi.com^
 ||ekmas.com^
@@ -36137,6 +36177,7 @@ menstennisforums.com#@#.top_ads
 ||elfcoexistbird.com^
 ||elfirkelk.com^
 ||elkbahtax.com^
+||ellenince.biz^
 ||elliotfoodauditioning.com^
 ||elliotnotions.com^
 ||elongatedinscription.com^
@@ -36153,6 +36194,7 @@ menstennisforums.com#@#.top_ads
 ||embassychopassembled.com^
 ||embertogethe.club^
 ||embesognassent.xyz^
+||embodyheadlight.com^
 ||embraceforgivingfrenzy.com^
 ||emediate.dk^
 ||ememoricane.info^
@@ -36215,7 +36257,6 @@ menstennisforums.com#@#.top_ads
 ||entertainedshook.com^
 ||entertaininglarge.com^
 ||enthusiasmturnipflare.com^
-||entiethmenti.top^
 ||entiregraterfurs.com^
 ||entpressent.top^
 ||entractta.top^
@@ -36256,12 +36297,9 @@ menstennisforums.com#@#.top_ads
 ||ercredici.info^
 ||erdecisesgeorg.info^
 ||erdsqclzjwcylb.com^
-||eredexpendin.com^
 ||eredincreaso.club^
 ||eredmights.club^
 ||eredunass.club^
-||erendri.com^
-||erevtljvo.com^
 ||ergadx.com^
 ||ericalmessar.club^
 ||eriesfrequen.club^
@@ -36362,13 +36400,13 @@ menstennisforums.com#@#.top_ads
 ||evcknbym.com^
 ||eveaggravationloosen.com^
 ||evemasoil.com^
+||evenescapenavy.com^
 ||eventifiederik.pro^
 ||evergreensame.com^
 ||evergreensignificance.com^
 ||everybodynaturedeclaration.com^
 ||everyindus.top^
 ||eveteaemo.com^
-||evewrite.net^
 ||evgywgur.com^
 ||eviclick.pro^
 ||evidentlycaricatureinside.com^
@@ -36467,8 +36505,6 @@ menstennisforums.com#@#.top_ads
 ||f56e3ea35a4.com^
 ||f5v1x3kgv5.com^
 ||f6bd46bbc8a.com^
-||f71bxwn500lj.com^
-||f8205a529477e1.com^
 ||f8260adbf8558d6.com^
 ||f8316b45436f.com^
 ||f853150605ccb.com^
@@ -36546,6 +36582,7 @@ menstennisforums.com#@#.top_ads
 ||fastpopclick.com^
 ||fastpopunder.com^
 ||fatchilli.media^
+||fatebbc.pro^
 ||fathuntsgall.com^
 ||fattymadmanquestions.com^
 ||fatwalkinger.club^
@@ -36639,10 +36676,10 @@ menstennisforums.com#@#.top_ads
 ||fhluqrhmqs.com^
 ||fhsmtrnsfnt.com^
 ||fibpeeode.site^
-||fictimruffles.space^
 ||ficusoid.xyz^
 ||fidelity-media.com^
 ||fiedinherite.top^
+||fieldofbachus.com^
 ||fiendbenevolencemaker.com^
 ||fierceharmlessjacket.com^
 ||fierymanurepebble.com^
@@ -36686,6 +36723,7 @@ menstennisforums.com#@#.top_ads
 ||firstlightera.com^
 ||fishermanmartial.com^
 ||fistcartyped.casa^
+||fistofzeus.com^
 ||fitbxtqgneq.com^
 ||fitfulrigorous.com^
 ||fiwhibse.com^
@@ -36694,8 +36732,9 @@ menstennisforums.com#@#.top_ads
 ||fixpass.net^
 ||fixproteinnotch.com^
 ||fixsirrod.site^
+||fizzythick.com^
+||fjbatbqiwpxydg.com^
 ||fjioh.com^
-||fkart.xyz^
 ||fkbwtoopwg.com^
 ||fkreylsnefmepi.com^
 ||fl-ads.com^
@@ -36802,6 +36841,7 @@ menstennisforums.com#@#.top_ads
 ||fortunitystar.club^
 ||forwrdnow.com^
 ||forzubatr.com^
+||fosiecajeta.com^
 ||fosterheiressdug.com^
 ||fosterpeacesadly.com^
 ||fosterstrawberry.com^
@@ -36819,6 +36859,7 @@ menstennisforums.com#@#.top_ads
 ||fpyacdna.com^
 ||fqbucxkfcya.com^
 ||fqjgxtyaqftpt.com^
+||fracs.xyz^
 ||fractionwhatsoever.com^
 ||fractureexperience.com^
 ||framentyder.pro^
@@ -36833,6 +36874,7 @@ menstennisforums.com#@#.top_ads
 ||franklyclapmaggot.com^
 ||franticallyseptember.com^
 ||franticdivergemindless.com^
+||frap.site^
 ||fraudoutrageoustransport.com^
 ||fraudulentmatt.com^
 ||frbyvuxzvmqpb.com^
@@ -36867,7 +36909,6 @@ menstennisforums.com#@#.top_ads
 ||frustrationstudy.com^
 ||fryawlauk.com^
 ||fryirktan.com^
-||fsisolpouupevs.com^
 ||fsitel.com^
 ||fsznrodyocq.com^
 ||ftd.agency^
@@ -36875,6 +36916,7 @@ menstennisforums.com#@#.top_ads
 ||ftjcfx.com^
 ||ftklr.com^
 ||ftliokfhtyijhl.com^
+||fttwin.icu^
 ||ftv-publicite.fr^
 ||ftwjubad.com^
 ||fudgenine.com^
@@ -36920,7 +36962,6 @@ menstennisforums.com#@#.top_ads
 ||g3bxbinwsgdf.com^
 ||g3j2wzmon8b.com^
 ||g5fzq2l.com^
-||g6zkzy0g2g.com^
 ||g8cp5djk1j0r.com^
 ||ga87z2o.com^
 ||gabbleplacidcelery.com^
@@ -36955,6 +36996,7 @@ menstennisforums.com#@#.top_ads
 ||gainregister.com^
 ||gaitdrummerauto.com^
 ||gaitheed.com^
+||gaitoath.com^
 ||gakinibe.pro^
 ||galacticmenueasier.com^
 ||galaks.io^
@@ -36976,7 +37018,7 @@ menstennisforums.com#@#.top_ads
 ||gapsavyfo.com^
 ||gaqavrhhgmu.com^
 ||gardoult.com^
-||garettygrea.space^
+||gardourd.com^
 ||gatesrichestbusts.com^
 ||gatetocontent.com^
 ||gatetodisplaycontent.com^
@@ -36993,14 +37035,15 @@ menstennisforums.com#@#.top_ads
 ||gbrrrxbodqdlq.com^
 ||gbwess.com^
 ||gcdnsl.com^
+||gchgao.com^
 ||gconfirmat.fun^
-||gcqdiydpfytvn.com^
 ||gcxjczooe.com^
 ||gdcjzyfjwvyqvq.com^
 ||gdl5vtbbv0lj.com^
 ||gdmconvtrck.com^
 ||gdxisixdrk.com^
 ||gebadu.com^
+||gecl.xyz^
 ||gedbunyascr.club^
 ||geedoovu.net^
 ||geffortyser.top^
@@ -37016,11 +37059,11 @@ menstennisforums.com#@#.top_ads
 ||generalebad.xyz^
 ||generalizationentertain.com^
 ||generatedough.com^
-||genergyothe.top^
 ||geneticdiminishblake.com^
 ||genishury.pro^
 ||geniusdexchange.com^
 ||genuinealiaspuzzled.com^
+||genuinesubqueries.com^
 ||genuschaseslowly.com^
 ||geoaddicted.net^
 ||geoinventory.com^
@@ -37069,6 +37112,7 @@ menstennisforums.com#@#.top_ads
 ||givirsou.net^
 ||giwefepy.xyz^
 ||giwzywnxnk.com^
+||gjemxfmea.com^
 ||gjqhufkamcoc.com^
 ||gjrswtzjn.com^
 ||gjslebmbiawh.com^
@@ -37100,7 +37144,6 @@ menstennisforums.com#@#.top_ads
 ||glerteeb.com^
 ||gletaums.net^
 ||glfhqurv.com^
-||glfrjgeco.com^
 ||glihargi.net^
 ||glimmerswiftlyforgery.com^
 ||glimtors.net^
@@ -37141,7 +37184,6 @@ menstennisforums.com#@#.top_ads
 ||gnatneatlyembodiment.com^
 ||gnatpointed.com^
 ||gneyjsdv.com^
-||gnorityari.club^
 ||go-rillatrack.com^
 ||go2.global^
 ||go2affise.com^
@@ -37154,14 +37196,17 @@ menstennisforums.com#@#.top_ads
 ||gobicyice.com^
 ||gobmodfoe.com^
 ||gobovoul.net^
+||gocdnbwt.com^
 ||goclick.info^
 ||goddessrig.com^
 ||godvwcft.com^
 ||gohillgo.com^
 ||goingtocontent.com^
 ||goldenbettingefforlessefforless.com^
+||goldfishnightclubpatronize.com^
 ||goldvertise.com^
 ||gomain.pro^
+||gomain2.pro^
 ||gompoozu.net^
 ||gonapysa.xyz^
 ||gonczpsaceew.com^
@@ -37262,7 +37307,6 @@ menstennisforums.com#@#.top_ads
 ||groackam.com^
 ||grobido.info^
 ||groguzoo.net^
-||groniwepa.pro^
 ||groogleh.net^
 ||groomaffections.com^
 ||grooptie.com^
@@ -37308,7 +37352,9 @@ menstennisforums.com#@#.top_ads
 ||gumbolersgthb.com^
 ||gunyangseamus.cam^
 ||gunzblazingpromo.com^
+||guphoulr.com^
 ||gusfinishedsue.com^
+||gussame.com^
 ||gutfdaizu.com^
 ||gutsfidelity.com^
 ||guvivqlbh.com^
@@ -37324,14 +37370,11 @@ menstennisforums.com#@#.top_ads
 ||gxymlqcnu.com^
 ||gyccdnydir.com^
 ||gyegalekb.com^
-||gyhtpgzvo.com^
-||gynvqipvmcv.com^
 ||gyvxojjeamipc.com^
 ||gyzjvioumudlx.com^
 ||gz06x5tqlj.com^
 ||gzoegouveqgxv.com^
 ||h-l.icu^
-||h-l.xyz^
 ||h2ku87viwi.com^
 ||h3lw971ym6.com^
 ||h5tjj3loy2.com^
@@ -37355,7 +37398,6 @@ menstennisforums.com#@#.top_ads
 ||hadsokz.com^
 ||hadspmz.com^
 ||haftobso.net^
-||hagainstan.space^
 ||haghalra.com^
 ||hailsserien.top^
 ||hailstoneclayfairy.com^
@@ -37371,10 +37413,12 @@ menstennisforums.com#@#.top_ads
 ||haltedpredicament.com^
 ||halveclause.com^
 ||hamanalogy.com^
+||hammocklighting.com^
 ||hampionsfu.club^
 ||hamsterpierrejews.com^
 ||hamsterresentful.com^
 ||handfulattendservices.com^
+||handicaptacticrestoration.com^
 ||handtub.com^
 ||handy-tab.com^
 ||hangorientalauto.com^
@@ -37389,7 +37433,6 @@ menstennisforums.com#@#.top_ads
 ||harlsmums.com^
 ||harpiesong8.com^
 ||harponnerons.xyz^
-||harriscote.pro^
 ||harryticket.com^
 ||hartaim.com^
 ||harvesttheory.com^
@@ -37463,11 +37506,10 @@ menstennisforums.com#@#.top_ads
 ||hentaibiz.com^
 ||hequentsevent.club^
 ||heraldintimidatestipulate.com^
+||heratheacle.com^
 ||herbaijansob.club^
 ||heredeithere.club^
 ||hereditaryductserum.com^
-||hereexpelli.space^
-||heregenessco.club^
 ||herepackagine.info^
 ||hernedsavily.space^
 ||heroinnever.com^
@@ -37535,6 +37577,7 @@ menstennisforums.com#@#.top_ads
 ||hinfectlyb.biz^
 ||hingefestivitysmelt.com^
 ||hingenerall.club^
+||hinisanex.biz^
 ||hinksdeba.top^
 ||hinkslovel.top^
 ||hionedaugsbu.info^
@@ -37553,6 +37596,8 @@ menstennisforums.com#@#.top_ads
 ||hizvevxvi.com^
 ||hjhbhddren.com^
 ||hjklf.com^
+||hjmagamal.com^
+||hkbrrwxnijhnfg.com^
 ||hkhotpewfxr.com^
 ||hkoroalxgsnu.com^
 ||hkoxlirf.com^
@@ -37598,6 +37643,7 @@ menstennisforums.com#@#.top_ads
 ||hootcodcagy.casa^
 ||hootersavour.com^
 ||hoowooze.net^
+||hopefullyadults.com^
 ||hopefulserversnecklace.com^
 ||hopeorganconstructive.com^
 ||hopilos.com^
@@ -37617,6 +37663,8 @@ menstennisforums.com#@#.top_ads
 ||host-host-ads.com^
 ||hostave.net^
 ||hostave4.net^
+||hostilepetulant.com^
+||hostingcloud.racing^
 ||hosupshunk.com^
 ||hot-3d-girls.com^
 ||hot4k.org^
@@ -37637,7 +37685,6 @@ menstennisforums.com#@#.top_ads
 ||howledmintier.com^
 ||howstroll.com^
 ||howtubray.com^
-||hpeprovisioning17.live^
 ||hpuvkfbww.com^
 ||hpyjmp.com^
 ||hqpass.com^
@@ -37688,7 +37735,6 @@ menstennisforums.com#@#.top_ads
 ||hvawrj8yeqru.com^
 ||hxlswibowjf.com^
 ||hxrylvbm.com^
-||hyconsistenb.space^
 ||hydragrouge.com^
 ||hyinlegvghul.com^
 ||hyperoi.com^
@@ -37839,6 +37885,7 @@ menstennisforums.com#@#.top_ads
 ||infra.systems^
 ||infrashift.com^
 ||ingoinghitchstick.com^
+||ingpercent.biz^
 ||ingratitudedaintyblockade.com^
 ||inheritedgeneralrailroad.com^
 ||inheritwalter.com^
@@ -37850,6 +37897,7 @@ menstennisforums.com#@#.top_ads
 ||injuredcandy.com^
 ||inkornesto.com^
 ||inoculatebroadlyduke.com^
+||inoculatemention.com^
 ||inpage-push.com^
 ||inpagepush.com^
 ||inpcut.com^
@@ -37951,6 +37999,7 @@ menstennisforums.com#@#.top_ads
 ||itchingcrystalfemales.com^
 ||itdise.info^
 ||itgiblean.com^
+||ithaibap.com^
 ||itinerarymonarchy.com^
 ||itineraryupper.com^
 ||itllnww6x277.com^
@@ -37966,7 +38015,6 @@ menstennisforums.com#@#.top_ads
 ||ivsdajtjh.com^
 ||ivtcdnhshx.com^
 ||ivwtqfbmkwen.com^
-||iwampeasw.com^
 ||iwhugaul.com^
 ||iwkjldjp.com^
 ||iwxzizcw.com^
@@ -38090,12 +38138,15 @@ menstennisforums.com#@#.top_ads
 ||jollyfirmexterminate.com^
 ||jomtingi.net^
 ||jonasahalockup.com^
+||jonquilpapered.com^
 ||joobuste.com^
 ||joodoush.com^
+||joopaish.com^
 ||joophesh.com^
 ||josephcalculatedsewer.com^
 ||joubozie.com^
 ||jougrevu.com^
+||jouteetu.net^
 ||joxhvjnlpb.com^
 ||joyekepus.online^
 ||joyfullysacrificeralph.com^
@@ -38106,7 +38157,6 @@ menstennisforums.com#@#.top_ads
 ||jppbyrkkgpgo.com^
 ||jqk72ugyl2pz.com^
 ||jqueryserve.org^
-||jrtswekysc.com^
 ||js-kods.club^
 ||jstatic.org^
 ||jswxwofumjg.com^
@@ -38177,6 +38227,7 @@ menstennisforums.com#@#.top_ads
 ||kaukoany.net^
 ||kaurouby.net^
 ||kayakm.com^
+||kazucivi.com^
 ||kbirdsind.top^
 ||kbngab.com^
 ||kbnihnmrghgy.com^
@@ -38185,6 +38236,7 @@ menstennisforums.com#@#.top_ads
 ||kbx1sth37s.com^
 ||kbxowbavadw.com^
 ||kbzdxt.com^
+||kcdn.xyz^
 ||kdbumyha.com^
 ||kdkgwhntslalwj.com^
 ||keepinfit.net^
@@ -38212,10 +38264,12 @@ menstennisforums.com#@#.top_ads
 ||kgqhtakjphgdwg.com^
 ||kgxnaenrozyuh.com^
 ||khandragthresh.com^
+||khcbilxtj.com^
 ||khewwakrywmgxr.com^
 ||khg97644rvbg.com^
 ||khzbeucrltin.com^
 ||kiafailersov.top^
+||kibblerkilldee.com^
 ||kidrarsi.net^
 ||kigarettywurz.club^
 ||kikoucuy.net^
@@ -38227,6 +38281,7 @@ menstennisforums.com#@#.top_ads
 ||kingithinref.club^
 ||kingshape.top^
 ||kingwithm.biz^
+||kinkydisplacelate.com^
 ||kinmainly.com^
 ||kinsecutiony.club^
 ||kiptcellow.top^
@@ -38306,6 +38361,7 @@ menstennisforums.com#@#.top_ads
 ||kvygpqttzqhhl.com^
 ||kwnq4hg2n9.com^
 ||kwqptcvwaalgur.com^
+||kxbvazfrioxs.com^
 ||kxmvoppmbtzdi.com^
 ||kxqoiypoasab.com^
 ||kymirasite.pro^
@@ -38318,8 +38374,6 @@ menstennisforums.com#@#.top_ads
 ||l2wisd9g5d9u.com^
 ||l4oecosq.com^
 ||l5fvoqimjfug.com^
-||l7r0sgc0.top^
-||l8ea1nesmb0e.com^
 ||l99l.org^
 ||la-la-moon.com^
 ||la-la-sf.com^
@@ -38400,7 +38454,6 @@ menstennisforums.com#@#.top_ads
 ||layoutovuleads.casa^
 ||layouttransparent.com^
 ||layshyjar.com^
-||lbaetmvw.com^
 ||lbgchljyhjmev.com^
 ||lbwcdnjpy.com^
 ||lcdnw.com^
@@ -38415,7 +38468,6 @@ menstennisforums.com#@#.top_ads
 ||lduhtrp.net^
 ||ldutvi.com^
 ||ldvatxaqcd.com^
-||ldwidentconc.space^
 ||leadadvert.info^
 ||leadbolt.net^
 ||leadcola.com^
@@ -38439,6 +38491,7 @@ menstennisforums.com#@#.top_ads
 ||leetmedia.com^
 ||leftenvoy.com^
 ||leftoverdense.com^
+||leftoverdoorbell.com^
 ||legalledgtjuj.club^
 ||legcatastrophetransmitted.com^
 ||legedlunchar.top^
@@ -38457,6 +38510,7 @@ menstennisforums.com#@#.top_ads
 ||lenkmio.com^
 ||lenmit.com^
 ||lentduskyscold.com^
+||lentpedigreecompletely.com^
 ||leonbetvouum.com^
 ||leoneaningtoldre.pro^
 ||leonodikeu9sj10.com^
@@ -38494,7 +38548,6 @@ menstennisforums.com#@#.top_ads
 ||licenseblindnessbureau.com^
 ||licentchamom.club^
 ||lichtpass.com^
-||licitventiethv.top^
 ||lickmechanicalbasis.com^
 ||lidjetsyak.com^
 ||lidsfoalliving.com^
@@ -38717,6 +38770,7 @@ menstennisforums.com#@#.top_ads
 ||magazinescontaining.com^
 ||magicianoptimisticbeard.com^
 ||magnificentmanlyyeast.com^
+||magpiedbareges.com^
 ||mahieutin.xyz^
 ||maihaimo.com^
 ||maikuque.net^
@@ -38761,6 +38815,7 @@ menstennisforums.com#@#.top_ads
 ||mannernotchnewly.com^
 ||mansavou.net^
 ||manslaughteradministrationalarm.com^
+||manualcasketlousy.com^
 ||manycham.top^
 ||mapcrayonmiss.com^
 ||mapuchesystem.com^
@@ -38777,7 +38832,6 @@ menstennisforums.com#@#.top_ads
 ||maritalglancing.com^
 ||mariyadarg.fun^
 ||markable.club^
-||markergot.com^
 ||marketbanker.com^
 ||marketgid.com^
 ||marketingenhanced.com^
@@ -38847,6 +38901,7 @@ menstennisforums.com#@#.top_ads
 ||mblgcaczvm.com^
 ||mblink.in^
 ||mblkunfd.com^
+||mcdncoiw.com^
 ||mcdnmv.com^
 ||mcmhatmt.com^
 ||mczahprdql.com^
@@ -38864,6 +38919,7 @@ menstennisforums.com#@#.top_ads
 ||meantlick.com^
 ||measurefact.com^
 ||measurementaz.com^
+||measurementlay.com^
 ||meawuerhvjmty.com^
 ||meboayapb.com^
 ||mechanicsearnestobjections.com^
@@ -38942,6 +38998,7 @@ menstennisforums.com#@#.top_ads
 ||menuhivewomb.com^
 ||meowpushnot.com^
 ||meproductive.com^
+||meratsignons.com^
 ||merchasem.club^
 ||merchenta.com^
 ||mercialtaver.club^
@@ -39080,6 +39137,7 @@ menstennisforums.com#@#.top_ads
 ||mkomrzsizvjdg.com^
 ||ml0z14azlflr.com^
 ||ml314.com^
+||mlexvlcjcjshp.com^
 ||mlnadvertising.com^
 ||mlscmevlspljh.com^
 ||mlsys.xyz^
@@ -39152,6 +39210,7 @@ menstennisforums.com#@#.top_ads
 ||molebeagleheadless.com^
 ||moleforgotbran.casa^
 ||mollyperpetualpimple.com^
+||molodgytot.biz^
 ||moltensuchos.com^
 ||momdanwillingness.com^
 ||momentumviable.com^
@@ -39191,6 +39250,7 @@ menstennisforums.com#@#.top_ads
 ||moradu.com^
 ||morbitempus.com^
 ||moregamers.com^
+||moresmanomin.com^
 ||morgdm.ru^
 ||morguecountryportray.com^
 ||moritava.com^
@@ -39223,6 +39283,7 @@ menstennisforums.com#@#.top_ads
 ||movie-pass.live^
 ||moviefatbeatfarm.live^
 ||moviemediahub.com^
+||moviemutilate.com^
 ||moviesflix4k.info^
 ||moviesprofit.com^
 ||moviesteward.com^
@@ -39312,7 +39373,6 @@ menstennisforums.com#@#.top_ads
 ||mxwezmtyd.com^
 ||my-hanson.com^
 ||myadcash.com^
-||myadstack.net^
 ||myagkiy2sviter11f.com^
 ||mybestdc.com^
 ||mybetterdl.com^
@@ -39357,11 +39417,11 @@ menstennisforums.com#@#.top_ads
 ||nah9v7mdppff.com^
 ||nailowhe.net^
 ||nailsimproved.com^
-||naircastlecywr.club^
 ||nalbusinespr.info^
 ||namel.net^
 ||namelyvulgarquote.com^
 ||namesakeoscilloscopemarquis.com^
+||nandlookfo.fun^
 ||nappybedcandid.com^
 ||narkalignevil.com^
 ||narrowperennialaffable.com^
@@ -39391,7 +39451,6 @@ menstennisforums.com#@#.top_ads
 ||ncilityinflati.club^
 ||nckjysyk.com^
 ||ncorports.top^
-||ncountsnash.info^
 ||ncourtainco.club^
 ||ncurqchw.com^
 ||ncydissalc.club^
@@ -39403,9 +39462,7 @@ menstennisforums.com#@#.top_ads
 ||ndikvccwz.com^
 ||ndincreateds.club^
 ||nditlookslike.biz^
-||ndnraniprwd.com^
 ||ndonsenatio.club^
-||ndreammin.space^
 ||neathsmik.top^
 ||neblotech.com^
 ||necessaryfiddlemister.com^
@@ -39422,6 +39479,7 @@ menstennisforums.com#@#.top_ads
 ||neesupee.com^
 ||neevateb.com^
 ||neewoapi.com^
+||neezausu.net^
 ||negolist.com^
 ||negyuk.com^
 ||nehodyshy.pro^
@@ -39445,7 +39503,6 @@ menstennisforums.com#@#.top_ads
 ||net00.biz^
 ||netcatx.com^
 ||netpatas.com^
-||netrosol.net^
 ||netund.com^
 ||neurishot.info^
 ||neuronales.xyz^
@@ -39485,7 +39542,6 @@ menstennisforums.com#@#.top_ads
 ||nfanxxuegzp.com^
 ||nfkq8jy5db0b.com^
 ||nfqglptm47uc.com^
-||nfquhpzjh.com^
 ||ngallerydese.club^
 ||ngbbpwyrv.com^
 ||ngbmrybpdtt.com^
@@ -39538,7 +39594,6 @@ menstennisforums.com#@#.top_ads
 ||nixyoungjay.com^
 ||njavespitful.casa^
 ||njfqnenfifdy.com^
-||njmkilpqzibv.com^
 ||njzheqkcyr.com^
 ||nk26uvjrz0tt.com^
 ||nkjomdiztdy.com^
@@ -39548,6 +39603,7 @@ menstennisforums.com#@#.top_ads
 ||nkyouvery.fun^
 ||nlkspjjcxyvr.com^
 ||nlntrk.com^
+||nlop.xyz^
 ||nlz0ini5uz9t.com^
 ||nmanateex.top^
 ||nmauddtbr.com^
@@ -39585,7 +39641,6 @@ menstennisforums.com#@#.top_ads
 ||nookexcellentsubdue.com^
 ||noonraptnite.com^
 ||nooroapo.com^
-||nopapmyzyjiqnc.com^
 ||noproblfr.com^
 ||noqj1iz4u28t.com^
 ||noretia.com^
@@ -39627,7 +39682,6 @@ menstennisforums.com#@#.top_ads
 ||notorietyharvest.com^
 ||noughttrustthreshold.com^
 ||nounstrenuous.com^
-||novatrck.icu^
 ||novembershopsconvene.com^
 ||noviceavengeclemency.com^
 ||noviceexplanationteapot.com^
@@ -39636,12 +39690,13 @@ menstennisforums.com#@#.top_ads
 ||nowfastcrew.online^
 ||nowledged.club^
 ||nposition.club^
-||npractivelyfr.space^
 ||npubzssuoini.com^
 ||nq93jx1vpq9r.com^
 ||nqrkzcd7ixwr.com^
 ||nqslmtuswqdz.com^
+||nquhxlfbuis.com^
 ||nraddramatica.club^
+||nrgat.com^
 ||nrietybac.top^
 ||nrrxxpvgtf.com^
 ||nryceuula.com^
@@ -39665,6 +39720,7 @@ menstennisforums.com#@#.top_ads
 ||nteredprac.club^
 ||nthfundog.com^
 ||ntierabery.club^
+||ntiveandi.biz^
 ||ntkjbweenycfq.com^
 ||ntlyenclothe.club^
 ||ntowcested.info^
@@ -39750,6 +39806,7 @@ menstennisforums.com#@#.top_ads
 ||obaukads.com^
 ||obertsiamw.fun^
 ||obeysatman.com^
+||obkcnezxxuw.com^
 ||obliteratebedblue.com^
 ||oblivionwatcherrebellious.com^
 ||obnyujeibv.com^
@@ -39770,6 +39827,7 @@ menstennisforums.com#@#.top_ads
 ||ocmhood.com^
 ||oconner.link^
 ||oddertabrhino.com^
+||oddsshitfixes.com^
 ||odichaly.space^
 ||odiumdrawlip.com^
 ||oebadu.com^
@@ -39820,6 +39878,7 @@ menstennisforums.com#@#.top_ads
 ||oiycak.com^
 ||ojbhoukw.com^
 ||okaoqyvdgoozbt.com^
+||okayarab.com^
 ||okhfyyfgw.com^
 ||okueroskynt.com^
 ||olderdiverge.com^
@@ -39896,7 +39955,6 @@ menstennisforums.com#@#.top_ads
 ||ooxoatse.com^
 ||opekoobs.net^
 ||openmindedisabella.com^
-||operatedelivery.com^
 ||operateprojectioninvest.com^
 ||operatingdemolitionmore.com^
 ||opgafj.com^
@@ -39928,6 +39986,7 @@ menstennisforums.com#@#.top_ads
 ||orcjagpox.com^
 ||ordealgraveyard.com^
 ||oredebpig.com^
+||oreflushvehemence.com^
 ||originalcharactercausing.com^
 ||originedreting.site^
 ||originhermichermicpros.com^
@@ -39948,6 +40007,7 @@ menstennisforums.com#@#.top_ads
 ||othernfrence.club^
 ||othesarialiber.club^
 ||othyightmare.club^
+||otisephie.com^
 ||otlffresod.com^
 ||otnolabttmup.com^
 ||otnolatrnup.com^
@@ -39968,7 +40028,6 @@ menstennisforums.com#@#.top_ads
 ||oujouniw.com^
 ||oukreesy.net^
 ||oulddothesa.biz^
-||oulipiste.xyz^
 ||oultuwee.net^
 ||ouncialliberte.site^
 ||ountringch.club^
@@ -40013,7 +40072,6 @@ menstennisforums.com#@#.top_ads
 ||ovlliiwtxgjlz.com^
 ||ovsindusted.club^
 ||owbihynrz.com^
-||owedinternslt.space^
 ||oweveraldb.top^
 ||oweveredh.top^
 ||owlsoralscola.icu^
@@ -40034,6 +40092,7 @@ menstennisforums.com#@#.top_ads
 ||oyywtwcx.com^
 ||ozmifi.info^
 ||ozongees.com^
+||oztdgacxmf.com^
 ||oztpeloyj.com^
 ||ozwjhdler.com^
 ||ozyawn.com^
@@ -40083,6 +40142,7 @@ menstennisforums.com#@#.top_ads
 ||paishuno.net^
 ||pakistant.club^
 ||palasidesdoor.com^
+||paletteadulatory.com^
 ||palettebackgroundentire.com^
 ||palibs.tech^
 ||pallxylophone.xyz^
@@ -40108,8 +40168,10 @@ menstennisforums.com#@#.top_ads
 ||parkinggrumpy.com^
 ||parkurl.com^
 ||parsruingmeld.com^
+||parthanonstatue.com^
 ||particlesmanuscript.com^
 ||particularmadam.com^
+||partiesrelyfoliage.com^
 ||partitiondetergenttumor.com^
 ||partouba.com^
 ||partssubquery.com^
@@ -40158,7 +40220,6 @@ menstennisforums.com#@#.top_ads
 ||pcdodues.com^
 ||pclk.name^
 ||pcnp.xyz^
-||pcon.space^
 ||pctsrv.com^
 ||pd-news.com^
 ||pdmtmribgaqctz.com^
@@ -40191,7 +40252,6 @@ menstennisforums.com#@#.top_ads
 ||pegloang.com^
 ||pegristofi.com^
 ||pejqoq4cafo3bg9yqqqtk5e6s6.com^
-||pendaccomot.club^
 ||pendingvillashells.com^
 ||penetrateinstalmentfacial.com^
 ||penitentiaryoverdosetumble.com^
@@ -40218,6 +40278,7 @@ menstennisforums.com#@#.top_ads
 ||pergavelshot.com^
 ||perhangeflets.site^
 ||perhapscommabudge.com^
+||perienfcefot.top^
 ||perigshfnon.com^
 ||periodsalter.com^
 ||peripherd.club^
@@ -40230,13 +40291,13 @@ menstennisforums.com#@#.top_ads
 ||peskyexecutionyouthful.com^
 ||pestilentdarwinuphill.com^
 ||pestilenttidefilth.org^
-||petachiefund.club^
 ||petchesa.net^
 ||petchoch.com^
 ||petfoppew.com^
 ||petoweflip.com^
 ||petsarlaaafru.com^
 ||petsoocm.com^
+||petsuccessive.com^
 ||pettybureaushady.com^
 ||petulantsubordinate.com^
 ||peuzubuqo.com^
@@ -40262,7 +40323,9 @@ menstennisforums.com#@#.top_ads
 ||phaikroo.net^
 ||phaiksul.net^
 ||pharougn.com^
+||phasecolony.com^
 ||phastoag.com^
+||phaudree.com^
 ||phaurtuh.net^
 ||phauwooz.net^
 ||pheasantcardboardcohort.com^
@@ -40299,6 +40362,7 @@ menstennisforums.com#@#.top_ads
 ||phsism.com^
 ||phudreez.com^
 ||phultems.net^
+||phychisepso.com^
 ||physicianhung.com^
 ||physicsseparately.com^
 ||phywifupta.com^
@@ -40313,6 +40377,7 @@ menstennisforums.com#@#.top_ads
 ||pigtisetdilqsi.com^
 ||pigtre.com^
 ||pigwinspath.icu^
+||pikeletkiyi.com^
 ||pilgrimary.club^
 ||pilgrimarym.club^
 ||pillowagecredulous.com^
@@ -40389,7 +40454,6 @@ menstennisforums.com#@#.top_ads
 ||plxtejszb.com^
 ||plyinsidere.club^
 ||plywoodenchant.com^
-||plzjcnyxcdl.com^
 ||pmlw0efk4x.com^
 ||pndelfast.com^
 ||pnhdnlrzwu.com^
@@ -40408,6 +40472,7 @@ menstennisforums.com#@#.top_ads
 ||poemsdeucewee.com^
 ||poemsproduced.com^
 ||poetryhonourable.com^
+||poeupvcvruuizk.com^
 ||poifinsegg.com^
 ||poignantcover.com^
 ||poignantpersonnel.com^
@@ -40456,6 +40521,7 @@ menstennisforums.com#@#.top_ads
 ||portscalculateappease.com^
 ||portugueseexcessivelygospel.com^
 ||posakevy.com^
+||poseidthewave.com^
 ||poshbeechhoneycomb.com^
 ||positious.club^
 ||pososrhwu2jf8jf09.com^
@@ -40629,6 +40695,7 @@ menstennisforums.com#@#.top_ads
 ||prudencebonfireyowl.com^
 ||prudencewiserelapse.com^
 ||prudenttruthfulcarter.com^
+||pryappaldescribe.com^
 ||pryrhoohs.site^
 ||ps7894.com^
 ||psaighid.com^
@@ -40636,6 +40703,7 @@ menstennisforums.com#@#.top_ads
 ||psatorsi.com^
 ||psaudous.com^
 ||psaughun.com^
+||psaukaux.net^
 ||psaukrik.net^
 ||psazamajy.pro^
 ||psclicks.com^
@@ -40654,6 +40722,7 @@ menstennisforums.com#@#.top_ads
 ||psoaksoo.com^
 ||psoanouy.net^
 ||psoomeeg.com^
+||psootchu.net^
 ||psoptopi.com^
 ||psougrie.com^
 ||psoumtou.net^
@@ -40736,6 +40805,7 @@ menstennisforums.com#@#.top_ads
 ||pursediscern.com^
 ||pusbaysgreedy.icu^
 ||push.house^
+||push77.com^
 ||pusharest.com^
 ||pushebrod.com^
 ||pushego.com^
@@ -40779,6 +40849,7 @@ menstennisforums.com#@#.top_ads
 ||puzzledchampagneaboninableaboninable.com^
 ||pvclouds.com^
 ||pvcndecvyb.com^
+||pvipgaj.com^
 ||pvptwhhkfmog.com^
 ||pwptibeetbf.com^
 ||pwwghcyzsn.info^
@@ -40791,7 +40862,6 @@ menstennisforums.com#@#.top_ads
 ||pyq6n.com^
 ||pyroguanites.xyz^
 ||pyvqoaoeeen.com^
-||pz7zrn0xxgyg.com^
 ||pzjrabknapw.com^
 ||pzpvvmcnq.com^
 ||q0zsp5e3dv.com^
@@ -40852,6 +40922,7 @@ menstennisforums.com#@#.top_ads
 ||qppdqcid.com^
 ||qptqoylpxmqbz.com^
 ||qqqwes.com^
+||qrclevrfjw.com^
 ||qrezvwhtppiv.com^
 ||qrirufliyj.com^
 ||qrksjrjppkam.com^
@@ -40868,9 +40939,9 @@ menstennisforums.com#@#.top_ads
 ||qualityassura.biz^
 ||qualityofeve.biz^
 ||quallyrimers.com^
+||quandarydisadvantage.com^
 ||quatrefeuillepolonaise.xyz^
 ||quaverspawk.com^
-||qudcsysviowa.com^
 ||questionsunpleasantaborigines.com^
 ||qugdtlps.com^
 ||quicklisti.com^
@@ -40936,6 +41007,7 @@ menstennisforums.com#@#.top_ads
 ||rangparenting.com^
 ||rangsunbaa.com^
 ||ransparleddorob.info^
+||rantsbroug.biz^
 ||rapeuptown.com^
 ||rapgasyogin.com^
 ||rapiddictionarytemporarily.com^
@@ -40958,7 +41030,6 @@ menstennisforums.com#@#.top_ads
 ||rbnwacsf.com^
 ||rcblkkhfvrxyn.com^
 ||rceableinte.club^
-||rcentratiumd.space^
 ||rchitereach.info^
 ||rddywd.com^
 ||rdingsalm.club^
@@ -41009,6 +41080,7 @@ menstennisforums.com#@#.top_ads
 ||recollectionmallet.com^
 ||recommendedscenery.com^
 ||recommerdal.club^
+||reconsiderallowinggunfire.com^
 ||reconsiderportableself.com^
 ||recontent.website^
 ||recorderimplacablewhatever.com^
@@ -41021,7 +41093,6 @@ menstennisforums.com#@#.top_ads
 ||recyclingmaim.com^
 ||redads.biz^
 ||redambula.club^
-||redclown.ml^
 ||redewdit.pro^
 ||redfunlob.casa^
 ||redirect2719.ws^
@@ -41057,11 +41128,13 @@ menstennisforums.com#@#.top_ads
 ||registrybrotherinlawdots.com^
 ||registrytensesuffocate.com^
 ||registshhg.club^
+||reglistigru.com^
 ||regressure.club^
 ||regrisaillerais.site^
 ||regulationprivilegescan.top^
 ||rei9jc56oyqux0rcpcquqmm7jc5freirpsquqkope3n3axrjacg8ipolxvbm.codes^
 ||reimburs.co^
+||reindaks.com^
 ||reinformaln.top^
 ||reinspersian.com^
 ||reiqwxxd.com^
@@ -41081,6 +41154,7 @@ menstennisforums.com#@#.top_ads
 ||remarketingpixel.com^
 ||remarravions.xyz^
 ||rementalava.club^
+||reminews.com^
 ||remoteeloise.com^
 ||remusclerait.xyz^
 ||renaissanceregretfulpupil.com^
@@ -41169,6 +41243,7 @@ menstennisforums.com#@#.top_ads
 ||revrtb.net^
 ||revupads.com^
 ||rewhichesa.info^
+||rewriteconserve.com^
 ||rexadvert.xyz^
 ||rexujojo.pro^
 ||rgttoipdr.com^
@@ -41213,6 +41288,7 @@ menstennisforums.com#@#.top_ads
 ||rincegath.fun^
 ||rindicalapa.fun^
 ||ringassum.club^
+||ringexpressbeach.com^
 ||ringsnutdaze.com^
 ||riodovernprovi.club^
 ||riokl.com^
@@ -41221,7 +41297,6 @@ menstennisforums.com#@#.top_ads
 ||riptukri.net^
 ||risingexams.com^
 ||riskelaborate.com^
-||ristbuchingu.space^
 ||ristmantre.club^
 ||rityalthoutei.club^
 ||riverhit.com^
@@ -41236,6 +41311,7 @@ menstennisforums.com#@#.top_ads
 ||rlomivunesqal.com^
 ||rlyquantialarties.club^
 ||rmationeng.club^
+||rmcxyfqbm.com^
 ||rmedessents.club^
 ||rmlehtrdzfyonb.com^
 ||rmqygg2zv24y.com^
@@ -41271,6 +41347,7 @@ menstennisforums.com#@#.top_ads
 ||rootstood.club^
 ||rooveysimagi.club^
 ||ropupevi.pro^
+||rorserdy.com^
 ||rosafun.com^
 ||roseolsen.pro^
 ||roserobotx.online^
@@ -41305,7 +41382,6 @@ menstennisforums.com#@#.top_ads
 ||rriedskillear.club^
 ||rsalcau.com^
 ||rsalcch.com^
-||rsalcdp.com^
 ||rsaltsjt.com^
 ||rselffreedsc.top^
 ||rselfresolated.club^
@@ -41331,6 +41407,7 @@ menstennisforums.com#@#.top_ads
 ||rtpdn10.com^
 ||rtpdn11.com^
 ||rtpdn12.com^
+||rtpdn14.com^
 ||rtpetworki.fun^
 ||rtpnt.xyz^
 ||rtrlseqbudrzfd.com^
@@ -41377,7 +41454,9 @@ menstennisforums.com#@#.top_ads
 ||ryquhezrbhfp.com^
 ||rysubmission.biz^
 ||rywoments.info^
+||ryyhwgyy.com^
 ||ryynoljdarrw.com^
+||rzbkusrz.com^
 ||rzhcdnsl.com^
 ||rztonexcitie.club^
 ||rzypgzojdan.com^
@@ -41389,7 +41468,6 @@ menstennisforums.com#@#.top_ads
 ||s2d6.com^
 ||s2sterra.com^
 ||s2wx75gol2m8.com^
-||s4d.xyz^
 ||s4yxaqyq95.com^
 ||s83ovp6qyhco.com^
 ||s99i.org^
@@ -41446,7 +41524,6 @@ menstennisforums.com#@#.top_ads
 ||sartagesampi.com^
 ||saryrecog.top^
 ||sasaniks.net^
-||satgreera.com^
 ||satisfactoryviolin.com^
 ||saturdayloathe.com^
 ||saub27i3os.com^
@@ -41458,7 +41535,6 @@ menstennisforums.com#@#.top_ads
 ||sauwonie.com^
 ||saveddrummermover.com^
 ||saventireri.top^
-||sayessedb.club^
 ||sbanesere.biz^
 ||sbc7wfnaakau.com^
 ||sbfsdvc.com^
@@ -41504,6 +41580,7 @@ menstennisforums.com#@#.top_ads
 ||sd5doozry8.com^
 ||sdhfbvd.com^
 ||sdkfjxjertertry.com^
+||sdmfyqkghzedvx.com^
 ||sdmwklnd.com^
 ||sdnihyxlqiws.com^
 ||sdsttt.com^
@@ -41538,6 +41615,7 @@ menstennisforums.com#@#.top_ads
 ||sedativesandhandbook.com^
 ||seducehandbookspecific.com^
 ||seedallegation.com^
+||seemingacceptablecigarette.com^
 ||seephoak.net^
 ||seepsocu.net^
 ||seeptauw.net^
@@ -41552,6 +41630,7 @@ menstennisforums.com#@#.top_ads
 ||selectserialcage.com^
 ||selfbiological.com^
 ||selfevidentpotsfertility.com^
+||selflessaboriginessweetness.com^
 ||selfpuc.com^
 ||selfswayjay.com^
 ||sellerbackstagejolly.com^
@@ -41582,7 +41661,6 @@ menstennisforums.com#@#.top_ads
 ||servboost.tech^
 ||servehub.info^
 ||serverscurtain.com^
-||serwrities.club^
 ||sesbromandi.club^
 ||seskeu3zk7.com^
 ||setbackrelishdivine.com^
@@ -41707,7 +41785,6 @@ menstennisforums.com#@#.top_ads
 ||silkymalgr.casa^
 ||sillpotentialventilator.com^
 ||sillrochester.com^
-||silodejectacne.icu^
 ||silstavo.com^
 ||simpan.online^
 ||simpleprogr.club^
@@ -41743,6 +41820,7 @@ menstennisforums.com#@#.top_ads
 ||sketchinferiorunits.com^
 ||skillpropulsion.com^
 ||skilyake.net^
+||skimegcolder.com^
 ||skinnyfinnishhi.com^
 ||sknkwpvrkz.com^
 ||skreighphotic.cam^
@@ -41845,6 +41923,7 @@ menstennisforums.com#@#.top_ads
 ||solihullah.info^
 ||solitudeelection.com^
 ||solitudepeeves.com^
+||sollsectivej.fun^
 ||solocpm.com^
 ||soloistforcefulvarious.com^
 ||sololockscoin.com^
@@ -41868,6 +41947,7 @@ menstennisforums.com#@#.top_ads
 ||sophiasearch.com^
 ||sophomoremostlyplain.com^
 ||sorryfearknockout.com^
+||sortgenerousholidays.com^
 ||soshoord.com^
 ||soundingexpulsioninspector.com^
 ||soundshrillarduous.com^
@@ -42028,6 +42108,7 @@ menstennisforums.com#@#.top_ads
 ||stingygirlieaccompany.com^
 ||stinkcomedian.com^
 ||stipulatecontinue.com^
+||stitchkidney.com^
 ||stizoaph.net^
 ||sto1pnort.online^
 ||stoaksie.com^
@@ -42042,7 +42123,6 @@ menstennisforums.com#@#.top_ads
 ||stoppatty.com^
 ||stopstopone.today^
 ||storeacdn.com^
-||storiespace.com^
 ||stormyshock.com^
 ||stoshoos.com^
 ||stoutlionslick.com^
@@ -42063,6 +42143,7 @@ menstennisforums.com#@#.top_ads
 ||streamyourvid.com^
 ||stremanp.com^
 ||strengthletterhotline.com^
+||strenuoustarget.com^
 ||stressbureaucracyneighbour.com^
 ||stressfulpyjamas.com^
 ||stretchingcognitioncommission.com^
@@ -42103,11 +42184,13 @@ menstennisforums.com#@#.top_ads
 ||suitsoon.com^
 ||sukausuka.com^
 ||sulphursceneryhenceforward.com^
+||sultancolicin.com^
 ||sultrycommiserate.com^
 ||sumofainstuff.com^
 ||sundayceremonytitanic.com^
 ||sundersetrgh.site^
 ||sunnybluecoral.com^
+||sunsekrious.com^
 ||suozmtcc.com^
 ||superbdolly.com^
 ||superfastcdn.com^
@@ -42122,6 +42205,7 @@ menstennisforums.com#@#.top_ads
 ||supportiveimpassableevasion.com^
 ||supremish.club^
 ||suptaibo.com^
+||sureflashelusive.com^
 ||surfaceimmature.com^
 ||surfingegyptfifteen.com^
 ||surfmdia.com^
@@ -42148,7 +42232,6 @@ menstennisforums.com#@#.top_ads
 ||svolution.top^
 ||svsub.com^
 ||svyksa.info^
-||sw1block.com^
 ||sw2block.com^
 ||swagtraffcom.com^
 ||swan-swan-goose.com^
@@ -42199,6 +42282,7 @@ menstennisforums.com#@#.top_ads
 ||tabookbusines.info^
 ||tackledisplay.com^
 ||tacklesuggestindoors.com^
+||tacticalpizzanetwork.com^
 ||tadsitblimp.com^
 ||tagbom.com^
 ||taghaugh.com^
@@ -42216,6 +42300,7 @@ menstennisforums.com#@#.top_ads
 ||tantsprovisitsc.club^
 ||tapixesa.pro^
 ||tapjoyads.com^
+||taptyvexy.pro^
 ||tarabustasses.xyz^
 ||tarlifting.com^
 ||tartoals.net^
@@ -42240,7 +42325,6 @@ menstennisforums.com#@#.top_ads
 ||tdsjsext3.life^
 ||tdugvspdnq.com^
 ||teachcoexist.com^
-||teachiefislate.space^
 ||tearpilotzoo.com^
 ||tearsatecagey.work^
 ||teartee.com^
@@ -42321,6 +42405,7 @@ menstennisforums.com#@#.top_ads
 ||tfzznclztl.com^
 ||tgvbwjbnxz.com^
 ||tgzobwoutuwn.com^
+||thaibeco.com^
 ||thaickoo.net^
 ||thaiksee.com^
 ||thamsais.com^
@@ -42362,6 +42447,7 @@ menstennisforums.com#@#.top_ads
 ||thingrealtape.com^
 ||thingsrefutation.com^
 ||thinnerlessenfounded.com^
+||thiptumuce.com^
 ||third-tracking.com^
 ||thirgoad.top^
 ||thiscdn.com^
@@ -42370,11 +42456,11 @@ menstennisforums.com#@#.top_ads
 ||thispositionw.biz^
 ||thistracknet.com^
 ||thizamocu.pro^
-||thliptruhzaed.com^
 ||thnqemehtyfe.com^
 ||thoaltie.net^
 ||thoartuw.com^
 ||thoathie.net^
+||thodowaro.com^
 ||thofandew.com^
 ||thogrypufe.pro^
 ||thomageothe.club^
@@ -42382,6 +42468,7 @@ menstennisforums.com#@#.top_ads
 ||thongaspredo.com^
 ||thoodsoy.net^
 ||thoorest.com^
+||thoovoay.net^
 ||thorizinge.club^
 ||thoroughask.com^
 ||thorsado.net^
@@ -42405,6 +42492,7 @@ menstennisforums.com#@#.top_ads
 ||thwhilecom.club^
 ||thygrepuwo.pro^
 ||thyoaflucid.com^
+||thywiphegru.com^
 ||tibacta.com^
 ||tic-tic-bam.com^
 ||tic-tic-toc.com^
@@ -42419,6 +42507,7 @@ menstennisforums.com#@#.top_ads
 ||tificanaccou.top^
 ||tigerhysteriaspree.com^
 ||tightsaturdayi.com^
+||tightslowingpredictable.com^
 ||tiglesoshi.pro^
 ||tillatingmer.fun^
 ||tilltucked.com^
@@ -42429,7 +42518,6 @@ menstennisforums.com#@#.top_ads
 ||timerobstacle.com^
 ||timeruniversalreligious.com^
 ||timeryielding.com^
-||tin-tin-win.com^
 ||tineprepair.club^
 ||tingenerall.club^
 ||tinkerta.com^
@@ -42514,11 +42602,13 @@ menstennisforums.com#@#.top_ads
 ||torpsol.com^
 ||torrango.com^
 ||torrentprotection.com^
+||torrentsafeguard.com^
 ||torrentvicious.com^
 ||torsperience.club^
 ||tortoiselavender.com^
 ||totallifeguru.com^
 ||totentacruelor.com^
+||tothisimpo.biz^
 ||totifiquo.com^
 ||totogetica.com^
 ||touchbackgroundrusty.com^
@@ -42558,9 +42648,9 @@ menstennisforums.com#@#.top_ads
 ||traffic.adexprtz.com^
 ||traffic.club^
 ||trafficdok.com^
+||trafficmoon.com^
 ||trafficmoose.com^
 ||trafficoverus.com^
-||trafficshirts.com^
 ||trafficshop.com^
 ||trafiq.loan^
 ||trafiq.stream^
@@ -42591,7 +42681,6 @@ menstennisforums.com#@#.top_ads
 ||trblocked.com^
 ||trc85.com^
 ||trccmpnlnk.com^
-||treammicr.club^
 ||treaturesfg.club^
 ||trejar.com^
 ||trellian.com^
@@ -42614,8 +42703,10 @@ menstennisforums.com#@#.top_ads
 ||trkinator.com^
 ||trkunited.com^
 ||trlf8mmpbfz1.com^
+||trmobc.com^
 ||trodpigbays.com^
 ||trompaillames.xyz^
+||troncomelets.com^
 ||trothko.com^
 ||troublescompared.com^
 ||trtjigpsscmv9epe10.com^
@@ -42670,13 +42761,14 @@ menstennisforums.com#@#.top_ads
 ||tuxbpnne.com^
 ||tv1s4d6klh4n.com^
 ||tveszimawy.com^
-||tvjkilgfanpt.com^
 ||twentiesbarton.com^
 ||twentycustomimprovement.com^
 ||twentypassengerdiagram.com^
 ||twfilnym.com^
 ||twinadsrv.com^
 ||twindiversity.com^
+||twinrdsrv.com^
+||twinsoflave.com^
 ||twinwalnutthy.com^
 ||twirlunsight.cam^
 ||twittad.com^
@@ -42690,6 +42782,7 @@ menstennisforums.com#@#.top_ads
 ||txwha3vuso66.com^
 ||txyhadai.com^
 ||tyboyyli.xyz^
+||tygafso.com^
 ||typhonwave.com^
 ||tyranprototypeoats.com^
 ||tyunderives.info^
@@ -42723,7 +42816,6 @@ menstennisforums.com#@#.top_ads
 ||ueuodgnrhb.com^
 ||ufferenchme.club^
 ||ufinkln.com^
-||ufmmtncv.com^
 ||ufoukolt.com^
 ||ufow9xfashbm.com^
 ||ufpcdn.com^
@@ -42771,7 +42863,6 @@ menstennisforums.com#@#.top_ads
 ||uluswozzel.info^
 ||umannwig.com^
 ||umcbbt.com^
-||umdycgbklen.com^
 ||umehoars.club^
 ||umekana.ru^
 ||umfxefqtqd.com^
@@ -42802,6 +42893,7 @@ menstennisforums.com#@#.top_ads
 ||unfairliam.club^
 ||unfitemergency.com^
 ||unfitsickle.com^
+||unfurlyawweed.casa^
 ||unificfancin.club^
 ||uniformer.club^
 ||uniformery.club^
@@ -42823,10 +42915,12 @@ menstennisforums.com#@#.top_ads
 ||unskilledsqueakjunk.com^
 ||untaryes.online^
 ||untiloutrage.com^
+||untripemegrez.casa^
 ||untruewring.com^
 ||unwillingcalumny.com^
 ||unwofulcountys.com^
 ||uod2quk646.com^
+||uopmcdnpad.com^
 ||upgulpinon.com^
 ||upheavesy.club^
 ||uponelectabuzzor.club^
@@ -42842,6 +42936,7 @@ menstennisforums.com#@#.top_ads
 ||ureresponsbrit.club^
 ||uresnecessf.club^
 ||urgeousimp.club^
+||urgesick.com^
 ||urimteku.com^
 ||urineyieldedwasted.com^
 ||urmilan.info^
@@ -42876,9 +42971,10 @@ menstennisforums.com#@#.top_ads
 ||uslioert.com^
 ||usounoul.com^
 ||ustbitsoct.top^
-||ustedpicklyba.space^
+||ustingpres.fun^
 ||ustxsntseyhwsx.com^
 ||usuallycrummy.com^
+||uswtcdnqbm.com^
 ||uszaodwya.com^
 ||utarget.pro^
 ||uthorner.info^
@@ -42931,6 +43027,7 @@ menstennisforums.com#@#.top_ads
 ||vanenow.com^
 ||vaneplusnod.com^
 ||vanillaincidentfeed.com^
+||vanillapulp.com^
 ||vanssueshyer.casa^
 ||vapourgrievously.com^
 ||vapsapypsa.com^
@@ -42954,6 +43051,7 @@ menstennisforums.com#@#.top_ads
 ||vcmrlwcafliaa.com^
 ||vcommission.com^
 ||vcpcvmfnocsfay.com^
+||vdkejkyztas.com^
 ||vebadu.com^
 ||vedcouragin.info^
 ||vedefendin.club^
@@ -42993,7 +43091,6 @@ menstennisforums.com#@#.top_ads
 ||vfl81ea28aztw7y3.pro^
 ||vfmfjoknzndbee.com^
 ||vfvdsati.com^
-||vg74gi6mea.com^
 ||vggxxhton.com^
 ||vgkknrbzwfau.com^
 ||vgw35hwr4w6x.com^
@@ -43039,12 +43136,14 @@ menstennisforums.com#@#.top_ads
 ||viighj.com^
 ||viihot.com^
 ||viirad.com^
+||viliaff.com^
 ||villageeatable.com^
 ||villelonguien.site^
 ||vimjarawl.com^
 ||vimmenced.club^
 ||vindicosuite.com^
 ||vinegarweb.com^
+||violateerringenglish.com^
 ||violentthinner.com^
 ||vip-vip-vup.com^
 ||vipaicka.net^
@@ -43140,13 +43239,16 @@ menstennisforums.com#@#.top_ads
 ||vstaner.com^
 ||vsteepo.com^
 ||vstet.com^
+||vstop3.com^
+||vstrot.com^
+||vstzen.com^
 ||vsu2jbpvgx3m.com^
 ||vsvihsib.com^
+||vswcdns.com^
 ||vsyaiejmfooba.com^
 ||vth05dse.com^
 ||vtlahjkbd.com^
 ||vubihasdtbadiq.com^
-||vujhqcemrpqj.com^
 ||vukhhjzd.com^
 ||vukhnosiexl.com^
 ||vulnerabletan.com^
@@ -43160,7 +43262,6 @@ menstennisforums.com#@#.top_ads
 ||vwuyuahqf.com^
 ||vxhmytfndmqko.com^
 ||vxrpmslex.com^
-||vxzgwlbcpdygh.com^
 ||vy4e3jw46l.com^
 ||vyhezucha.pro^
 ||vyphytovu.pro^
@@ -43179,6 +43280,7 @@ menstennisforums.com#@#.top_ads
 ||wafmedia6.com^
 ||waframedia5.com^
 ||waframedia8.com^
+||wagecarriage.com^
 ||wagerestrictedrebuild.com^
 ||wagerjoint.com^
 ||wagershare.com^
@@ -43189,6 +43291,7 @@ menstennisforums.com#@#.top_ads
 ||waisheph.com^
 ||waistcoataskeddone.com^
 ||waistcoatfast.com^
+||waistcoathearing.com^
 ||waitinghypotheticallysoot.com^
 ||wallpapersfacts.com^
 ||wallstrads.com^
@@ -43236,10 +43339,10 @@ menstennisforums.com#@#.top_ads
 ||waypresentsstud.com^
 ||wbdds.com^
 ||wbultedpie.club^
+||wcdny.com^
 ||wcmcs.net^
 ||wcyrjlszoo.com^
 ||wdeliv.net^
-||wdvamhckdjr.com^
 ||weaknickgale.icu^
 ||wealdso.top^
 ||weaponsboardbriefly.com^
@@ -43320,10 +43423,12 @@ menstennisforums.com#@#.top_ads
 ||wherabygry.com^
 ||where.com^
 ||whereascredentialsurmise.com^
+||whereasplaid.com^
 ||wheshaud.net^
 ||whiceega.com^
 ||whicherinc.club^
 ||whimsoplynx.com^
+||whippedfreezerbegun.com^
 ||whispercustom.com^
 ||whistlemonument.com^
 ||whistlingenrapturereprint.com^
@@ -43442,7 +43547,6 @@ menstennisforums.com#@#.top_ads
 ||workedlew.top^
 ||workplacehorse.com^
 ||workshirty.club^
-||worldsearchpro.com^
 ||worldwidemailer.com^
 ||wormishammites.com^
 ||worriesceaslessceaslessentreat.com^
@@ -43476,6 +43580,7 @@ menstennisforums.com#@#.top_ads
 ||writtenorbithalfbaked.com^
 ||wrkl.xyz^
 ||wroteadministercurve.com^
+||wrqmkayidop.com^
 ||wsjlbbqemr23.com^
 ||wskiglimpso.info^
 ||wsknjebphx.com^
@@ -43534,14 +43639,12 @@ menstennisforums.com#@#.top_ads
 ||xclofrfa.com^
 ||xclpnclplgeom.com^
 ||xcsypkknp.com^
-||xdev.info^
 ||xdirectx.com^
 ||xebadu.com^
 ||xecbvdgmwsh.com^
 ||xehcnpvqdicvx.com^
 ||xel-xel-fie.com^
 ||xelllwrite.com^
-||xeontopa.com^
 ||xesigyno.pro^
 ||xev2o.com^
 ||xeverirpunyv.com^
@@ -43562,7 +43665,6 @@ menstennisforums.com#@#.top_ads
 ||xixlgtczn.com^
 ||xizupsawo.pro^
 ||xjngxaij.com^
-||xkipnbabzbmwmr.com^
 ||xknnubcqaa.com^
 ||xkpbcd.com^
 ||xldcdnd.com^
@@ -43584,6 +43686,7 @@ menstennisforums.com#@#.top_ads
 ||xoassxowovsrk.com^
 ||xoflgafl.com^
 ||xokikdassjjhrn.com^
+||xopcdnhjf.com^
 ||xorcibleboth.club^
 ||xouzmvlt.com^
 ||xpbbyiqbcawamy.com^
@@ -43748,12 +43851,12 @@ menstennisforums.com#@#.top_ads
 ||ypreferred.com^
 ||ypuxlzxa.com^
 ||ypwpzgld.com^
+||ypymsisnwv.com^
 ||yqeuu.com^
 ||yqezqofkb1nnmz.com^
 ||yqorexok.xyz^
 ||yr9n47004g.com^
 ||ysdtcdnoox.com^
-||ysensionlatio.space^
 ||ysmhcwwvgtcx.com^
 ||ysnj74ed.com^
 ||yspicb.site^
@@ -43797,6 +43900,7 @@ menstennisforums.com#@#.top_ads
 ||zangocash.com^
 ||zaparena.com^
 ||zapunited.com^
+||zathytycho.com^
 ||zauglomo.net^
 ||zaugroaw.net^
 ||zaushegi.net^
@@ -43805,6 +43909,7 @@ menstennisforums.com#@#.top_ads
 ||zazerygu.pro^
 ||zbdvvwpia.com^
 ||zdajdudqfq.com^
+||zdaptrksg.com^
 ||zdcuivnen.com^
 ||zddxlih.com^
 ||zdicbpujzjps.com^
@@ -43845,7 +43950,6 @@ menstennisforums.com#@#.top_ads
 ||zijaipse.com^
 ||zim-zim-zam.com^
 ||zincdatawipe.com^
-||zinfluentlyw.club^
 ||zingtormanc.top^
 ||zinhavnpak.com^
 ||zinrora.pw^
@@ -43873,6 +43977,7 @@ menstennisforums.com#@#.top_ads
 ||zoagremo.net^
 ||zoaheeth.com^
 ||zoastich.com^
+||zogleshewi.com^
 ||zonealta.com^
 ||zooahm2fx2v1.com^
 ||zoopy.xyz^
@@ -43897,6 +44002,7 @@ menstennisforums.com#@#.top_ads
 ||zrvnhlwypqpwjw.com^
 ||zsxqjjobfb.com^
 ||ztexhfznxvpr.com^
+||zuchaptigra.com^
 ||zudrurta.com^
 ||zugktahvdngk.com^
 ||zugnogne.com^
@@ -43912,14 +44018,12 @@ menstennisforums.com#@#.top_ads
 ||zvmldjxh.com^
 ||zwmunz.com^
 ||zwnxzckwihg.com^
-||zwqpqrtpjt.com^
 ||zwtvcdnb.com^
 ||zwyzintwp.com^
 ||zxa4kxw2nvox.com^
 ||zxavxgjcjmkh.com^
 ||zxclan.com^
 ||zxgroymagqu.com^
-||zxryytzesvn.com^
 ||zxxds.net^
 ||zxxtkrkzfyy3.com^
 ||zy16eoat1w.com^
@@ -43962,7 +44066,6 @@ menstennisforums.com#@#.top_ads
 ||aaddcount.com^$third-party
 ||aamapi.com^$third-party
 ||aaxads.com^$third-party
-||abctrack.bid^$third-party
 ||ablehed.pro^$third-party
 ||ablenctionalle.info^$third-party
 ||abnad.net^$third-party
@@ -44622,7 +44725,6 @@ menstennisforums.com#@#.top_ads
 ||afrikad.com^$third-party
 ||afterdownload.com^$third-party
 ||afterdownloads.com^$third-party
-||aftv-serving.bid^$third-party
 ||afy11.net^$third-party
 ||againstanctu.info^$third-party
 ||agcdn.com^$third-party
@@ -44740,7 +44842,6 @@ menstennisforums.com#@#.top_ads
 ||askhilltop.com^$third-party
 ||asklots.com^$third-party
 ||aso1.net^$third-party
-||asooda.com^$third-party
 ||asparmany.site^$third-party
 ||aspartbus.site^$third-party
 ||asperencium.com^$third-party
@@ -45290,8 +45391,7 @@ menstennisforums.com#@#.top_ads
 ||gooblesdd.com^$third-party
 ||goodadvert.ru^$third-party
 ||goodtag.it^$third-party
-||googletagservices.com/tag/js/gpt_$third-party
-||googletagservices.com/tag/static/$third-party
+||googletagservices.com^$third-party
 ||googletrackmanager.com^$third-party
 ||goraps.com^$third-party
 ||goreleetren.com^$third-party
@@ -45437,7 +45537,7 @@ menstennisforums.com#@#.top_ads
 ||iicheewi.com^$third-party
 ||im2ss2ss.top^$third-party
 ||imageadvantage.net^$third-party
-||imasdk.googleapis.com^$third-party
+||imasdk.googleapis.com^
 ||imediaaudiences.com^$third-party
 ||imediarevenue.com^$third-party
 ||imgfeedget.com^$third-party
@@ -45651,7 +45751,6 @@ menstennisforums.com#@#.top_ads
 ||large-format.net^$third-party
 ||laujouty.com^$third-party
 ||launchbit.com^$third-party
-||launchers.network^$third-party
 ||laydcilck.com^$third-party
 ||layer-ad.org^$third-party
 ||layerloop.com^$third-party
@@ -45979,7 +46078,6 @@ menstennisforums.com#@#.top_ads
 ||optinemailpro.com^$third-party
 ||optinmonster.com^$third-party
 ||orangeads.fr^$third-party
-||orarala.com^$third-party
 ||oratosaeron.com^$third-party
 ||orbengine.com^$third-party
 ||organicalews.info^$third-party
@@ -46005,7 +46103,6 @@ menstennisforums.com#@#.top_ads
 ||p-comme-performance.com^$third-party
 ||p-digital-server.com^$third-party
 ||p2ads.com^$third-party
-||pacific-yield.com^$third-party
 ||padsblue.com^$third-party
 ||padsdelivery.com^$third-party
 ||padstm.com^$third-party
@@ -46385,7 +46482,6 @@ menstennisforums.com#@#.top_ads
 ||revstripe.com^$third-party
 ||rewardsaffiliates.com^$third-party
 ||reyden-x.com^$third-party
-||rfgsi.com^$third-party
 ||rfihub.net^$third-party
 ||rhfgjld.com^$third-party
 ||rhombusads.com^$third-party
@@ -46542,7 +46638,6 @@ menstennisforums.com#@#.top_ads
 ||sitescoutadserver.com^$third-party
 ||sitesense-oo.com^$third-party
 ||sitethree.com^$third-party
-||sittiad.com^$third-party
 ||skinected.com^$third-party
 ||skoovyads.com^$third-party
 ||skyactivate.com^$third-party
@@ -46643,10 +46738,10 @@ menstennisforums.com#@#.top_ads
 ||srcsmrtgs.com^$third-party
 ||srgev.com^$third-party
 ||srtk.net^$third-party
-||srx.com.sg^$third-party
 ||sslcheckerapi.com^$third-party
 ||stackattacka.com^$third-party
 ||stagingjobshq.com^$third-party
+||stankyrich.com^$third-party
 ||star-advertising.com^$third-party
 ||stargamesaffiliate.com^$third-party
 ||starlayer.com^$third-party
@@ -46686,7 +46781,6 @@ menstennisforums.com#@#.top_ads
 ||superippo.com^$third-party
 ||superloofy.com^$third-party
 ||superonclick.com^$third-party
-||supersitetime.com^$third-party
 ||supersonicads.com^$third-party
 ||superwebs.pro^$third-party
 ||supletcedintand.pro^$third-party
@@ -46821,7 +46915,6 @@ menstennisforums.com#@#.top_ads
 ||trackcorner.com^$third-party
 ||tracking.to^$third-party
 ||tracking101.com^$third-party
-||tracking11.com^$third-party
 ||trackpath.biz^$third-party
 ||trackpush.com^$third-party
 ||trackstarsengland.net^$third-party
@@ -47271,6 +47364,7 @@ menstennisforums.com#@#.top_ads
 ||apesstration.top^$popup
 ||apiecelee.com^$popup
 ||aporasal.net^$popup
+||apprefaculty.pro^$popup
 ||approp.pro^$popup
 ||aquete.com^$popup
 ||ar.voicefive.com^$popup,third-party
@@ -47307,6 +47401,7 @@ menstennisforums.com#@#.top_ads
 ||bemobtrcks.com^$popup
 ||bemobtrk.com^$popup
 ||beonixom.com^$popup
+||best-vpn.click^$popup
 ||best-zb.com^$popup
 ||best2017games.com^$popup
 ||best2019-games-web1.com^$popup
@@ -47410,6 +47505,7 @@ menstennisforums.com#@#.top_ads
 ||cmpgns.net^$popup
 ||codedexchange.com^$popup
 ||codeonclick.com^$popup
+||colonistnobilityheroic.com^$popup
 ||com-878979.info^$popup
 ||com-wkejf32ljd23409system.net^$popup
 ||combatmootcrucial.com^$popup
@@ -47442,6 +47538,7 @@ menstennisforums.com#@#.top_ads
 ||d0p21g2fep.com^$popup
 ||dadsats.com^$popup
 ||dagnar.com^$popup
+||daizoode.com^$popup
 ||dasfelynsaterr.win^$popup
 ||date-4-fuck.com^$popup
 ||datsgirl.com^$popup
@@ -47615,6 +47712,7 @@ menstennisforums.com#@#.top_ads
 ||hallowelt.cc^$popup
 ||hebadu.com^$popup
 ||hentaifap.land^$popup
+||heratheacle.com^$popup
 ||hh-btr.com^$popup
 ||hhourtrk2.com^$popup
 ||hibids10.com^$popup
@@ -47625,6 +47723,7 @@ menstennisforums.com#@#.top_ads
 ||hiend.xyz^$popup
 ||higheurest.com^$popup
 ||highmaidfhr.com^$popup
+||highperformancecpm.com^$popup
 ||highperformancecpmnetwork.com^$popup
 ||hikyceti.pro^$popup
 ||hilltopads.net^$popup
@@ -47633,6 +47732,7 @@ menstennisforums.com#@#.top_ads
 ||hitopadxdz.xyz^$popup
 ||hlpnowp-c.com^$popup
 ||hooligapps.com^$popup
+||hopefullyadults.com^$popup
 ||hornsbundlebetter.com^$popup
 ||hornsgrid.com^$popup
 ||hotchatdate.com^$popup
@@ -47685,6 +47785,7 @@ menstennisforums.com#@#.top_ads
 ||irtyvhrthhya.com^$popup
 ||ismlks.com^$popup
 ||it7645-blockchain-news.club^$popup
+||itgiblean.com^$popup
 ||itnuzleafan.com^$popup
 ||itrght.com^$popup
 ||ittorchicer.com^$popup
@@ -47710,6 +47811,7 @@ menstennisforums.com#@#.top_ads
 ||kappalinks.com^$popup
 ||kenomal.com^$popup
 ||kerumal.com^$popup
+||kesimon.com^$popup
 ||killerjuke.xyz^$popup
 ||kindredplc.com^$popup
 ||kiwi-offers.com^$popup
@@ -47727,6 +47829,7 @@ menstennisforums.com#@#.top_ads
 ||leonbetvouum.com^$popup
 ||lerroyje.xyz^$popup
 ||letshareus.com^$popup
+||lettersskirt.icu^$popup
 ||letzonke.com^$popup
 ||libertystmedia.com^$popup
 ||lie2anyone.com^$popup
@@ -47758,7 +47861,6 @@ menstennisforums.com#@#.top_ads
 ||manconsider.com^$popup
 ||mandistreet.top^$popup
 ||maomaotang.com^$popup
-||marketresearchglobal.com^$popup
 ||mashionalkov.info^$popup
 ||masklink.org^$popup
 ||materialisticinformal.com^$popup
@@ -47815,7 +47917,6 @@ menstennisforums.com#@#.top_ads
 ||mybestdc.com^$popup
 ||mybestmv.com^$popup
 ||mybetterdl.com^$popup
-||mynetab.com^$popup
 ||mypushz.com^$popup
 ||myrdrcts.com^$popup
 ||mysagagame.com^$popup
@@ -47868,6 +47969,7 @@ menstennisforums.com#@#.top_ads
 ||onclicksuper.com^$popup
 ||onclicktop.com^$popup
 ||onhitads.net^$popup
+||online-protection-now.com^$popup
 ||onlinecashmethod.com^$popup
 ||onlineshopping.website^$popup
 ||onlineuserprotector.com^$popup
@@ -47882,6 +47984,7 @@ menstennisforums.com#@#.top_ads
 ||oranegfodnd.com^$popup
 ||oratosaeron.com^$popup
 ||origer.info^$popup
+||otisephie.com^$popup
 ||otnolabttmup.com^$popup
 ||outhulem.net^$popup
 ||outrushfetor.cam^$popup
@@ -47980,6 +48083,7 @@ menstennisforums.com#@#.top_ads
 ||pussl32.com^$popup
 ||pussl48.com^$popup
 ||putrr14.com^$popup
+||puwpush.com^$popup
 ||pwrads.net^$popup
 ||px1alsry.com^$popup
 ||pyq6n.com^$popup
@@ -47991,6 +48095,7 @@ menstennisforums.com#@#.top_ads
 ||quantomcoding.com^$popup
 ||quideo.men^$popup
 ||randalieren6.live^$popup
+||rantsbroug.biz^$popup
 ||rbxtrk.com^$popup
 ||rdsb21.club^$popup
 ||rdsrv.com^$popup
@@ -48007,6 +48112,7 @@ menstennisforums.com#@#.top_ads
 ||redirectvoluum.com^$popup
 ||refpa.top^$popup
 ||refpazcx.xyz^$popup
+||reminews.com^$popup
 ||remove-ads.xyz^$popup
 ||renaissanto.com^$popup
 ||renceriskie.fun^$popup
@@ -48019,6 +48125,7 @@ menstennisforums.com#@#.top_ads
 ||rhudsplm.com^$popup
 ||rhvdsplm.com^$popup
 ||rhxdsplm.com^$popup
+||ringexpressbeach.com^$popup
 ||riowrite.com^$popup
 ||riverhit.com^$popup
 ||rkcqlsiu9fr6.top^$popup
@@ -48035,6 +48142,7 @@ menstennisforums.com#@#.top_ads
 ||rsaltsjt.com^$popup
 ||rtpdn10.com^$popup
 ||rtpdn12.com^$popup
+||rtpdn14.com^$popup
 ||runslin.com^$popup
 ||runtnc.net^$popup
 ||rvnc72k.com^$popup
@@ -48180,6 +48288,7 @@ menstennisforums.com#@#.top_ads
 ||topprofit-lounge.life^$popup
 ||toroadvertisingmedia.com^$popup
 ||torpsol.com^$popup
+||torrentsafeguard.com^$popup
 ||totaladperformance.com^$popup
 ||tozoruaon.com^$popup
 ||track-safe.com^$popup
@@ -48215,6 +48324,7 @@ menstennisforums.com#@#.top_ads
 ||tutotrack.com^$popup
 ||tutvp.com^$popup
 ||tvas-b.pw^$popup
+||twinrdsrv.com^$popup
 ||twqiqiang.com^$popup
 ||ucheephu.com^$popup
 ||udncoeln.com^$popup
@@ -48236,6 +48346,7 @@ menstennisforums.com#@#.top_ads
 ||uthorner.info^$popup
 ||v3rjvtt.com^$popup
 ||vanenow.com^$popup
+||vasstycom.com^$popup
 ||vcdc.com^$popup
 ||vcommission.com^$popup
 ||venturead.com^$popup
@@ -48284,6 +48395,7 @@ menstennisforums.com#@#.top_ads
 ||wgpartner.com^$popup
 ||whatisuptodaynow.com^$popup
 ||wholefreshposts.com^$popup
+||whowhipi.net^$popup
 ||wigetmedia.com^$popup
 ||win-alerts.pro^$popup
 ||windychinese.com^$popup
@@ -48364,6 +48476,7 @@ menstennisforums.com#@#.top_ads
 ||all-about-tech.com^$third-party
 ||allosponsor.com^$third-party
 ||asiafriendfinder.com^$third-party
+||avfay.com^$third-party
 ||bcash4you.com^$third-party
 ||beachlinkz.com^$third-party
 ||betweendigital.com^$third-party
@@ -48584,7 +48697,6 @@ menstennisforums.com#@#.top_ads
 ||mmaaxx.com^$third-party
 ||mmoframes.com^$third-party
 ||mncvjhg.com^$third-party
-||mo8mwxi1.com^$third-party
 ||mobalives.com^$third-party
 ||mobilerevenu.com^$third-party
 ||mobtop.ru^$third-party
@@ -48959,6 +49071,7 @@ menstennisforums.com#@#.top_ads
 ||adbidgo.com^
 ||adplexo.com^
 ||aelphotog.pro^
+||awprt.com^
 ||bebadu.com^
 ||briggbrought.pro^
 ||cebadu.com^
@@ -49004,6 +49117,7 @@ menstennisforums.com#@#.top_ads
 ||popcain.com^
 ||poredii.com^
 ||pornomixfree.com^
+||potwm.com^
 ||ppcashpop.com^
 ||profbigo.com^
 ||propbigo.com^
@@ -49036,6 +49150,7 @@ menstennisforums.com#@#.top_ads
 ||whalepp.com^
 ||xoredi.com^
 ||xxssyndic.com^
+||xxxjmp.com^
 ||xzlnews.info^
 ||yebadu.com^
 ||yoredi.com^
@@ -49113,6 +49228,7 @@ menstennisforums.com#@#.top_ads
 ||libedgolart.com^$popup
 ||lofv.xyz^$popup
 ||loltrk.com^$popup,third-party
+||lowtyroguer.com^$popup
 ||misspkl.com^$popup
 ||moradu.com^$popup
 ||mptentry.com^$popup
@@ -49166,6 +49282,7 @@ menstennisforums.com#@#.top_ads
 ||xpeeps.com^$popup,third-party
 ||xvika.com^$popup
 ||xxlargepop.com^$popup
+||xxxjmp.com^$popup
 ||xxxmatch.com^$popup
 ||xxxrevpushclcdu.com^$popup
 ||zononi.com^$popup,third-party
@@ -49174,8 +49291,6 @@ menstennisforums.com#@#.top_ads
 ||000webhost.com/images/banners/
 ||1080872514.rsc.cdn77.org^
 ||1675450967.rsc.cdn77.org^
-||1stag.com/main/img/banners/
-||a.livesportmedia.eu^
 ||a.ucoz.net^
 ||ad.about.co.kr^
 ||ad.bitbay.net^
@@ -49186,16 +49301,14 @@ menstennisforums.com#@#.top_ads
 ||ad.outsidehub.com^
 ||ad.reklamport.com^
 ||ad.smartmediarep.com^
-||ad.valuecalling.com^
 ||ad.wsod.com^
 ||adaptv.advertising.com^
-||adf.ly^$script,third-party,domain=~j.gs|~q.gs
+||adf.ly/funcript
+||adf.ly/js/display.js
+||adf.ly/js/link-converter.js
 ||adfoc.us^$script,third-party
 ||adform.net/banners/$third-party
 ||adform.net/serving/$third-party
-||adingo.jp.eimg.jp^
-||adlandpro.com^$third-party
-||adn.ebay.com^
 ||ads-sg.tiktok.com^
 ||ads.audio.thisisdax.com^
 ||ads.linkedin.com^$third-party
@@ -49204,62 +49317,30 @@ menstennisforums.com#@#.top_ads
 ||ads.tremorhub.com^
 ||adserving.unibet.com^
 ||adzmoney.linkyqueen.ga^
+||aff.bstatic.com^
 ||affiliate.heureka.cz^
-||affiliate.juno.co.uk^$third-party
-||affiliate.mediatemple.net^$third-party
-||affiliates.allposters.com^
-||affiliatesmedia.sbobet.com^
-||affiliation.fotovista.com^
-||agoda.net/banners/
-||ahacdn.me/renderer/renderer.js
-||ahlanlive.com/newsletters/banners/$third-party
-||airvpn.org/images/promotional/
-||ak.imgaft.com^$third-party
-||ak1.imgaft.com^$third-party
-||akamai.net^*.247realmedia.com/$third-party
-||akamai.net^*/espnpreroll/$object
-||akamai.net^*/pics.drugstore.com/prodimg/promo/
-||akamaihd.net/lmedianet.js
-||akamaihd.net/ssa/*?zoneid=$subdocument
-||akamaihd.net^*/web/pdk/swf/freewheel.swf?$third-party
-||alexa.com^*/promotebuttons/
-||algart.net*_banner_$third-party
+||affiliate.juno.co.uk^
+||affiliate.mediatemple.net^
+||ak.imgaft.com^
 ||algovid.com/player/get_player_vasts?
 ||alicdn.com^$domain=prostylex.org
 ||allposters.com^*/banners/
 ||allsend.com/public/assets/images/
 ||alpsat.com/banner/
 ||altushost.com/docs/$third-party
-||alysson.de^$domain=radio.at|radio.de|radio.dk|radio.es|radio.fr|radio.it|radio.net|radio.pl|radio.pt|radio.se|radiome.at|radiome.de|radiome.fr
 ||amazonaws.com/mailcache.appinthestore.com/
-||amazonaws.com^$script,subdocument,xmlhttprequest,domain=ndtv.com|streamplay.to|usersfiles.com|vshare.eu|yify-movies.net
-||amazonaws.com^$third-party,xmlhttprequest,domain=downloadpirate.com|vshare.eu
+||amazonaws.com^$script,subdocument,xmlhttprequest,domain=downloadpirate.com|vshare.eu|yify-movies.net
 ||an.yandex.ru^$domain=~e.mail.ru
-||analytics.disneyinternational.com^
-||ancestrydata.com/widget.html?$domain=findagrave.com
-||angelbc.com/clients/*/banners/$third-party
-||anonym.to/*findandtry.com
 ||any.gs/visitScript/$third-party
 ||ao-freegeoip.herokuapp.com^
-||aol.co.uk^*/cobrand.js
-||aolcdn.com/os/mapquest/marketing/promos/
-||aolcdn.com/os/mapquest/promo-images/
-||aolcdn.com/os/music/img/*-skin.jpg
 ||api.140proof.com^$third-party
 ||api.bitp.it^$third-party
-||api.ticketnetwork.com/Events/TopSelling/$domain=nytimes.com
 ||apihotels.net/onestream/events/
 ||apkmaza.net/wp-content/uploads/$third-party
-||apnonline.com.au/img/marketplace/*_ct50x50.gif
 ||appdevsecrets.com/images/nuts/
-||apple.com/itunesaffiliates/
 ||appnext-a.akamaihd.net^
 ||appsgenius.com/images/$third-party
 ||arcadetown.com/as/show.asp
-||ard.ihookup.com^
-||artistdirect.com/partner/
-||as.jivox.com/jivox/serverapis/getcampaignbysite.php?$object
-||assets.betterbills.com/widgets/
 ||assets.sheetmusicplus.com^$third-party
 ||associmg.com^*.gif?tag-
 ||astrology.com/partnerpages/
@@ -49272,15 +49353,12 @@ menstennisforums.com#@#.top_ads
 ||awin1.com/cshow.php$third-party
 ||axandra.com/affiliates/
 ||azureedge.net/cdn/js/rad.js
-||b.babylon.com^
 ||b.marfeelcache.com/statics/marfeel/gardac-sync.js
 ||b92s.net/images/banners/
 ||badoo.com/informer/$third-party
 ||ball2win.com/Affiliate/
 ||bamstudent.com/files/banners/
 ||bankrate.com/jsfeeds/$third-party
-||bankrate.com^$subdocument,domain=yahoo.com
-||banman.isoftmarketing.com^$third-party
 ||banner.101xp.com^
 ||banner.titancasino.com^
 ||banner.titanpoker.com^$third-party
@@ -49297,7 +49375,6 @@ menstennisforums.com#@#.top_ads
 ||bee4.biz/banners/
 ||beget.tech/cpatracker/
 ||bemyapp.com/trk/$third-party
-||bergen.com^*/sponsoredby-
 ||besthosting.ua/banner/
 ||bestofmedia.com/ws/communicationSpot.php?
 ||bet-at-home.com/oddbanner.aspx?
@@ -49306,44 +49383,28 @@ menstennisforums.com#@#.top_ads
 ||betting.betfair.com^$third-party
 ||betwaypartners.com/affiliate_media/$third-party
 ||bharatmatrimony.com/matrimoney/matrimoneybanners/$third-party
-||bhphotovideo.com^$domain=diglloyd.com
-||bidder.criteo.com^$third-party
 ||bidorbuy.co.za/jsp/system/referral.jsp?
 ||bidorbuy.co.za/jsp/tradesearch/TradeFeedPreview.jsp?$third-party
 ||bids.concert.io^
-||bigcommerce.com^*/product_images/$domain=politicalears.com
 ||bigrock.in/affiliate/
-||bijk.com^*/banners/
 ||binbox.io/public/img/promo/$third-party
 ||binopt.net/banners/
-||bit.ly^$image,domain=planepictures.net|tooxclusive.com
+||bit.ly^$image,domain=tooxclusive.com
 ||bit.ly^$subdocument,domain=adf.ly
 ||bitbond.com/affiliate-program/$third-party
-||bitcoindice.com/img/bitcoindice_$third-party
-||bitcoinwebhosting.net/banners/$third-party
 ||bithostcoin.io/img/$third-party
-||bitshare.com^*/banner/
 ||bl.wavecdn.de^
 ||blacklistednews.com/contentrotator/
-||blindferret.com/images/*_skin_
-||blinkx.com/?i=*&adc_pub_id=$script,third-party
-||blinkx.com/f2/overlays/
-||bliss-systems-api.co.uk^$third-party
 ||blissful-sin.com/affiliates/
 ||blogatus.com/images/banner/$third-party
 ||bloodstock.uk.com/affiliates/
 ||bluehost-cdn.com/media/partner/images/
 ||bluehost.com/web-hosting/domaincheckapi/?affiliate=$third-party
 ||bluepromocode.com/images/widgets/$third-party
-||bluesattv.net/bluesat.swf
 ||bluesattv.net/bluesattvnet.gif
 ||bluesattv.net/gif.gif
 ||bluhostedbanners.blucigs.com^
-||boago.com^*_Takeover_
 ||bollyrulez.net/media/adz/
-||booking.com/images/partner/$third-party
-||booking.com^$subdocument,domain=ekathimerini.com
-||booking.com^*;tmpl=banner_
 ||bookingdragon.com^$subdocument,third-party
 ||bordernode.com/images/$third-party
 ||borrowlenses.com/affiliate/
@@ -49352,34 +49413,26 @@ menstennisforums.com#@#.top_ads
 ||bplaced.net/pub/
 ||brandpa.com/widgets/$third-party
 ||bravenet.com/cserv.php
-||break.com/break/html/$subdocument
-||break.com^*/partnerpublish/
 ||brettterpstra.com/wp-content/uploads/$third-party
 ||broadbandgenie.co.uk/widget?$third-party
 ||bruteforceseo.com/affiliates/
 ||bruteforcesocialmedia.com/affiliates/
-||bstatic.com^$script,domain=ekathimerini.com|hikersbay.com|stl.news|theolivepress.es|traveller24.com|wantedinafrica.com|wantedineurope.com|wantedinmilan.com|wantedinrome.com
 ||btguard.com/images/$third-party
 ||btr.domywife.com^
 ||btrd.net/assets/interstitial$script
 ||bubbles-uk.com/banner/$third-party
-||bullguard.com^*/banners/
 ||burnside.dtcn.com^$third-party
 ||burst.net/aff/
 ||burstnet.akadns.net^$image
 ||businessnewswatch.ca/images/nnwbanner/
 ||butter.to^$subdocument,third-party
-||buy.com^*/affiliate/
 ||buyhatke.com/widgetBack/
-||buzznet.com^*/showpping-banner-$third-party
-||byzoo.org/script/tu*.js
 ||bza.co^$subdocument,third-party
 ||c.bannerflow.net^
 ||c.netu.tv^
 ||cache.sellwild.com^$third-party
 ||cachefly.net/cricad.html
 ||cactusvpn.com/images/affiliates/
-||camelmedia.net^*/banners/
 ||carbiz.in/affiliates-and-partners/
 ||careerjunction.co.za/widgets/$third-party
 ||careerjunction.co.za^*/widget?$third-party
@@ -49388,119 +49441,42 @@ menstennisforums.com#@#.top_ads
 ||cars.fyidriving.com^$subdocument,third-party
 ||cas.*.criteo.com^$third-party
 ||cas.clickability.com^
-||cas.criteo.com^$third-party
 ||casalemedia.com/cygnus?
-||cash.neweramediaworks.com^
-||cashmakingpowersites.com^*/banners/
-||cashmyvideo.com/images/cashmyvideo_banner.gif
-||casinobonusdeal.com^$subdocument,domain=sportlemon.org|sportlemon.tv
-||castasap.com/publi2.html
-||catholicweb.com^*/banners/
-||caw.*.criteo.com^$third-party
-||cbpirate.com/getimg.php?
-||cccam.co/banner_big.gif
-||cdn.adblade.com^$third-party
 ||cdn.assets.gorillanation.com^$third-party
-||cdn.cdncomputer.com/js/main.js
-||cdn.comparecards.com^$domain=fortune.com|time.com
-||cdn.fluidplayer.com^*/vast.js
 ||cdn.mgid.com^$third-party,domain=~marketgid.com|~marketgid.com.ua
 ||cdn.ndparking.com/js/init.min.js
 ||cdn.offcloud.com^$third-party
-||cdn.sweeva.com/images/$third-party
-||cdn.tech426.com/pub/
-||cdn.totalfratmove.com^$image,domain=postgradproblems.com
-||cdn77.org/tags/
-||cdnpark.com/scripts/js3.js
-||cdnprk.com/scripts/js3.js
-||cdnprk.com/scripts/js3caf.js
 ||cdnpub.info^$subdocument,third-party,domain=~iqbroker.co|~iqbroker.com|~iqoption.co.th|~iqoption.com|~tr-iqoption.com
 ||cdnservices.net/megatag.js
-||centauro.net^*/banners/$third-party
-||centralmediaserver.com^*_side_bars.jpg
-||centrora.com//store/image/$third-party
 ||cex.io/img/b/
 ||cex.io/informer/$third-party
-||cfcdn.com/showcase_sample/search_widget/
-||cgmlab.com/tools/geotarget/custombanner.js
-||chacsystems.com/gk_add.html$third-party
-||challies.com^*/wtsbooks5.png$third-party
-||charlestondealstoday.com/aux/ux/_component/ss_dealrail/$subdocument,third-party
 ||choices.truste.com^$third-party
-||chriscasconi.com/nostalgia_ad.
-||cimg.in/images/banners/
-||citygridmedia.com/ads/
 ||clarity.abacast.com^
-||classistatic.com^*/sponsors/
 ||click.alibaba.com^$subdocument,third-party
 ||click.aliexpress.com^$subdocument,third-party
-||click.eyk.net^
-||clickandgo.com/booking-form-widget?$third-party
-||clickfunnels.com^*/cfpop.js
-||clicksure.com/img/resources/banner_
-||clicktripz.com/scripts/js/ct.js
-||clipdealer.com/?action=widget&*&partner=
+||clickfunnels.com/assets/cfpop.js
 ||cloudbet.com/ad/
-||cloudfront.net/dfpd.js
-||cloudfront.net/fabric.min.js
-||cloudfront.net/images/super-banner/$domain=buyandsellph.com
-||cloudfront.net/nimblebuy/
-||cloudfront.net/prod-global-
-||cloudfront.net/scripts/js3caf.js
-||cloudfront.net/st.js
-||cloudfront.net/tie.js
-||cloudfront.net^$image,script,subdocument,xmlhttprequest,domain=300mbfilms.org|4archive.org|amabitch.com|comedy.com|coroas40.com|devil-torrents.pl|downloadpirate.com|embedsr.to|mixdrop.to|multiup.org|omghype.com|pirateiro.com|streamp1ay.cc|streamplay.to|thepiratebay.org|usersfiles.com|video.az|vshare.eu|xrares.com
-||cloudiro.com^*-ads.
 ||cloudzer.net/ref/
-||cloudzer.net^*/banner/$third-party
-||cmp.advertising.com^$third-party
 ||cngroup.co.uk/service/creative/
-||cnnewmedia.co.uk/locker/
 ||codeartlove.com/clients/
 ||coinmama.com/assets/img/banners/$third-party
-||colmwynne.com^$image,third-party
-||colorlabsproject.com^*/banner_
 ||commercial.daznservices.com^
-||complexmedianetwork.com/js/cmnUNT.js
-||comx-computers.co.za/banners/$third-party
-||conduit.com//banners/$third-party
-||connect.summit.co.uk^
-||connectok.com/brightcove/?$domain=newsok.com
-||consoletarget.com/*.php$script,subdocument
-||consolpub.com/weatherwindow/
-||content.ad/GetWidget.aspx$third-party
-||content.ad/Scripts/widget*.aspx
+||content.ad/Scripts/$third-party
 ||content.livesportmedia.eu^
 ||content.secondspace.com^$~image,third-party
-||contentcastsyndication.com^*&banner
-||continent8.com^*/bannerflow/
-||conversionplanet.com/published/feeds/$third-party
-||couponcp-a.akamaihd.net^$third-party
-||couptopia.com/affiliate/$third-party
-||coxnewsweb.com^*/ads/
+||couponcp-a.akamaihd.net^
 ||cperformmedia-a.akamaihd.net^
 ||cpm.amateurcommunity.de^
 ||cpmstar.com/cached/
 ||cpmstar.com/view.aspx
-||cq.com/pub/
 ||creative.bshrdr.com^
 ||creatives.inmotionhosting.com^
-||credible.com^$domain=foxbusiness.com
-||criteo.com/delivery/$third-party
+||credible.com/sdk.js$third-party
 ||crowdsavings.com/r/banner/
-||cruiseline.com/widgets/$third-party
-||cruisesalefinder.co.nz/affiliates.html$third-party
-||crunchyroll.com/awidget/$third-party
-||cstv.com^*/sponsors/
-||ct.verticalhealth.net^
-||cts.tradepub.com/cts4/?ptnr=*&tm=$third-party
-||cursecdn.com/banner/
-||cursecdn.com/display/
-||cursecdn.com/shared-assets/current/anchor.js?id=$third-party
+||crunchyroll.com/awidget/
 ||customer.heartinternet.co.uk^$third-party
 ||cut-win.com/img/banners/
-||cuteonly.com/banners.php$third-party
-||d-l-t.com^$subdocument,third-party
+||cuteonly.com/banners.php
 ||d10lv7w3g0jvk9.cloudfront.net^
 ||d11enq2rymy0yl.cloudfront.net^
 ||d11tybz5ul8vel.cloudfront.net^
@@ -49518,6 +49494,7 @@ menstennisforums.com#@#.top_ads
 ||d1aqvw7cn4ydzo.cloudfront.net^
 ||d1crt12zco2cvf.cloudfront.net^
 ||d1ebha2k07asm5.cloudfront.net^
+||d1ev866ubw90c6.cloudfront.net^
 ||d1f05vr3sjsuy7.cloudfront.net^
 ||d1il9t8pu4dsoj.cloudfront.net^
 ||d1lxz4vuik53pc.cloudfront.net^*/inner-host.min.js
@@ -49629,8 +49606,6 @@ menstennisforums.com#@#.top_ads
 ||decals.rcgroups.net^$third-party
 ||delivery-dev.thebloggernetwork.com^
 ||delivery.thebloggernetwork.com^
-||dennis.co.uk^*/siteskins/
-||depositfiles.com^*.php?ref=
 ||deskbabes.com/ref.php?
 ||desperateseller.co.uk/affiliates/
 ||detroitmedia.com/jfry/
@@ -49643,7 +49618,6 @@ menstennisforums.com#@#.top_ads
 ||digitalsatellite.tv/banners/
 ||direct.quasir.info^$third-party
 ||directnicparking.com^$third-party
-||discordapp.com/attachments/765553652336820305/773232666899906570/image0.gif$domain=elitepvpers.com
 ||display.digitalriver.com^
 ||disqus.com/listPromoted?
 ||disqusservice.com/iframe/fallback/
@@ -49656,6 +49630,7 @@ menstennisforums.com#@#.top_ads
 ||dm0acvguygm9h.cloudfront.net^
 ||dmkdtkad2jyb9.cloudfront.net^
 ||dmx.districtm.io^$third-party
+||dnved6ocs3pa4.cloudfront.net^
 ||do69ll745l27z.cloudfront.net^
 ||dojx47ab4dyxi.cloudfront.net^
 ||domain.com.au/widget/$subdocument,third-party
@@ -49665,10 +49640,6 @@ menstennisforums.com#@#.top_ads
 ||dorabet.com/banner/
 ||dot.tk/urlfwd/searchbar/bar.html
 ||dotz123.com/run.php?
-||download-provider.org/?aff.id=$third-party
-||download.bitdefender.com/resources/media/$third-party
-||downloadandsave-a.akamaihd.net^$third-party
-||downloadprovider.me/en/search/*?aff.id=*&iframe=$third-party
 ||dpsq2uzakdgqz.cloudfront.net^
 ||dq3yxnlzwhcys.cloudfront.net^
 ||dqhi3ea93ztgv.cloudfront.net^
@@ -49677,14 +49648,7 @@ menstennisforums.com#@#.top_ads
 ||dramafever.com/widget/$third-party
 ||dreamboxcart.com/earning/$third-party
 ||dreamhost.com/rewards/$third-party
-||dreamstime.com/banner/
-||dreamstime.com/img/badges/banner$third-party
-||dreamstime.com/refbanner-
 ||drf8e429z5jzt.cloudfront.net^
-||drive360.co.za^$script,domain=iol.co.za
-||droidnetwork.net/img/dt-atv160.jpg
-||droidnetwork.net/img/vendors/
-||dropbox.com^*/aff-resources/$domain=gramfeed.com
 ||ds02gfqy6io6i.cloudfront.net^
 ||dsh7ky7308k4b.cloudfront.net^
 ||dsie7h4lo9wxu.cloudfront.net^
@@ -49712,17 +49676,10 @@ menstennisforums.com#@#.top_ads
 ||easyretiredmillionaire.com/img/aff-img/
 ||ebaycommercenetwork.com/publisher/$third-party
 ||ebaystatic.com/aw/signin/ebay-signin-toyota-
-||ebaystatic.com^$domain=psu.com
-||ebaystatic.com^*/motorswidgetsv2.swf?
-||ebladestore.com^*/banners/
 ||eblastengine.upickem.net^$third-party
 ||echineselearning.com^*/banner.jpg
 ||ecopayz.com/files/images/affiliates/
-||ectaco-store.com^*/promo.jsp?
-||edge.viagogo.co.uk^*/widget.ashx?$third-party
-||edgecastcdn.net^*.barstoolsports.com/wp-content/banners/
 ||eharmony.com.au^$subdocument,third-party
-||eholidayfinder.com/images/logo.gif$third-party
 ||elenasmodels.com/cache/cb_$third-party
 ||elitsearch.com^$subdocument,third-party
 ||elliottwave.com/fw/regular_leaderboard.js
@@ -49732,7 +49689,6 @@ menstennisforums.com#@#.top_ads
 ||enticelabs.com/el/
 ||entitlements.jwplayer.com^$third-party
 ||epimg.net/js/pbs/
-||epnt.ebay.com^$third-party
 ||escape.insites.eu^$third-party
 ||espncdn.shop/nwm-dbh.min3.js
 ||esport-betting.com^*/betbanner/
@@ -49772,7 +49728,6 @@ menstennisforums.com#@#.top_ads
 ||ffconf.org/embed/$subdocument,third-party
 ||filedownloader.net/design/$third-party
 ||filedroid.net/af_ta/$third-party
-||filefactory.com^*/refer.php?hash=
 ||filejungle.com/images/banner/
 ||fileparadox.com/images/banner/
 ||filepost.com/static/images/bn/
@@ -49783,40 +49738,24 @@ menstennisforums.com#@#.top_ads
 ||flagship.asp-host.co.uk^$third-party
 ||flashx.tv/banner/
 ||flipchat.com/index.php?$third-party
-||flipkart.com/?affid=$subdocument,third-party
-||flipkart.com/affiliateWidget/$third-party
-||flipkart.com/dl/?affid=$subdocument,third-party
-||flixcart.com/affiliate/$third-party
 ||flower.com/img/lsh/
-||fncstatic.com^*/business-exchange.html
 ||footymad.net/partners/
-||forms.aweber.com/form/styled_popovers_and_lightboxes.js$third-party
-||fortune5minutes.com^*/banner_
 ||fragfestservers.com/bannerb.gif
 ||freakshare.net/banner/
 ||free-football.tv/images/usd/
-||freecycle.org^*/sponsors/
 ||freetrafficsystem.com/fts/ban/
-||freetricktipss.info^$subdocument,third-party
-||freewheel.mtgx.tv^$~object
 ||freshbooks.com/images/banners/$third-party
 ||frogatto.com/images/$third-party
-||frontpagemag.com^*/bigadgendabookad.jpg
-||frontsight.com^*/banners/
 ||fugger.ipage.com^$third-party
 ||funtonia.com/promo/
-||furiousteam.com^*/external_banner/
 ||futuboxhd.com/js/bc.js
 ||future-fie.co.uk^$subdocument,third-party
-||future.net.uk/hl-merchants.
 ||futuresite.register.com/us?$third-party
 ||fxcc.com/promo/
-||gadgets360.com/pricee/$third-party
-||gadgets360cdn.com/shop/$domain=ndtv.com
+||gadgets360.com/pricee/assets/affiliate/
 ||gamblingwages.com/images/$third-party
 ||gameduell.com/res/affiliate/
 ||gameorc.net/a.html
-||gamepedia.cursecdn.com/commons_hydra/*_promo_$third-party
 ||gamer-network.net/plugins/dfp/
 ||gamersaloon.com/images/banners/
 ||gamesports.net/img/betting_campaigns/
@@ -49825,62 +49764,37 @@ menstennisforums.com#@#.top_ads
 ||garudavega.net/indiaclicks/
 ||gateway.fortunelounge.com^
 ||gdgdtrip.com/img/4chan/VPNhub_
-||ge.tt/api/$domain=mhktricks.net
-||gearbest.com^*?lkid=$subdocument,third-party
-||gemini.yahoo.com^*^syndication^
-||generic4all.com^*?refid=$third-party
 ||geo.connexionsecure.com^
 ||geobanner.passion.com^
-||get.*.website/static/get-js?stid=$third-party
 ||get.cryptobrowser.site^$subdocument
 ||get.davincisgold.com^$third-party
 ||get.paradise8.com^$third-party
 ||get.rubyroyal.com^$third-party
 ||get.slotocash.com^$third-party
 ||get.thisisvegas.com^$third-party
-||getadblock.com/images/adblock_banners/$third-party
 ||gethatch.com/iceleads_rest/
 ||gethopper.com/tp/$third-party
 ||getnzb.com/img/partner/banners/$third-party
 ||getsurl.com/images/banners/
 ||gfxa.sheetmusicplus.com^$third-party
 ||gg.caixin.com^
-||ggmania.com^*.jpg$third-party
 ||giantrealm.com/saj/
 ||giantsavings-a.akamaihd.net^$third-party
 ||giffgaff.com/banner/
+||glam.com/app/
 ||glam.com/gad/
-||glam.com/js/widgets/glam_native.act?
-||glam.com^*?affiliateid=
-||goadv.com^*/ads.js
 ||gobankingrates.com/r/$subdocument,third-party
-||gogousenet.com^*/promo.cgi
-||gogousenet.com^*/promo2.cgi
 ||gold4rs.com/images/$third-party
 ||goldmoney.com/~/media/Images/Banners/$third-party
-||goo.gl^$image,domain=cracksfiles.com|indishare.org
-||goo.gl^$script,domain=transphoto.ru
-||goo.gl^$subdocument,domain=backin.net
 ||google.com/adsense/ad
 ||google.com/adsense/domains
 ||google.com/adsense/search/
 ||google.com/dp/ads
 ||google.com/pagead/
-||google.com/uds/afs?*adsense$subdocument
 ||googleadapis.l.google.com^$third-party
-||googleapis.com/xxx-mightyparty.appspot.com/$third-party,domain=~cuntwars.com|~nutaku.com|~nutaku.net
 ||googlesyndication.com/ddm/
-||googlesyndication.com/ima3vpaid?
 ||googlesyndication.com/pagead/
-||googlesyndication.com/sadbundle/
 ||googlesyndication.com/safeframe/
-||googlesyndication.com/simgad/
-||googlesyndication.com/sodar/
-||googlesyndication.com^*/click_to_buy/$object,third-party
-||googlesyndication.com^*/domainpark.cgi?
-||googlesyndication.com^*/googlevideoadslibraryas3.swf$object,third-party
-||googlesyndication.com^*/simgad/
-||googletagservices.com/dcm/dcmads.js
 ||gopjn.com/b/$third-party
 ||gopjn.com/i/$third-party
 ||gotraffic.net^*/sponsors/
@@ -49907,7 +49821,6 @@ menstennisforums.com#@#.top_ads
 ||heidiklein.com/media/banners/
 ||herald.ca/nfwebcam/
 ||hexero.com/images/banner.gif
-||heyoya.com^*&aff_id=
 ||hide-my-ip.com/promo/
 ||highepcoffer.com/images/banners/
 ||hirepurpose.com/static/widgets/$third-party
@@ -49915,16 +49828,11 @@ menstennisforums.com#@#.top_ads
 ||hitleap.com/assets/banner.png
 ||hm-sat.de/b.php
 ||hola.org/play_page.js$third-party
-||homad-global-configs.schneevonmorgen.com^
-||hostdime.com/images/affiliate/$third-party
-||hostgator.com/~affiliat/cgi-bin/affiliates/$third-party
-||hosting.conduit.com^$third-party
 ||hostinger.nl/banners/
 ||hostmonster.com/src/js/$third-party
 ||hostmonster.com^*&utm_$third-party
 ||hotcoursesabroad.com/widget-$third-party
 ||hotdeals360.com/static/js/kpwidgetweb.js
-||hotelsbycity.com^*/bannermtg.php?$third-party
 ||hotelscombined.com/SearchBox/$third-party
 ||hoteltravel.com/partner/$third-party
 ||hotlink.cc/promo/$third-party
@@ -49932,24 +49840,13 @@ menstennisforums.com#@#.top_ads
 ||hstpnetwork.com/ads/
 ||hstpnetwork.com/zeus.php
 ||hstry.eu/annodomini/?size=
-||hubbarddeals.com^*/promo/
-||hubbardradio.com^*/my_deals.php
-||hwcdn.net^$domain=i24news.tv|newindianexpress.com
 ||hyperfbtraffic.com/images/graphicsbanners/
-||hyperscale.com/images/adh_button.jpg
-||i.lsimg.net^*/sides_clickable.
-||i.lsimg.net^*/takeover/
 ||iad-*.blaze.com^
-||ibsrv.net/sidetiles/125x125/
 ||ibsys.com/sh/sponsors/
 ||ibvpn.com/img/banners/
 ||idealo.co.uk/priceinfo/$third-party
-||idg.com.au/ggg/images/*_home.jpg$third-party
 ||ifriends.net/Refer.dll?
 ||im.ov.yahoo.co.jp^
-||image.com.com^*/skin2.jpg$third-party
-||image.dhgate.com^*/dhgate-logo-$third-party
-||images.*.criteo.net^$third-party
 ||images.dreamhost.com^$third-party
 ||images.mylot.com^$third-party
 ||imagetwist.com/banner/
@@ -49960,29 +49857,20 @@ menstennisforums.com#@#.top_ads
 ||imgdino.com/gsmpop.js
 ||imgix.net/sponsors/
 ||imgpop.googlecode.com^$third-party
-||imgshare.info^$image,domain=indishare.org
-||imgur.com/*.gif$domain=howmuchtoiletpaper.com
-||imgur.com/o7VgXT5.png$domain=elitepvpers.com
-||imgur.com^$image,domain=filerev.cc|talksport.com
 ||imgwzzmb.net^$third-party
 ||imptestrm.com/rg-main.php?
 ||in.com/common/script_catch.js
 ||indeed.fr/ads/
-||indian-forex.com^*/banners/$third-party
 ||indiatimes.com//affiliate_new.cms?
 ||indieclick.3janecdn.com^
 ||indochino.com/indo-ecapture-widget/$third-party
 ||infibeam.com/affiliate/$third-party
 ||infochoice.com.au/Handler/WidgetV2Handler.ashx?
-||infomarine.gr/images/banerr.gif
-||infomarine.gr^*/images/banners/
 ||inisrael-travel.com/jpost/
 ||inline.playbryte.com^$third-party
 ||instant-gaming.com/affgames/$third-party
 ||instantpaysites.com/banner/
 ||integrityvpn.com/img/integrityvpn.jpg
-||intermarkets.net/u/Intermarkets/*_apn.js$third-party
-||intermarkets.net/u/Intermarkets/*_targeting.js$third-party
 ||intermrkts.vo.llnwd.net^$third-party
 ||internetbrands.com/partners/$third-party
 ||interserver.net/logos/vps-$third-party
@@ -49991,18 +49879,12 @@ menstennisforums.com#@#.top_ads
 ||ipixs.com/ban/$third-party
 ||iselectmedia.com^*/banners/
 ||itsup.com/creatives/
-||iyfsearch.com^*&pid=$third-party
-||iypcdn.com^*/bgbanners/
-||iypcdn.com^*/otherbanners/
-||iypcdn.com^*/ypbanners/
 ||jalbum.net/widgetapi/js/dlbutton.js?
 ||jenningsforddirect.co.uk/sitewide/extras/$third-party
 ||jinx.com/content/banner/$third-party
-||jivox.com/jivox/serverapis/getcampaignbyid.php?$object
 ||joblet.jp/javascripts/$third-party
 ||jobs-affiliates.ws/images/$third-party
 ||jobtarget.com/distrib_pages/
-||jocly.com^*.html?click=$subdocument,third-party
 ||jrcdev.net/promos/
 ||jsc.mgid.com^$third-party,domain=~marketgid.com|~marketgid.com.ua
 ||jsfeedget.com^$script,third-party
@@ -50016,17 +49898,10 @@ menstennisforums.com#@#.top_ads
 ||k-po.com/img/ebay.png$third-party
 ||k.co.il/iefilter.html
 ||kaango.com/fecustomwidgetdisplay?
-||kallout.com^*.php?id=
-||kaltura.com^*/vastPlugin.swf$third-party
 ||karma.mdpcdn.com^
 ||keep2share.cc/images/i/$third-party
-||king.com^*/banners/
 ||kontera.com/javascript/lib/KonaLibInline.js$third-party
 ||kozmetikcerrahi.com/banner/
-||krillion.com^*/productoffers.js
-||kurtgeiger.com^*/linkshare/
-||l.yimg.com^*&partner=*&url=
-||ladbrokes.com^*&aff_id=
 ||lastlocation.com/images/banner
 ||lawdepot.com/affiliate/$third-party
 ||leadfamly.com/campaign/sdk/popup.min.js
@@ -50052,36 +49927,20 @@ menstennisforums.com#@#.top_ads
 ||linkconnector.com/traffic_record.php$third-party
 ||linkedin.com/csp/dtag?$subdocument,third-party
 ||linkshrink.net^$script,third-party
-||lionheartdms.com^*/walmart_300.jpg
 ||litecoinkamikaze.com/assets/images/banner$third-party
-||literatureandlatte.com/gfx/buynowaffiliate.jpg
-||livecrics.livet20worldcup.com/video.php$domain=iplstream.com
 ||liveperson.com/affiliates/
-||liveshows.com^*/live.js$third-party
-||llnwd.net/o28/assets/*-sponsored-
-||llnwd.net/tools/tags/interstitial/
-||loopnet.com^*/searchwidget.htm$third-party
-||loot.co.za/shop/product.jsp?$third-party
-||loot.co.za^*/banners/$third-party
 ||lottoelite.com/banners/$third-party
 ||lowcountrymarketplace.com/widgets/$third-party
-||lp.longtailvideo.com^*/adaptv*.swf
 ||lp.ncdownloader.com^$third-party
 ||lucky-dating.net/banners/
-||luckygunner.com^*/banners/
 ||lumfile.com/lumimage/ourbanner/$third-party
-||lylebarn.com/crashwidget/$domain=crash.net
 ||lynku.com/partners/$third-party
-||m.uploadedit.com^$third-party,domain=flysat.com
 ||maases.com/i/br/$domain=promodj.com
 ||madisonlogic.com^$third-party
-||magicaffiliateplugin.com/img/mga-125x125.gif
-||magicmembers.com/img/mgm-125x125
 ||magniwork.com/banner/
 ||mahndi.com/images/banner/
 ||mambaonline.com/clinic_button.
 ||mantisadnetwork.com/mantodea.min.js
-||mantra.com.au^*/campaigns/$third-party
 ||marketing.888.com^
 ||marketools.plus500.com/feeds/$third-party
 ||marketools.plus500.com/Widgets/$third-party
@@ -50093,7 +49952,6 @@ menstennisforums.com#@#.top_ads
 ||mbid.marfeelrev.com^
 ||mcc.godaddy.com/park/$subdocument,third-party
 ||mcclatchyinteractive.com/creative/
-||mdpcdn.com^*/gpt/
 ||media-toolbar.com^$third-party
 ||media.complex.com/videos/prerolls/
 ||media.domainking.ng/media/$third-party
@@ -50108,46 +49966,25 @@ menstennisforums.com#@#.top_ads
 ||medrx.telstra.com.au^
 ||memepix.com/spark.php?
 ||mensxp.com^$third-party,xmlhttprequest
-||metaboli.fr^*/adgude_$third-party
 ||metroland.com/wagjag/
 ||mfcdn.net/store/spotlight/
 ||mfeed.newzfind.com^$third-party
 ||mgid.com/ghits/
 ||mgid.com^$~image,~script,third-party,domain=~marketgid.com|~marketgid.com.ua
 ||mgm.com/www/$third-party
-||mgprofit.com/images/*x$third-party
-||microsoft.com^*/bannerrotator/$third-party
-||microsoft.com^*/community/images/windowsintune/$third-party
-||mightyape.co.nz/stuff/$third-party
-||mightydeals.com/widget?$third-party
-||mightydeals.com/widgets/$third-party
 ||missnowmrs.com/images/banners/
 ||mkini.net/banners/
 ||mlive.com/js/oas/
-||mmdcash.com/mmdcash01.gif
 ||mmosale.com/baner_images/$third-party
 ||mmwebhandler.888.com^$third-party
-||mnginteractive.com^*/dartinclude.js
 ||mol.im/i/pix/ebay/
 ||moneycontrol.com/share-market-game/$third-party
 ||moneywise.co.uk/affiliate/
 ||moonb.ch/?ref=$third-party
 ||moosify.com/widgets/explorer/?partner=
-||morningpost.dk^*/bildele.gif
-||mosso.com^*/banners/
-||movie4all.co^$third-party
-||mrc.org/sites/default/files/uploads/images/Collusion_Banner
-||mrc.org^*/Collusion_Banner300x250.jpg
-||mrc.org^*/take-over-charlotte300x250.gif
 ||mrskincdn.com/data/uploader/affiliate/$script
-||msecnd.net/scripts/*.pop.$script
-||msm.mysavings.com^*.asp?afid=$third-party
-||msn.com^*/ms-bingna-mw.
-||msnbcmedia.msn.com^*/sponsors/
 ||mt.sellingrealestatemalta.com^$third-party
 ||mto.mediatakeout.com^$third-party
-||multisitelive.com^*/banner_
-||multivizyon.tv^*/flysatbanner.swf
 ||musicmemorization.com/images/$third-party
 ||my-dirty-hobby.com/track/$subdocument,third-party
 ||mybdhost.com/imgv2/$third-party
@@ -50155,52 +49992,34 @@ menstennisforums.com#@#.top_ads
 ||mydownloader.net/banners/$third-party
 ||myezbz.com/marketplace/widget/$third-party
 ||myfinance.com^$domain=cnn.com|marketwatch.com
-||myfreeresources.com/getimg.php?$third-party
-||myfreeshares.com/120x60b.gif
 ||myhpf.co.uk/banners/
 ||mylife.com/partner/$third-party
 ||mynativeplatform.com/pub2/
-||myspace.com/play/myspace/*&locationId$third-party
 ||myusenet.net/promo.cgi?
-||myvi.ru/feed/$object
-||mzstatic.com^$image,object,domain=dailymotion.com
 ||n.nu/banner.js
-||n4g.com^*/IndieMonthSideBarWidget?$third-party
 ||namecheap.com/graphics/linkus/$third-party
 ||nanobrokers.com/img/banner_
 ||nativly.com/tds/widget?wid=$third-party
 ||natureticks.com/images/banners/$third-party
-||neighbourly.co.nz^$subdocument,domain=stuff.co.nz
 ||neogames-tech.com/resources/genericbanners/
 ||nesgamezone.com/syndicate?
 ||netdigix.com/google_banners/
-||netdna-cdn.com/wp-content/plugins/background-manager/$domain=7daysindubai.com
-||netdna-cdn.com^*-300x250.$domain=readersdigest.co.uk
-||netdna-cdn.com^*-Background-1280x10241.$domain=7daysindubai.com
-||netdna-ssl.com/images/banner-$domain=colorlib.com
 ||nettvplus.com/images/banner_
 ||networkice.com^$subdocument,third-party
 ||news.fark.com^$third-party
 ||news.smi2.ru^$third-party
 ||newsiqra.com^$subdocument,third-party
-||newware.net/home/banner$third-party
-||newware.net/home/newware-sm.png$third-party
 ||nextpathnet.com/pub.js
 ||nimblecommerce.com/widget.action?
 ||nitroflare.com/img/banners/
 ||nitropdf.com/graphics/promo/$third-party
 ||nlsl.about.com/img?$third-party
 ||nmh.my.na/main/products/$third-party
-||nocookie.net^*/wikiasearchads.js
 ||novadune.com^$third-party
 ||nster.com/tpl/this/js/popnster.js
-||ntnd.net^*/store-buttons/
 ||ntvcld-a.akamaihd.net^
 ||numb.hotshare.biz^$third-party
-||nvpn.net/images/banner.gif
 ||nwadealpiggy.com/widgets/
-||nzmelistings.co.nz^$subdocument,third-party
-||nzpages.co.nz^*/banners/
 ||o2live.com^$third-party
 ||oas.luxweb.com^
 ||oasap.com/images/affiliate/
@@ -50211,25 +50030,19 @@ menstennisforums.com#@#.top_ads
 ||office.eteachergroup.com/leads/$third-party
 ||offidocs.com/community/$third-party
 ||oilofasia.com/images/banners/
-||ojooo.com/register_f/$third-party
-||ojooo.com^*/banner_$third-party
 ||on.maxspeedcdn.com^
 ||onecache.com/banner_
 ||oneroof.co.nz^$subdocument,third-party
 ||oovoo.com^*/banners/
-||optimus-pm.com^*_300-250.jpg
-||organicprospects.com^*/banners/
-||oriongadgets.com^*/banners/
 ||osobnosti.cz/images/casharena_
-||outdoorhub.com/js/_bookends.min.js
 ||overseasradio.com/affbanner.php?
 ||ovpn.to/ovpn.to/banner/
-||ownx.com^*/banners/
 ||oxygenboutique.com/Linkshare/
 ||p.d.1emn.com^
 ||p.jwpcdn.com/player/plugins/vast/
 ||p.pw/banners/$third-party
 ||p.smartertravel.com^$third-party
+||pacontainer.s3.amazonaws.com^
 ||padsdel.com^$third-party
 ||pagead2.googlesyndication.com^
 ||pagerage.com^$subdocument,third-party
@@ -50283,18 +50096,11 @@ menstennisforums.com#@#.top_ads
 ||pntrac.com/i/$third-party
 ||pntrs.com/b/$third-party
 ||pntrs.com/i/$third-party
-||pokerjunkie.com/rss/
-||pokerroomkings.com^*/banner/$third-party
-||pokersavvy.com^*/banners/
-||pokerstars.com/?source=$subdocument,third-party
-||pokerstars.com/euro_bnrs/
 ||popin.cc/popin_discovery
 ||popmog.com^$third-party
 ||pops.freeze.com^$third-party
 ||pornturbo.com/tmarket.php
 ||post.rmbn.ru^$third-party
-||postaffiliatepro.com^*/banners/$image
-||postimg.org^$image,domain=tubeoffline.com
 ||ppc-coach.com/jamaffiliates/
 ||premium-template.com/banner/$third-party
 ||premium.naturalnews.tv^$third-party
@@ -50311,10 +50117,7 @@ menstennisforums.com#@#.top_ads
 ||primeloopstracking.com/affil/
 ||print2webcorp.com/widgetcontent/
 ||privateinternetaccess.com^$script,third-party,xmlhttprequest
-||privatewifi.com/swf/banners/
 ||prizerebel.com/images/banner$third-party
-||pro-gmedia.com^*/skins/
-||products.gobankingrates.com^$domain=fortune.com
 ||promos.fling.com^
 ||promote.pair.com^
 ||promotions.iasbet.com^
@@ -50327,52 +50130,27 @@ menstennisforums.com#@#.top_ads
 ||proxysolutions.net/affiliates/
 ||pub.admedia.io^
 ||pub.dreamboxcart.com^$third-party
-||pubexchange.com/module/*-prod$third-party
-||pubexchange.com/modules/display/$script,third-party
 ||public.porn.fr^$third-party
 ||publish0x.com^$image,script,third-party
 ||pubs.hiddennetwork.com^
 ||puntersparadise.com.au/banners/
 ||purevpn.com/affiliates/$third-party
 ||qualoo.net/now/interstitial/
-||quickflix*.gridserver.com^$third-party
-||quirk.biz/webtracking/
 ||racebets.com/media.php?
 ||rack.bauermedia.co.uk^
-||rackcdn.com/banner/$domain=enjore.com
-||rackcdn.com^$script,domain=search.aol.com
-||rackspacecloud.com/Broker%20Buttons/$domain=investing.com
-||radioreference.com/sm/300x75_v3.jpg
-||radioshack.com^*/promo/
-||radiotown.com/bg/
-||radiotown.com/splash/images/*_960x600_
-||radley.co.uk^*/Affiliate/
-||rapidgator.net/images/pics/$third-party
-||rapidgator.net/images/pics/*_300%D1%85250_
 ||ratecity.com.au/widgets/$third-party
 ||ratesupermarket.ca/widgets/
 ||rbth.ru/widget/$third-party
 ||rcm*.amazon.$third-party
-||rdi.*.criteo.com^$third-party
-||rdi.criteo.com^$third-party
 ||readme.ru/informer/$third-party
-||realwritingjobs.com^*/banners/
-||red-tube.com^*.php?wmid=*&kamid=*&wsid=$third-party
 ||redflagdeals.com/dealoftheday/widgets/$third-party
 ||redirect-ads.com^$~subdocument,third-party
 ||redtram.com^$script,third-party
 ||refer.wordpress.com^$third-party
-||regmyudid.com^*/index.html$third-party
 ||regnow.com/vendor/
 ||remax-malta.com/widget/$third-party
-||rentalcars.com/affxml/$domain=news-headlines.co.za|nuus.info|sa-news.com|sa-radio.com|saffa.com|saukradio.com
-||rentalcars.com/ELBanner.do?$third-party
 ||rentalcars.com/partners/$third-party
 ||res3.feedsportal.com^
-||resimag.com/p1/6ef4933807d.gif
-||resimag.com/p1/bb61dc4ce45.gif
-||resimag.com/p1/df9d5d01e94.gif
-||rethinkbar.azurewebsites.net^*/ieflyout.js
 ||ribbon.india.com^$third-party
 ||rmgserving.com/rmgdsc/$script
 ||roadcomponentsdb.com^$subdocument,third-party
@@ -50381,15 +50159,8 @@ menstennisforums.com#@#.top_ads
 ||roshantv.com/adad.
 ||rotabanner.kulichki.net^
 ||rotator.tradetracker.net^
-||rtax.criteo.com^$third-party
-||runerich.com/images/sty_img/runerich.gif
-||ruralpressevents.com/agquip/logos/$domain=farmonline.com.au
 ||russian-dreams.net/static/js/$third-party
-||s-assets.tp-cdn.com/widgets/*/vwid/*.html?
-||s-yoolk-banner-assets.yoolk.com^
-||s-yoolk-billboard-assets.yoolk.com^
 ||s1.wp.com^$subdocument,third-party
-||s1now.com^*/takeovers/
 ||saambaa.com^$third-party
 ||safarinow.com/affiliate-zone/
 ||sailthru.com^*/horizon.js
@@ -50400,58 +50171,39 @@ menstennisforums.com#@#.top_ads
 ||sascdn.com/tag/
 ||satshop.tv/images/banner/$third-party
 ||sbhc.portalhc.com^$third-party
-||schenkelklopfer.org/4fsidebar.php
-||schenkelklopfer.org^*pop.js
 ||schurzdigital.com/deals/widget/
 ||sciencecareers.org/widget/$third-party
 ||sciremedia.tv/images/banners/
 ||scoffopedia.com/images/banner$third-party
-||scoopdragon.com/images/Goodgame-Empire-MPU.jpg
 ||screenconnect.com/miscellaneous/ScreenConnect-$image,third-party
 ||screenshotfactory.com/marketing2/$third-party
 ||seatplans.com/widget|$third-party
 ||secondspin.com/twcontent/
 ||securep2p.com^$subdocument,third-party
 ||secureserver.net^*/event?
-||seedboxco.net/*.swf$third-party
 ||seedsman.com/affiliate/$third-party
 ||servedby.keygamesnetwork.com^
 ||servedby.yell.com^$third-party
-||server4.pro/images/banner.jpg
 ||service.smscoin.com/js/sendpic.js
 ||services.zam.com^$third-party
-||serving.portal.dmflex.com^$domain=thisdaylive.com
 ||sfcdn.in/sailfish/$script
 ||sfimg.com/images/banners/
 ||sfimg.com/SFIBanners/
 ||sfm-offshore.com/images/banners/
-||sfstatic.com^*/js/fl.js$third-party
-||sfstatic.net^*/promoBlock-
-||shaadi.com^*/get-banner.php?
-||shaadi.com^*/get-html-banner.php?
 ||shareasale.com/image/$third-party
 ||shareflare.net/images/$third-party
 ||shariahprogram.ca/banners/
 ||sharingzone.net/images/banner$third-party
 ||shawmediaauto.com/event/i/?size=$third-party
-||shawsuburbanauto.com^$subdocument,third-party
-||shawsuburbanhomes.com^$subdocument,third-party
 ||shink.in/js/script.js$third-party
 ||shop-top1000.com/images/
-||shop4tech.com^*/banner/
 ||shopbrazos.com/widgets/
 ||shopilize.com^$third-party
-||shopping.com/sc/pac/sdc_widget_v2.0_proxy.js$third-party
 ||shorte.st/link-converter.min.js
-||shorte.st^*/referral_banners/
-||shragle.com^*?ref=
-||simplifydigital.co.uk^*/widget_premium_bb.htm
-||simplyfwd.com/?dn=*&pid=$subdocument
 ||singlehop.com/affiliates/$third-party
 ||singlemuslim.com/affiliates/
 ||sisters-magazine.com/iframebanners/$third-party
 ||sitegiant.my/affiliate/$third-party
-||sitegrip.com^*/swagbucks-
 ||siteground.com/img/affiliate/$third-party
 ||siteground.com/img/banners/$third-party
 ||sitescout-video-cdn.edgesuite.net^
@@ -50460,88 +50212,47 @@ menstennisforums.com#@#.top_ads
 ||slot.union.ucweb.com^
 ||slysoft.com/img/banner/$third-party
 ||smart.styria-digital.com^
-||smartasset.com/embed.js
-||smartasset.com^$domain=marketwatch.com
 ||smartdestinations.com/ai/$third-party
 ||smbulk.com/assets/images/banner-
 ||smilepk.com/bnrsbtns/
 ||snacktools.net/bannersnack/$domain=~bannersnack.dev
-||snapdeal.com^*.php$third-party
 ||sndkorea.nowcdn.co.kr^$third-party
 ||socialmonkee.com/images/$third-party
 ||softneo.com/popup.js
-||speedbit.com^*-banner1-
-||speedppc.com^*/banners/
 ||splashpagemaker.com/images/$third-party
 ||sportsbetaffiliates.com.au^$third-party
-||sportsdigitalcontent.com/betting/
 ||spot.im/yad/
 ||sproutnova.com/serve.php$third-party
 ||squarespace.evyy.net^
 ||squirrels.getsquirrel.co^$third-party
 ||srv.dynamicyield.com^$third-party
-||srwww1.com^*/affiliate/
+||srx.com.sg/srx/media/$third-party
 ||ssl-images-amazon.com/images/*/DAsf-
 ||ssl-images-amazon.com/images/*/MAsf-
-||stacksocial.com/bundles/$third-party
-||stacksocial.com^*?aid=$third-party
-||stalliongold.com/images/*x$third-party
 ||stargames.com/bridge.asp?$third-party
-||static.*.criteo.net/design^$third-party
-||static.*.criteo.net/flash^$third-party
-||static.*.criteo.net/images^$third-party
-||static.*.criteo.net/js/duplo^$third-party
-||static.criteo.com/design^$third-party
-||static.criteo.com/flash^$third-party
-||static.criteo.com/images^$third-party
-||static.criteo.com/js/duplo^$third-party
-||static.criteo.net/design^$third-party
-||static.criteo.net/flash^$third-party
-||static.criteo.net/images^$third-party
-||static.criteo.net/js/duplo^$third-party
 ||static.tradetracker.net^$third-party
-||staticworld.net/images/*_skin_
-||stats.sitesuite.org^
 ||streaming.rtbiddingplatform.com^
-||structuredchannel.com/sw/swchannel/images/MarketingAssets/*/BannerAd
-||stuff.com/javascripts/more-stuff.js
-||stylefind.com^*?campaign=$subdocument,third-party
-||subliminalmp3s.com^*/banners/
-||superherostuff.com/pages/cbmpage.aspx?*&cbmid=$subdocument,third-party
-||supersport.co.za^*180x254
 ||supply.upjers.com^$third-party
 ||supplyframe.com/partner/
 ||surf100sites.com/images/banner_
 ||survey.g.doubleclick.net^
 ||surveymonkey.com/jspop.aspx?$third-party
 ||surveywriter.net^$script,third-party
-||survivaltop50.com/wp-content/uploads/*/Survival215x150Link.png
-||svcs.ebay.com/services/search/FindingService/*^affiliate.tracking$third-party
 ||swarmjam.com^$script,third-party
-||sweed.to/?pid=$third-party
-||sweed.to/affiliates/
 ||sweetwater.com/feature/$third-party
-||sweeva.com/widget.php?w=$third-party
-||swimg.net^*/banners/
-||synapsys.us/widgets/chatterbox/$third-party
-||synapsys.us/widgets/dynamic_widget/$third-party
-||synapsys.us^*/partner.js$third-party
+||sweeva.com/images/banner250.gif
 ||syndicate.payloadz.com^$third-party
 ||syndication.jsadapi.com^
 ||taboola.com/vpaid/$third-party
-||taboola.com^$domain=independent.co.uk|scoopwhoop.com|technobuffalo.com
+||taboola.com^$domain=independent.co.uk|technobuffalo.com
 ||tag.regieci.com^$third-party
 ||tags.sprizzy.com^
 ||tags2.adshell.net^$subdocument
-||take2.co.za/misc/bannerscript.php?
-||talkfusion.com^*/banners/
-||tankionline.com/tankiref.swf
 ||tap.more-results.net^
 ||targeting.vdo.ai^
 ||tcadserver.rain-digital.ca^
 ||tcmwebcorp.com/dtm/tc_global_dtm_delivery.js
-||techbargains.com/inc_iframe_deals_feed.cfm?$third-party
-||techbargains.com/scripts/banner.js$third-party
+||tech426.com/pub/
 ||techkeels.com/creatives/
 ||tedswoodworking.com/images/banners/
 ||textlinks.com/images/banners/
@@ -50555,30 +50266,17 @@ menstennisforums.com#@#.top_ads
 ||theseblogs.com/visitScript/
 ||theseforums.com/visitScript/
 ||theselfdefenseco.com/?affid=$third-party
-||thetechnologyblog.net^*/bp_internet/
 ||ti.tradetracker.net^
 ||ticketkai.com/banner/
 ||ticketmaster.com/promotionalcontent/
-||tickles.co.uk^$subdocument,third-party
-||tickles.ie^$subdocument,third-party
-||tigerdirect.com^*/affiliate_
 ||timesinternet.in/ad/
-||tinyurl.com/4x848hd$subdocument
-||tipico.*/affiliate/$third-party
-||tipico.*?affiliateId=$third-party
-||tiqiq.com/Tiqiq/WidgetInactiveIFrame.aspx?WidgetID=*&PublisherID=$subdocument,third-party
 ||tmbattle.com/images/promo_
-||tmz.vo.llnwd.net^*_rightrail_200x987.swf
 ||toksnn.com/ads/
 ||top5result.com/promo/
 ||topmedia.com/external/
 ||topservers200.com/img/banners/
-||topspin.net/secure/media/$image,domain=youtube.com
 ||torguard.net/images/aff/
 ||torrindex.net/images/epv/
-||townnews.com^*/dealwidget.css?
-||townnews.com^*/upickem-deals.js?
-||townsquareblogs.com^*=sponsor&
 ||toysrus.com/graphics/promo/
 ||traceybell.co.uk^$subdocument,third-party
 ||track.bcvcmedia.com^
@@ -50589,14 +50287,7 @@ menstennisforums.com#@#.top_ads
 ||travelmail.traveltek.net^$third-party
 ||treatme.co.nz/Affiliates/
 ||tremorhub.com/pubsync?
-||tremormedia.com/embed/js/*_ads.js
-||tremormedia.com^*/tpacudeoplugin46.swf
-||tremormedia.com^*_preroll_
 ||trialfunder.com/banner/
-||trialpay.com^*&dw-ptid=$third-party
-||tribktla.files.wordpress.com/*-639x125-sponsorship.jpg?
-||tribwgnam.files.wordpress.com^*reskin2.
-||tripadvisor.com/WidgetEmbed-*&partnerId=$domain=rbth.co.uk|rbth.com
 ||trivago.co.uk/uk/srv/$third-party
 ||trvl-px.com/trvl-px/$third-party
 ||tshirthell.com/img/affiliate_section/$third-party
@@ -50605,48 +50296,29 @@ menstennisforums.com#@#.top_ads
 ||turbobit.net/ref/$third-party
 ||turbobit.net/refers/$third-party
 ||turbotrafficsystem.com^*/banners/
-||turner.com^*/ads/
-||turner.com^*/promos/
 ||twinplan.com^
-||twivert.com/external/banner234x60.
 ||ubuntudeal.co.za^$subdocument,third-party
 ||ukcast.tv/adds/
 ||ultimedia.com/api/widget/$xmlhttprequest
-||uniblue.com^*/affiliates/
 ||unsereuni.at/resources/img/$third-party
-||upickem.net^*/affiliates/$third-party
 ||upload2.com/upload2.html
 ||uploaded.net/img/public/$third-party
-||uploaded.to/img/public/$third-party
-||uploaded.to/js/layer.js
 ||upsales.com^*/visit/v.js
 ||urtig.net/scripts/js3caf.js
-||usenetbucket.com^*-banner/
-||userscloud.com/images/banners/
-||usersfiles.com/images/72890UF.png
 ||usfine.com/images/sty_img/usfine.gif
 ||ussearch.com/preview/banner/
 ||utility.rogersmedia.com^
 ||va.sndcdn.com/audio/*.mp3
 ||valuechecker.co.uk/banners/$third-party
-||vapeworld.com^*/banners/$third-party
-||vaporizor.com^*/banners/$third-party
-||vapornation.com^*/banner/$third-party
 ||vast.spotim.market^
 ||vast.videe.tv/vast-proxy/
-||vcnewsdaily.com/images/vcnews_right_banner.gif
 ||vdownloader.com/pages/$subdocument,third-party
 ||viagogo.co.uk/feeds/widget.ashx?
 ||vice-publishers-cdn.vice.com^
+||video-ads.a2z.com^
 ||vidible.tv/placement/vast/
 ||vidible.tv/prod/tags/
 ||vidyoda.com/fambaa/chnls/ADSgmts.ashx?
-||viglink.com/api/batch^$third-party
-||viglink.com/api/insert^$third-party
-||viglink.com/api/optimize^$third-party
-||viglink.com/api/products^$third-party
-||viglink.com/api/widgets/offerbox.js$third-party
-||viglink.com/images/pixel.gif
 ||vipfile.cc/images/$third-party
 ||viralize.tv/t-bid-opportunity/
 ||viralize.tv/vast/
@@ -50657,116 +50329,51 @@ menstennisforums.com#@#.top_ads
 ||vitabase.com/images/relationships/$third-party
 ||vittgam.net/images/b/
 ||vivads.net/banners/
-||vix.*.criteo.net^$third-party
 ||vodp-e-streamingmagentamusic360.tls1.yospace.com^$third-party
-||vpn4all.com^*/banner/
 ||vpnaffiliates.hidester.com^$third-party
 ||vpnarea.com/affiliate/
 ||vpntunnel.se/aff/$third-party
-||vpnxs.nl/images/vpnxs_banner
-||vrvm.com/t?
 ||vultr.com/media/banner
 ||vuukle.com/ads/
-||vuukle.com/affinity.
-||vxite.com/banner/
-||wagital.com/Wagital-Ads.html
-||walmartimages.com^*/HealthPartner_
-||warezhaven.org/warezhavenbann.jpg
 ||warrantydirect.co.uk/widgets/
 ||washingtonpost.com/wp-srv/wapolabs/dw/readomniturecookie.html
-||watch-free-movie-online.net/adds-
 ||watchme.com/track/$subdocument,third-party
 ||watersoul.com^$subdocument,third-party
-||weatherthreat.com^*/app_add.png
 ||web.adblade.com^$third-party
 ||web2feel.com/images/$third-party
 ||webdev.co.zw/images/banners/$third-party
-||webmasterrock.com/cpxt_pab
-||website.ws^*/banners/
+||webseed.com/WP/
 ||weby.aaas.org^$third-party
 ||whistleout.com/Widgets/$third-party
 ||widenetworks.net^$domain=flysat.com
 ||widgeo.net/popup.js
-||widget.cheki.com.ng^$third-party
 ||widget.engageya.com/engageya_loader.js
 ||widget.imshopping.com^$third-party
 ||widget.jobberman.com^$third-party
 ||widget.searchschoolsnetwork.com^
 ||widget.sellwild.com^
 ||widget.shopstyle.com.au^
-||widget.shopstyle.com/widget?pid=$subdocument,third-party
+||widget.shopstyle.com/widget?
 ||widget.solarquotes.com.au^
-||widgetcf.adviceiq.com^$third-party
-||widgets.adviceiq.com^$third-party
-||widgets.fie-data.co.uk^
-||widgets.fie.futurecdn.net^$script
-||widgets.itunes.apple.com^*&affiliate_id=$third-party
-||widgets.junction.co.za^$third-party
-||widgets.lendingtree.com^$third-party
-||widgets.mobilelocalnews.com^$third-party
-||widgets.mozo.com.au^$third-party
-||widgets.outbrain.com/nativeVideoPlayer/NVPInjector.min.js$third-party
-||widgets.progrids.com^$third-party
-||widgets.skyscanner.net^$domain=euronews.com
-||widgets.solaramerica.org^$third-party
-||widgets.tree.com^$subdocument,third-party
-||wildamaginations.com/mdm/banner/
-||windcdna.com/api/banner/
-||windycitymediagroup.com/gayandlesbianimages/
-||winpalace.com/?affid=
+||widgets.lendingtree.com^
+||widgets.progrids.com^
+||widgets.tree.com^
 ||winsms.co.za/banner/
-||wishlistproducts.com/affiliatetools/$third-party
-||wm.co.za/24com.php?
-||wm.co.za/wmjs.php?
 ||wonderlabs.com/affiliate_pro/banners/
-||worldcdn.net^*/banners/
-||worldnow.com/images/incoming/RTJ/rtj201303fall.jpg
-||worldofjudaica.com/products/dynamic_banner/
-||worldofjudaica.com/static/show/external/
-||wp.com/*.postaffiliatepro.com/$third-party
-||wp.com/adnetsreview.com/wp-content/uploads/*banner
 ||wp.com/assets.sheetmusicplus.com/banner/
 ||wp.com/assets.sheetmusicplus.com/smp/
 ||wp.com/bugsfighter.com/wp-content/uploads/2016/07/adguard-banner.png
 ||wp.com/stripe.rs-stripe.com/
-||wp.com^*/linkwidgets/$domain=coedmagazine.com
 ||wpzoom.com/images/aff/$third-party
 ||ws.amazon.*/widgets/$third-party
-||wsockd.com^$third-party
-||xcams.com/livecams/pub_collante/script.php?$third-party
-||xigen.co.uk^*/Affiliate/
-||xingcloud.com^*/uid_
-||xml.exactseek.com/cgi-bin/js-feed.cgi?$third-party
-||xproxyhost.com/images/banners/
-||xrad.io^*/hotspots/
-||yachting.org^*/banner/
 ||yahoo.com/bidRequest?
 ||yahoo.net^*/ads/
-||yb.torchbrowser.com^
 ||yeas.yahoo.co.jp^
 ||yield-op-idsync.live.streamtheworld.com^
 ||yieldmanager.edgesuite.net^$third-party
 ||yimg.com/dy/ads/readmo.js
-||yimg.com/gemini/pr/video_
-||yimg.com/gs/apex/mediastore/
-||yimg.com^*/dianominewwidget2.html$domain=yahoo.com
-||yimg.com^*/quickplay_maxwellhouse.png
-||yimg.com^*/sponsored.js
-||yimg.com^*_skin_$domain=yahoo.com
-||ynet.co.il^*/ynetbanneradmin/
-||yooclick.com^$subdocument,third-party
-||yormedia.com^$third-party
-||you-cubez.com/images/banners/
-||youinsure.co.za/frame/$third-party
-||yudu.co.nz^$subdocument,third-party
-||zapads.zapak.com^
-||zazzle.com/utl/getpanel$third-party
-||zazzle.com^*?rf$third-party
 ||zergnet.com/zerg-inf.js$third-party
 ||zergnet.com/zerg.js$third-party
-||ziffdavisenterprise.com/contextclicks/
-||ziffprod.com/CSE/BestPrice?
-||zip2save.com/widget.php?
 ! https://d3ward.github.io/toolz/src/adblock.html
 ||ad.intl.xiaomi.com^
 ||ad.samsungadhub.com^
@@ -50916,6 +50523,7 @@ menstennisforums.com#@#.top_ads
 ||secretmedia.com^$third-party
 ! *** easylist:easylist/easylist_thirdparty_popup.txt ***
 ||6angebot.ch^$popup,third-party
+||adcleanerpage.com^*&trackingdomain=$popup
 ||adfreevision.com^$popup
 ||adrotator.se^$popup
 ||adserving.unibet.com^$popup,third-party
@@ -51278,10 +50886,9 @@ menstennisforums.com#@#.top_ads
 ||artdaily.cc/banners/
 ||as.inbox.com^
 ||ascii-art-generator.org/cnc/$xmlhttprequest
-||atptour.com^*/rolex/
+||atptour.com/assets/atpwt/third-party/
 ||atptour.com^*/sponsors/
 ||audiobookbay.nl/images/d-t.gif
-||audiobookbay.nl/images/direct.gif
 ||audiotag.info/images/banner_
 ||aurn.com/wp-content/banners/
 ||aveherald.com/images/banners/
@@ -51362,6 +50969,7 @@ menstennisforums.com#@#.top_ads
 ||ecommercetimes.com/images/sda/
 ||ed2k.2x4u.de/mfc/
 ||emoneyspace.com/b.php
+||emovies.io/api/pop.php
 ||engagesrvr.filefactory.com^
 ||engine.laweekly.com^
 ||eprop.co.za/images/banners/
@@ -51377,7 +50985,7 @@ menstennisforums.com#@#.top_ads
 ||facebook.com^*/instream/vast.xml?
 ||failgags.com/yxsfidlqemb.php
 ||familylawweek.co.uk/bin_1/
-||fastpic.ru/g/
+||fastpic.org/g/f.js
 ||finchannel.com/images/banners/
 ||findit.com.mt/viewer/
 ||fishki.net/code?
@@ -51417,8 +51025,16 @@ menstennisforums.com#@#.top_ads
 ||idlebrain.com^*/square-
 ||ignimgs.com/ign/pogoadk.js$script,domain=ign.com
 ||iheart.com^*/getLiveRadioAdConfig
+||imgadult.com/ea2/
+||imgadult.com/tb02673583fb.js
 ||imgcarry.com/includes/js/layer.js
+||imgdrive.net/anex/
 ||imgshots.com/includes/js/layer.js
+||imgtaxi.com/ea/
+||imgtaxi.com/tb02673583fb.js
+||imgwallet.com/anex/
+||imgwallet.com/frame.php
+||imgwallet.com/tb02673583fb.js
 ||imp.accesstra.de^
 ||indiadesire.com/bbd/
 ||indiansinkuwait.com/Campaign/
@@ -51537,6 +51153,7 @@ menstennisforums.com#@#.top_ads
 ||scoot.co.uk/delivery.php
 ||sdancelive.com/images/banners/
 ||sedo.cachefly.net^$domain=~sedoparking.com
+||seeklogo.com/img/partners/
 ||sermonaudio.com/images/sponsors/
 ||services.fandom.com/knowledge-graph/affiliates/$xmlhttprequest
 ||sgtreport.com/wp-content/uploads/*Banner
@@ -51562,6 +51179,7 @@ menstennisforums.com#@#.top_ads
 ||sportpesanews.com/images/promo/
 ||sportzonline.to/n5m2qksvpd.js
 ||stagevu.com/AR2F6eftuQmA.js
+||static.fastpic.org^$subdocument
 ||static.tellerium.com^$subdocument
 ||staticflickr.com/ap/build/javascripts/prbd-$script,domain=flickr.com
 ||stats.print.work^
@@ -51633,6 +51251,7 @@ menstennisforums.com#@#.top_ads
 ||wheregoes.com/*/img/banners/
 ||whoismyisp.org/img/vpn/
 ||whoownsfacebook.com/images/topbanner.gif
+||whtop.com/photos2.
 ||wikihow.com/x/zscsucgm?
 ||windowsreport.com/rwIvq95hjpZa.js
 ||wlcr.org/banners/
@@ -51667,11 +51286,14 @@ menstennisforums.com#@#.top_ads
 ||overbuff.com/a.js
 ||speedrun.com/a.js
 ||tethered-realms.valorbuff.com^
-!
-/^https?:\/\/.*techpowerup\.com\/[a-z0-9\d\D].{1,3}\/.{3,7}/$image,domain=techpowerup.com
-/^https?:\/\/.*tpucdn\.com\/[a-z0-9\d\D]{1,2}\/[a-z0-9]{5,14}/$image,domain=techpowerup.com
-! coincodex.com
-|https://$script,subdocument,third-party,domain=coincodex.com
+! Techpowerup
+/^https?:\/\/.*techpowerup\.com\/(?!.*img\/|review\/|forums\/).*/$image,domain=techpowerup.com
+/^https?:\/\/.*tpucdn\.com\/(?!.*images\/|img\/|review\/|forums\/).*/$image,domain=techpowerup.com
+/^https?:\/\/.*tpucdn\.com\/images\/[a-z0-9\d]{4,4}\/.*/$image,domain=techpowerup.com
+/^https?:\/\/.*tpucdn\.com\/images\/[a-z0-9\d]{5,}\/.*/$image,domain=techpowerup.com
+@@||techpowerup.com/images/logo.svg|$image,domain=techpowerup.com
+! Techpowerup2
+||tpucdn.com/images/8ewillrunoutofdirssoon$image,domain=techpowerup.com
 ! prebid specific
 ||bustle.com^*/prebid-
 ||dw.com/js/advertisement/
@@ -51679,6 +51301,7 @@ menstennisforums.com#@#.top_ads
 ||wsj.net/pb/pb.js
 ! In-page video advertising.
 ||avantisvideo.com/avm/js/video-loader.js$script,third-party
+||channelexco.com/player/$third-party
 ||connatix.com/connatix.player.js$script,third-party
 ||connatix.com/connatix.playspace.js$script,third-party
 ||connatix.com^*/connatix.player.js$script,third-party
@@ -51711,9 +51334,6 @@ menstennisforums.com#@#.top_ads
 ! Torrent/Pirate sites /sw.js
 /^https?:\/\/.*\/.*(sw[0-9a-z._-]{1,6}|\.notify\.).*/$script,domain=123films.cc|1337x.to|animekisa.tv|anonfiles.com|aparat.cam|bdupload.asia|bitfly.io|cashurl.in|clk.ink|cloudvideo.tv|cocomanhua.com|downloadpirate.com|filmix.co|filmlinks4u.is|flashx.pw|fmovies.taxi|fmovies.world|getlink.pro|igg-games.com|indishare.org|linksly.co|megaup.net|mixdrop.co|mp3-convert.org|newser.com|nutritioninsight.com|ouo.press|powvideo.net|powvldeo.cc|primewire.sc|sendit.cloud|sendspace.com|shrinke.me|shrinkhere.xyz|solarmovie.to|uiz.io|up-load.io|upload.ac|uploadever.com|uploadproper.net|uploadrive.com|uplovd.com|upstream.to|userscloud.com|v96-surf.com|vev.red|vidbull.tv|videobin.co|vidlox.me|vidop.icu|vidoza.co|vidoza.net|vidtomp3.com|vidup.io|vumoo.life|watchtvseries.video|xtgem.com|xtits.com|yourbittorrent2.com|zippyshare.com
 /^https?:\/\/.*\/sw.js?.[a-zA-Z0-9%]{50,}/$script,~third-party
-! filerio.in
-$script,third-party,domain=filerio.in
-@@||maxcdn.bootstrapcdn.com^$script,domain=filerio.in
 ! vidoza.net
 $image,script,subdocument,third-party,xmlhttprequest,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -51725,26 +51345,6 @@ $image,script,subdocument,third-party,xmlhttprequest,domain=heapfiles.com|vidoza
 ! govid.co
 $script,third-party,xmlhttprequest,domain=govid.co
 @@||ajax.googleapis.com/ajax/libs/$script,domain=govid.co
-! Imagetwist/Imagenpic/Imageshimage
-@@||imagenpic.com/jquery-*.js
-@@||imagenpic.com/jquery.*.js
-@@||imagenpic.com/xupload.js
-@@||imageshimage.com/jquery-*.js
-@@||imageshimage.com/jquery.*.js
-@@||imageshimage.com/xupload.js
-@@||imagetwist.com/bootstrap.min.js
-@@||imagetwist.com/clipboard.min.js
-@@||imagetwist.com/jquery-*.js
-@@||imagetwist.com/jquery.*.js
-@@||imagetwist.com/swfobject.js
-@@||imagetwist.com/xupload.js
-@@||imagetwist.com/ZeroClipboard.js
-||imagenpic.com^$script,~third-party
-||imagenpic.com^$~third-party,xmlhttprequest
-||imageshimage.com^$script,~third-party
-||imageshimage.com^$~third-party,xmlhttprequest
-||imagetwist.com^$script,~third-party
-||imagetwist.com^$~third-party,xmlhttprequest
 ! canyoublockit.com
 @@||akamaiedge.net^$domain=canyoublockit.com
 @@||cloudflare.com^$script,stylesheet,domain=canyoublockit.com
@@ -51765,38 +51365,12 @@ $script,stylesheet,third-party,xmlhttprequest,domain=up-4ever.com|up-4ever.org
 @@||connect.facebook.net^$script,domain=up-4ever.com|up-4ever.org
 @@||fonts.googleapis.com^$stylesheet,domain=up-4ever.com|up-4ever.org
 @@||maxcdn.bootstrapcdn.com^$stylesheet,domain=up-4ever.com|up-4ever.org
-! vshare.eu
-$script,stylesheet,third-party,xmlhttprequest,domain=vshare.eu
-@@||ajax.googleapis.com^$script,domain=vshare.eu
-@@||cdnjs.cloudflare.com^$script,domain=vshare.eu
-@@||fluidplayer.com^$script,stylesheet,domain=vshare.eu
-@@||fonts.googleapis.com^$stylesheet,domain=vshare.eu
-@@||lp.longtailvideo.com^$script,domain=vshare.eu
-@@||netdna.bootstrapcdn.com^$stylesheet,domain=vshare.eu
-@@||vjs.zencdn.net^$script,domain=vshare.eu
-||vshare.eu/javascripts/script.js
-||vshare.eu/service-worker.js
-||vshare.eu^$subdocument,~third-party
-! filmlinks4u.is
-|http://$script,third-party,xmlhttprequest,domain=filmlinks4u.is
-|https://$script,third-party,xmlhttprequest,domain=filmlinks4u.is
 ! embedscr.to
 |http://$script,third-party,xmlhttprequest,domain=embedscr.to|embedsr.to|iembedrip.com
 |https://$script,third-party,xmlhttprequest,domain=embedscr.to|embedsr.to|iembedrip.com
 ! urlcash.net
 |http://$script,xmlhttprequest,domain=urlcash.net
 |https://$script,xmlhttprequest,domain=urlcash.net
-! animepahe.com
-$image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com
-@@||cloudflare.com^$script,third-party,domain=animepahe.com
-@@||fonts.googleapis.com^$stylesheet,domain=animepahe.com
-@@||jsdelivr.net^$script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe.com|kwik.cx
-@@||kwik.cx^$script,stylesheet,subdocument,xmlhttprequest,domain=animepahe.com|kwik.cx
-@@||nextstream.org^$xmlhttprequest,domain=animepahe.com|kwik.cx
-! multiup.org
-@@||cdn.multiup.org/assets/js.js$script,domain=multiup.eu
-|http://$script,third-party,xmlhttprequest,domain=multiup.eu|multiup.org
-|https://$script,third-party,xmlhttprequest,domain=multiup.eu|multiup.org
 ! gelbooru.com
 @@||gelbooru.com^$generichide
 ||gelbooru.com*/license.$script
@@ -51806,70 +51380,17 @@ $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=animepahe
 $image,script,stylesheet,subdocument,third-party,xmlhttprequest,domain=vidtodo.com|vidtodoo.com
 @@||vidtodo.com^$image,script,stylesheet,xmlhttprequest,domain=vidtodo.com|vidtodoo.com
 @@||vidtodoo.com^$image,script,stylesheet,xmlhttprequest,domain=vidtodo.com|vidtodoo.com
-! Putlocker
-@@||ajax.googleapis.com^$script,domain=putlocker.actor|putlocker.style|putlocker.to|putlockers.mn|putlockers.movie
-@@||apis.google.com^$script,subdocument,domain=putlocker.actor|putlocker.style|putlocker.to|putlockers.mn|putlockers.movie
-@@||cdnjs.cloudflare.com^$script,stylesheet,domain=putlocker.actor|putlocker.style|putlocker.to|putlockers.mn|putlockers.movie
-@@||cloudflare.com/ajax/libs/$stylesheet,domain=putlocker.actor|putlocker.style|putlocker.to|putlockers.mn|putlockers.movie
-@@||connect.facebook.net^$script,domain=putlocker.actor|putlocker.style|putlocker.to|putlockers.mn|putlockers.movie
-@@||disqus.com/embed.js$domain=putlocker.actor|putlocker.style|putlocker.to|putlockers.mn|putlockers.movie
-@@||disquscdn.com^$domain=putlocker.actor|putlocker.style|putlocker.to|putlockers.mn|putlockers.movie
-@@||gomo.to/movie/$subdocument,domain=putlocker.actor|putlocker.style|putlocker.to|putlockers.mn|putlockers.movie
-@@||gstatic.com^$domain=putlocker.actor|putlocker.style|putlocker.to|putlockers.mn|putlockers.movie
-@@||image.tmdb.org^$image,domain=putlocker.actor|putlocker.style|putlocker.to|putlockers.mn|putlockers.movie
-@@||jsdelivr.net^$script,stylesheet,domain=putlocker.actor|putlocker.style|putlocker.to|putlockers.mn|putlockers.movie
-@@||jwpcdn.com^$script,stylesheet,domain=putlocker.actor|putlocker.style|putlocker.to|putlockers.mn|putlockers.movie
-@@||loadshare.org^$domain=putlocker.actor|putlocker.style|putlocker.to|putlockers.mn|putlockers.movie
-@@||vidsrc.me/embed/$subdocument,domain=putlocker.actor|putlocker.style|putlocker.to|putlockers.mn|putlockers.movie
-@@||youtube.com/embed/$subdocument,domain=putlocker.actor|putlocker.style|putlocker.to|putlockers.mn|putlockers.movie
-|http://$script,stylesheet,third-party,xmlhttprequest,domain=putlocker.actor|putlocker.style|putlocker.to|putlockers.mn|putlockers.movie
-|https://$script,stylesheet,third-party,xmlhttprequest,domain=putlocker.actor|putlocker.style|putlocker.to|putlockers.mn|putlockers.movie
 ! bc.vc
 |http://$script,third-party,xmlhttprequest,domain=bc.vc
 |https://$script,third-party,xmlhttprequest,domain=bc.vc
-! adf.ly
-@@||adf.ly/static/image/$image,~third-party
-@@||s1-adfly.com/show.php?$subdocument,third-party,domain=adf.ly
-|http://$third-party,domain=adf.ly|s1-adfly.com
-|https://$third-party,domain=adf.ly|s1-adfly.com
-! linkdrop.net
-|http://$script,third-party,xmlhttprequest,domain=linkdrop.net
-|https://$script,third-party,xmlhttprequest,domain=linkdrop.net
-! tamilyogi.cc
-$script,third-party,xmlhttprequest,domain=tamilyogi.cc|tamilyogi.vip
 ! damimage.com, imagedecode.com, imageteam.org
 $media,domain=damimage.com|imagedecode.com|imageteam.org
 |http://$image,script,third-party,xmlhttprequest,domain=damimage.com|imagedecode.com|imageteam.org
 |https://$image,script,third-party,xmlhttprequest,domain=damimage.com|imagedecode.com|imageteam.org
-||imgskull.com^$xmlhttprequest
-! Imgclick / Imgdew / Imgkings.com / Imgoutlet / Imgrock / Imgtown / Imgtrex / etc
-||imgadult.com/anex/
-||imgadult.com^$subdocument
-||imgtaxi.com/anex/
-||imgtaxi.com/ea/
-||imgtaxi.com^$subdocument
-||imgwallet.com/anex/
-||imgwallet.com/ea/
-! rlslog.net
-|http://$script,third-party,xmlhttprequest,domain=rlslog.net
-|https://$script,third-party,xmlhttprequest,domain=rlslog.net
-! imgcandy.net
-|http://$image,script,third-party,xmlhttprequest,domain=imgcandy.net
-|https://$image,script,third-party,xmlhttprequest,domain=imgcandy.net
-||imgcandy.net/fad/$script
 ! abcvideo.cc
 $script,third-party,xmlhttprequest,domain=abcvideo.cc
 @@||assets.hcaptcha.com/captcha/$script,subdocument,domain=abcvideo.cc
 @@||hcaptcha.com^*/api.js$script,domain=abcvideo.cc
-! uptobox.com
-@@||ajax.googleapis.com^$script,domain=uptobox.com|uptostream.com
-@@||googleapis.com/js/sdkloader/ima3.js$script,domain=uptobox.com|uptostream.com
-@@||googletagmanager.com/gtag/js$script,domain=uptobox.com|uptostream.com
-@@||gstatic.com^$script,domain=uptobox.com|uptostream.com
-@@||platform.twitter.com/widgets.js$domain=uptobox.com|uptostream.com
-@@||uptostream.com^$generichide
-|http://$script,third-party,xmlhttprequest,domain=uptobox.com|uptostream.com
-|https://$script,third-party,xmlhttprequest,domain=uptobox.com|uptostream.com
 ! Fembed
 ||fembed.com/revenue
 ! flashx
@@ -51913,44 +51434,41 @@ javascript:$popup,domain=pirateproxy.live|thehiddenbay.com|thepiratebay.org
 ||thepiratebay.$script,domain=pirateproxy.live|thehiddenbay.com|thepiratebay.org
 ||thepiratebay.*/static/$subdocument
 ||thepiratebay10.org/static/js/UYaf3EPOVwZS3PP.js
-! bluemediafiles.com
-$popup,subdocument,third-party,xmlhttprequest,domain=bluemediafiles.com
 ! Yavli.com
-/^https?:\/\/(.+?\.)?allthingsvegas\.com\/[a-zA-Z]{7,18}\//
-/^https?:\/\/(.+?\.)?aupetitparieur\.com\/[a-z]{5,18}\//
+/^https?:\/\/(.+?\.)?allthingsvegas\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?aupetitparieur\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?canadafreepress\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
 /^https?:\/\/(.+?\.)?canadafreepress\.com\/images\/uploads\/[a-zA-Z]{6,15}\-.*/
-/^https?:\/\/(.+?\.)?codefille\.com\/[a-zA-Z]{7,18}\//
-/^https?:\/\/(.+?\.)?concomber\.com\/[a-zA-Z]{7,18}\//
-/^https?:\/\/(.+?\.)?conservativefiringline\.com\/[a-zA-Z]{7,18}\//
-/^https?:\/\/(.+?\.)?dailyheadlines\.com\/[a-zA-Z]{4,9}\//
-/^https?:\/\/(.+?\.)?dailyheadlines\.net\/[a-zA-Z]{4,18}\//
-/^https?:\/\/(.+?\.)?dailylol\.com\/[a-zA-Z]{5,18}\//
-/^https?:\/\/(.+?\.)?dailylol\.com\/wp-content\/uploads\/2020\/12\/[a-zA-Z]{4,9}\-/
-/^https?:\/\/(.+?\.)?dcdirtylaundry\.com\/[a-zA-Z]{7,18}\//
-/^https?:\/\/(.+?\.)?gamersheroes\.com\/[a-zA-Z]{7,18}\//
-/^https?:\/\/(.+?\.)?grammarist\.com\/[a-zA-Z]{5,18}\//
-/^https?:\/\/(.+?\.)?ipatriot\.com\/[a-zA-Z]{5,18}\//
-/^https?:\/\/(.+?\.)?letocard\.fr\/[a-zA-Z]{7,18}\//
-/^https?:\/\/(.+?\.)?lovezin\.fr/[a-zA-Z]{7,18}\//
-/^https?:\/\/(.+?\.)?mamieastuce\.com\/[a-zA-Z]{7,18}\//
-/^https?:\/\/(.+?\.)?meilleurpronostic.fr\/[a-zA-Z]{7,18}\//
-/^https?:\/\/(.+?\.)?menrec\.com\/[a-zA-Z]{7,18}\//
-/^https?:\/\/(.+?\.)?naturalblaze\.com\/[a-zA-Z]{7,18}\//
-/^https?:\/\/(.+?\.)?patriotnationpress\.com\/[a-zA-Z]{7,18}\//
-/^https?:\/\/(.+?\.)?reviveusa\.com\/[a-zA-Z]{7,18}\//
-/^https?:\/\/(.+?\.)?rightwingnews\.com\/[a-zA-Z]{7,18}\//
-/^https?:\/\/(.+?\.)?rightwingtribune\.com\/[a-zA-Z]{4,18}\//
-/^https?:\/\/(.+?\.)?survivalnation\.com\/[a-zA-Z]{7,18}\//
-/^https?:\/\/(.+?\.)?thinkamericana\.com\/[a-zA-Z]{4,18}\//
-/^https?:\/\/(.+?\.)?topminceur\.fr\/[a-zA-Z]{7,18}\//
-/^https?:\/\/(.+?\.)?toptenz\.net\/[a-zA-Z]{4,18}\//
-/^https?:\/\/(.+?\.)?tosavealife\.com\/[a-zA-Z]{7,18}\//
-/^https?:\/\/(.+?\.)?videogamesblogger\.com\/[a-zA-Z]{7,18}\//
-/^https?:\/\/(.+?\.)?vitamiiin\.com\/[a-zA-Z]{5,18}\//
-/^https?:\/\/(.+?\.)?writerscafe\.org\/[a-zA-Z]{7,18}\//
-/^https?:\/\/www\.newser\.com\/[a-zA-Z]{4,9}\/.*js/
+/^https?:\/\/(.+?\.)?concomber\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?conservativefiringline\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?dailyheadlines\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?dailyheadlines\.net\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?dailylol\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?dailylol\.com\/wp-content\/uploads\/.*[a-zA-Z]{4,9}\-/
+/^https?:\/\/(.+?\.)?dcdirtylaundry\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?gamersheroes\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?grammarist\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?ipatriot\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?letocard\.fr\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?lovezin\.fr\/[a-zA-Z]{7,18}\//
+/^https?:\/\/(.+?\.)?mamieastuce\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?meilleurpronostic.fr\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?menrec\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?naturalblaze\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?newser\.com\/[a-zA-Z0-9]{2,4}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?patriotnationpress\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?reviveusa\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?rightwingnews\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?survivalnation\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?thinkamericana\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?topminceur\.fr\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?toptenz\.net\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?tosavealife\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?videogamesblogger\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?vitamiiin\.com\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
+/^https?:\/\/(.+?\.)?writerscafe\.org\/[a-zA-Z0-9]{3,7}\/[a-zA-Z0-9]{6,}\/.*/
 ! webrtc-ads
-$webrtc,domain=101greatgoals.com|ack.net|allkpop.com|allthetests.com|anime-loads.org|audioholics.com|azvideo.net|barnstablepatriot.com|boards2go.com|bolde.com|businessnewsdaily.com|buzzfil.net|cantonrep.com|capecodtimes.com|champion.gg|cheeseheadtv.com|clicknupload.link|colourlovers.com|columbiatribune.com|convertcase.net|csgolounge.com|ddlvalley.me|dispatch.com|dota2lounge.com|enterprisenews.com|eztv.io|eztv.tf|eztv.yt|fastplay.to|go4up.com|gounlimited.to|goupstate.com|heraldtribune.com|janjua.pw|janjua.tv|jpost.com|kinos.to|kinox.ai|kinox.am|kinox.cloud|kinox.club|kinox.digital|kinox.direct|kinox.express|kinox.fun|kinox.fyi|kinox.gratis|kinox.io|kinox.lol|kinox.mobi|kinox.nu|kinox.party|kinox.pub|kinox.sg|kinox.sh|kinox.si|kinox.space|kinox.sx|kinox.to|kinox.tube|kinox.wtf|laptopmag.com|mac-torrents.com|madamenoire.com|megaup.net|merriam-webster.com|netdna-storage.com|ouo.io|ouo.press|skidrowreloaded.com|sourceforge.net|space.com|spanishdict.com|telegram.com|teslacentral.com|topix.com|torrentdownload.info|uptobox.com|uticaod.com|videowood.tv|vidtodo.com|yts.gs|yts.mx
+$webrtc,domain=101greatgoals.com|ack.net|allkpop.com|allthetests.com|anime-loads.org|audioholics.com|azvideo.net|barnstablepatriot.com|boards2go.com|bolde.com|businessnewsdaily.com|buzzfil.net|cantonrep.com|capecodtimes.com|champion.gg|cheeseheadtv.com|clicknupload.link|colourlovers.com|columbiatribune.com|convertcase.net|csgolounge.com|ddlvalley.me|dispatch.com|dota2lounge.com|enterprisenews.com|eztv.io|eztv.tf|eztv.yt|fastplay.to|go4up.com|gounlimited.to|goupstate.com|heraldtribune.com|janjua.pw|janjua.tv|jpost.com|kinos.to|kinox.ai|kinox.am|kinox.cloud|kinox.club|kinox.digital|kinox.direct|kinox.express|kinox.fun|kinox.fyi|kinox.gratis|kinox.io|kinox.lol|kinox.mobi|kinox.nu|kinox.party|kinox.pub|kinox.sg|kinox.sh|kinox.si|kinox.space|kinox.sx|kinox.to|kinox.tube|kinox.wtf|laptopmag.com|mac-torrents.com|madamenoire.com|megaup.net|merriam-webster.com|netdna-storage.com|ouo.io|ouo.press|rlslog.net|skidrowreloaded.com|sourceforge.net|space.com|spanishdict.com|telegram.com|teslacentral.com|topix.com|torlock.icu|torlock2.com|torrentdownload.info|uptobox.com|uticaod.com|videowood.tv|vidtodo.com|yts.gs|yts.mx
 ! websocket-ads
 $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|convertcase.net|fastpic.ru|fileone.tv|filmlinks4u.is|flashx.tv|fmovies.taxi|fmovies.world|gofirstrow.eu|imagefap.com|keepvid.com|megaup.net|merriam-webster.com|olympicstreams.me|pocketnow.com|pornhub.com|pornhubthbh7ap3u.onion|postimg.org|powvideo.net|roadracerunner.com|shorte.st|tribune.com.pk|tune.pk|uberhavoc.com|vcpost.com|vidmax.com|vidoza.net|vidtodo.com|webfirstrow.eu
 !
@@ -52006,13 +51524,9 @@ spiegel.de##div[id*="/spon_dt/"]:not(#google_ads_iframe_\/6032\/spon_dt\/homepag
 ||ads.viralize.tv^$domain=spiegel.de
 ||adsafeprotected.com^$domain=spiegel.de
 ||amazon-adsystem.com^$domain=spiegel.de
-||bidder.criteo.com^$domain=spiegel.de
 ||cas.*.criteo.com^$domain=spiegel.de
-||cas.criteo.com^$domain=spiegel.de
-||caw.*.criteo.com^$domain=spiegel.de
 ||ced.sascdn.com^$domain=spiegel.de
 ||conative.de^$domain=spiegel.de
-||criteo.com/delivery/$domain=spiegel.de
 ||emsservice.de^$domain=spiegel.de
 ||g.doubleclick.net^$domain=spiegel.de
 ||googlesyndication.com/pagead/$domain=spiegel.de
@@ -52028,9 +51542,6 @@ spiegel.de##div[id*="/spon_dt/"]:not(#google_ads_iframe_\/6032\/spon_dt\/homepag
 ||pagead2.googlesyndication.com^$domain=spiegel.de
 ||partner.googleadservices.com^$domain=spiegel.de
 ||pubmatic.com^$domain=spiegel.de
-||rdi.*.criteo.com^$domain=spiegel.de
-||rdi.criteo.com^$domain=spiegel.de
-||rtax.criteo.com^$domain=spiegel.de
 ||serving-sys.com^$domain=spiegel.de
 ||smartadserver.com^$domain=spiegel.de
 ||smartstream.tv^$domain=spiegel.de
@@ -52046,7 +51557,7 @@ spiegel.de##div[id*="/spon_dt/"]:not(#google_ads_iframe_\/6032\/spon_dt\/homepag
 ! Rewrite to internal resources rules for Adblock Plus
 ||slacker.com^*/getspot/?spotid=$media,rewrite=abp-resource:blank-mp3,domain=slacker.com
 ! *** easylist:easylist/easylist_specific_block_popup.txt ***
-$popup,third-party,domain=cloudvideo.tv|highstream.tv|loader.to|mystream.to|play.hydracdn.network|playtube.ws|streamtape.com|strtape.cloud|supervideo.tv|upstream.to|vidcloud9.com|vidlox.me|vivo.sx|voe.sx|vupload.com
+$popup,third-party,domain=cloudvideo.tv|geoip.redirect-ads.com|highstream.tv|loader.to|myflixer.to|mystream.to|play.hydracdn.network|playtube.ws|streamtape.com|strtape.cloud|supervideo.tv|upstream.to|vidcloud9.com|vidlox.me|vivo.sx|voe.sx|vupload.com
 :text^$popup,domain=zippyshare.com
 ||123moviesfree.world/hd-episode/$popup
 ||amazon-adsystem.com^$popup,domain=twitch.tv
@@ -52061,7 +51572,7 @@ $popup,third-party,domain=cloudvideo.tv|highstream.tv|loader.to|mystream.to|play
 ! about:blank popups
 /about:blank#/$popup,domain=22pixx.xyz|9anime.to|dailyuploads.net|disk.ly|dood.la|dood.so|dood.to|dood.video|dood.watch|doodcdn.com|fcdn.stream|filmesportorrents.com|fmovies.to|gowatchseries.bz|hydracdn.network|imagetwist.com|kissanime-ru.ws|mixdrop.co|mp4upload.com|mstream.xyz|player.cineflixtv.com|player.cineflixtv.net|playtube.ws|popads.net|powvideo.net|powvldeo.cc|putlocker.style|run-syndicate.com|spcdn.cc|steamplay.cc|strcloud.link|streamani.net|streamsb.net|streamtape.cc|streamtape.com|streamtape.site|streamz.vg|strtape.cloud|strtape.tech|tapecontent.net|upstream.to|uptostream.com|vev.red|vevo.io|vidcloud.co|videobin.co|videowood.tv|viditodo.com|vidoza.net|voe.sx|vortez.net|vshare.eu|vumoo.to|waaw.to|watchserieshd.tv
 ! html/image popups
-/^https?:\/\/.*\.(jpg|png|php|html|svg|ico|js)/$popup,domain=5movies.fm|adf.ly|animepahe.com|cmovies.ac|dailyuploads.net|dood.la|dood.so|dood.to|dood.video|dood.watch|doodcdn.com|europixhd.net|fcdn.stream|gowatchseries.bz|hulkstreams.com|jackstream.net|jackstreams.com|kissanime-ru.ws|meomeo.pw|mixdrop.co|mp4upload.com|mystream.to|olympicstreams.me|player.cineflixtv.com|putlockers.fm|redirect-ads.com|speedvideo.net|streamani.net|streamsb.net|streamtape.cc|streamtape.com|streamtape.net|strikeout.nu|strtape.cloud|strtape.site|strtape.tech|tapecontent.net|telerium.net|upvid.co|vidnext.net|vido.fun|vipleague.cc|voe.sx|vumoo.to|watchserieshd.tv
+/^https?:\/\/.*\.(jpg|png|php|html|svg|ico|js)/$popup,domain=5movies.fm|adf.ly|animepahe.com|bunnycdn.ru|cmovies.ac|dailyuploads.net|dood.la|dood.so|dood.to|dood.video|dood.watch|doodcdn.com|europixhd.net|fcdn.stream|fmovies.to|gowatchseries.bz|hulkstreams.com|jackstream.net|jackstreams.com|kissanime-ru.ws|meomeo.pw|mixdrop.co|mp4upload.com|mystream.to|olympicstreams.me|player.cineflixtv.com|putlockers.fm|redirect-ads.com|speedvideo.net|streamani.net|streamsb.net|streamtape.cc|streamtape.com|streamtape.net|strikeout.nu|strtape.cloud|strtape.site|strtape.tech|tapecontent.net|telerium.net|upvid.co|vidnext.net|vido.fun|vipleague.cc|voe.sx|vumoo.to|watchserieshd.tv
 !
 /^https?:\/\/.*\.(info|pro|icu|app|xyz|pet|win|live|me|io|cc|pw|is|zone|bid|cf|ovh|site|review|ml)\.?(\/|:|$)/$popup,domain=dood.watch|fcdn.stream|fmovies.to|idup.io|mixdrop.co|mixdrop.to|mp4upload.com|powvideo.net|powvldeo.cc|putlocker.style|streamsb.net|strtape.cloud|thepiratebay.org|upstream.to|uptostream.com|vevo.io|vidcloud.co|videobin.co|videowood.tv|viditodo.com|vidoza.net|vortez.net|vshare.eu
 ! third-party site popup
@@ -52127,6 +51638,7 @@ $popup,third-party,domain=cloudvideo.tv|highstream.tv|loader.to|mystream.to|play
 ||bravotube.net^*/clickback.
 ||broncs.net/pub/pop_min.js
 ||bunnylust.com/sponsors/
+||cambro.tv/popin-min.js
 ||camclips.cc/api/$image,script
 ||camclips.cc/npJDy
 ||cams.imagetwist.com/in/?track=$subdocument
@@ -52139,6 +51651,7 @@ $popup,third-party,domain=cloudvideo.tv|highstream.tv|loader.to|mystream.to|play
 ||creampietubeporn.com/porn.html
 ||creatives.cliphunter.com^
 ||creatives.pichunter.com^
+||d.heavyrnews.pro^
 ||daftporn.com/nb_
 ||definebabe.com/sponsor_
 ||dixyporn.com/include/
@@ -52193,6 +51706,7 @@ $popup,third-party,domain=cloudvideo.tv|highstream.tv|loader.to|mystream.to|play
 ||imgtaxi.com/tb02673583fb.js
 ||ipornxxx.net/banners/
 ||its.porn/ai/
+||jav.work/p.js
 ||kindgirls.com/banners2/
 ||kompoz2.com/js/take.max.js
 ||madmen.alastonsuomi.com^
@@ -52214,6 +51728,7 @@ $popup,third-party,domain=cloudvideo.tv|highstream.tv|loader.to|mystream.to|play
 ||oldies.name/ok/
 ||orgyxxxhub.com/js/965eka57.js
 ||phonerotica.com/resources/img/banners/
+||picdollar.com/6e43d1a17e14.js
 ||plx.porndig.com^
 ||porn-star.com/buttons/
 ||pornbay.re/k2sbanner
@@ -52381,6 +51896,7 @@ pcworld.com###articleLeaderboardWrapper
 brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au###articlePartnerStories
 findmysoft.com###as_336
 flyordie.com###asf
+news.grabien.com###atv-gpt1
 scalemates.com###avph
 teamfortress.tv###aw
 convertinmp4.com###b300ib
@@ -52435,6 +51951,7 @@ infoplease.com###block-ipabovethefold
 infoplease.com###block-ipbtfad
 infoplease.com###block-ipleaderboardad
 enca.com###block-views-block-sponsored-block-1
+ana-white.com###block-views-block-sponsors-block-1
 mbauniverse.com###block-views-home-page-banner-block
 picfont.com###block_a
 publish0x.com###bm-block
@@ -52481,6 +51998,7 @@ miloserdov.org,mostlyblogging.com###custom_html-14
 mostlyblogging.com###custom_html-15
 miloserdov.org###custom_html-16
 ets2.lt,miloserdov.org###custom_html-2
+robloxhackscripts.com###custom_html-23
 mostlyblogging.com###custom_html-3
 filmschoolrejects.com,hongkongfp.com###custom_html-6
 kanonitv.net###custom_html-7
@@ -52591,7 +52109,9 @@ semiconductor-today.com###homeright
 nutritioninsight.com###horizontalblk
 cd1025.com###hp-leader
 nettiauto.com,nettikaravaani.com,nettikone.com,nettimarkkina.com,nettimokki.com,nettimoto.com,nettivene.com,nettivuokraus.com###huge_banner
+nzbindex.com###i > .inner
 hltv.org###i3_middle
+weloma.net###id-custom_banner
 unitconversion.org###ileft
 furbooru.org###imagespns
 mydorpie.com###imgbcont
@@ -52709,6 +52229,7 @@ my.juno.com###newsCarousel
 livelaw.in###news_on_exit
 searchfiles.de###nextuse
 seroundtable.com###ninja_box
+pcgamesn.com###nn_bfa_wrapper
 techraptor.net###nn_lb1
 techraptor.net###nn_lb2
 techraptor.net###nn_lb3
@@ -52716,6 +52237,8 @@ techraptor.net###nn_lb4
 forums.somethingawful.com###notregistered
 onlinemschool.com###oms_left
 powvideo.net,streamplay.to###overlay
+rapid-cloud.ru,streamrapid.ru###overlay-container
+seeklogo.com###panelAdShutterStockPromo
 hwbot.org###partner-tiles
 hbr.org###partnerCenter
 fastseduction.com,independent.co.uk###partners
@@ -52879,6 +52402,7 @@ inoreader.com###sinner_container
 lambgoat.com###skinoverlay
 dafont.com###sky
 dailymail.co.uk###sky-right
+celebritynetworth.com###skyline
 w3schools.com,zerochan.net###skyscraper
 jokes2go.com###skyscraperDiv
 nitrome.com###skyscraper_box
@@ -53076,6 +52600,7 @@ dailytech.com##.BottomMarquee
 tutiempo.net##.ContBannerTop
 diet.com##.Fine
 charismanews.com##.FpFeaturedBoxWrap
+nationalgeographic.com##.FrameBackgroundFull--grey
 askapache.com##.GAD
 google.co.uk##.GBTLFYRDM0
 google.com##.GC3LC41DERB + div[style="position: relative; height: 170px;"]
@@ -53142,7 +52667,7 @@ manualslib.com##.abp_adv_b
 manualslib.com##.abp_adv_s-title
 searchenginejournal.com##.absolute-banner
 consequenceofsound.net##.acm-module-300-250
-11alive.com,12news.com,12newsnow.com,13newsnow.com,13wmaz.com,5newsonline.com,9news.com,abc10.com,abovethelaw.com,ack.net,adelaidenow.com.au,adtmag.com,aero-news.net,americanprofile.com,articlealley.com,asianwiki.com,associationsnow.com,autoevolution.com,autoguide.com,autotrader.com.au,bab.la,bdnews24.com,beinsports.com,boats.com,bobvila.com,bostonglobe.com,bradleybraves.com,breitbart.com,businessdailyafrica.com,businessinsider.com,businesstech.co.za,c21media.net,cardomain.com,cbs19.tv,cd1025.com,celebdigs.com,celebified.com,ch-aviation.com,cheboygannews.com,chinahush.com,citysearch.com,cnn.com,cnnphilippines.com,colourlovers.com,comcast.net,comicbookmovie.com,computerworld.com,counter.dev,couriermail.com.au,cpuboss.com,createtv.com,crossmap.com,crosswalk.com,csoonline.com,cxpress.co.za,dailylobo.com,dailyparent.com,dailytarheel.com,dawn.com,dealnews.com,defenseone.com,downdetector.co.nz,downdetector.co.uk,downdetector.co.za,downdetector.com,downdetector.in,downdetector.sg,dpreview.com,dribbble.com,drinksmixer.com,drive.com.au,edmontonjournal.com,eenews.net,eurocheapo.com,excellence-mag.com,familydoctor.org,fanpop.com,federalnewsnetwork.com,femalefirst.co.uk,firstcoastnews.com,foodandwine.com,fool.com,footyheadlines.com,fox6now.com,foxafrica.com,foxbusiness.com,foxnews.com,fxnowcanada.ca,garagejournal.com,gayvegas.com,geelongadvertiser.com.au,go.com,golfweather.com,gpuboss.com,greenbot.com,greenwooddemocrat.com,gtplanet.net,heraldsun.com.au,hodinkee.com,hollywood-elsewhere.com,indiewire.com,infoworld.com,inhabitat.com,insider.com,instyle.com,interfax.com.ua,investsmart.com.au,jscompress.com,kagstv.com,kare11.com,kcentv.com,kedglobal.com,kens5.com,kgw.com,khou.com,kiiitv.com,king5.com,koreabang.com,krem.com,ksdk.com,ktvb.com,kusports.com,kvue.com,lagom.nl,lawrence.com,leaderpost.com,lifezette.com,looktothestars.org,mangarockteam.com,marketwatch.com,maxpreps.com,mcpmag.com,memearcade.com,memeslanding.com,memestache.com,miamiherald.com,military.com,mirror.co.uk,mix.com.au,mkweb.co.uk,modbee.com,moneytalksnews.com,monitor.co.ug,monkeysee.com,monroenews.com,motherjones.com,mothership.sg,motorcycle.com,motorcycleroads.com,motortopia.com,movies.com,movieweb.com,mozo.com.au,mpnnow.com,mprnews.org,mrmovietimes.com,mrqe.com,msn.com,mugglenet.com,mybroadband.co.za,mycareer.com.au,myfitnesspal.com,myfox8.com,myfoxzone.com,mygaming.co.za,mypaper.sg,myrecipes.com,myrtlebeachonline.com,myspace.com,namibtimes.net,nation.com.pk,nejm.org,networkworld.com,news.com.au,news.sky.com,newscentermaine.com,newsday.com,newslocker.com,newsobserver.com,newstimes.com,nxfm.com.au,ny1.com,nymag.com,nytco.com,nytimes.com,nytimes3xbfgragh.onion,ocala.com,odometer.com,offbeat.com,omgfacts.com,onmsft.com,osnews.com,patch.com,patheos.com,pba.org,peakery.com,perthnow.com.au,petri.com,phl17.com,pjstar.com,planelogger.com,playtictactoe.org,pokestache.com,politico.com,politico.eu,polygon.com,popsugar.com,popsugar.com.au,prepperwebsite.com,pressargus.com,pricedekho.com,pulaskinews.net,q13fox.com,qoshe.com,quackit.com,quibblo.com,radiowest.com.au,ragestache.com,ranker.com,ratemds.com,ratemyprofessors.com,readmetro.com,realestate.com.au,realityblurred.com,recordnet.com,recordonline.com,redmondmag.com,refinery29.com,relish.com,ridgecrestca.com,roadsideamerica.com,salisburypost.com,sbs.com.au,scpr.org,seafm.com.au,seattletimes.com,sfchronicle.com,sfgate.com,shtfplan.com,simpledesktops.com,slickdeals.net,smackjuice.com,smartcompany.com.au,smsfi.com,softpedia.com,soranews24.com,sportsdirectinc.com,spot.im,spryliving.com,starfl.com,starfm.com.au,statenews.com,statscrop.com,stickpng.com,stocktwits.com,stoppress.co.nz,streetinsider.com,stv.tv,stylenest.co.uk,sub-titles.net,sunfm.com.au,sunherald.com,taftmidwaydriller.com,talkandroid.com,techdirt.com,telegram.com,teutopolispress.com,thatslife.com.au,thatssotrue.com,the-dispatch.com,theaustralian.com.au,thecitizen.co.tz,thecrimson.com,thecut.com,thedp.com,theeastafrican.co.ke,thefader.com,thefirearmblog.com,thegamechicago.com,thegossipblog.com,thegrocer.co.uk,thehungermemes.net,thejournal.co.uk,themercury.com.au,thenation.com,therealdeal.com,theresurgent.com,theriver.com.au,thestack.com,thestarphoenix.com,thestate.com,thesuntimes.com,thetimesnews.com,thewalkingmemes.com,thewindowsclub.com,thewire.com,thisiswhyimbroke.com,thv11.com,time.com,timeshighereducation.co.uk,today.com,toolbox.com,topgear.com,townhall.com,travelocity.com,tribalfootball.com,tribecafilm.com,triblive.com,tripadvisor.ca,tripadvisor.co.uk,tripadvisor.co.za,tripadvisor.com,tripadvisor.ie,tripadvisor.in,triplem.com.au,trucktrend.com,truecaller.com,truecar.com,tvmaze.com,tvnewscheck.com,twcc.com,twcnews.com,ufc.com,unfriendable.com,uptodown.com,userstyles.org,usmagazine.com,usnews.com,vancouversun.com,veevr.com,vetfran.com,vid.gg,visiontimes.com,vogue.com.au,vogue.in,vulture.com,waltonsun.com,wamu.org,washingtontimes.com,watchanimes.me,watzatsong.com,wbir.com,wcnc.com,weathernationtv.com,weatheronline.co.uk,webdesignerwall.com,webestools.com,webmd.com,weeklytimesnow.com.au,wegotthiscovered.com,wellcommons.com,wetpaint.com,wfaa.com,wfmynews2.com,wgno.com,wgnradio.com,wgnt.com,wgntv.com,wgrz.com,whas11.com,whimn.com.au,wildcat.arizona.edu,windsorstar.com,wkyc.com,wltx.com,wnep.com,worthplaying.com,wqad.com,wral.com,wrif.com,wtsp.com,wusa9.com,wwltv.com,wzzm13.com,x17online.com,yorkpress.co.uk##.ad
+11alive.com,12news.com,12newsnow.com,13newsnow.com,13wmaz.com,5newsonline.com,9news.com,abc10.com,abovethelaw.com,ack.net,adelaidenow.com.au,adtmag.com,aero-news.net,americanprofile.com,articlealley.com,asianwiki.com,associationsnow.com,autoevolution.com,autoguide.com,autotrader.com.au,bab.la,bdnews24.com,beinsports.com,boats.com,bobvila.com,bostonglobe.com,bradleybraves.com,breitbart.com,businessdailyafrica.com,businessinsider.com,businesstech.co.za,c21media.net,cardomain.com,cbs19.tv,cd1025.com,celebdigs.com,celebified.com,ch-aviation.com,cheboygannews.com,chinahush.com,citysearch.com,cnn.com,cnnphilippines.com,colourlovers.com,comcast.net,comicbookmovie.com,computerworld.com,counter.dev,couriermail.com.au,cpuboss.com,createtv.com,crossmap.com,crosswalk.com,csoonline.com,cxpress.co.za,dailylobo.com,dailyparent.com,dailytarheel.com,dawn.com,dealnews.com,defenseone.com,downdetector.co.nz,downdetector.co.uk,downdetector.co.za,downdetector.com,downdetector.in,downdetector.sg,dpreview.com,dribbble.com,drinksmixer.com,drive.com.au,edmontonjournal.com,eenews.net,eurocheapo.com,excellence-mag.com,familydoctor.org,fanpop.com,federalnewsnetwork.com,femalefirst.co.uk,firstcoastnews.com,foodandwine.com,fool.com,footyheadlines.com,fox6now.com,foxafrica.com,foxbusiness.com,foxnews.com,fxnowcanada.ca,garagejournal.com,gayvegas.com,geelongadvertiser.com.au,go.com,golfweather.com,gpuboss.com,greenbot.com,greenwooddemocrat.com,gtplanet.net,heraldsun.com.au,hodinkee.com,hollywood-elsewhere.com,indiewire.com,infoworld.com,inhabitat.com,insider.com,instyle.com,interfax.com.ua,investsmart.com.au,jscompress.com,kagstv.com,kare11.com,kcentv.com,kedglobal.com,kens5.com,kgw.com,khou.com,kiiitv.com,king5.com,koreabang.com,krem.com,ksdk.com,ktvb.com,kusports.com,kvue.com,lagom.nl,lawrence.com,leaderpost.com,lifezette.com,looktothestars.org,mangarockteam.com,marketwatch.com,maxpreps.com,mcpmag.com,memearcade.com,memeslanding.com,memestache.com,miamiherald.com,military.com,mirror.co.uk,mix.com.au,mkweb.co.uk,modbee.com,moneytalksnews.com,monitor.co.ug,monkeysee.com,monroenews.com,motherjones.com,mothership.sg,motorcycle.com,motorcycleroads.com,motortopia.com,movies.com,movieweb.com,mozo.com.au,mpnnow.com,mprnews.org,mrmovietimes.com,mrqe.com,msn.com,mugglenet.com,mybroadband.co.za,mycareer.com.au,myfitnesspal.com,myfox8.com,myfoxzone.com,mygaming.co.za,mypaper.sg,myrecipes.com,myrtlebeachonline.com,myspace.com,namibtimes.net,nation.com.pk,nejm.org,networkworld.com,news.com.au,news.sky.com,newscentermaine.com,newsday.com,newslocker.com,newsobserver.com,newstimes.com,nxfm.com.au,ny1.com,nymag.com,nytco.com,nytimes.com,nytimes3xbfgragh.onion,ocala.com,odometer.com,offbeat.com,omgfacts.com,onmsft.com,osnews.com,patch.com,patheos.com,pba.org,peakery.com,perthnow.com.au,petri.com,phl17.com,pjstar.com,planelogger.com,playtictactoe.org,pokestache.com,politico.com,politico.eu,polygon.com,popsugar.com,popsugar.com.au,prepperwebsite.com,pressargus.com,pricedekho.com,pulaskinews.net,q13fox.com,qoshe.com,quackit.com,quibblo.com,radiowest.com.au,ragestache.com,ranker.com,ratemds.com,ratemyprofessors.com,readmetro.com,realestate.com.au,realityblurred.com,recordnet.com,recordonline.com,redmondmag.com,refinery29.com,relish.com,ridgecrestca.com,roadsideamerica.com,salisburypost.com,sbs.com.au,scpr.org,seafm.com.au,seattletimes.com,sfchronicle.com,sfgate.com,shtfplan.com,simpledesktops.com,slickdeals.net,smackjuice.com,smartcompany.com.au,smsfi.com,softpedia.com,soranews24.com,sportsdirectinc.com,spot.im,spryliving.com,starfl.com,starfm.com.au,statenews.com,statscrop.com,stickpng.com,stocktwits.com,stoppress.co.nz,streetinsider.com,stv.tv,stylenest.co.uk,sub-titles.net,sunfm.com.au,sunherald.com,taftmidwaydriller.com,talkandroid.com,techdirt.com,telegram.com,teutopolispress.com,thatslife.com.au,thatssotrue.com,the-dispatch.com,theaustralian.com.au,thecitizen.co.tz,thecrimson.com,thecut.com,thedp.com,theeastafrican.co.ke,thefader.com,thefirearmblog.com,thegamechicago.com,thegossipblog.com,thegrocer.co.uk,thehungermemes.net,thejournal.co.uk,themercury.com.au,thenation.com,therealdeal.com,theresurgent.com,theriver.com.au,thestack.com,thestarphoenix.com,thestate.com,thesuntimes.com,thetimesnews.com,thewalkingmemes.com,thewindowsclub.com,thewire.com,thisiswhyimbroke.com,thv11.com,time.com,timeshighereducation.co.uk,today.com,toolbox.com,topgear.com,townhall.com,travelocity.com,tribalfootball.com,tribecafilm.com,triblive.com,tripadvisor.ca,tripadvisor.co.uk,tripadvisor.co.za,tripadvisor.com,tripadvisor.ie,tripadvisor.in,triplem.com.au,trucktrend.com,truecaller.com,truecar.com,tvmaze.com,tvnewscheck.com,twcc.com,twcnews.com,ufc.com,unfriendable.com,uptodown.com,userstyles.org,usmagazine.com,usnews.com,vancouversun.com,veevr.com,vetfran.com,vid.gg,visiontimes.com,vogue.com.au,vogue.in,vulture.com,waltonsun.com,wamu.org,washingtontimes.com,watchanimes.me,watzatsong.com,wbir.com,wcnc.com,weathernationtv.com,weatheronline.co.uk,webdesignerwall.com,webestools.com,webmd.com,weeklytimesnow.com.au,wegotthiscovered.com,wellcommons.com,wetpaint.com,wfaa.com,wfmynews2.com,wgno.com,wgnradio.com,wgnt.com,wgntv.com,wgrz.com,whas11.com,whimn.com.au,wildcat.arizona.edu,windsorstar.com,wkyc.com,wltx.com,wnep.com,work.ink,worthplaying.com,wqad.com,wral.com,wrif.com,wtsp.com,wusa9.com,wwltv.com,wzzm13.com,x17online.com,yorkpress.co.uk##.ad
 techrepublic.com##.ad-active
 9news.com,9to5google.com,9to5mac.com,abc7ny.com,ack.net,beeradvocate.com,bizjournals.com,biznews.com,boonevilledemocrat.com,boston.com,businessinsider.com.au,cheapism.com,computerworld.com,dnainfo.com,driven.co.nz,dronedj.com,ecr.co.za,electrek.co,engineeringnews.co.za,etcanada.com,firehouse.com,fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox7austin.com,fox9.com,foxbusiness.com,foxla.com,foxnews.com,ft.com,funkidslive.com,gamesindustry.biz,gfinityesports.com,glamour.com,gmanetwork.com,greenwooddemocrat.com,hbr.org,hollywoodreporter.com,insidehook.com,intouchweekly.com,ksdk.com,ktvu.com,macstories.net,metro.us,miningweekly.com,mobilesyrup.com,modernhealthcare.com,morningstar.com,mpnnow.com,my9nj.com,myfitnesspal.com,nbcnews.com,news18.com,nzherald.co.nz,ocala.com,opb.org,pixiv.net,pjstar.com,pressargus.com,pulaskinews.net,radicalresearch.co.uk,radio531pi.com,realsport101.com,recordnet.com,recordonline.com,refinery29.com,ridgecrestca.com,scroll.in,seattletimes.com,spaceexplored.com,sportskeeda.com,stackexchange.com,starfl.com,stockhouse.com,stuff.co.nz,talk.collegeconfidential.com,telegram.com,teutopolispress.com,the-dispatch.com,theaustralian.com.au,thelocal.at,thelocal.ch,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se,themercury.com.au,thesuntimes.com,thetimesnews.com,toofab.com,vice.com,waltonsun.com,wogx.com##.ad-container
 mobilesyrup.com##.ad-goes-here
@@ -53153,6 +52678,7 @@ allscrabblewords.com,mpog100.com##.ad3
 khaama.com##.ad8
 cvs.com,digitalartsonline.co.uk,economictimes.com,emarketer.com,flightradar24.com,globaltv.com,glosbe.com,hgtv.ca,newspakistan.pk,petagadget.com,yakimaherald.com##.adContainer
 interestingengineering.com##.adW
+auto-data.net##.ad_incar
 tellymix.co.uk##.adb_top
 wordfind.com##.adbl
 dataversity.net,sakshi.com,songlyrics.com##.adblock
@@ -53160,7 +52686,7 @@ pricespy.co.nz##.adbox
 moviechat.org##.adc
 ancient.eu,fanatix.com,tucsonsentinel.com,worldhistory.org##.adcontainer
 sumanasa.com##.adcontent
-edutourism.in,thehindu.com##.add
+edutourism.in,online-image-editor.com,thehindu.com##.add
 buzz.ie,irishpost.com,theweekendsun.co.nz##.add-block
 addictinggames.com##.add-bx
 morningstar.in##.add-container
@@ -53173,6 +52699,7 @@ edutourism.in##.add1
 muslimobserver.com##.add2
 projectorcentral.com##.addDiv2
 projectorcentral.com##.addDiv3
+auto-data.net##.adin
 animalfactguide.com,portlandmonthlymag.com,sportsmediawatch.com##.adlabel
 ebookbrowse.com##.adleft
 corona.help##.adlg
@@ -53197,7 +52724,7 @@ blastingnews.com##.adv-box-content
 healthleadersmedia.com##.adv-con
 pgatour.com##.adv-dummy
 luxury-insider.com##.adv-info
-audiobacon.net,sundayworld.co.za##.adv-link
+audiobacon.net,ottverse.com,sundayworld.co.za##.adv-link
 vidstream.io##.adv-space
 motorauthority.com##.adv-spacer
 veoh.com##.adv-title
@@ -53292,7 +52819,7 @@ swahilihub.com##.ban125x125
 izismile.com##.ban_top
 lexico.com##.banbox
 lexico.com##.banbox-mini
-abplive.com,adnkronos.com,arcadebomb.com,armageddonexpo.com,balls.ie,bikechatforums.com,btcmanager.com,caribvision.tv,cars.com,cmo.com.au,coryarcangel.com,elyricsworld.com,euobserver.com,eurochannel.com,flvtomp3.cc,footballtradedirectory.com,forexpeacearmy.com,funpic.hu,garticphone.com,gr8.cc,gsprating.com,hotnewhiphop.com,hyipexplorer.com,ibtimes.co.in,ibtimes.co.uk,imedicalapps.com,insidefutbol.com,internetnews.com,irishtimes.com,japantimes.co.jp,jpost.com,livescore.in,marinelink.com,mercopress.com,mmorpg.com,news.am,oncyprus.com,pharmatimes.com,residentadvisor.net,reversephonesearch.com.au,scientificamerican.com,smartcarfinder.com,speedcafe.com,sportsvibe.co.uk,starradionortheast.co.uk,subscene.com,sumodb.com,sweeting.org,tass.com,thefanhub.com,thefringepodcast.com,thehun.com,thetriangle.org,timeslive.co.za,timesofisrael.com,tmi.me,twirlit.com,unblockstreaming.com,universalmusic.com,vice.com,victoriafalls24.com,vloot.io,vnexpress.net,weather.gc.ca,weatheronline.co.uk,webfg.com,wego.com,whatsock.com,worldcrunch.com,worldtimeserver.com,xbiz.com,yabeat.com,ynetnews.com,zbigz.com##.banner
+abplive.com,adnkronos.com,alistapart.com,arcadebomb.com,armageddonexpo.com,balls.ie,bikechatforums.com,btcmanager.com,caribvision.tv,cars.com,cmo.com.au,coryarcangel.com,elyricsworld.com,euobserver.com,eurochannel.com,flvtomp3.cc,footballtradedirectory.com,forexpeacearmy.com,funpic.hu,garticphone.com,gr8.cc,gsprating.com,hotnewhiphop.com,hyipexplorer.com,ibtimes.co.in,ibtimes.co.uk,imedicalapps.com,insidefutbol.com,internetnews.com,irishtimes.com,japantimes.co.jp,jpost.com,livescore.in,marinelink.com,mercopress.com,mmorpg.com,news.am,oncyprus.com,pharmatimes.com,residentadvisor.net,reversephonesearch.com.au,scientificamerican.com,smartcarfinder.com,speedcafe.com,sportsvibe.co.uk,starradionortheast.co.uk,subscene.com,sumodb.com,sweeting.org,tass.com,thefanhub.com,thefringepodcast.com,thehun.com,thetriangle.org,timeslive.co.za,timesofisrael.com,tmi.me,twirlit.com,unblockstreaming.com,universalmusic.com,vice.com,victoriafalls24.com,vloot.io,vnexpress.net,weather.gc.ca,weatheronline.co.uk,webfg.com,wego.com,whatsock.com,worldcrunch.com,worldtimeserver.com,xbiz.com,yabeat.com,ynetnews.com,zbigz.com##.banner
 oilprice.com##.banner--articleSidebar
 dailynewsegypt.com##.banner-250
 alltop.com##.banner-background
@@ -53312,6 +52839,7 @@ wireshark.org##.banner-img-downloads
 freecode.com##.banner-imu
 adbilty.me##.banner-inner
 timesofisrael.com##.banner-placeholder
+tweakreviews.com##.banner-placement__article
 cnslocallife.com##.banner-poster
 freecode.com##.banner-sky
 neogamr.net##.banner-square
@@ -53482,6 +53010,7 @@ stlmag.com##.buzzworthy
 buzzillions.com##.bz-model-lrec
 insurancejournal.com##.bzn
 afl.com.au##.c-accordion__item-officialpartners
+newstalkzb.co.nz##.c-background
 truck1.eu##.c-banners
 euronews.com##.c-card-sponsor
 globalnews.ca##.c-flyers
@@ -53503,6 +53032,7 @@ ccm.net##.ccm_pugoo__sponso
 digit.in##.center-add
 siberiantimes.com##.centerBannerRight
 giveawayoftheday.com##.center_ab
+whattomine.com##.centered-image-short
 cargurus.com##.cg-siteHeader-leaderBoardWrap
 androidweblog.com##.cgdyh > [data-adid]
 bigfooty.com##.chaching
@@ -53618,6 +53148,7 @@ slashdot.org##.deals-wrapper
 kusports.com##.deals_widget
 mangarockteam.com##.demand-supply
 nextcity.org##.desktop-display
+tiermaker.com##.desktop-sticky
 hanime.tv##.desktop.htvad
 randomarchive.com##.desktop[style="text-align:center"]
 scpr.org,theonion.com##.dfp
@@ -53703,6 +53234,7 @@ shareae.com##.float-ck
 tradekey.com##.float_left
 notcot.com##.floatbox
 notcot.com,xuuby.com,zonytvcom.info##.floater
+comedy.com##.floater-prebid
 zylom.com##.floor_wrapper
 htmldog.com##.flower
 amctheatres.com##.flt-ad-strut
@@ -53933,6 +53465,7 @@ iwradio.co.uk##.layerslider_widget
 flava.co.nz,hauraki.co.nz,mixonline.co.nz,thehits.co.nz,zmonline.com##.layout__background
 racingtv.com##.layout__promotion
 pastebin.com##.layout_clear
+mytempsms.com##.layui-col-md12
 autosport.com##.lb_container
 door2windows.com##.lbad
 techrepublic.com,thepcguild.com##.leader
@@ -53978,6 +53511,7 @@ jpost.com##.line-one-row-before-and-after-container
 babynamegenie.com,forless.com,worldtimeserver.com##.links
 gosearchresults.com##.listing-right
 researchgate.net##.lite-page__above
+ottverse.com##.livevideostack-ad
 goodgearguide.com.au,pcworld.co.nz,pcworld.idg.com.au##.lo-toppromos
 reverso.net##.locd-rca
 1071thepeak.com##.logo-scroll
@@ -54022,11 +53556,12 @@ scanwith.com##.middle-banner
 tradetrucks.com.au##.middle-banner-list
 ibtimes.co.uk##.middle-leaderboard
 stripes.com##.min-h90
-investopedia.com##.mntl-leaderboard-spacer
+byrdie.com,investopedia.com##.mntl-leaderboard-spacer
 islamicfinder.org##.mobile-cards
 pcmacstore.com##.mobileHide
 thedailybeast.com##.mobiledoc-sizer
 livelaw.in##.modal_wrapper_frame
+autoevolution.com##.modeladmid
 webmd.com##.module-f-hs
 pcworld.idg.com.au##.module-rhs-brandpost
 thisismoney.co.uk##.mol-fe-vouchercodes-puff
@@ -54035,7 +53570,7 @@ winteriscoming.net##.mosaic-banner
 thepostmillennial.com##.mot-label
 anonymouse.org##.mouselayer
 syfy.com##.mps-container
-98fm.com,audioreview.com,barrheadnews.com,bobfm.co.uk,bordertelegraph.com,chroniclelive.co.uk,cultofandroid.com,dcsuk.info,directory.im,directory247.co.uk,dplay.com,dumbartonreporter.co.uk,dunfermlinepress.com,durhamtimes.co.uk,eastlothiancourier.com,econsultancy.com,findanyfilm.com,gamesindustry.biz,her.ie,herfamily.ie,joe.co.uk,joe.ie,kentonline.co.uk,metoffice.gov.uk,mumsnet.com,musicradio.com,newburyandthatchamchronicle.co.uk,newscientist.com,newstatesman.com,readamericanfootball.com,readarsenal.com,readastonvilla.com,readbasketball.com,readbetting.com,readbournemouth.com,readboxing.com,readbrighton.com,readbundesliga.com,readburnley.com,readcars.co,readceltic.com,readchampionship.com,readchelsea.com,readcricket.com,readcrystalpalace.com,readeverton.com,readeverything.co,readfashion.co,readfilm.co,readfood.co,readfootball.co,readgaming.co,readgolf.com,readhorseracing.com,readhuddersfield.com,readhull.com,readingchronicle.co.uk,readinternationalfootball.com,readlaliga.com,readleicester.com,readliverpoolfc.com,readmancity.com,readmanutd.com,readmiddlesbrough.com,readmma.com,readmotorsport.com,readmusic.co,readnewcastle.com,readnorwich.com,readnottinghamforest.com,readolympics.com,readpl.com,readrangers.com,readrugbyunion.com,readseriea.com,readshowbiz.co,readsouthampton.com,readsport.co,readstoke.com,readsunderland.com,readswansea.com,readtech.co,readtennis.co,readtottenham.com,readtv.co,readussoccer.com,readwatford.com,readwestbrom.com,readwestham.com,readwsl.com,realradioxs.co.uk,redhillandreigatelife.co.uk,rochdaleonline.co.uk,rte.ie,sloughobserver.co.uk,smartertravel.com,southwestfarmer.co.uk,spin1038.com,spinsouthwest.com,sportsjoe.ie,sportsmole.co.uk,strathallantimes.co.uk,tcmuk.tv,thejournal.co.uk,thetimes.co.uk,thevillager.co.uk,thisisfutbol.com,todayfm.com,toffeeweb.com,uktv.co.uk,videocelts.com,warringtonguardian.co.uk,wiltshirebusinessonline.co.uk,windsorobserver.co.uk,zdnet.com##.mpu
+98fm.com,audioreview.com,barrheadnews.com,bobfm.co.uk,bordertelegraph.com,cultofandroid.com,dcsuk.info,directory.im,directory247.co.uk,dplay.com,dumbartonreporter.co.uk,dunfermlinepress.com,durhamtimes.co.uk,eastlothiancourier.com,econsultancy.com,findanyfilm.com,gamesindustry.biz,her.ie,herfamily.ie,joe.co.uk,joe.ie,kentonline.co.uk,metoffice.gov.uk,mumsnet.com,musicradio.com,newburyandthatchamchronicle.co.uk,newscientist.com,newstatesman.com,readamericanfootball.com,readarsenal.com,readastonvilla.com,readbasketball.com,readbetting.com,readbournemouth.com,readboxing.com,readbrighton.com,readbundesliga.com,readburnley.com,readcars.co,readceltic.com,readchampionship.com,readchelsea.com,readcricket.com,readcrystalpalace.com,readeverton.com,readeverything.co,readfashion.co,readfilm.co,readfood.co,readfootball.co,readgaming.co,readgolf.com,readhorseracing.com,readhuddersfield.com,readhull.com,readingchronicle.co.uk,readinternationalfootball.com,readlaliga.com,readleicester.com,readliverpoolfc.com,readmancity.com,readmanutd.com,readmiddlesbrough.com,readmma.com,readmotorsport.com,readmusic.co,readnewcastle.com,readnorwich.com,readnottinghamforest.com,readolympics.com,readpl.com,readrangers.com,readrugbyunion.com,readseriea.com,readshowbiz.co,readsouthampton.com,readsport.co,readstoke.com,readsunderland.com,readswansea.com,readtech.co,readtennis.co,readtottenham.com,readtv.co,readussoccer.com,readwatford.com,readwestbrom.com,readwestham.com,readwsl.com,realradioxs.co.uk,redhillandreigatelife.co.uk,rochdaleonline.co.uk,rte.ie,sloughobserver.co.uk,smartertravel.com,southwestfarmer.co.uk,spin1038.com,spinsouthwest.com,sportsjoe.ie,sportsmole.co.uk,strathallantimes.co.uk,tcmuk.tv,thejournal.co.uk,thetimes.co.uk,thevillager.co.uk,thisisfutbol.com,todayfm.com,toffeeweb.com,uktv.co.uk,videocelts.com,warringtonguardian.co.uk,wiltshirebusinessonline.co.uk,windsorobserver.co.uk,zdnet.com##.mpu
 edarabia.com##.mpu-300
 arabiaweather.com##.mpu-card
 rightmove.co.uk##.mpu-slot
@@ -54132,6 +53667,7 @@ westernjournal.com##.persistent-footer
 proxfree.com##.pfad2
 proxfree.com##.pftopad
 locklab.com##.picwrap
+redgifs.com##.placard-wrapper
 dallasobserver.com,houstonpress.com,miaminewtimes.com,phoenixnewtimes.com,streetcheck.co.uk,westword.com,zerohedge.com##.placement
 diglloyd.com,windinmyface.com##.placementInline
 diglloyd.com,windinmyface.com##.placementTL
@@ -54140,6 +53676,7 @@ advfn.com##.plus500
 freewebarcade.com##.pnum
 pedestrian.tv##.popular-jobs-widget
 wtop.com##.post--sponsored
+hackread.com##.post-review-li
 fastcompany.com##.post__promotion
 thetowner.com##.powered
 theportugalnews.com##.ppp-banner
@@ -54152,12 +53689,15 @@ flobzoo.com,onlyfungames.com,yokogames.com##.preview2bannerspot
 onlyfungames.com##.preview3bannerspot
 computerweekly.com##.pro-downloads-home
 cosmopolitan.com##.product-buy-button-wrapper
+bgr.com##.product-callout-todays-top-deal
 barnesandnoble.com##.product-commentary-advertisement
 gokunming.com##.prom
 apps.opera.com,babynamegenie.com,ecaytrade.com,nbcbayarea.com,nwherald.com,planetsourcecode.com,sciagaj.org,totalxbox.com,varsity.com,w3techs.com,wgxa.tv##.promo
 winscp.net##.promo-block
 nextdoor.com##.promo-container
 pokertube.com##.promo-holder
+texasmonthly.com##.promo-in-body
+texasmonthly.com##.promo-inline
 efinancialnews.com##.promo-leaderboard
 ecaytrade.com##.promo-processed
 texasmonthly.com##.promo-topper
@@ -54262,6 +53802,7 @@ bikechatforums.com##.row2[style="padding: 5px;"]
 freewebarcade.com##.rsads
 mma-core.com##.rsky
 newstrackindia.com##.rt-add336x280
+nextofwindows.com##.rtsidebar-cm
 itweb.co.za##.s-logos
 hope1032.com.au##.s-supported-by
 aniwatcher.com##.sa
@@ -54303,6 +53844,7 @@ radiotoday.co.uk##.sidebar-column-secondary > .sidebar
 freshbusinessthinking.com##.sidebar-mpu
 spearswms.com##.sidebar-mpu-1
 middleeasteye.net##.sidebar-photo-extend
+comedy.com##.sidebar-prebid
 davidwalsh.name##.sidebar-sda-large
 indianapublicmedia.org##.sidebar-upper-underwritings
 thebadandugly.com##.sidebar30
@@ -54418,6 +53960,7 @@ twitter.com##.stream-tweet[label="promoted"]
 ycuniverse.com##.subheader_container
 monocle.com##.super-leaderboard
 1movies.best##.superButton
+msn.com##.superbanner
 cdromance.com##.support-us
 radiotoday.co.uk##.supportHideBack
 fstoppers.com##.supportImg
@@ -54473,7 +54016,7 @@ debka.com##.top-full-width-sidebar
 1071thepeak.com,gpfans.com##.top-leaderboard
 speedtest.net##.top-placeholder
 donedeal.ie##.top-placement-container
-belfastlive.co.uk,birminghammail.co.uk,bristolpost.co.uk,business-live.co.uk,cambridge-news.co.uk,chroniclelive.co.uk,cornwalllive.com,coventrytelegraph.net,dailypost.co.uk,dailyrecord.co.uk,dailystar.co.uk,derbytelegraph.co.uk,devonlive.com,dublinlive.ie,essexlive.news,football.london,gazettelive.co.uk,getreading.co.uk,getsurrey.co.uk,glasgowlive.co.uk,gloucestershirelive.co.uk,grimsbytelegraph.co.uk,hertfordshiremercury.co.uk,hulldailymail.co.uk,irishmirror.ie,kentlive.news,lancs.live,leicestermercury.co.uk,lincolnshirelive.co.uk,liverpoolecho.co.uk,manchestereveningnews.co.uk,mirror.co.uk,mylondon.news,nottinghampost.com,plymouthherald.co.uk,somersetlive.co.uk,stokesentinel.co.uk,walesonline.co.uk##.top-slot
+playbuzz.com##.top-stickyplayer-container
 globes.co.il,techcentral.ie,texteditor.co,versus.com##.topBanner
 tutorviacomputer.com##.topMargin15
 click2houston.com,clickondetroit.com,clickorlando.com##.topWrapper
@@ -54613,8 +54156,7 @@ jagoroniya.com##[href="https://www.virtuanic.com/"]
 bittools.net##[href^="//www.bittools.net/binance"]
 shroomery.org##[href^="//www.shroomery.org/ads/"]
 yoursports.stream##[href^="/bet"]
-audiobookbay.nl##[href^="/dl-now"]
-nzbindex.com##[href^="/i/c/"]
+audiobookbay.nl##[href^="/down-"]
 steroid.com##[href^="/out.php"]
 myabandonware.com##[href^="/visual/r-2/"]
 orschlurch.net,tetris.com##[href^="https://amzn.to/"]
@@ -54666,6 +54208,7 @@ medicalnewstoday.com##[style*="line-height: 0;"]
 wahm.com##[style="min-height:250px;"]
 guru99.com##[style^="float"]
 torrentresource.com##[width="150"]:last-child
+drwealth.com##[width="640"]
 4chan.org##[width="728"]
 mobiforge.com##a > img[alt="Ad"]
 freshplaza.com##a.banner
@@ -54771,6 +54314,7 @@ games.dailymail.co.uk##div[class^="HomeTemplate__afterCategoryAd_"]
 versus.com##div[class^="LegendSingle__show"]
 qwant.com##div[class^="ProductAdsMicrosoft-"]
 games.dailymail.co.uk##div[class^="RightRail__displayAdRight_"]
+gq.com##div[class^="StickyHeroAdWrapper-"]
 topgear.com##div[class^="TopContainer-"]
 fodors.com##div[class^="ad-placeholder"]
 barandbench.com##div[class^="ad-service-"]
@@ -54790,6 +54334,7 @@ goal.com##div[class^="layout_banner_"]
 pcgamer.com,techradar.com,tomsguide.com,tomshardware.com##div[class^="slot-"]
 kijiji.ca##div[class^="sponsored-"]
 whatsondisneyplus.com##div[class^="whats-"]
+genius.com##div[class|="InreadAddesktop__Container"]
 amazon.com##div[data-ad-id]
 motortrend.com##div[data-ad-targeting]
 reddit.com##div[data-before-content="advertisement"]
@@ -54908,6 +54453,7 @@ autoaction.com.au,cryptoreporter.info,irishcatholic.com##img[width="728"]
 boxthislap.org##img[width="728px"][height="90px"]
 dailyuploads.net##input[value^="Download From Server"]
 broadbandforum.co##ins[data-ad-client]
+yahoo.com##li[data-test-locator="stream-related-ad-item"]
 aniwatcher.com##main > [href] > [src]
 hentai-foundry.com##main > p
 adblock-tester.com##object[width="240"]
@@ -55158,6 +54704,7 @@ xxerotica.com###XXXGirls
 swfchan.com###aaaa
 flyingjizz.com###adv_inplayer
 milffox.com###advertising
+instantfap.com###af
 pervclips.com###after-adv
 sexyandfunny.com###best-friends
 toppixxx.com###bottom
@@ -55329,6 +54876,7 @@ youtubelike.com##.bottom-thumbs
 youtubelike.com##.bottom-top
 tabletporn.com##.bottom_pos
 dixyporn.com##.bottom_spot
+javlibrary.com##.bottombanner2
 bravotube.net##.box-left
 tube8.com##.box-thumbnail-friends
 hentaianimedownloads.com##.bp_detail
@@ -55512,6 +55060,7 @@ tnaflix.com##.rbsd
 nuvid.com##.rel_right
 pornjam.com##.related-sites
 sexhd.pics##.relativebottom
+jav.work##.releated_video[style^="overflow: hidden;"]
 cam4.com##.removeAds
 tubaholic.com##.result_under_video
 cumlouder.com,pornburst.xxx##.resumecard__banner
@@ -55575,6 +55124,7 @@ drtuber.com##.title-sponsored
 galleries-pornstar.com##.title_slider
 boundhub.com##.to1p
 fpo.xxx##.top
+jav.work##.top-banner
 sexvid.xxx##.top-cube
 japan-whores.com##.top-r-all
 motherless.com##.top-referers
@@ -55631,6 +55181,10 @@ xhamster.com,xhamster.one,xhamster2.com##[class^="xplayer-banner"]
 sxyprn.com##[href*="/re/"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[href*="base64"]
 pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com##[href*="data:"]
+hardcoreluv.com,imageweb.ws,pezporn.com,wildpictures.net##[href="http://youramateurtube.com"]
+hardcoreluv.com,imageweb.ws,pezporn.com,wildpictures.net##[href="https://freehdinterracialporn.in/"]
+hardcoreluv.com,imageweb.ws,pezporn.com,wildpictures.net##[href="https://homemoviestube.com"]
+hardcoreluv.com,imageweb.ws,pezporn.com,wildpictures.net##[href="https://nudegirlsoncam.com/"]
 hentai-top100.com##[href^="http://sexmaxx.com"]
 tophentai.biz##[href^="http://tm-offers.gamingadult.com/"]
 hentai-top100.com##[href^="http://www.grainesdecannabis.fr/"]
@@ -55693,7 +55247,7 @@ pornhub.com,pornhubthbh7ap3u.onion##aside > [style="display: block;"] > table
 pornhub.com,pornhubthbh7ap3u.onion##aside > span:first-child
 girlonthenet.com##aside[data-adrotic]
 mysexgames.com##body > div[style*="z-index:"]
-imgadult.com,porngames.club,porngames.com,thenipslip.com,wetpussygames.com##canvas
+imgadult.com,picdollar.com,porngames.club,porngames.com,thenipslip.com,wetpussygames.com##canvas
 totsantcugat.info##center > [href="http://totsantcugat.info/wp-content/video.php"]
 pornhub.com,pornhubthbh7ap3u.onion##div > aside > aside
 redtube.com##div > iframe
@@ -55878,7 +55432,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||g.doubleclick.net/gampad/ads*%20Web%20Player$domain=imasdk.googleapis.com
 @@||g.doubleclick.net/gampad/ads?*RakutenShowtime$xmlhttprequest,domain=imasdk.googleapis.com
 @@||g.doubleclick.net/pagead/ads?*&description_url=https%3A%2F%2Fgames.wkb.jp$xmlhttprequest,domain=imasdk.googleapis.com
-@@||g.doubleclick.net/tag/js/gpt.js$script,xmlhttprequest,domain=accuweather.com|blastingnews.com|edy.rakuten.co.jp|epaper.timesgroup.com|formularywatch.com|gamespot.com|indy100.com|managedhealthcareexecutive.com|mediaite.com|medicaleconomics.com|physicianspractice.com|theta.tv
+@@||g.doubleclick.net/tag/js/gpt.js$script,xmlhttprequest,domain=accuweather.com|blastingnews.com|edy.rakuten.co.jp|epaper.timesgroup.com|formularywatch.com|gamespot.com|gamestar.de|indy100.com|managedhealthcareexecutive.com|mediaite.com|medicaleconomics.com|physicianspractice.com|theta.tv
 @@||g2crowd.com/uploads/product/image/$image,domain=g2.com
 @@||glos.ac.uk/DataRepository/CourseDatabase/*/adv/$image,~third-party
 @@||gn-web-assets.api.bbc.com/bbcdotcom/assets/$script,domain=bbc.co.uk
@@ -55893,6 +55447,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||googletagservices.com/tag/js/gpt.js$domain=epaper.timesgroup.com|k2radio.com|koel.com|kowb1290.com|nbcsports.com|uefa.com|vimeo.com|windalert.com
 @@||gpt-worldwide.com/js/gpt.js$~third-party
 @@||guim.co.uk/uploader/$image,~third-party
+@@||hackread.com/wp-content/uploads/$image,~third-party
 @@||hotstar.com/vs/getad.php$domain=hotstar.com
 @@||hp.com/in/*/ads/$script,stylesheet,~third-party
 @@||hulu.com/published/*.flv
@@ -55971,6 +55526,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||promo.com/embed/$subdocument,third-party
 @@||promo.zendesk.com^$xmlhttprequest,domain=promo.com
 @@||recaptcha.net/recaptcha/$script
+@@||redventures.io/lib/dist/prod/bidbarrel-$script,domain=techrepublic.com|zdnet.com
 @@||renewcanceltv.com/porpoiseant/banger.js$script,~third-party
 @@||rumble.com/embedJS/$script,domain=usawatchdog.com
 @@||rumble.com/j/p/$script,domain=usawatchdog.com
@@ -56185,20 +55741,23 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||friends.ponta.jp/app/assets/images/$~third-party
 @@||fwmrm.net/ad/g/$script,domain=viafree.se
 @@||fwmrm.net^*/LinkTag2.js$domain=viafree.se
-@@||g.doubleclick.net/gampad/ads?$domain=edy.rakuten.co.jp|pccomponentes.com|video.tv-tokyo.co.jp|vogue.de|voici.fr
-@@||g.doubleclick.net/gpt/pubads_impl_$domain=edy.rakuten.co.jp|gentside.com|pccomponentes.com|vogue.de|voici.fr
+@@||g.doubleclick.net/gampad/ads?$domain=edy.rakuten.co.jp|gamestar.de|pccomponentes.com|video.tv-tokyo.co.jp|vogue.de|voici.fr
+@@||g.doubleclick.net/gpt/pubads_impl_$domain=edy.rakuten.co.jp|gamestar.de|gentside.com|pccomponentes.com|vogue.de|voici.fr
 @@||gakushuin.ac.jp/ad/common/$~third-party
 @@||games.wkb.jp/ykg/javascripts/*/adsense_$script,domain=games.wkb.jp
 @@||gamestar.de/gs_cb/assets/core/js/libs/dfp/prebid.$script,domain=gamestar.de
 @@||ganma.jp/view/magazine/viewer/pages/advertisement/googleAdSense.html|$~third-party,xmlhttprequest
+@@||getjad.io/prebid/$script,domain=gamestar.de
 @@||googlesyndication.com/simgad/$image,domain=pccomponentes.com
 @@||googletagservices.com/tag/js/gpt.js$domain=farfeshplus.com|gentside.com|pccomponentes.com|tv-asahi.co.jp|vlive.tv|vogue.de|voici.fr
 @@||gunosy.co.jp/img/ad/$image,~third-party
 @@||hatenacorp.jp/_next/static/chunks/pages/ads-$script,~third-party
+@@||hinagiku-u.ed.jp/wp54/wp-content/themes/hinagiku/images/$image,~third-party
 @@||iejima.org/ad-banner/$image,~third-party
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=bloomberg.co.jp|farfeshplus.com|filmweb.pl|gamepix.com|klix.ba|locipo.jp|maharashtratimes.com|minigame.aeriagames.jp|nettavisen.no|niusdiario.es|rtlnieuws.nl|sportsport.ba|success-games.net|synk-casualgames.com|tbs.co.jp|tv-asahi.co.jp|tv.rakuten.co.jp|tver.jp|video.tv-tokyo.co.jp|vlive.tv|webdunia.com|wtk.pl
 @@||ingrossoprofumitester.it/img/ad-profumeria-$image,~third-party
 @@||jmedj.co.jp/files/$image,~third-party
+@@||jscssfunny.com/fe/appcreator/public/img/ad_img.$domain=flat-ads.com
 @@||kaitaro.jp/images/ad.gif
 @@||kanalfrederikshavn.dk^*/jquery.openx.js?
 @@||kmsv.jp/images/ad/$image,~third-party
@@ -56244,6 +55803,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||strangermeetup.com/socket.io/$~third-party
 @@||success-games.net/*/hold_ad.png?
 @@||tabiat.gov.tr/KACMS/Files/ad-$image,~third-party
+@@||tcm-koko.ed.jp/images/ad.jpg
 @@||tra.scds.pmdstatic.net/advertising-core/$domain=voici.fr
 @@||uze-ads.com/ads/$~third-party
 @@||valuecommerce.com^$image,domain=pointtown.com
@@ -56379,6 +55939,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||888casino.com^$popup,domain=casinobonus24.se|casinosonline.co.uk|onlinecasinos.co.uk
 @@||ad.doubleclick.net/ddm/$popup,domain=billiger.de|guide-epargne.be|mail.yahoo.com|nytimes.com|spaargids.be
 @@||ad.doubleclick.net/ddm/clk/*http$popup
+@@||ad.doubleclick.net/ddm/trackclk/$popup
 @@||admin.mgid.com^$popup
 @@||ads.amazon^$popup
 @@||ads.askgamblers.com^$popup
@@ -56727,6 +56288,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||pornhub.com/users/$xmlhttprequest
 @@||pornhub.com/video/$xmlhttprequest
 @@||pornhub.com/video_selector/$script,xmlhttprequest
+@@||pornhub.com/videocertify/paging$script,~third-party,xmlhttprequest
 @@||pornhub.com/videos/$media,other
 @@||pornhub.com/videouploading3/$xmlhttprequest
 @@||pornhub.com/www-static/flash/gate.swf$other

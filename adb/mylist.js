@@ -196,6 +196,7 @@ meihu56.cn
 xww360.com
 chumanduo.com
 yudianpc.com.cn
+cheeseshooter.top
 
 !------------------------------some------------------------------
 kuaidi100.com##.download-nav,.open-mp
@@ -206,7 +207,7 @@ chat.bilibili.com
 hdslb.com/bfs/live
 hdslb.com/bfs/static/live
 xycdn.com/api/get_seeds
-bilibili.com##.z-aside-area,.haruna-sekai-de-ichiban-kawaii,.haruna-sekai-de-ichiban-kawaii,.z-room-background,#sections-vm,.z-sidebar,.comment-m
+bilibili.com##.z-aside-area,.haruna-sekai-de-ichiban-kawaii,.haruna-sekai-de-ichiban-kawaii,.z-room-background,#sections-vm,.z-sidebar,.comment-m,.login-tip,.login-guide
 !------------------------------video site------------------------------
 anthh.com/*.gif
 zzyanhushi.com
