@@ -197,6 +197,8 @@ xww360.com
 chumanduo.com
 yudianpc.com.cn
 cheeseshooter.top
+lipeijun.top
+lctcw.top
 
 !------------------------------some------------------------------
 kuaidi100.com##.download-nav,.open-mp
