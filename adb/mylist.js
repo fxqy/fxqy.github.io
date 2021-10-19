@@ -133,6 +133,8 @@ govhangzhou.cn
 govzhuhai.cn
 govgaungzhou.cn
 govwuhan.cn
+govhechi.cn
+govyunfu.cn
 xiuxiuji.com
 cxcyhr.com
 sc01.alicdn.com
@@ -199,6 +201,21 @@ yudianpc.com.cn
 cheeseshooter.top
 lipeijun.top
 lctcw.top
+qlogo.cn
+vivojl.com
+s.pc.qq.com
+sqjrqygy.com
+whkczf.com
+360buyimg.com
+sogoucdn.com
+vipwm.cc
+lm882.com
+bjbkh.net
+zhuyonglawyer.com
+dsdjclub.com
+tianwenhu.com
+
+
 
 !------------------------------some------------------------------
 kuaidi100.com##.download-nav,.open-mp
