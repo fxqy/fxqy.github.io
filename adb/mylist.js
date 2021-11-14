@@ -214,8 +214,9 @@ bjbkh.net
 zhuyonglawyer.com
 dsdjclub.com
 tianwenhu.com
-
-
+tyjnwa.top
+mifengzh.cn
+bhyblanket.cn
 
 !------------------------------some------------------------------
 kuaidi100.com##.download-nav,.open-mp
@@ -243,6 +244,7 @@ jungbey.xyz
 97kpz.com/js/seajump.js
 40yb.com,60ws.com,aiaike.com,tv6.cc,980kp.com,97kpb.com,980kp.com,9zdy.com,98ju.com,97kpz.com,kp980.com,92kpb.com##.animated,div[style*="infinite"],div[style*="right: 0px;"]
 97kpz.com/js/bbk/b.js
+jiujiukanpian.com###btn_page_next,#btn_page_prev
 !------------------------------props------------------------------
 ! 40yb.com#?#:-abp-has(> canvas)
 ! micaitu.net,40yb.com,60ws.com,aiaike.com,tv6.cc,980kp.com,97kpb.com,980kp.com,9zdy.com#?#:-abp-properties(transform)
