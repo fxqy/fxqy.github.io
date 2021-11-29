@@ -217,6 +217,9 @@ tianwenhu.com
 tyjnwa.top
 mifengzh.cn
 bhyblanket.cn
+zhaomiaopu.cn
+banbubear.cn
+zhouwutrip.cn
 
 !------------------------------some------------------------------
 kuaidi100.com##.download-nav,.open-mp
@@ -242,7 +245,7 @@ jungbey.xyz
 97kpz.com/js/bbs/pb.js
 40yb.com/js/seajump.js
 97kpz.com/js/seajump.js
-40yb.com,60ws.com,aiaike.com,tv6.cc,980kp.com,97kpb.com,980kp.com,9zdy.com,98ju.com,97kpz.com,kp980.com,92kpb.com##.animated,div[style*="infinite"],div[style*="right: 0px;"]
+40yb.com,60ws.com,aiaike.com,tv6.cc,980kp.com,97kpb.com,980kp.com,9zdy.com,98ju.com,97kpz.com,kp980.com,92kpb.com,jiujiukanpian.com,40mdd.com##.animated,div[style*="infinite"],div[style*="right: 0px;"]
 97kpz.com/js/bbk/b.js
 jiujiukanpian.com###btn_page_next,#btn_page_prev
 !------------------------------props------------------------------
