@@ -220,7 +220,6 @@ bhyblanket.cn
 zhaomiaopu.cn
 banbubear.cn
 zhouwutrip.cn
-
 !------------------------------some------------------------------
 kuaidi100.com##.download-nav,.open-mp
 mail.126.com##.gWel-bottom
@@ -230,6 +229,7 @@ chat.bilibili.com
 hdslb.com/bfs/live
 hdslb.com/bfs/static/live
 xycdn.com/api/get_seeds
+bilibili.com##.login-tip,.login-guide
 bilibili.com##.z-aside-area,.haruna-sekai-de-ichiban-kawaii,.haruna-sekai-de-ichiban-kawaii,.z-room-background,#sections-vm,.z-sidebar,.comment-m,.login-tip,.login-guide
 !------------------------------video site------------------------------
 anthh.com/*.gif
@@ -241,12 +241,15 @@ cj071.cc
 feigedaojia.com
 aisouk.cn
 jungbey.xyz
-40yb.com/js/bbs/pb.js
 97kpz.com/js/bbs/pb.js
-40yb.com/js/seajump.js
 97kpz.com/js/seajump.js
-40yb.com,60ws.com,aiaike.com,tv6.cc,980kp.com,97kpb.com,980kp.com,9zdy.com,98ju.com,97kpz.com,kp980.com,92kpb.com,jiujiukanpian.com,40mdd.com##.animated,div[style*="infinite"],div[style*="right: 0px;"]
 97kpz.com/js/bbk/b.js
+40yb.com/js/bbs/pb.js
+40yb.com/js/seajump.js
+40yb.com/js/ban.js
+40yb.com/statics/js/stui_block.js
+40yb.com/statics/js/stui_default.js
+40yb.com,60ws.com,aiaike.com,tv6.cc,980kp.com,97kpb.com,980kp.com,9zdy.com,98ju.com,97kpz.com,kp980.com,92kpb.com,jiujiukanpian.com,40mdd.com##.animated,div[style*="infinite"],div[style*="right: 0px;"]
 jiujiukanpian.com###btn_page_next,#btn_page_prev
 !------------------------------props------------------------------
 ! 40yb.com#?#:-abp-has(> canvas)
