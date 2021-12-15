@@ -51,7 +51,6 @@ zao86789
 zxvsuw
 xi0021
 mglvqian
-hm.baidu.com
 qdhhsnz
 zpgjz
 lsdys
@@ -135,6 +134,7 @@ govgaungzhou.cn
 govwuhan.cn
 govhechi.cn
 govyunfu.cn
+govguangxi.cn
 xiuxiuji.com
 cxcyhr.com
 sc01.alicdn.com
@@ -146,6 +146,7 @@ googletagmanager.com
 shiinaliu.com
 tzsjwy.com
 just-machinery
+hm.baidu.com
 api.share.baidu.com
 nsclick.baidu.com
 push.zhanzhang.baidu.com
@@ -204,6 +205,7 @@ lctcw.top
 qlogo.cn
 vivojl.com
 s.pc.qq.com
+store.qq.com
 sqjrqygy.com
 whkczf.com
 360buyimg.com
@@ -222,6 +224,15 @@ banbubear.cn
 zhouwutrip.cn
 hnyrd.com.cn
 autotrading.com.cn
+dalang8.top
+zy147.com
+shinewayboy3555.top
+hei-rui.com
+lm811.com
+p.qlogo.cn
+qrserver.com
+shoutu.cn
+office-chuzu.com
 !------------------------------some------------------------------
 kuaidi100.com##.download-nav,.open-mp
 mail.126.com##.gWel-bottom
