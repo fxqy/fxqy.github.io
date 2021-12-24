@@ -233,7 +233,12 @@ p.qlogo.cn
 qrserver.com
 shoutu.cn
 office-chuzu.com
+58jingxuan.top
+nnocsin.cn
+xuanyaosp.com
+fyesqma.cn
 !------------------------------some------------------------------
+###ac_tips#mq
 kuaidi100.com##.download-nav,.open-mp
 mail.126.com##.gWel-bottom
 aicesu.cn##img[src*="gif"]
