@@ -240,7 +240,7 @@ fyesqma.cn
 cquyzgjjc.top
 dyyhlp.com
 !------------------------------some------------------------------
-###ac_tips#mq
+###ac_tips>#mq
 kuaidi100.com##.download-nav,.open-mp
 mail.126.com##.gWel-bottom
 aicesu.cn##img[src*="gif"]
