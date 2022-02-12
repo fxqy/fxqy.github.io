@@ -815,8 +815,8 @@
 					var h = dte.getHours()>9?dte.getHours().toString():'0' + dte.getHours();
 					var f = dte.getMinutes()>9?dte.getMinutes().toString():'0' + dte.getMinutes();
 					var s = dte.getSeconds()>9?dte.getSeconds().toString():'0' + dte.getSeconds();
-					var tmscd = h+":"+f+":"+s;
-					var tmh=$G("tmshow").innerText=tmscd;
+					var tmh=$G("tmshow").innerText=h+":"+f;
+					var tmh=$G("tmshow1").innerText=" "+s;
 			},1000);
 			
 		}
@@ -826,7 +826,7 @@
 	</script>
 </head>
 <body>
-	<span id="tmshow" class="tmshow"></span>
+	<span id="tmshow" class="tmshow"></span><span id="tmshow1" class="tmshow" style="font-size:20px;">345345</span>
 	<div id="ser_ctn" style="position:absolute;width:100%;left:0px;margin:0px;padding:0px;">
 		<form action="http://m.so.com/s" target="_blank" method="get">
 			<input name="ie" type="hidden" value="UTF-8"/><!-- 点击搜索框左圆弧区域切换搜索引擎 -->
