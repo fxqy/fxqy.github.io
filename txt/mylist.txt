@@ -1,5 +1,5 @@
 [Adblock Plus 1.1]
-! Version: 20210609
+! Version: 20220401
 ! Title: mylist
 menhyil
 cnql
@@ -248,6 +248,7 @@ motoll.com
 shxuwu.cn
 nbann.com
 qasqs.com
+parwix.com
 !------------------------------some------------------------------
 ###ac_tips>#mq
 kuaidi100.com##.download-nav,.open-mp
