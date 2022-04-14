@@ -135,6 +135,7 @@ govwuhan.cn
 govhechi.cn
 govyunfu.cn
 govguangxi.cn
+govguiyang.cn
 xiuxiuji.com
 cxcyhr.com
 sc01.alicdn.com
@@ -249,6 +250,10 @@ shxuwu.cn
 nbann.com
 qasqs.com
 parwix.com
+zhang-yu.top
+mktyhr.xyz
+oomll.cn
+nbrlzy.com
 !------------------------------some------------------------------
 ###ac_tips>#mq
 kuaidi100.com##.download-nav,.open-mp
