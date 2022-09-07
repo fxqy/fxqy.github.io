@@ -266,6 +266,8 @@ rfhvhrv.cn
 kuaidi100.com##.download-nav,.open-mp
 mail.126.com##.gWel-bottom
 aicesu.cn##img[src*="gif"]
+yinyueku.cn##.header
+yeyulingfeng.com##.header
 !------------------------------bilibili------------------------------
 chat.bilibili.com
 hdslb.com/bfs/live
